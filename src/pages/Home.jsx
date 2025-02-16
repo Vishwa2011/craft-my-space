@@ -1055,9 +1055,9 @@ export default function Home() {
 
                             <div className="container-fluid">
                                 <div className="projects-slider-two">
-                                    <div className="owl-carousel projects-carousel-two owl-btn-vertical-center">
+                                    <div className="owl-carousel projects-carousel-two owl-btn-vertical-center" style={{display:'block'}}>
                                         {/* <!-- COLUMNS 1 --> */}
-                                        <div className="item">
+                                        <div className="item" >
                                             <div className="projects-two-info text-white">
                                                 <h4 className="wt-tilte m-t0" data-title="01"><a href="javascript:;" className="text-white">Architecture design</a></h4>
                                                 <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture.</p>
@@ -1649,60 +1649,60 @@ export default function Home() {
                     {/* <!-- OUR TEAM END -->  */}
 
                     {/* <!-- OUR PARTNER START --> */}
-            <div className="section-full p-t80 p-b50 bg-white">
-                <div className="container">
-                   
-					<div className="section-content client-logo ">
-                    	<div className="row justify-content-center">
-                        	<div className="col-6 col-sm-4 col-md-3">
-                            	<a href="#" className="wt-img-effect client-logo-media shadow">
-                               	    <img src="assets/images/client-logo/w1.png" alt="" /> 
-                                </a>
+                    <div className="section-full p-t80 p-b50 bg-white">
+                        <div className="container">
+
+                            <div className="section-content client-logo ">
+                                <div className="row justify-content-center">
+                                    <div className="col-6 col-sm-4 col-md-3">
+                                        <a href="#" className="wt-img-effect client-logo-media shadow">
+                                            <img src="assets/images/client-logo/w1.png" alt="" />
+                                        </a>
+                                    </div>
+                                    <div className="col-6 col-sm-4 col-md-3">
+                                        <a href="#" className="wt-img-effect client-logo-media shadow">
+                                            <img src="assets/images/client-logo/w2.png" alt="" />
+                                        </a>
+                                    </div>
+                                    <div className="col-6 col-sm-4 col-md-3">
+                                        <a href="#" className="wt-img-effect client-logo-media shadow">
+                                            <img src="assets/images/client-logo/w3.png" alt="" />
+                                        </a>
+                                    </div>
+                                    <div className="col-6 col-sm-4 col-md-3">
+                                        <a href="#" className="wt-img-effect client-logo-media shadow">
+                                            <img src="assets/images/client-logo/w4.png" alt="" />
+                                        </a>
+                                    </div>
+                                    <div className="col-6 col-sm-4 col-md-3">
+                                        <a href="#" className="wt-img-effect client-logo-media shadow">
+                                            <img src="assets/images/client-logo/w5.png" alt="" />
+                                        </a>
+                                    </div>
+                                    <div className="col-6 col-sm-4 col-md-3">
+                                        <a href="#" className="wt-img-effect client-logo-media shadow">
+                                            <img src="assets/images/client-logo/w6.png" alt="" />
+                                        </a>
+                                    </div>
+                                    <div className="col-6 col-sm-4 col-md-3">
+                                        <a href="#" className="wt-img-effect client-logo-media shadow">
+                                            <img src="assets/images/client-logo/w1.png" alt="" />
+                                        </a>
+                                    </div>
+                                    <div className="col-6 col-sm-4 col-md-3">
+                                        <a href="#" className="wt-img-effect client-logo-media shadow">
+                                            <img src="assets/images/client-logo/w2.png" alt="" />
+                                        </a>
+                                    </div>
+
+                                </div>
                             </div>
-                            <div className="col-6 col-sm-4 col-md-3">
-                            	<a href="#" className="wt-img-effect client-logo-media shadow">
-                               	    <img src="assets/images/client-logo/w2.png" alt="" /> 
-                                </a>
-                            </div>
-                            <div className="col-6 col-sm-4 col-md-3">
-                            	<a href="#" className="wt-img-effect client-logo-media shadow">
-                               	    <img src="assets/images/client-logo/w3.png" alt="" /> 
-                                </a>
-                            </div>
-                            <div className="col-6 col-sm-4 col-md-3">
-                            	<a href="#" className="wt-img-effect client-logo-media shadow">
-                               	    <img src="assets/images/client-logo/w4.png" alt="" /> 
-                                </a>
-                            </div>
-                            <div className="col-6 col-sm-4 col-md-3">
-                            	<a href="#" className="wt-img-effect client-logo-media shadow">
-                               	    <img src="assets/images/client-logo/w5.png" alt="" /> 
-                                </a>
-                            </div>
-                            <div className="col-6 col-sm-4 col-md-3">
-                            	<a href="#" className="wt-img-effect client-logo-media shadow">
-                               	    <img src="assets/images/client-logo/w6.png" alt="" /> 
-                                </a>
-                            </div>
-                            <div className="col-6 col-sm-4 col-md-3">
-                            	<a href="#" className="wt-img-effect client-logo-media shadow">
-                               	    <img src="assets/images/client-logo/w1.png" alt="" /> 
-                                </a>
-                            </div>
-                            <div className="col-6 col-sm-4 col-md-3">
-                            	<a href="#" className="wt-img-effect client-logo-media shadow">
-                               	    <img src="assets/images/client-logo/w2.png" alt="" /> 
-                                </a>
-                            </div>
-                           
+
+
                         </div>
-                    </div>               
-                     
-                                
-                </div>
-            </div>   
-            {/* <!-- OUR PARTNER END -->  */}
-                    
+                    </div>
+                    {/* <!-- OUR PARTNER END -->  */}
+
 
                 </div>
                 {/* <!-- CONTENT END --> */}
@@ -1864,7 +1864,18 @@ export default function Home() {
 
 
             </div>
-
+            {/* <!-- LOADING AREA START ===== --> */}
+            {/* <div class="loading-area">
+                <div class="loading-box"></div>
+                <div class="loading-pic">
+                    <div id="loadFacebookG">
+                        <div id="blockG_1" class="facebook_blockG"></div>
+                        <div id="blockG_2" class="facebook_blockG"></div>
+                        <div id="blockG_3" class="facebook_blockG"></div>
+                    </div>
+                </div>
+            </div> */}
+            {/* <!-- LOADING AREA  END ====== -->  */}
 
             {/* <!-- JAVASCRIPT  FILES ========================================= -->  */}
 
