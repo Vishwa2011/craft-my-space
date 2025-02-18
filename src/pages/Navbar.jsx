@@ -66,15 +66,50 @@ const Navbar = () => {
 
                                                 <li>
                                                     <a href="/fitted-bedroom">Fitted Bedrooms</a>
+                                                
                                                 </li>
                                                 <li>
                                                     <a href="/FittedWardrobes">Fitted Wardrobes</a>
+                                                    <ul className="sub-menu has-child">
+                                                <li><a href="/fitted-bedroom/HingedDoorWardrobes">Hinged Door Wardrobed</a></li>
+                                                <li><a href="/fitted-bedroom/SlidingWardrobedDoorsByCMS"> Sliding  Wardrobed Doors By cms</a></li>
+                                                <li><a href="/fitted-bedroom/Slidingwardrobed"> Sliding Wardrobed</a>
+                                                     <ul className="sub-menu has-child">
+                                                <li><a href="/fitted-bedroom/ChildrensBedroomSlidingDoorWardrobes">Children’s Bedroom Sliding Door Wardrobes</a></li>
+                                                <li><a href="news-listing.html">Sliding Hallway Wardrobes</a></li>
+                                                <li><a href="news-masonry.html">Sliding Home Office Wardrobes</a></li>
+                                                <li><a href="news-masonry.html">Sliding Living Area Wardrobes</a></li>
+                                                <li><a href="news-masonry.html">Sliding Bedroom Wardrobes</a></li>
+
+                                            </ul>
+                                                </li>
+                                                <li><a href="news-masonry.html"> Walk in  Wardrobed</a></li>
+                                                <li><a href="news-masonry.html"> Children's Fitted Badrooms</a></li>
+                                               </ul>
                                                 </li>
                                                 <li>
                                                     <a href="/FittedLiving">Fitted Living</a>
+                                                    <ul className="sub-menu has-child">
+                                                <li><a href="news-grid.html">Bathroom</a></li>
+                                                <li><a href="news-listing.html">Dining Room</a></li>
+                                                <li><a href="news-masonry.html">Home Office</a></li>
+                                                <li><a href="news-masonry.html">Kitchens</a></li>
+                                                <li><a href="news-masonry.html">Media Room</a></li>
+                                            
+
+                                            </ul>
                                                 </li>
                                                 <li>
                                                     <a href="/AwkwardSpaces">Awkward Spaces</a>
+                                                    <ul className="sub-menu has-child">
+                                                <li><a href="news-grid.html">Alcoves</a></li>
+                                                <li><a href="news-listing.html">Bay Windows</a></li>
+                                                <li><a href="news-masonry.html">Landing & Hallways</a></li>
+                                                <li><a href="news-masonry.html">Sloping Ceilings</a></li>
+                                                <li><a href="news-masonry.html">Under Stairs </a></li>
+                                            
+
+                                            </ul>
                                                 </li>
                                             </ul>
                                         </li>
