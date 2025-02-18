@@ -11,6 +11,10 @@ import Getaquote from "./pages/Getaquote";
 import Orderafreebrochure from "./pages/Orderafreebrochure";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Footer from "./pages/Footer";
+import HingedDoorWardrobes from "./pages/HingedDoorWardrobes";
+import SlidingWardrobedDoorsByCMS from "./pages/SlidingWardrobedDoorsByCMS";
+import Slidingwardrobed from "./pages/Slidingwardrobed";
+import ChildrensBedroomSlidingDoorWardrobes from "./pages/ChildrensBedroomSlidingDoorWardrobes";
 // import Navbar from "./pages/Navbar";
 
 function App() {
@@ -30,6 +34,10 @@ function App() {
         <Route path="/Orderafreebrochure" element={<Orderafreebrochure/>} />
         <Route path="/PrivacyPolicy" element={<PrivacyPolicy/>} />
         <Route path="/Footer" element={<Footer/>} />
+        <Route path="/fitted-bedroom/HingedDoorWardrobes" element={<HingedDoorWardrobes/>} />
+        <Route path="/fitted-bedroom/SlidingWardrobedDoorsByCMS" element={<SlidingWardrobedDoorsByCMS/>} />
+        <Route path="/fitted-bedroom/Slidingwardrobed" element={<Slidingwardrobed/>} />
+        <Route path="/fitted-bedroom/ChildrensBedroomSlidingDoorWardrobes" element={<ChildrensBedroomSlidingDoorWardrobes/>} />
       </Routes>
     </>
   );
