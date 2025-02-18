@@ -2103,7 +2103,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="section-full p-t80 p-b50 bg-white">
+        {/* <div className="section-full p-t80 p-b50 bg-white">
           <div className="container">
             <div className="section-content  " style={{textAlign:'center',verticalAlign:'moddle'}}>
                 <div className="col-12">
@@ -2175,8 +2175,33 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
-   
+        </div> */}
+   <div className="section-full p-t80 p-b50 bg-white">
+  <div className="container">
+    <div className="section-content text-center">
+      <div className="row justify-content-center">
+        {[
+          { text: "DISCUSS & PLAN" },
+          { text: "DESIGN & INNOVATE" },
+          { text: "MANUFACTURE & DELIVER" },
+          { text: "FINAL FITTING" },
+        ].map((item, index) => (
+          <div key={index} className="col-12 col-sm-12 col-md-3 p-3">
+            <a href="#" className="wt-img-effect client-logo-media shadow d-flex flex-column align-items-center">
+              <div>
+                <img src="/assets/images/client-logo/w1.png" alt={item.text} className="img-fluid" />
+              </div>
+              <div>
+                <p className="mt-2">{item.text}</p>
+              </div>
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <div className="section-full p-tb80 testimonial-slider-outer bg-white bg-cover bg-left-center" style={{backgroundImage:"url(images/background/bg-1.jpg)"}}>
         
@@ -2406,42 +2431,46 @@ export default function Home() {
                            <div className="container">
                                 <div className="projects-slider-two">
                                     <div className="owl-carousel projects-carousel-two owl-btn-vertical-center col-12" style={{display:'block'}}>
-                                      <div className="row">
+                                   
 
-                                        <div className="item col-4" >
-                                            <div className="projects-two-info text-white">
-                                                <h4 className="wt-tilte m-t0" data-title="01"><a href="javascript:;" className="text-white">Architecture design</a></h4>
-                                                <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture.</p>
-                                                <div className="wt-media img-reflection">
-                                                    <img src="assets/images/gallery/pic1.jpg" alt="" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                      
+<div className="row">
+    <div className="col-12 col-md-6 col-lg-4 mb-4">
+        <div className="projects-two-info text-white">
+            <h4 className="wt-tilte m-t0" data-title="01">
+                <a href="javascript:;" className="text-white">Architecture Design</a>
+            </h4>
+            <p>We provide top-notch architectural solutions with innovative designs.</p>
+            <div className="wt-media img-reflection">
+                <img src="assets/images/gallery/pic1.jpg" alt="Architecture Design" />
+            </div>
+        </div>
+    </div>
 
-                                        <div className="item col-4">
-                                            <div className="projects-two-info text-white">
-                                                <h4 className="wt-tilte m-t0" data-title="02"><a href="javascript:;" className="text-white">Interior design</a></h4>
-                                                <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture.</p>
-                                                <div className="wt-media img-reflection">
-                                                    <img src="assets/images/gallery/pic2.jpg" alt="" />
-                                                </div>
-                                            </div>
-                                        </div>
+    <div className="col-12 col-md-6 col-lg-4 mb-4">
+        <div className="projects-two-info text-white">
+            <h4 className="wt-tilte m-t0" data-title="02">
+                <a href="javascript:;" className="text-white">Interior Design</a>
+            </h4>
+            <p>Creating stunning and functional interior spaces that inspire.</p>
+            <div className="wt-media img-reflection">
+                <img src="assets/images/gallery/pic2.jpg" alt="Interior Design" />
+            </div>
+        </div>
+    </div>
 
-                                    
-                                        <div className="item col-4">
-                                            <div className="projects-two-info text-white">
-                                                <h4 className="wt-tilte m-t0" data-title="03"><a href="javascript:;" className="text-white">Landscap design</a></h4>
-                                                <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture.</p>
-                                                <div className="wt-media img-reflection">
-                                                    <img src="assets/images/gallery/pic3.jpg" alt="" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                      </div>
+    <div className="col-12 col-md-6 col-lg-4 mb-4">
+        <div className="projects-two-info text-white">
+            <h4 className="wt-tilte m-t0" data-title="03">
+                <a href="javascript:;" className="text-white">Landscape Design</a>
+            </h4>
+            <p>Transforming outdoor spaces into breathtaking landscapes.</p>
+            <div className="wt-media img-reflection">
+                <img src="assets/images/gallery/pic3.jpg" alt="Landscape Design" />
+            </div>
+        </div>
+    </div>
+</div>
 
-                                
 
                                     </div>
                                 </div>
@@ -2452,233 +2481,7 @@ export default function Home() {
 
                     </div>
             
-        {/* <!-- FOOTER START --> */}
-        <footer className="site-footer footer-large  footer-dark">
-          <div className="footer-social-section bg-secondry">
-            <div className="container">
-              <div className="footer-social-content">
-                <ul>
-                  <li>
-                    <a href="javascript:;">
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:;">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:;">
-                      <i className="fa fa-pinterest-p"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:;">
-                      <i className="fa fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:;">
-                      <i className="fa fa-vimeo"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:;">
-                      <i className="fa fa-youtube"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div className="footer-top overlay-wraper">
-            <div className="overlay-main"></div>
-            <div className="container-fluid">
-              <div className="row">
-                <div className="col-xl-3 col-lg-6 col-md-6">
-                  <div className="widget recent-posts-entry">
-                    <h4 className="widget-title  text-uppercase">
-                      Recent Post
-                    </h4>
-                    <div className="section-content">
-                      <div className="widget-post-bx">
-                        <div className="widget-post clearfix">
-                          <div className="wt-post-media">
-                            <img
-                              src="/assets/images/blog/recent-blog/pic1.jpg"
-                              alt=""
-                            />
-                          </div>
-                          <div className="wt-post-info">
-                            <div className="wt-post-meta">
-                              <ul>
-                                <li className="post-author">25 Dec</li>
-                                <li className="post-comment"> 20 Comment</li>
-                              </ul>
-                            </div>
-                            <div className="wt-post-header">
-                              <h6 className="post-title">
-                                Planning approved for restoration town hall.
-                              </h6>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="widget-post clearfix">
-                          <div className="wt-post-media">
-                            <img
-                              src="assets/images/blog/recent-blog/pic2.jpg"
-                              alt=""
-                            />
-                          </div>
-                          <div className="wt-post-info">
-                            <div className="wt-post-meta">
-                              <ul>
-                                <li className="post-author">28 Dec</li>
-                                <li className="post-comment"> 15 Comment</li>
-                              </ul>
-                            </div>
-                            <div className="wt-post-header">
-                              <h6 className="post-title">
-                                Planning approved for restoration town hall.
-                              </h6>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="widget-post clearfix">
-                          <div className="wt-post-media">
-                            <img
-                              src="assets/images/blog/recent-blog/pic3.jpg"
-                              alt=""
-                            />
-                          </div>
-                          <div className="wt-post-info">
-                            <div className="wt-post-meta">
-                              <ul>
-                                <li className="post-author">30 Dec</li>
-                                <li className="post-comment"> 11 Comment</li>
-                              </ul>
-                            </div>
-                            <div className="wt-post-header">
-                              <h6 className="post-title">
-                                Planning approved for restoration town hall.
-                              </h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-xl-3 col-lg-6 col-md-6">
-                  <div className="widget widget_about">
-                    <h4 className="widget-title  text-uppercase">
-                      About Information
-                    </h4>
-                    <p>
-                      Today we can tell you, thanks to your passion, hard work
-                      creativity, and expertise, you delivered us the most
-                      beautiful house great looks.
-                    </p>
-                  </div>
-
-                  <div className="widget widget_newsletter">
-                    <h4 className="widget-title  text-uppercase">
-                      Subscribe to our newsletter!
-                    </h4>
-                    <div className="newsletter-bx">
-                      <form role="search" method="post">
-                        <div className="input-group">
-                          <input
-                            name="news-letter"
-                            className="form-control"
-                            placeholder="ENTER YOUR EMAIL"
-                            type="text"
-                          />
-                          <span className="input-group-btn">
-                            <button type="submit" className="site-button">
-                              <i className="fa fa-paper-plane-o"></i>
-                            </button>
-                          </span>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-
-                {/* <!-- USEFUL LINKS --> */}
-                <div className="col-xl-3 col-lg-6 col-md-6">
-                  <div className="widget widget_services inline-links">
-                    <h4 className="widget-title">Useful links</h4>
-                    <ul>
-                      <li>
-                        <a href="javascript:;">About</a>
-                        <a href="javascript:;">Articles</a>
-                      </li>
-                      <li>
-                        <a href="javascript:;">Gallery</a>
-                        <a href="javascript:;">Service</a>
-                      </li>
-                      <li>
-                        <a href="javascript:;">Blog</a>
-                        <a href="javascript:;">Our team</a>
-                      </li>
-                      <li>
-                        <a href="javascript:;">Portfolio</a>
-                        <a href="javascript:;">Approach</a>
-                      </li>
-                      <li>
-                        <a href="javascript:;">Contact Us</a>
-                        <a href="javascript:;">Case Studies</a>
-                      </li>
-                      <li>
-                        <a href="javascript:;">Career</a>
-                        <a href="javascript:;">Clients</a>
-                      </li>
-                      <li>
-                        <a href="javascript:;">FAQ </a>
-                        <a href="javascript:;">Terms & Conditions</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                {/* <!-- TAGS --> */}
-                <div className="col-xl-3 col-lg-6 col-md-6">
-                  <div className="widget widget_address_outer m-b20">
-                    <h4 className="widget-title">Contact Us</h4>
-                    <ul className="widget_address">
-                      <li>
-                        92 Princess Road, parkvenue,Greater London, NW18JR,
-                        United Kingdom
-                      </li>
-                      <li>thewebmaxdemo@gmail.com</li>
-                      <li>(+0091) 912-3456-073</li>
-                      <li>(+0091) 912-3456-084</li>
-                    </ul>
-                  </div>
-                </div>
-                {/* <!-- NEWSLETTER --> */}
-              </div>
-            </div>
-          </div>
-          {/* <!-- FOOTER COPYRIGHT --> */}
-          <div className="footer-bottom">
-            <div className="container">
-              <div className="footer-logo-bar">
-                <a href="index.html">
-                  <img src="assets/images/logo-dark.png" alt="" />
-                </a>
-                <span className="copyrights-text">
-                  © 2019 Your Company. Designed By thewebmax.
-                </span>
-              </div>
-            </div>
-          </div>
-        </footer>
-        {/* <!-- FOOTER END -->        */}
+     
 
         {/* <!-- BUTTON TOP START --> */}
         <button className="scroltop">

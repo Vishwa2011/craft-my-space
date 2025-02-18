@@ -99,18 +99,18 @@ const Navbar = () => {
                                         <li className="submenu-direction">
                                             <a href="">Gallery</a>
                                             <ul className="sub-menu">
-                                                <li><a href="work-grid.html">Recent Work</a></li>
+                                                <li><a href="/Recentwork">Recent Work</a></li>
                                                 {/* <li><a href="work-masonry.html">Project Masonry</a></li>
                                                 <li><a href="work-carousel.html">Project Carousel</a></li>
                                                 <li><a href="project-detail.html">Project Detail</a></li> */}
                                             </ul>
                                         </li>
                                         <li className="submenu-direction">
-                                            <a href="javascript:;">Get Quote</a>
+                                            <a href="">Get Quote</a>
                                             <ul className="sub-menu">
-                                                <li><a href="work-grid.html">Get A Quote</a></li>
-                                                <li><a href="work-masonry.html">Order A Free Brochure</a></li>
-                                                <li><a href="work-carousel.html">Privacy Policy</a></li>
+                                                <li><a href="/Getaquote">Get A Quote</a></li>
+                                                <li><a href="/Orderafreebrochure">Order A Free Brochure</a></li>
+                                                <li><a href="/PrivacyPolicy">Privacy Policy</a></li>
                                                 {/* <li><a href="project-detail.html">Project Detail</a></li> */}
                                             </ul>
                                         </li>
