@@ -1765,7 +1765,7 @@ export default function Home() {
                     style={{ display: "block" }}
                   >
                     <div className="row">
-                      <div className="item col-4">
+                      <div className="item col-12 col-md-6 col-lg-4 mb-4">
                         <div className="projects-two-info text-white">
                           <h4 className="wt-tilte m-t0" data-title="01">
                             <a href="javascript:;" className="text-white">
@@ -1783,7 +1783,7 @@ export default function Home() {
                         </div>
                       </div>
 
-                      <div className="item col-4">
+                      <div className="item col-12 col-md-6 col-lg-4 mb-4">
                         <div className="projects-two-info text-white">
                           <h4 className="wt-tilte m-t0" data-title="02">
                             <a href="javascript:;" className="text-white">
@@ -1801,7 +1801,7 @@ export default function Home() {
                         </div>
                       </div>
 
-                      <div className="item col-4">
+                      <div className="item col-12 col-md-6 col-lg-4 mb-4">
                         <div className="projects-two-info text-white">
                           <h4 className="wt-tilte m-t0" data-title="03">
                             <a href="javascript:;" className="text-white">
