@@ -1787,6 +1787,8 @@ export default function Home() {
                                     </div>
                                 </div>
 
+                                
+
                                 {/* <!-- ABOUT COMPANY --> */}
                                 <div className="col-xl-3 col-lg-6 col-md-6">
                                     <div className="widget widget_about">
