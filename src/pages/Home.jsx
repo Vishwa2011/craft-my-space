@@ -6,6 +6,7 @@ export default function Home() {
     <>
       <div className="page-wraper">
         <Navbar />
+        
         {/* <!-- slider start --> */}
         <div className="page-content">
           <div className="slider-section">
@@ -171,7 +172,7 @@ export default function Home() {
                             className="text-white"
                             style={{ letterSpacing: "20px" }}
                           >
-                            We Make Sure
+                           Living
                           </span>
                           <br />
                         </div>
@@ -215,7 +216,7 @@ export default function Home() {
                             textTransform: "uppercase",
                           }}
                         >
-                          <span className="text-white">Classic & Modern</span>
+                          <span className="text-white">Conceptual Designs</span>
                           <br />
                         </div>
                       </div>
@@ -252,7 +253,7 @@ export default function Home() {
                             fontFamily: "'Oswald', sans-serif",
                           }}
                         >
-                          More About
+                          view The Projects
                         </a>
                       </div>
 
@@ -491,7 +492,7 @@ export default function Home() {
                             className="text-white"
                             style={{ letterSpacing: "20px" }}
                           >
-                            We Make Sure
+                            Fitted Kitchens
                           </span>
                           <br />
                         </div>
@@ -530,7 +531,7 @@ export default function Home() {
                         }}
                       >
                         <div style={{ fontFamily: "'Oswald', sans-serif" }}>
-                          <span className="text-white">Classic & Modern</span>
+                          <span className="text-white">Stylish. Modified. Space.</span>
                           <br />
                         </div>
                       </div>
@@ -565,7 +566,7 @@ export default function Home() {
                           className="rev-slider-custom-btn"
                           style={{ fontFamily: "'Oswald', sans-serif" }}
                         >
-                          More About
+                        view The Projects
                         </a>
                       </div>
 
@@ -804,7 +805,7 @@ export default function Home() {
                             className="text-white"
                             style={{ letterSpacing: "20px" }}
                           >
-                            We Make Sure
+                           Kitchens
                           </span>
                           <br />
                         </div>
@@ -843,7 +844,7 @@ export default function Home() {
                         }}
                       >
                         <div style={{ fontFamily: "'Oswald', sans-serif" }}>
-                          <span className="text-white">Classic & Modern</span>
+                          <span className="text-white">Made-To-Measure Designs</span>
                           <br />
                         </div>
                       </div>
@@ -881,7 +882,7 @@ export default function Home() {
                           className="rev-slider-custom-btn"
                           style={{ fontFamily: " 'Oswald', sans-serif" }}
                         >
-                          More About
+                         view The Projects
                         </a>
                       </div>
 
@@ -972,6 +973,7 @@ export default function Home() {
                         />
                       </div>
                     </li>
+                    
                   </ul>
                   <div
                     className="tp-bannertimer tp-bottom"
@@ -1139,22 +1141,13 @@ export default function Home() {
                     <div className="section-head clearfix">
                       <div className="wt-tilte-main">
                         <small className="wt-small-title">
-                          Latest Projects
+                          [ Latest Projects ]
                         </small>
                         <h2 className="m-b5">Our Projects</h2>
                       </div>
                     </div>
 
-                    <div className="video-section">
-                      <img src="images/video-img.jpg" alt="" />
-                      <a
-                        href="https://player.vimeo.com/video/34741214?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0"
-                        className="mfp-video play-now"
-                      >
-                        <i className="icon fa fa-play"></i>
-                        <span className="ripple"></span>
-                      </a>
-                    </div>
+                   
 
                     <div className="our-ability m-t50">
                       <div className="row">
@@ -1374,7 +1367,7 @@ export default function Home() {
             >
               <div className="col-12">
                 <div className="row justify-content-center">
-                  <div className="col-3 col-sm-3 col-md-3">
+                  <div className="col-12 col-sm-12 col-md-3 p-3">
                     <a
                       href="#"
                       className="wt-img-effect client-logo-media shadow"
@@ -1387,7 +1380,7 @@ export default function Home() {
                       </div>
                     </a>
                   </div>
-                  <div className="col-3 col-sm-3 col-md-3">
+                  <div className="col-12 col-sm-12 col-md-3 p-3">
                     <a
                       href="#"
                       className="wt-img-effect client-logo-media shadow"
@@ -1400,7 +1393,7 @@ export default function Home() {
                       </div>
                     </a>
                   </div>
-                  <div className="col-3 col-sm-3 col-md-3">
+                  <div className="col-12 col-sm-12 col-md-3 p-3">
                     <a
                       href="#"
                       className="wt-img-effect client-logo-media shadow"
@@ -1413,7 +1406,7 @@ export default function Home() {
                       </div>
                     </a>
                   </div>
-                  <div className="col-3 col-sm-3 col-md-3">
+                  <div className="col-12 col-sm-12 col-md-3 p-3">
                     <a
                       href="#"
                       className="wt-img-effect client-logo-media shadow"
@@ -1455,7 +1448,7 @@ export default function Home() {
           <div className="container">
             <div className="section-head clearfix">
               <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid">
-                <small className="wt-small-title">Client Testimonial</small>
+                <small className="wt-small-title">[ Client Testimonial ]</small>
                 <h2 className="m-b5">Our Client gave us Feedback</h2>
               </div>
               <div className="title-right-detail">
@@ -1598,14 +1591,12 @@ export default function Home() {
           <div className="container">
             <div className="section-head clearfix">
               <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid">
-                <small className="wt-small-title">Work service</small>
-                <h2 className="m-b5">Our great provided</h2>
+                <small className="wt-small-title">[ Why Choose Craft My Space]</small>
+                <h2 className="m-b5">Why Craft My Space?</h2>
               </div>
               <div className="title-right-detail">
                 <p>
-                  We are uncompetitor in architectural solutions Friendly
-                  neighbour there that power. Keep away Architecture who try to
-                  Ambitions people do that really great.
+                Choose Craft My Space for custom, high-quality furniture that fits your style and space. Our expert craftsmanship and attention to detail ensure durability and elegance, transforming any area into a functional and beautiful space.
                 </p>
               </div>
             </div>
@@ -1613,15 +1604,13 @@ export default function Home() {
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
                   <div className="icon-content m-b30">
-                    <h4 className="wt-tilte-large m-t0" data-title="A">
-                      Architecture design
+                    <h4 className="wt-tilte-large m-t0" data-title="G">
+                    Guaranteed Quality
                     </h4>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and type.
-                    </p>
-                    <a href="javascript:;" className="site-button-link">
-                      Read More
-                    </a>
+                    Guaranteed Quality" means we deliver durable, high-quality furniture crafted with the finest materials for lasting performance and beauty.                
+                        </p>
+                  
                   </div>
                   <div className="icon-xl inline-icon">
                     <span className="icon-cell">
@@ -1633,15 +1622,13 @@ export default function Home() {
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
                   <div className="icon-content m-b30">
-                    <h4 className="wt-tilte-large m-t0" data-title="S">
-                      smart Interior design
+                    <h4 className="wt-tilte-large m-t0" data-title="P">
+                    Professional Manufacturing
                     </h4>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and type.
+                    Professional Manufacturing guarantees precision and high-quality craftsmanship in every piece of furniture.
                     </p>
-                    <a href="javascript:;" className="site-button-link">
-                      Read More
-                    </a>
+                    
                   </div>
                   <div className="icon-xl inline-icon">
                     <span className="icon-cell">
@@ -1653,15 +1640,13 @@ export default function Home() {
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
                   <div className="icon-content m-b30">
-                    <h4 className="wt-tilte-large m-t0" data-title="R">
-                      Residential design
+                    <h4 className="wt-tilte-large m-t0" data-title="H">
+                    High Quality Service
                     </h4>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and type.
+                    High Quality Service ensures personalized attention and exceptional results, delivering furniture that exceeds expectations in both style .
                     </p>
-                    <a href="javascript:;" className="site-button-link">
-                      Read More
-                    </a>
+                    
                   </div>
                   <div className="icon-xl inline-icon">
                     <span className="icon-cell">
@@ -1673,15 +1658,13 @@ export default function Home() {
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
                   <div className="icon-content m-b30">
-                    <h4 className="wt-tilte-large m-t0" data-title="L">
-                      landscape design
+                    <h4 className="wt-tilte-large m-t0" data-title="C">
+                    Convenience of Choice
                     </h4>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and type.
+                    Convenience of Choice offers a wide range of customizable furniture options, allowing you to select designs that perfectly fit your style and needs.
                     </p>
-                    <a href="javascript:;" className="site-button-link">
-                      Read More
-                    </a>
+                  
                   </div>
                   <div className="icon-xl inline-icon">
                     <span className="icon-cell">
@@ -1693,15 +1676,13 @@ export default function Home() {
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
                   <div className="icon-content m-b30">
-                    <h4 className="wt-tilte-large m-t0" data-title="P">
-                      Plans and Projects
+                    <h4 className="wt-tilte-large m-t0" data-title="E">
+                    Easy Delivery
                     </h4>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and type.
+                    Easy and Timely Delivery ensures your furniture arrives quickly and safely, right to your doorstep with minimal hassle.
                     </p>
-                    <a href="javascript:;" className="site-button-link">
-                      Read More
-                    </a>
+                   
                   </div>
                   <div className="icon-xl inline-icon">
                     <span className="icon-cell">
@@ -1713,15 +1694,13 @@ export default function Home() {
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
                   <div className="icon-content m-b30">
-                    <h4 className="wt-tilte-large m-t0" data-title="K">
-                      Kitchen design{" "}
+                    <h4 className="wt-tilte-large m-t0" data-title="M">
+                    Made in Britain
                     </h4>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and type.
+                    Made in Britain guarantees high-quality craftsmanship, using locally sourced materials and skilled artisans to create durable and stylish furniture.
                     </p>
-                    <a href="javascript:;" className="site-button-link">
-                      Read More
-                    </a>
+                   
                   </div>
                   <div className="icon-xl inline-icon">
                     <span className="icon-cell">
@@ -1743,14 +1722,12 @@ export default function Home() {
           <div className="container">
             <div className="section-head clearfix">
               <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid text-white">
-                <small className="wt-small-title">All Projects</small>
-                <h2 className="m-b5">Our Latest Projects</h2>
+                <small className="wt-small-title">[ our blog ]</small>
+                <h2 className="m-b5">Read Our Latest News</h2>
               </div>
               <div className="title-right-detail text-white">
                 <p>
-                  We are uncompetitor in architectural solutions Friendly
-                  neighbour there that power. Keep away Architecture who try to
-                  Ambitions people do that really great.
+                Our blog offers expert insights, tips, and inspiration on furniture design, home decor, and space optimization. We share the latest trends, DIY ideas, and advice to help you create beautiful, functional spaces that reflect your personal style.
                 </p>
               </div>
             </div>
@@ -1768,14 +1745,12 @@ export default function Home() {
                       <div className="item col-12 col-md-6 col-lg-4 mb-4">
                         <div className="projects-two-info text-white">
                           <h4 className="wt-tilte m-t0" data-title="01">
-                            <a href="javascript:;" className="text-white">
-                              Architecture design
+                            <a href="" className="text-white">
+                            Custom Creations
                             </a>
                           </h4>
                           <p>
-                            We are uncompetitor in architectural solutions
-                            Friendly neighbour there that power. Keep away
-                            Architecture.
+                          Discover how custom furniture can perfectly fit your space and elevate your home’s style.
                           </p>
                           <div className="wt-media img-reflection">
                             <img src="assets/images/gallery/pic1.jpg" alt="" />
@@ -1786,14 +1761,12 @@ export default function Home() {
                       <div className="item col-12 col-md-6 col-lg-4 mb-4">
                         <div className="projects-two-info text-white">
                           <h4 className="wt-tilte m-t0" data-title="02">
-                            <a href="javascript:;" className="text-white">
-                              Interior design
+                            <a href="" className="text-white">
+                            Space Solutions
                             </a>
                           </h4>
                           <p>
-                            We are uncompetitor in architectural solutions
-                            Friendly neighbour there that power. Keep away
-                            Architecture.
+                          Turn awkward areas into functional, stylish spots with tailor-made furniture that maximizes every inch.
                           </p>
                           <div className="wt-media img-reflection">
                             <img src="assets/images/gallery/pic2.jpg" alt="" />
@@ -1804,14 +1777,12 @@ export default function Home() {
                       <div className="item col-12 col-md-6 col-lg-4 mb-4">
                         <div className="projects-two-info text-white">
                           <h4 className="wt-tilte m-t0" data-title="03">
-                            <a href="javascript:;" className="text-white">
-                              Landscap design
+                            <a href="" className="text-white">
+                            Trend Watch
                             </a>
                           </h4>
                           <p>
-                            We are uncompetitor in architectural solutions
-                            Friendly neighbour there that power. Keep away
-                            Architecture.
+                          Stay updated on the latest furniture trends to refresh your space with modern and functional designs.
                           </p>
                           <div className="wt-media img-reflection">
                             <img src="assets/images/gallery/pic3.jpg" alt="" />
