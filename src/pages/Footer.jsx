@@ -4,7 +4,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
 import CallIcon from '@mui/icons-material/Call';
 
-const Footer = () => {
+const Footers = () => {
   return (
     <>
           {/* <!-- FOOTER START --> */}
@@ -162,4 +162,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footers

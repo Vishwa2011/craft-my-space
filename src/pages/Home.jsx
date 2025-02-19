@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Footers from "./Footer";
 
 
 export default function Home() {
@@ -1799,7 +1800,7 @@ export default function Home() {
         </div>
         {/* our blog end  */}
 
-       
+       <Footers />
 
         {/* <!-- BUTTON TOP START --> */}
         <button className="scroltop">

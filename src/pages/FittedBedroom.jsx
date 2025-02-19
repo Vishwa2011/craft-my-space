@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Footers from "./Footer";
 
 const FittedBedroom = () => {
   return (
@@ -111,7 +112,94 @@ const FittedBedroom = () => {
         </div>
         {/* text end  */}
 
-        
+        {/* card start  */}
+        <div className="container mt-5">
+          <div className="portfolio-wrap mfp-gallery work-grid row clearfix">
+            <div className="masonry-item cat-1 col-lg-4 col-md-6 col-sm-12 m-b30">
+              <div className="project-img-effect-1">
+                <img
+                  src="assets/images/gallery/pic1.jpg"
+                  alt=""
+                />
+                <div className="wt-info">
+                  <h4 className="wt-tilte text-white  m-b10 m-t0">
+                    Guaranteed quality
+                  </h4>
+                  <p>
+                    At Craft My Space, we ensure top-notch quality in every
+                    piece of furniture we create. Our products are crafted with
+                    precision, using premium materials for durability and
+                    elegance.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="masonry-item cat-2 col-lg-4 col-md-6 col-sm-12 m-b30">
+              <div className="project-img-effect-1">
+                <img
+                  src="assets/images/gallery/pic2.jpg"
+                  alt=""
+                />
+                <div className="wt-info">
+                  <h4 className="wt-tilte text-white  m-b10 m-t0">
+                    Professional installation
+                  </h4>
+                  <p>
+                    At Craft My Space, we provide expert installation services
+                    to ensure your furniture is set up perfectly. Our skilled
+                    professionals handle every detail with care for a
+                    hassle-free experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="masonry-item cat-3 col-lg-4 col-md-6 col-sm-12 m-b30">
+              <div className="project-img-effect-1">
+                <img
+                  src="assets/images/gallery/pic3.jpg"
+                  alt=""
+                />
+                <div className="wt-info">
+                  <h4 className="wt-tilte text-white  m-b10 m-t0">
+                    Convenience of choice
+                  </h4>
+                  <p>
+                    At Craft My Space, we offer a wide range of furniture styles
+                    to suit every taste and need. Choose from our diverse
+                    collection to find the perfect fit for your space
+                    effortlessly.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* card end  */}
+
+          {/* text start  */}
+          {/* <div className="container mt-5">
+          <div className="project-detail-outer">
+            <div className="project-detail-containt">
+              <div className="bg-white text-black">
+                <h3>
+                Internal Carcass Colour
+                </h3>
+                <p>
+                Each design is available in a wide variety of beautiful finishes.
+                </p>
+
+                <p>
+                You will have even more options to create a wardrobe that perfectly matches your style.
+                </p>
+              </div>
+            </div>
+           
+          </div>
+        </div> */}
+        {/* text end  */}
+
+    <Footers />
+
       </div>
 
       <button className="scroltop">

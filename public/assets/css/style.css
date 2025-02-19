@@ -2154,6 +2154,12 @@ ol.list-num-count.list-outline-none > li:before {background-color:transparent;	c
 .site-button.button-app strong {display:block;	font-size:16px;}
 
 /* 1.45 filter buttons css */
+.masonry-filter1 .active a {
+	border: 2px solid #141b1f; /* Adjust the color and border width as needed */
+	padding: 5px 10px; /* Add some padding if you want the border to create space around the text */
+	border-radius: 5px; /* Optional: rounded corners for the border */
+  }
+
 .masonry-filter { display:table;	margin-bottom:0;}
 .masonry-filter > li {display: inline-block;	margin-right:30px;	position:relative;}
 
