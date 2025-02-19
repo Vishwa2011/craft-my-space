@@ -87,9 +87,9 @@ const Navbar = () => {
                                                 <li>
                                                     <a href="/FittedWardrobes">Fitted Wardrobes</a>
                                                     <ul className="sub-menu has-child">
-                                                <li><a href="/fitted-bedroom/HingedDoorWardrobes">Hinged Door Wardrobed</a></li>
-                                                <li><a href="/fitted-bedroom/SlidingWardrobedDoorsByCMS"> Sliding  Wardrobed Doors By cms</a></li>
-                                                <li><a href="/fitted-bedroom/Slidingwardrobed"> Sliding Wardrobed</a>
+                                                <li><a href="/HingedDoorWardrobes">Hinged Door Wardrobed</a></li>
+                                                <li><a href="/SlidingWardrobedDoorsByCMS"> Sliding  Wardrobed Doors By cms</a></li>
+                                                <li><a href="/Slidingwardrobed"> Sliding Wardrobed</a>
                                                      <ul className="sub-menu has-child">
                                                 <li><a href="/fitted-bedroom/Slidingwardrobed/ChildrensBedroomSlidingDoorWardrobes">Children’s Bedroom Sliding Door Wardrobes</a></li>
                                                 <li><a href="/fitted-bedroom/Slidingwardrobed/SlidingHallwayWardrobes">Sliding Hallway Wardrobes</a></li>
@@ -99,8 +99,8 @@ const Navbar = () => {
 
                                             </ul>
                                                 </li>
-                                                <li><a href="/fitted-bedroom/Walkinwardrobed"> Walk in  Wardrobed</a></li>
-                                                <li><a href="/fitted-bedroom/ChildrenFittedBadrooms"> Children's Fitted Badrooms</a></li>
+                                                <li><a href="/Walkinwardrobed"> Walk in  Wardrobed</a></li>
+                                                <li><a href="/ChildrenFittedBadrooms"> Children's Fitted Badrooms</a></li>
                                                </ul>
                                                 </li>
                                                 <li>

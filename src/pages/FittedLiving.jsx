@@ -225,6 +225,37 @@ const FittedLiving = () => {
 
           </div>
           {/* text end  */}
+            {/* <!-- VIDEO SECTION START --> */}
+            <div className="bg-gray overflow-hide v-title-outer">
+            <div className="section-content">
+              <div className="custom-block-outer clearfix bg-cover">
+                <div
+                  className="custom-right-part "
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    width: "100%",
+                  }}
+                >
+                  <div className="custom-right-part-content p-t80 p-b80">
+                    <div className="video-section-outer">
+                      <div className="video-section">
+                        <img src="assets/images/video-img.jpg" alt="" />
+                        <a
+                          href="https://player.vimeo.com/video/34741214?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0"
+                          className="mfp-video play-now"
+                        >
+                          <i className="icon fa fa-play"></i>
+                          <span className="ripple"></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <!-- VIDEO  SECTION END -->   */}
         </div>
         {/* <!-- CONTENT END --> */}
       </div>
