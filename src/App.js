@@ -20,7 +20,7 @@ import ChildrensBedroomSlidingDoorWardrobes from "./pages/ChildrensBedroomSlidin
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
+      {/* <Navbar />  */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/fitted-bedroom" element={<FittedBedroom />} />
