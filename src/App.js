@@ -15,6 +15,7 @@ import HingedDoorWardrobes from "./pages/HingedDoorWardrobes";
 import SlidingWardrobedDoorsByCMS from "./pages/SlidingWardrobedDoorsByCMS";
 import Slidingwardrobed from "./pages/Slidingwardrobed";
 import ChildrensBedroomSlidingDoorWardrobes from "./pages/ChildrensBedroomSlidingDoorWardrobes";
+import WhyCraftMySpace from "./pages/WhyCraftMySpace";
 // import Navbar from "./pages/Navbar";
 
 function App() {
@@ -38,6 +39,8 @@ function App() {
         <Route path="/fitted-bedroom/SlidingWardrobedDoorsByCMS" element={<SlidingWardrobedDoorsByCMS/>} />
         <Route path="/fitted-bedroom/Slidingwardrobed" element={<Slidingwardrobed/>} />
         <Route path="/fitted-bedroom/ChildrensBedroomSlidingDoorWardrobes" element={<ChildrensBedroomSlidingDoorWardrobes/>} />
+        <Route path="/WhyCraftMySpace" element={<WhyCraftMySpace />} />
+
       </Routes>
     </>
   );
