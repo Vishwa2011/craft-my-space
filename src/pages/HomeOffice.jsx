@@ -1,6 +1,7 @@
 import React from 'react'
 
-const WhyCraftMySpace = () => {
+
+const HomeOffice = () => {
   return (
     <>
       
@@ -8,4 +9,4 @@ const WhyCraftMySpace = () => {
   )
 }
 
-export default WhyCraftMySpace
+export default HomeOffice
