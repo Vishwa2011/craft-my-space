@@ -1,14 +1,15 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Footers from "./Footer";
+
 
 export default function Home() {
   return (
     <>
       <div className="page-wraper">
-       
         <Navbar />
         
+        {/* <!-- slider start --> */}
         <div className="page-content">
           <div className="slider-section">
             <div className="slider-section">
@@ -173,7 +174,7 @@ export default function Home() {
                             className="text-white"
                             style={{ letterSpacing: "20px" }}
                           >
-                            We Make Sure
+                           Living
                           </span>
                           <br />
                         </div>
@@ -217,7 +218,7 @@ export default function Home() {
                             textTransform: "uppercase",
                           }}
                         >
-                          <span className="text-white">Classic & Modern</span>
+                          <span className="text-white">Conceptual Designs</span>
                           <br />
                         </div>
                       </div>
@@ -254,7 +255,7 @@ export default function Home() {
                             fontFamily: "'Oswald', sans-serif",
                           }}
                         >
-                          More About
+                          view The Projects
                         </a>
                       </div>
 
@@ -493,7 +494,7 @@ export default function Home() {
                             className="text-white"
                             style={{ letterSpacing: "20px" }}
                           >
-                            We Make Sure
+                            Fitted Kitchens
                           </span>
                           <br />
                         </div>
@@ -532,7 +533,7 @@ export default function Home() {
                         }}
                       >
                         <div style={{ fontFamily: "'Oswald', sans-serif" }}>
-                          <span className="text-white">Classic & Modern</span>
+                          <span className="text-white">Stylish. Modified. Space.</span>
                           <br />
                         </div>
                       </div>
@@ -567,7 +568,7 @@ export default function Home() {
                           className="rev-slider-custom-btn"
                           style={{ fontFamily: "'Oswald', sans-serif" }}
                         >
-                          More About
+                        view The Projects
                         </a>
                       </div>
 
@@ -806,7 +807,7 @@ export default function Home() {
                             className="text-white"
                             style={{ letterSpacing: "20px" }}
                           >
-                            We Make Sure
+                           Kitchens
                           </span>
                           <br />
                         </div>
@@ -845,7 +846,7 @@ export default function Home() {
                         }}
                       >
                         <div style={{ fontFamily: "'Oswald', sans-serif" }}>
-                          <span className="text-white">Classic & Modern</span>
+                          <span className="text-white">Made-To-Measure Designs</span>
                           <br />
                         </div>
                       </div>
@@ -883,7 +884,7 @@ export default function Home() {
                           className="rev-slider-custom-btn"
                           style={{ fontFamily: " 'Oswald', sans-serif" }}
                         >
-                          More About
+                         view The Projects
                         </a>
                       </div>
 
@@ -974,6 +975,7 @@ export default function Home() {
                         />
                       </div>
                     </li>
+                    
                   </ul>
                   <div
                     className="tp-bannertimer tp-bottom"
@@ -1046,732 +1048,9 @@ export default function Home() {
             </div>
             {/* <!--SLIDER-SOCIAL-RIGHT END--> */}
           </div>
-          {/* <!-- WELCOME SECTION START --> */}
-          {/* <div className="section-full p-t80 p-b80 bg-gray overflow-hide">
-                        <div className="container">
-                            <div className="section-content">
-                                <div className="row">
-                                    <div className="col-lg-6 col-md-12">
-                                        <div className="arc-home-about-left">
-                                            <div className="arc-home-left-content bg-gray">
-                                                <h3 className="m-t0 wt-tilte-light">Design, followed by Form & Function.</h3>
-                                                <h2 className="m-t0 wt-title">Exploring the Quality Ways through Design.</h2>
-                                                <p>
-                                                    We are uncompetitor in architectural solutions Friendly
-                                                    neighbour there that power. Keep away Architecture who try to
-                                                    Ambitions people do that really
-                                                </p>
-                                                <a href="javascript:;" className="site-button-link">
-                                                    Read More
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6 col-md-12">
-                                        <div className="arc-home-about-right portfolio-wrap">
-                                            <div className="row">
-                                                <div className="col-md-6 col-sm-6 masonry-item">
-                                                    <div className="arc-about-year text-uppercase text-right m-b20">
-                                                        <div className="arc-about-year-pic">
-                                                            <img src="assets/images/about/s-1.jpg" alt="" />
-                                                        </div>
-                                                        <div className="arc-about-year-info">
-                                                            <span className="title-small">working <br /> experience</span>
-                                                            <h2 className="wt-title m-tb0">Year</h2>
-                                                            <span className="text-outline">12</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6 col-sm-6 masonry-item">
-                                                    <div className="wt-media m-b20 img-reflection">
-                                                        <img src="assets/images/about/l-2.jpg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6 col-sm-6 masonry-item">
-                                                    <div className="wt-media m-b20 img-reflection">
-                                                        <img src="assets/images/about/l-1.jpg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6 col-sm-6 masonry-item">
-                                                    <div className="wt-media m-b20 img-reflection">
-                                                        <img src="assets/images/about/s-3.jpg" alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
-          {/* <!-- WELCOME SECTION end --> */}
-
-          {/* <!-- OUR PROJECTS SECTION START --> */}
-          {/* <div className="section-full  p-t80 p-b80 bg-secondry">
-                        <div className="container">
-                            <div className="section-head clearfix">
-                                <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid text-white">
-                                    <small className="wt-small-title">All Projects</small>
-                                    <h2 className="m-b5">Our Latest Projects</h2>
-                                </div>
-                                <div className="title-right-detail text-white">
-                                    <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture who try to Ambitions people do that really great.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="section-content">
-
-                            <div className="container-fluid">
-                                <div className="projects-slider-two">
-                                    <div className="owl-carousel projects-carousel-two owl-btn-vertical-center" style={{display:'block'}}>
-                                      
-                                        <div className="item" >
-                                            <div className="projects-two-info text-white">
-                                                <h4 className="wt-tilte m-t0" data-title="01"><a href="javascript:;" className="text-white">Architecture design</a></h4>
-                                                <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture.</p>
-                                                <div className="wt-media img-reflection">
-                                                    <img src="assets/images/gallery/pic1.jpg" alt="" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                      
-
-                                        <div className="item">
-                                            <div className="projects-two-info text-white">
-                                                <h4 className="wt-tilte m-t0" data-title="02"><a href="javascript:;" className="text-white">Interior design</a></h4>
-                                                <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture.</p>
-                                                <div className="wt-media img-reflection">
-                                                    <img src="assets/images/gallery/pic2.jpg" alt="" />
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    
-                                        <div className="item">
-                                            <div className="projects-two-info text-white">
-                                                <h4 className="wt-tilte m-t0" data-title="03"><a href="javascript:;" className="text-white">Landscap design</a></h4>
-                                                <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture.</p>
-                                                <div className="wt-media img-reflection">
-                                                    <img src="assets/images/gallery/pic3.jpg" alt="" />
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                
-                                        <div className="item">
-                                            <div className="projects-two-info text-white">
-                                                <h4 className="wt-tilte m-t0" data-title="04"><a href="javascript:;" className="text-white">Floor design</a></h4>
-                                                <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture.</p>
-                                                <div className="wt-media img-reflection">
-                                                    <img src="assets/images/gallery/pic4.jpg" alt="" />
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                   
-                                        <div className="item">
-                                            <div className="projects-two-info text-white">
-                                                <h4 className="wt-tilte m-t0" data-title="05"><a href="javascript:;" className="text-white">Roof top design</a></h4>
-                                                <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture.</p>
-                                                <div className="wt-media img-reflection">
-                                                    <img src="assets/images/gallery/pic5.jpg" alt="" />
-                                                </div>
-                                            </div>
-                                        </div>
-
-                               
-                                        <div className="item">
-                                            <div className="projects-two-info text-white">
-                                                <h4 className="wt-tilte m-t0" data-title="06"><a href="javascript:;" className="text-white">Decorations</a></h4>
-                                                <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture.</p>
-                                                <div className="wt-media img-reflection">
-                                                    <img src="assets/images/gallery/pic6.jpg" alt="" />
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                     
-                                        <div className="item">
-                                            <div className="projects-two-info text-white">
-                                                <h4 className="wt-tilte m-t0" data-title="07"><a href="javascript:;" className="text-white">Architecture design</a></h4>
-                                                <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture.</p>
-                                                <div className="wt-media img-reflection">
-                                                    <img src="assets/images/gallery/pic7.jpg" alt="" />
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div> */}
-          {/* <!-- OUR PROJECTS SECTION END -->  */}
-
-          {/* <!-- OUR SERVICES START --> */}
-          {/* <div className="section-full p-t80 p-b50 bg-gray">
-                        <div className="container">
-                            <div className="section-head clearfix">
-                                <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid">
-                                    <small className="wt-small-title">Work service</small>
-                                    <h2 className="m-b5">Our great provided</h2>
-                                </div>
-                                <div className="title-right-detail">
-                                    <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture who try to Ambitions people do that really great.</p>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-lg-4 col-md-6 col-sm-6">
-                                    <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
-                                        <div className="icon-content m-b30">
-                                            <h4 className="wt-tilte-large m-t0" data-title="A">Architecture design</h4>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and type.</p>
-                                            <a href="javascript:;" className="site-button-link">Read More</a>
-                                        </div>
-                                        <div className="icon-xl inline-icon">
-                                            <span className="icon-cell"><i className="flaticon-mansion v-icon"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 col-sm-6">
-                                    <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
-                                        <div className="icon-content m-b30">
-                                            <h4 className="wt-tilte-large m-t0" data-title="S">smart Interior design</h4>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and type.</p>
-                                            <a href="javascript:;" className="site-button-link">Read More</a>
-                                        </div>
-                                        <div className="icon-xl inline-icon">
-                                            <span className="icon-cell"><i className="flaticon-stair v-icon"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 col-sm-6">
-                                    <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
-                                        <div className="icon-content m-b30">
-                                            <h4 className="wt-tilte-large m-t0" data-title="R">Residential design</h4>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and type.</p>
-                                            <a href="javascript:;" className="site-button-link">Read More</a>
-                                        </div>
-                                        <div className="icon-xl inline-icon">
-                                            <span className="icon-cell"><i className="flaticon-apartment v-icon"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 col-sm-6">
-                                    <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
-                                        <div className="icon-content m-b30">
-                                            <h4 className="wt-tilte-large m-t0" data-title="L">landscape design</h4>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and type.</p>
-                                            <a href="javascript:;" className="site-button-link">Read More</a>
-                                        </div>
-                                        <div className="icon-xl inline-icon">
-                                            <span className="icon-cell"><i className="flaticon-photo v-icon"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 col-sm-6">
-                                    <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
-                                        <div className="icon-content m-b30">
-                                            <h4 className="wt-tilte-large m-t0" data-title="P">Plans and Projects</h4>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and type.</p>
-                                            <a href="javascript:;" className="site-button-link">Read More</a>
-                                        </div>
-                                        <div className="icon-xl inline-icon">
-                                            <span className="icon-cell"><i className="flaticon-sketch v-icon"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 col-sm-6">
-                                    <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
-                                        <div className="icon-content m-b30">
-                                            <h4 className="wt-tilte-large m-t0" data-title="K">Kitchen design </h4>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and type.</p>
-                                            <a href="javascript:;" className="site-button-link">Read More</a>
-                                        </div>
-                                        <div className="icon-xl inline-icon">
-                                            <span className="icon-cell"><i className="flaticon-kitchen v-icon"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
-          {/* <!-- OUR SERVICES END --> */}
-
-          {/* <!-- OUR BLOG START --> */}
-          {/* <div className="section-full p-t80 p-b50 bg-white">
-                        <div className="container">
-                            <div className="section-head clearfix">
-                                <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid">
-                                    <small className="wt-small-title">Blog Section</small>
-                                    <h2 className="m-b5">Our Latest Blog</h2>
-                                </div>
-                                <div className="title-right-detail">
-                                    <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture who try to Ambitions people do that really great.</p>
-                                </div>
-                            </div>
-                            <div className="row equal-wraper">
-                                <div className="col-xl-6 col-lg-6 col-md-12">
-                                    <div className="latest-blog-3-pattern">
-                                        <div className="blog-post latest-blog-3 overlay-wraper post-overlay  large-date bg-cover bg-no-repeat bg-top-center" style={{ backgroundImage: "url(assets/images/blog/large-blog.jpg)" }}>
-                                            <div className="overlay-main opacity-05 bg-black"></div>
-                                            <div className="wt-post-info p-a30 text-white">
-                                                <div className="post-overlay-position">
-                                                    <div className="post-content-outer bdr-l-8 bdr-solid bdr-primary p-a15">
-                                                        <div className="wt-post-meta ">
-                                                            <ul>
-                                                                <li className="post-date"><strong>26</strong><span>Aug 2018</span></li>
-                                                                <li className="post-author"><i className="fa fa-user-o"></i>By <a href="javascript:;">Admin</a> </li>
-                                                                <li className="post-comment"><i className="fa fa-comments-o"></i> <a href="javascript:;">2 comment</a> </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div className="wt-post-title ">
-                                                            <h3 className="post-title"><a href="javascript:;" className="text-white text-capitalize">Hampden-Sydney College in Virginia, looked
-                                                                up one of the more obscure latin words </a></h3>
-                                                        </div>
-                                                        <div className="wt-post-readmore ">
-                                                            <a href="javascript:;" className="site-button-link white">Read More</a>
-                                                        </div>
-                                                    </div>
-                                                    <div className="blog-social-icon">
-                                                        <ul className="social-tooltips-outer">
-                                                            <li><a href="javascript:void(0);" className="fa fa-google"><span className="social-tooltips">Google</span></a></li>
-                                                            <li><a href="javascript:void(0);" className="fa fa-rss"><span className="social-tooltips">Rss</span></a></li>
-                                                            <li><a href="javascript:void(0);" className="fa fa-facebook"><span className="social-tooltips">Facebook</span></a></li>
-                                                            <li><a href="javascript:void(0);" className="fa fa-twitter"><span className="social-tooltips">Twitter</span></a></li>
-                                                            <li><a href="javascript:void(0);" className="fa fa-linkedin"><span className="social-tooltips">Linkedin</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-xl-6 col-lg-6 col-md-12">
-                                    <div className="row latest-blog-2-outer m-t30">
-                                        <div className="col-lg-6 col-md-6 col-sm-6">
-                                            <div className="blog-post latest-blog-2 mid-size-date bdr-1 bdr-solid bdr-gray  p-a20">
-                                                <div className="wt-post-info">
-                                                    <div className="wt-post-meta ">
-                                                        <ul>
-                                                            <li className="post-date"><strong>25 </strong> <span>Aug 2019</span> </li>
-                                                            <li className="post-author"><i className="fa fa-user-o"></i><a href="javascript:void(0);">By <span>Admin</span></a> </li>
-                                                            <li className="post-comment"><i className="fa fa-comments-o"></i> <a href="javascript:void(0);">5 Comment</a> </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div className="wt-post-title ">
-                                                        <h4 className="post-title"><a href="javascript:void(0);"> Never mess with a Man</a></h4>
-                                                    </div>
-                                                    <div className="wt-post-text ">
-                                                        <p>There are many variations of passages of Lorem Ipsum available.</p>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 col-sm-6">
-                                            <div className="blog-post latest-blog-2 mid-size-date bdr-1 bdr-solid bdr-gray p-a20">
-                                                <div className="wt-post-info">
-                                                    <div className="wt-post-meta ">
-                                                        <ul>
-                                                            <li className="post-date"><strong>30 </strong> <span>Aug 2019</span> </li>
-                                                            <li className="post-author"><i className="fa fa-user-o"></i><a href="javascript:void(0);">By <span>Admin</span></a> </li>
-                                                            <li className="post-comment"><i className="fa fa-comments-o"></i> <a href="javascript:void(0);">5 Comment</a> </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div className="wt-post-title ">
-                                                        <h4 className="post-title"><a href="javascript:void(0);"> Never mess with a Man</a></h4>
-                                                    </div>
-                                                    <div className="wt-post-text ">
-                                                        <p>There are many variations of passages of Lorem Ipsum available.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 col-sm-6">
-                                            <div className="blog-post latest-blog-2 mid-size-date bdr-1 bdr-solid bdr-gray p-a20">
-                                                <div className="wt-post-info">
-                                                    <div className="wt-post-meta ">
-                                                        <ul>
-                                                            <li className="post-date"><strong>05 </strong> <span>Sep 2019</span> </li>
-                                                            <li className="post-author"><i className="fa fa-user-o"></i><a href="javascript:void(0);">By <span>Admin</span></a> </li>
-                                                            <li className="post-comment"><i className="fa fa-comments-o"></i> <a href="javascript:void(0);">5 Comment</a> </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div className="wt-post-title ">
-                                                        <h4 className="post-title"><a href="javascript:void(0);"> Never mess with a Man</a></h4>
-                                                    </div>
-                                                    <div className="wt-post-text ">
-                                                        <p>There are many variations of passages of Lorem Ipsum available.</p>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 col-sm-6">
-                                            <div className="blog-post latest-blog-2 mid-size-date bdr-1 bdr-solid bdr-gray  p-a20">
-                                                <div className="wt-post-info">
-                                                    <div className="wt-post-meta ">
-                                                        <ul>
-                                                            <li className="post-date"><strong>22 </strong> <span>Aug 2019</span> </li>
-                                                            <li className="post-author"><i className="fa fa-user-o"></i><a href="javascript:void(0);">By <span>Admin</span></a> </li>
-                                                            <li className="post-comment"><i className="fa fa-comments-o"></i> <a href="javascript:void(0);">5 Comment</a> </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div className="wt-post-title ">
-                                                        <h4 className="post-title"><a href="javascript:void(0);"> Never mess with a Man</a></h4>
-                                                    </div>
-                                                    <div className="wt-post-text ">
-                                                        <p>There are many variations of passages of Lorem Ipsum available.</p>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
-          {/* <!-- OUR BLOG END --> */}
-
-          {/* <!-- TESTIMONIAL START --> */}
-          {/* <div className="section-full p-tb80 testimonial-slider-outer bg-white bg-cover bg-left-center" style={{ backgroundImage: "url(assets/images/background/bg-1.jpg)" }}>
-                        <div className="container">
-
-                            <div className="section-head clearfix">
-                                <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid">
-                                    <small className="wt-small-title">Best Clients</small>
-                                    <h2 className="m-b5">Our Client says</h2>
-                                </div>
-                                <div className="title-right-detail">
-                                    <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture who try to Ambitions people do that really great.</p>
-                                </div>
-                            </div>
-
-                            <div className="testimonial-slider">
-                                <div id="sync1" className="owl-carousel owl-theme">
-                                    <div className="item">
-                                        <div className="testimonial-slider-content clearfix">
-                                            <div className="testimonial-1 clearfix">
-                                                <div className="testimonial-text">
-
-                                                    <div className="testimonial-paragraph">
-                                                        <div className="quote-left"></div>
-                                                        <p>“Today we can tell you, thanks to your passion, hard work creativity, and expertise, you delivered us the most beautiful house great looks. today we can tell you, design is concerened with how things work, how they are controled, and the nature of the interaction between people and technology. </p>
-                                                    </div>
-                                                    <div className="testimonial-detail ">
-                                                        <h4 className="testimonial-name m-b5">Poul Anderson</h4>
-                                                    </div>
-                                                    <div className="testimonial-detail ">
-                                                        <span className="testimonial-position">Architect</span>
-                                                    </div>
-                                                </div>
-                                                <div className="testimonial-pic-block">
-                                                    <div className="testimonial-pic">
-                                                        <img src="assets/images/testimonials/pic1.jpg" alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="item">
-                                        <div className="testimonial-slider-content clearfix">
-                                            <div className="testimonial-1 clearfix">
-                                                <div className="testimonial-text">
-
-                                                    <div className="testimonial-paragraph">
-                                                        <div className="quote-left"></div>
-                                                        <p>“Today we can tell you, thanks to your passion, hard work creativity, and expertise, you delivered us the most beautiful house great looks. today we can tell you, design is concerened with how things work, how they are controled, and the nature of the interaction between people and technology. </p>
-                                                    </div>
-                                                    <div className="testimonial-detail ">
-                                                        <h4 className="testimonial-name m-b5">Poul Anderson</h4>
-                                                    </div>
-                                                    <div className="testimonial-detail ">
-                                                        <span className="testimonial-position">Architect</span>
-                                                    </div>
-                                                </div>
-                                                <div className="testimonial-pic-block">
-                                                    <div className="testimonial-pic">
-                                                        <img src="assets/images/testimonials/pic2.jpg" alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="item">
-                                        <div className="testimonial-slider-content clearfix">
-                                            <div className="testimonial-1 clearfix">
-                                                <div className="testimonial-text">
-
-                                                    <div className="testimonial-paragraph">
-                                                        <div className="quote-left"></div>
-                                                        <p>“Today we can tell you, thanks to your passion, hard work creativity, and expertise, you delivered us the most beautiful house great looks. today we can tell you, design is concerened with how things work, how they are controled, and the nature of the interaction between people and technology. </p>
-                                                    </div>
-                                                    <div className="testimonial-detail ">
-                                                        <h4 className="testimonial-name m-b5">Poul Anderson</h4>
-                                                    </div>
-                                                    <div className="testimonial-detail ">
-                                                        <span className="testimonial-position">Architect</span>
-                                                    </div>
-                                                </div>
-                                                <div className="testimonial-pic-block">
-                                                    <div className="testimonial-pic">
-                                                        <img src="assets/images/testimonials/pic3.jpg" alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="item">
-                                        <div className="testimonial-slider-content clearfix">
-                                            <div className="testimonial-1 clearfix">
-                                                <div className="testimonial-text">
-
-                                                    <div className="testimonial-paragraph">
-                                                        <div className="quote-left"></div>
-                                                        <p>“Today we can tell you, thanks to your passion, hard work creativity, and expertise, you delivered us the most beautiful house great looks. today we can tell you, design is concerened with how things work, how they are controled, and the nature of the interaction between people and technology. </p>
-                                                    </div>
-                                                    <div className="testimonial-detail ">
-                                                        <h4 className="testimonial-name m-b5">Poul Anderson</h4>
-                                                    </div>
-                                                    <div className="testimonial-detail ">
-                                                        <span className="testimonial-position">Architect</span>
-                                                    </div>
-                                                </div>
-                                                <div className="testimonial-pic-block">
-                                                    <div className="testimonial-pic">
-                                                        <img src="assets/images/testimonials/pic4.jpg" alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="item">
-                                        <div className="testimonial-slider-content clearfix">
-                                            <div className="testimonial-1 clearfix">
-                                                <div className="testimonial-text">
-
-                                                    <div className="testimonial-paragraph">
-                                                        <div className="quote-left"></div>
-                                                        <p>“Today we can tell you, thanks to your passion, hard work creativity, and expertise, you delivered us the most beautiful house great looks. today we can tell you, design is concerened with how things work, how they are controled, and the nature of the interaction between people and technology. </p>
-                                                    </div>
-                                                    <div className="testimonial-detail ">
-                                                        <h4 className="testimonial-name m-b5">Poul Anderson</h4>
-                                                    </div>
-                                                    <div className="testimonial-detail ">
-                                                        <span className="testimonial-position">Architect</span>
-                                                    </div>
-                                                </div>
-                                                <div className="testimonial-pic-block">
-                                                    <div className="testimonial-pic">
-                                                        <img src="assets/images/testimonials/pic5.jpg" alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div id="sync2" className="owl-carousel owl-theme testimonial-1-thumb">
-                                    <div className="item">
-                                        <div className="wt-media">
-                                            <img src="assets/images/testimonials/small/1.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <div className="item">
-                                        <div className="wt-media">
-                                            <img src="assets/images/testimonials/small/2.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <div className="item">
-                                        <div className="wt-media">
-                                            <img src="assets/images/testimonials/small/3.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <div className="item">
-                                        <div className="wt-media">
-                                            <img src="assets/images/testimonials/small/4.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <div className="item">
-                                        <div className="wt-media">
-                                            <img src="assets/images/testimonials/small/5.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div> */}
-          {/* <!-- TESTIMONIAL END -->  */}
-
-          {/* <!-- OUR TEAM START --> */}
-          {/* <div className="section-full p-t80 p-b50 bg-white our-team-two">
-                        <div className="container">
-
-                            <div className="section-head clearfix">
-                                <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid">
-                                    <small className="wt-small-title">Our Experts</small>
-                                    <h2 className="m-b5">Our Best Team</h2>
-                                </div>
-                                <div className="title-right-detail">
-                                    <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture who try to Ambitions people do that really great.</p>
-                                </div>
-                            </div>
-
-                            <div className="section-content">
-                                <div className="row justify-content-center">
-                                    <div className="col-lg-4 col-md-6 col-sm-12">
-                                        <div className="wt-team-arc2">
-
-                                            <div className="wt-media">
-                                                <img src="assets/images/our-team1/pic1.jpg" alt="" />
-                                                <div className="team-social-center">
-                                                    <ul className="team-social-icon">
-                                                        <li><a href="javascript:void(0);" className="fa fa-google"></a></li>
-                                                        <li><a href="javascript:void(0);" className="fa fa-rss"></a></li>
-                                                        <li><a href="javascript:void(0);" className="fa fa-facebook"></a></li>
-                                                        <li><a href="javascript:void(0);" className="fa fa-twitter"></a></li>
-                                                        <li><a href="javascript:void(0);" className="fa fa-linkedin"></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                            <div className="wt-info bg-white p-a30">
-                                                <div className="team-detail  text-center">
-                                                    <h4 className="m-t0">Taminm Alows</h4>
-                                                    <p>Architect</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                    <div className="col-lg-4 col-md-6 col-sm-12">
-                                        <div className="wt-team-arc2">
-
-                                            <div className="wt-media">
-                                                <img src="assets/images/our-team1/pic2.jpg" alt="" />
-                                                <div className="team-social-center">
-                                                    <ul className="team-social-icon">
-                                                        <li><a href="javascript:void(0);" className="fa fa-google"></a></li>
-                                                        <li><a href="javascript:void(0);" className="fa fa-rss"></a></li>
-                                                        <li><a href="javascript:void(0);" className="fa fa-facebook"></a></li>
-                                                        <li><a href="javascript:void(0);" className="fa fa-twitter"></a></li>
-                                                        <li><a href="javascript:void(0);" className="fa fa-linkedin"></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                            <div className="wt-info bg-white p-a30">
-                                                <div className="team-detail  text-center">
-                                                    <h4 className="m-t0">Michael Evens</h4>
-                                                    <p>Architect</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                    <div className="col-lg-4 col-md-6 col-sm-12">
-                                        <div className="wt-team-arc2">
-
-                                            <div className="wt-media">
-                                                <img src="assets/images/our-team1/pic3.jpg" alt="" />
-                                                <div className="team-social-center">
-                                                    <ul className="team-social-icon">
-                                                        <li><a href="javascript:void(0);" className="fa fa-google"></a></li>
-                                                        <li><a href="javascript:void(0);" className="fa fa-rss"></a></li>
-                                                        <li><a href="javascript:void(0);" className="fa fa-facebook"></a></li>
-                                                        <li><a href="javascript:void(0);" className="fa fa-twitter"></a></li>
-                                                        <li><a href="javascript:void(0);" className="fa fa-linkedin"></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                            <div className="wt-info bg-white p-a30">
-                                                <div className="team-detail  text-center">
-                                                    <h4 className="m-t0">Pamela Smith</h4>
-                                                    <p>Architect</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div> */}
-          {/* <!-- OUR TEAM END -->  */}
-
-          {/* <!-- OUR PARTNER START --> */}
-          {/* <div className="section-full p-t80 p-b50 bg-white">
-                        <div className="container">
-
-                            <div className="section-content client-logo ">
-                                <div className="row justify-content-center">
-                                    <div className="col-6 col-sm-4 col-md-3">
-                                        <a href="#" className="wt-img-effect client-logo-media shadow">
-                                            <img src="assets/images/client-logo/w1.png" alt="" />
-                                        </a>
-                                    </div>
-                                    <div className="col-6 col-sm-4 col-md-3">
-                                        <a href="#" className="wt-img-effect client-logo-media shadow">
-                                            <img src="assets/images/client-logo/w2.png" alt="" />
-                                        </a>
-                                    </div>
-                                    <div className="col-6 col-sm-4 col-md-3">
-                                        <a href="#" className="wt-img-effect client-logo-media shadow">
-                                            <img src="assets/images/client-logo/w3.png" alt="" />
-                                        </a>
-                                    </div>
-                                    <div className="col-6 col-sm-4 col-md-3">
-                                        <a href="#" className="wt-img-effect client-logo-media shadow">
-                                            <img src="assets/images/client-logo/w4.png" alt="" />
-                                        </a>
-                                    </div>
-                                    <div className="col-6 col-sm-4 col-md-3">
-                                        <a href="#" className="wt-img-effect client-logo-media shadow">
-                                            <img src="assets/images/client-logo/w5.png" alt="" />
-                                        </a>
-                                    </div>
-                                    <div className="col-6 col-sm-4 col-md-3">
-                                        <a href="#" className="wt-img-effect client-logo-media shadow">
-                                            <img src="assets/images/client-logo/w6.png" alt="" />
-                                        </a>
-                                    </div>
-                                    <div className="col-6 col-sm-4 col-md-3">
-                                        <a href="#" className="wt-img-effect client-logo-media shadow">
-                                            <img src="assets/images/client-logo/w1.png" alt="" />
-                                        </a>
-                                    </div>
-                                    <div className="col-6 col-sm-4 col-md-3">
-                                        <a href="#" className="wt-img-effect client-logo-media shadow">
-                                            <img src="assets/images/client-logo/w2.png" alt="" />
-                                        </a>
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div> */}
-          {/* <!-- OUR PARTNER END -->  */}
         </div>
-        {/* <!-- CONTENT END --> */}
+
+        {/* <!-- slider END --> */}
         <div
           className="bg-gray overflow-hide v-title-outer"
           style={{ padding: "100px 0px" }}
@@ -1864,22 +1143,13 @@ export default function Home() {
                     <div className="section-head clearfix">
                       <div className="wt-tilte-main">
                         <small className="wt-small-title">
-                          Latest Projects
+                          [ Latest Projects ]
                         </small>
                         <h2 className="m-b5">Our Projects</h2>
                       </div>
                     </div>
 
-                    <div className="video-section">
-                      <img src="images/video-img.jpg" alt="" />
-                      <a
-                        href="https://player.vimeo.com/video/34741214?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0"
-                        className="mfp-video play-now"
-                      >
-                        <i className="icon fa fa-play"></i>
-                        <span className="ripple"></span>
-                      </a>
-                    </div>
+                   
 
                     <div className="our-ability m-t50">
                       <div className="row">
@@ -1917,20 +1187,22 @@ export default function Home() {
             </div>
           </div>
         </div>
+        {/* [ our services ] start  */}
         <div className="section-full p-t80 p-b50 bg-white">
           <div className="container">
             <div className="row equal-wraper">
               <div className="col-xl-4 col-lg-6 col-md-12">
                 <div className="section-head clearfix">
                   <div className="wt-tilte-main ">
-                    <small className="wt-small-title">Blog Section</small>
-                    <h2 className="m-b5">Our Latest Blog</h2>
+                    <small className="wt-small-title">[ our services ]</small>
+                    <h2 className="m-b5">Our Latest Services</h2>
                   </div>
                   <div>
                     <p>
-                      We are uncompetitor in architectural solutions Friendly
-                      neighbour there that power. Keep away Architecture who try
-                      to Ambitions people do that really great.
+                      Our latest services include customized solutions designed
+                      to meet your unique needs, offering innovative and
+                      high-quality options tailored to enhance functionality and
+                      aesthetics.
                     </p>
                   </div>
                 </div>
@@ -1949,17 +1221,22 @@ export default function Home() {
                     <div className="wt-post-title ">
                       <h4 className="post-title">
                         <a href="javascript:void(0);" className=" m-t0">
-                          Being a famous designer is like being a famous.
+                          Fitted Wardrobes
                         </a>
                       </h4>
                     </div>
                     <div className="wt-post-text">
                       <p>
-                        The longer I live, the more beautiful life becomes. If
-                        you foolishly ignore beauty, you will soon find yourself
-                        without it. Your life will be impoverished. But if you
-                        invest in beauty, it will remain with you all the days
-                        of your life.
+                        Made-to-measure, customised to your choice, maximise
+                        space in your bedroom. All the more reason to have
+                        fitted wardrobes and make a statement. Fitted wardrobes
+                        can very easily compliment the layout and the style of
+                        your room, and are available in a variety of different
+                        colours, ranging from different types of wood to more
+                        mirrored finishes, giving your fitted wardrobe and your
+                        room a more elegant feel.Stylemyspace will help you pick
+                        out the perfect material for you, so all you have to do
+                        is let us know how you want it to look..
                       </p>
                     </div>
                     <a href="javascript:void(0);" className="site-button-link">
@@ -1982,17 +1259,60 @@ export default function Home() {
                     <div className="wt-post-title ">
                       <h4 className="post-title">
                         <a href="javascript:void(0);" className=" m-t0">
-                          Architecture is not based on concrete and steel.
+                          Fitted Kitchen
                         </a>
                       </h4>
                     </div>
                     <div className="wt-post-text">
                       <p>
-                        The longer I live, the more beautiful life becomes. If
-                        you foolishly ignore beauty, you will soon find yourself
-                        without it. Your life will be impoverished. But if you
-                        invest in beauty, it will remain with you all the days
-                        of your life.
+                        Our kitchen range offers contemporary as well as
+                        traditional layouts in popular finishes like acrylic
+                        gloss, high gloss, exotic wood grains, or even the newly
+                        introduced supermatt. Each of those finishes are applied
+                        by advanced airtronic machinery that not only ensure
+                        spotless edging but also an operating life running into
+                        decades. Stylemyspace offers an exceptional choice of
+                        appliances to go with your fitted kitchen. Finished in
+                        high gloss to help evade the wear and tear that is
+                        typical of kitchens, these appliances have lifespans of
+                        multiple years.
+                      </p>
+                    </div>
+                    <a href="javascript:void(0);" className="site-button-link">
+                      Read More
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-6 col-md-12"></div>
+              <div className="col-xl-4 col-lg-6 col-md-12">
+                <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
+                  <div className="wt-post-media wt-img-effect zoom-slow">
+                    <a href="javascript:void(0);">
+                      <img src="/assets/images/blog/default/thum1.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div
+                    className="wt-post-info p-a30"
+                    style={{ paddingLeft: "0px" }}
+                  >
+                    <div className="wt-post-title ">
+                      <h4 className="post-title">
+                        <a href="javascript:void(0);" className=" m-t0">
+                          Bespoke Furniture
+                        </a>
+                      </h4>
+                    </div>
+                    <div className="wt-post-text">
+                      <p>
+                        Bedrooms need to be a relaxing and personal sanctuary,
+                        somewhere to feel comfortable. At Cosi Living, we can
+                        create a bespoke bedroom based on your visions using our
+                        German suppliers. Beauty space, beds and wardrobes, we
+                        can make your dream personal space a reality.
+                        Stylemyspace bespoke bedroom furniture range offers
+                        diverse furniture designs in contemporary, classic and
+                        traditional styles.
                       </p>
                     </div>
                     <a href="javascript:void(0);" className="site-button-link">
@@ -2015,83 +1335,14 @@ export default function Home() {
                     <div className="wt-post-title ">
                       <h4 className="post-title">
                         <a href="javascript:void(0);" className=" m-t0">
-                          Being a famous designer is like being a famous.
+                          Awkward Spaces
                         </a>
                       </h4>
                     </div>
                     <div className="wt-post-text">
                       <p>
-                        The longer I live, the more beautiful life becomes. If
-                        you foolishly ignore beauty, you will soon find yourself
-                        without it. Your life will be impoverished. But if you
-                        invest in beauty, it will remain with you all the days
-                        of your life.
-                      </p>
-                    </div>
-                    <a href="javascript:void(0);" className="site-button-link">
-                      Read More
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-6 col-md-12">
-                <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
-                  <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="javascript:void(0);">
-                      <img src="/assets/images/blog/default/thum1.jpg" alt="" />
-                    </a>
-                  </div>
-                  <div
-                    className="wt-post-info p-a30"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    <div className="wt-post-title ">
-                      <h4 className="post-title">
-                        <a href="javascript:void(0);" className=" m-t0">
-                          Being a famous designer is like being a famous.
-                        </a>
-                      </h4>
-                    </div>
-                    <div className="wt-post-text">
-                      <p>
-                        The longer I live, the more beautiful life becomes. If
-                        you foolishly ignore beauty, you will soon find yourself
-                        without it. Your life will be impoverished. But if you
-                        invest in beauty, it will remain with you all the days
-                        of your life.
-                      </p>
-                    </div>
-                    <a href="javascript:void(0);" className="site-button-link">
-                      Read More
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-6 col-md-12">
-                <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
-                  <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="javascript:void(0);">
-                      <img src="/assets/images/blog/default/thum1.jpg" alt="" />
-                    </a>
-                  </div>
-                  <div
-                    className="wt-post-info p-a30"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    <div className="wt-post-title ">
-                      <h4 className="post-title">
-                        <a href="javascript:void(0);" className=" m-t0">
-                          Being a famous designer is like being a famous.
-                        </a>
-                      </h4>
-                    </div>
-                    <div className="wt-post-text">
-                      <p>
-                        The longer I live, the more beautiful life becomes. If
-                        you foolishly ignore beauty, you will soon find yourself
-                        without it. Your life will be impoverished. But if you
-                        invest in beauty, it will remain with you all the days
-                        of your life.
+                        Temples, Studies, Home Office Furniture, Sliding Door
+                        Wardrobes
                       </p>
                     </div>
                     <a href="javascript:void(0);" className="site-button-link">
@@ -2103,386 +1354,453 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        {/* <div className="section-full p-t80 p-b50 bg-white">
+        {/* [ our services ] end  */}
+        {/* STEP INSPIRED SOLUTION start  */}
+        <div className="section-full p-t80 p-b50 bg-white">
           <div className="container">
-            <div className="section-content  " style={{textAlign:'center',verticalAlign:'moddle'}}>
-                <div className="col-12">
-
-              <div className="row justify-content-center">
-                <div className="col-3 col-sm-3 col-md-3">
+            <div>
+              <h2 style={{ display: "flex", justifyContent: "center" }}>
+                OUR 4-STEP INSPIRED SOLUTION
+              </h2>
+            </div>
+            <div
+              className="section-content  "
+              style={{ textAlign: "center", verticalAlign: "moddle" }}
+            >
+              <div className="col-12">
+                <div className="row justify-content-center">
+                  <div className="col-12 col-sm-12 col-md-3 p-3">
+                    <a
+                      href="#"
+                      className="wt-img-effect client-logo-media shadow"
+                    >
+                      <div>
+                        <img src="/assets/images/client-logo/w1.png" alt="" />
+                      </div>
+                      <div>
+                        <p>DISCUSS & PLAN</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="col-12 col-sm-12 col-md-3 p-3">
+                    <a
+                      href="#"
+                      className="wt-img-effect client-logo-media shadow"
+                    >
+                      <div>
+                        <img src="/assets/images/client-logo/w1.png" alt="" />
+                      </div>
+                      <div>
+                        <p>DESIGN & INNOVATE</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="col-12 col-sm-12 col-md-3 p-3">
+                    <a
+                      href="#"
+                      className="wt-img-effect client-logo-media shadow"
+                    >
+                      <div>
+                        <img src="/assets/images/client-logo/w1.png" alt="" />
+                      </div>
+                      <div>
+                        <p>MANUFACTURE & DELIVER</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="col-12 col-sm-12 col-md-3 p-3">
+                    <a
+                      href="#"
+                      className="wt-img-effect client-logo-media shadow"
+                    >
+                      <div>
+                        <img src="/assets/images/client-logo/w1.png" alt="" />
+                      </div>
+                      <div>
+                        <p>FINAL FITTING</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div>
+                  <h4 style={{ marginBottom: "30px" }}>
+                    Book Your Free Design Visit
+                  </h4>
                   <a
-                    href="#"
-                    className="wt-img-effect client-logo-media shadow"
+                    href=""
+                    style={{
+                      background: "#141b1f",
+                      color: "white",
+                      padding: "20px",
+                    }}
                   >
-                  
-
-                    <div>
-                      <img src="/assets/images/client-logo/w1.png" alt="" />
-                    </div>
-                    <div>
-                     
-                      <p>DISCUSS & PLAN</p>
-                    </div>
-                   
+                    Book Now
                   </a>
                 </div>
-                <div className="col-3 col-sm-3 col-md-3">
-                  <a
-                    href="#"
-                    className="wt-img-effect client-logo-media shadow"
-                  >
-
-                    <div>
-                      <img src="/assets/images/client-logo/w1.png" alt="" />
-                    </div>
-                    <div>
-                     
-                      <p>DESIGN & INNOVATE</p>
-                    </div>
-                   
-                  </a>
-                </div>
-                <div className="col-3 col-sm-3 col-md-3">
-                  <a
-                    href="#"
-                    className="wt-img-effect client-logo-media shadow"
-                  >
-                   <div>
-                      <img src="/assets/images/client-logo/w1.png" alt="" />
-                    </div>
-                    <div>
-
-                      <p>MANUFACTURE & DELIVER</p>
-                    </div>  
-                  </a>
-                </div>
-                <div className="col-3 col-sm-3 col-md-3">
-                  <a
-                    href="#"
-                    className="wt-img-effect client-logo-media shadow"
-                  >
-                   <div>
-                      <img src="/assets/images/client-logo/w1.png" alt="" />
-                    </div>
-                    <div>
-
-                      <p>FINAL FITTING</p>
-                    </div>
-                   
-                  </a>
-                </div>
-              </div>
               </div>
             </div>
           </div>
-        </div> */}
-   <div className="section-full p-t80 p-b50 bg-white">
-  <div className="container">
-    <div className="section-content text-center">
-      <div className="row justify-content-center">
-        {[
-          { text: "DISCUSS & PLAN" },
-          { text: "DESIGN & INNOVATE" },
-          { text: "MANUFACTURE & DELIVER" },
-          { text: "FINAL FITTING" },
-        ].map((item, index) => (
-          <div key={index} className="col-12 col-sm-12 col-md-3 p-3">
-            <a href="#" className="wt-img-effect client-logo-media shadow d-flex flex-column align-items-center">
-              <div>
-                <img src="/assets/images/client-logo/w1.png" alt={item.text} className="img-fluid" />
-              </div>
-              <div>
-                <p className="mt-2">{item.text}</p>
-              </div>
-            </a>
-          </div>
-        ))}
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div className="section-full p-tb80 testimonial-slider-outer bg-white bg-cover bg-left-center" style={{backgroundImage:"url(images/background/bg-1.jpg)"}}>
-        
-    <div className="container">
-    
-        <div className="section-head clearfix">
-            <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid">
-                <small className="wt-small-title">Client Testimonial</small>
+        </div>
+        {/* STEP INSPIRED SOLUTION end  */}
+        {/* Testimonial start  */}
+        <div
+          className="section-full p-tb80 testimonial-slider-outer bg-white bg-cover bg-left-center"
+          style={{ backgroundImage: "url(images/background/bg-1.jpg)" }}
+        >
+          <div className="container">
+            <div className="section-head clearfix">
+              <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid">
+                <small className="wt-small-title">[ Client Testimonial ]</small>
                 <h2 className="m-b5">Our Client gave us Feedback</h2>
+              </div>
+              <div className="title-right-detail">
+                <p>
+                  We are uncompetitor in architectural solutions Friendly
+                  neighbour there that power. Keep away Architecture who try to
+                  Ambitions people do that really great.
+                </p>
+              </div>
             </div>
-            <div className="title-right-detail">
-                <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture who try to Ambitions people do that really great.</p>
-            </div>
-        </div>                     
 
-        <div className="testimonial-slider">
-            <div id="sync1" className="owl-carousel owl-theme">
+            <div className="testimonial-slider">
+              <div id="sync1" className="owl-carousel owl-theme">
                 <div className="item">
-                    <div className="testimonial-slider-content clearfix">
-                        <div className="testimonial-1 testimonial-1-no-img clearfix">
-                            <div className="testimonial-text">
-                                <div className="testimonial-paragraph">
-                                    <div className="quote-left"></div>
-                                    <p>The services provided by the officials was smooth and satisfactory. Products and goods delivered were up to satisfaction and compared to market price.</p>
-                                </div>
-                                <div className="testimonial-detail ">
-                                    <h4 className="testimonial-name m-b5">James Bond</h4>
-                                </div>
-                            </div>
-                        </div>                                    
+                  <div className="testimonial-slider-content clearfix">
+                    <div className="testimonial-1 testimonial-1-no-img clearfix">
+                      <div className="testimonial-text">
+                        <div className="testimonial-paragraph">
+                          <div className="quote-left"></div>
+                          <p>
+                            The services provided by the officials was smooth
+                            and satisfactory. Products and goods delivered were
+                            up to satisfaction and compared to market price.
+                          </p>
+                        </div>
+                        <div className="testimonial-detail ">
+                          <h4 className="testimonial-name m-b5">James Bond</h4>
+                        </div>
+                      </div>
                     </div>
-                </div>
-                
-                <div className="item">
-                    <div className="testimonial-slider-content clearfix">
-                        <div className="testimonial-1 testimonial-1-no-img clearfix">
-                            <div className="testimonial-text">
-                                <div className="testimonial-paragraph">
-                                    <div className="quote-left"></div>
-                                    <p>Very attractive collection. We roamed and roamed but we didn't find quality items. Finally we entered to Durian. Really satisfied with quality and service.</p>
-                                </div>
-                                <div className="testimonial-detail ">
-                                    <h4 className="testimonial-name m-b5">R K Varma</h4>
-                                </div>
-                            </div>
-                        </div>                                    
-                    </div>
-                </div>
-                
-                <div className="item">
-                    <div className="testimonial-slider-content clearfix">
-                        <div className="testimonial-1 testimonial-1-no-img clearfix">
-                            <div className="testimonial-text">
-                                <div className="testimonial-paragraph">
-                                    <div className="quote-left"></div>
-                                    <p>We purchased so many products from durian and we would recommend Durian Furniture to everyone who needs quality and decent looking furniture.</p>
-                                </div>
-                                <div className="testimonial-detail ">
-                                    <h4 className="testimonial-name m-b5">Haris Gulati</h4>
-                                </div>
-                            </div>
-                        </div>                                    
-                    </div>
+                  </div>
                 </div>
 
-                
                 <div className="item">
-                    <div className="testimonial-slider-content clearfix">
-                        <div className="testimonial-1 testimonial-1-no-img clearfix">
-                            <div className="testimonial-text">
-                                <div className="testimonial-paragraph">
-                                    <div className="quote-left"></div>
-                                    <p>The office furniture is ergonomic in design, it is very comfortable to use for long hours in office. Be it design, comfort or the shopping experience, it ticks all the boxes for us.</p>
-                                </div>
-                                <div className="testimonial-detail ">
-                                    <h4 className="testimonial-name m-b5">Liam Noah</h4>
-                                </div>
-                            </div>
-                        </div>                                    
+                  <div className="testimonial-slider-content clearfix">
+                    <div className="testimonial-1 testimonial-1-no-img clearfix">
+                      <div className="testimonial-text">
+                        <div className="testimonial-paragraph">
+                          <div className="quote-left"></div>
+                          <p>
+                            Very attractive collection. We roamed and roamed but
+                            we didn't find quality items. Finally we entered to
+                            Durian. Really satisfied with quality and service.
+                          </p>
+                        </div>
+                        <div className="testimonial-detail ">
+                          <h4 className="testimonial-name m-b5">R K Varma</h4>
+                        </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </div>
-            
-            <div id="sync2" className="owl-carousel owl-theme testimonial-1-thumb center">
+
                 <div className="item">
-                    <div className="wt-media">
-                        <img src="/assets/images/testimonials/small/1.jpg" alt="" />
+                  <div className="testimonial-slider-content clearfix">
+                    <div className="testimonial-1 testimonial-1-no-img clearfix">
+                      <div className="testimonial-text">
+                        <div className="testimonial-paragraph">
+                          <div className="quote-left"></div>
+                          <p>
+                            We purchased so many products from durian and we
+                            would recommend Durian Furniture to everyone who
+                            needs quality and decent looking furniture.
+                          </p>
+                        </div>
+                        <div className="testimonial-detail ">
+                          <h4 className="testimonial-name m-b5">
+                            Haris Gulati
+                          </h4>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+                </div>
+
+                <div className="item">
+                  <div className="testimonial-slider-content clearfix">
+                    <div className="testimonial-1 testimonial-1-no-img clearfix">
+                      <div className="testimonial-text">
+                        <div className="testimonial-paragraph">
+                          <div className="quote-left"></div>
+                          <p>
+                            The office furniture is ergonomic in design, it is
+                            very comfortable to use for long hours in office. Be
+                            it design, comfort or the shopping experience, it
+                            ticks all the boxes for us.
+                          </p>
+                        </div>
+                        <div className="testimonial-detail ">
+                          <h4 className="testimonial-name m-b5">Liam Noah</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                id="sync2"
+                className="owl-carousel owl-theme testimonial-1-thumb center"
+              >
+                <div className="item">
+                  <div className="wt-media">
+                    <img src="/assets/images/testimonials/small/1.jpg" alt="" />
+                  </div>
                 </div>
                 <div className="item">
-                    <div className="wt-media">
-                        <img src="/assets/images/testimonials/small/2.jpg" alt="" />
-                    </div>
+                  <div className="wt-media">
+                    <img src="/assets/images/testimonials/small/2.jpg" alt="" />
+                  </div>
                 </div>
                 <div className="item">
-                    <div className="wt-media">
-                        <img src="/assets/images/testimonials/small/3.jpg" alt="" />
-                    </div>
+                  <div className="wt-media">
+                    <img src="/assets/images/testimonials/small/3.jpg" alt="" />
+                  </div>
                 </div>
                 <div className="item">
-                    <div className="wt-media">
-                        <img src="/assets/images/testimonials/small/4.jpg" alt="" />
-                    </div>
+                  <div className="wt-media">
+                    <img src="/assets/images/testimonials/small/4.jpg" alt="" />
+                  </div>
                 </div>
                 <div className="item">
-                    <div className="wt-media">
-                        <img src="/assets/images/testimonials/small/5.jpg" alt="" />
-                    </div>
+                  <div className="wt-media">
+                    <img src="/assets/images/testimonials/small/5.jpg" alt="" />
+                  </div>
                 </div>
                 {/* New Thumbnail for the new testimonial */}
                 <div className="item">
-                    <div className="wt-media">
-                        <img src="/assets/images/testimonials/small/6.jpg" alt="" />
-                    </div>
+                  <div className="wt-media">
+                    <img src="/assets/images/testimonials/small/6.jpg" alt="" />
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>  
-    </div>
-</div>
-          
-            <div className="section-full p-t80 p-b50 bg-gray">
-                <div className="container">
-                	<div className="section-head clearfix">
-                        <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid">
-                            <small className="wt-small-title">Work service</small>
-                            <h2 className="m-b5">Our great provided</h2>
-                        </div>
-                        <div className="title-right-detail">
-                            <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture who try to Ambitions people do that really great.</p>
-                        </div>
-                    </div>                
+          </div>
+        </div>
+        {/* Testimonial end  */}
+        {/* Why Choose start   */}
+        <div className="section-full p-t80 p-b50 bg-gray">
+          <div className="container">
+            <div className="section-head clearfix">
+              <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid">
+                <small className="wt-small-title">[ Why Choose Craft My Space]</small>
+                <h2 className="m-b5">Why Craft My Space?</h2>
+              </div>
+              <div className="title-right-detail">
+                <p>
+                Choose Craft My Space for custom, high-quality furniture that fits your style and space. Our expert craftsmanship and attention to detail ensure durability and elegance, transforming any area into a functional and beautiful space.
+                </p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
+                  <div className="icon-content m-b30">
+                    <h4 className="wt-tilte-large m-t0" data-title="G">
+                    Guaranteed Quality
+                    </h4>
+                    <p>
+                    Guaranteed Quality" means we deliver durable, high-quality furniture crafted with the finest materials for lasting performance and beauty.                
+                        </p>
+                  
+                  </div>
+                  <div className="icon-xl inline-icon">
+                    <span className="icon-cell">
+                      <i className="flaticon-mansion v-icon"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
+                  <div className="icon-content m-b30">
+                    <h4 className="wt-tilte-large m-t0" data-title="P">
+                    Professional Manufacturing
+                    </h4>
+                    <p>
+                    Professional Manufacturing guarantees precision and high-quality craftsmanship in every piece of furniture.
+                    </p>
+                    
+                  </div>
+                  <div className="icon-xl inline-icon">
+                    <span className="icon-cell">
+                      <i className="flaticon-stair v-icon"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
+                  <div className="icon-content m-b30">
+                    <h4 className="wt-tilte-large m-t0" data-title="H">
+                    High Quality Service
+                    </h4>
+                    <p>
+                    High Quality Service ensures personalized attention and exceptional results, delivering furniture that exceeds expectations in both style .
+                    </p>
+                    
+                  </div>
+                  <div className="icon-xl inline-icon">
+                    <span className="icon-cell">
+                      <i className="flaticon-apartment v-icon"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
+                  <div className="icon-content m-b30">
+                    <h4 className="wt-tilte-large m-t0" data-title="C">
+                    Convenience of Choice
+                    </h4>
+                    <p>
+                    Convenience of Choice offers a wide range of customizable furniture options, allowing you to select designs that perfectly fit your style and needs.
+                    </p>
+                  
+                  </div>
+                  <div className="icon-xl inline-icon">
+                    <span className="icon-cell">
+                      <i className="flaticon-photo v-icon"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
+                  <div className="icon-content m-b30">
+                    <h4 className="wt-tilte-large m-t0" data-title="E">
+                    Easy Delivery
+                    </h4>
+                    <p>
+                    Easy and Timely Delivery ensures your furniture arrives quickly and safely, right to your doorstep with minimal hassle.
+                    </p>
+                   
+                  </div>
+                  <div className="icon-xl inline-icon">
+                    <span className="icon-cell">
+                      <i className="flaticon-sketch v-icon"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
+                  <div className="icon-content m-b30">
+                    <h4 className="wt-tilte-large m-t0" data-title="M">
+                    Made in Britain
+                    </h4>
+                    <p>
+                    Made in Britain guarantees high-quality craftsmanship, using locally sourced materials and skilled artisans to create durable and stylish furniture.
+                    </p>
+                   
+                  </div>
+                  <div className="icon-xl inline-icon">
+                    <span className="icon-cell">
+                      <i className="flaticon-kitchen v-icon"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Why Choose end   */}
+
+        {/* our blog start  */}
+        <div
+          className="section-full  p-t80 p-b80 bg-secondry"
+          style={{ marginBottom: "100px" }}
+        >
+          <div className="container">
+            <div className="section-head clearfix">
+              <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid text-white">
+                <small className="wt-small-title">[ our blog ]</small>
+                <h2 className="m-b5">Read Our Latest News</h2>
+              </div>
+              <div className="title-right-detail text-white">
+                <p>
+                Our blog offers expert insights, tips, and inspiration on furniture design, home decor, and space optimization. We share the latest trends, DIY ideas, and advice to help you create beautiful, functional spaces that reflect your personal style.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="section-content">
+            <div className="container-fluid">
+              <div className="container">
+                <div className="projects-slider-two">
+                  <div
+                    className="owl-carousel projects-carousel-two owl-btn-vertical-center col-12"
+                    style={{ display: "block" }}
+                  >
                     <div className="row">
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
-                                <div className="icon-content m-b30">
-                                    <h4 className="wt-tilte-large m-t0" data-title="A">Architecture design</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and type.</p>
-                                    <a href="javascript:;" className="site-button-link">Read More</a>
-                                </div>
-                                <div className="icon-xl inline-icon">
-                                    <span className="icon-cell"><i className="flaticon-mansion v-icon"></i></span>
-                                </div>                                
-                            </div>                                       
+                      <div className="item col-12 col-md-6 col-lg-4 mb-4">
+                        <div className="projects-two-info text-white">
+                          <h4 className="wt-tilte m-t0" data-title="01">
+                            <a href="" className="text-white">
+                            Custom Creations
+                            </a>
+                          </h4>
+                          <p>
+                          Discover how custom furniture can perfectly fit your space and elevate your home’s style.
+                          </p>
+                          <div className="wt-media img-reflection">
+                            <img src="assets/images/gallery/pic1.jpg" alt="" />
+                          </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
-                                <div className="icon-content m-b30">
-                                    <h4 className="wt-tilte-large m-t0" data-title="S">smart Interior design</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and type.</p>
-                                    <a href="javascript:;" className="site-button-link">Read More</a>
-                                </div>
-                                <div className="icon-xl inline-icon">
-                                    <span className="icon-cell"><i className="flaticon-stair v-icon"></i></span>
-                                </div>                                
-                            </div>                                     
+                      </div>
+
+                      <div className="item col-12 col-md-6 col-lg-4 mb-4">
+                        <div className="projects-two-info text-white">
+                          <h4 className="wt-tilte m-t0" data-title="02">
+                            <a href="" className="text-white">
+                            Space Solutions
+                            </a>
+                          </h4>
+                          <p>
+                          Turn awkward areas into functional, stylish spots with tailor-made furniture that maximizes every inch.
+                          </p>
+                          <div className="wt-media img-reflection">
+                            <img src="assets/images/gallery/pic2.jpg" alt="" />
+                          </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
-                                <div className="icon-content m-b30">
-                                    <h4 className="wt-tilte-large m-t0" data-title="R">Residential design</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and type.</p>
-                                    <a href="javascript:;" className="site-button-link">Read More</a>
-                                </div>
-                                <div className="icon-xl inline-icon">
-                                    <span className="icon-cell"><i className="flaticon-apartment v-icon"></i></span>
-                                </div>                                
-                            </div>                                      
+                      </div>
+
+                      <div className="item col-12 col-md-6 col-lg-4 mb-4">
+                        <div className="projects-two-info text-white">
+                          <h4 className="wt-tilte m-t0" data-title="03">
+                            <a href="" className="text-white">
+                            Trend Watch
+                            </a>
+                          </h4>
+                          <p>
+                          Stay updated on the latest furniture trends to refresh your space with modern and functional designs.
+                          </p>
+                          <div className="wt-media img-reflection">
+                            <img src="assets/images/gallery/pic3.jpg" alt="" />
+                          </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
-                                <div className="icon-content m-b30">
-                                    <h4 className="wt-tilte-large m-t0" data-title="L">landscape design</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and type.</p>
-                                    <a href="javascript:;" className="site-button-link">Read More</a>
-                                </div>
-                                <div className="icon-xl inline-icon">
-                                    <span className="icon-cell"><i className="flaticon-photo v-icon"></i></span>
-                                </div>                                
-                            </div>                                    
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
-                                <div className="icon-content m-b30">
-                                    <h4 className="wt-tilte-large m-t0" data-title="P">Plans and Projects</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and type.</p>
-                                    <a href="javascript:;" className="site-button-link">Read More</a>
-                                </div>
-                                <div className="icon-xl inline-icon">
-                                    <span className="icon-cell"><i className="flaticon-sketch v-icon"></i></span>
-                                </div>                                
-                            </div>                                    
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
-                                <div className="icon-content m-b30">
-                                    <h4 className="wt-tilte-large m-t0" data-title="K">Kitchen design </h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and type.</p>
-                                    <a href="javascript:;" className="site-button-link">Read More</a>
-                                </div>
-                                <div className="icon-xl inline-icon">
-                                    <span className="icon-cell"><i className="flaticon-kitchen v-icon"></i></span>
-                                </div>                                
-                            </div>                                   
-                        </div>                                                                                                                        
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </div>   
-           
-
-
-            <div className="section-full  p-t80 p-b80 bg-secondry" style={{marginBottom:'100px'}}>
-                        <div className="container">
-                            <div className="section-head clearfix">
-                                <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid text-white">
-                                    <small className="wt-small-title">All Projects</small>
-                                    <h2 className="m-b5">Our Latest Projects</h2>
-                                </div>
-                                <div className="title-right-detail text-white">
-                                    <p>We are uncompetitor in architectural solutions Friendly neighbour there that power. Keep away Architecture who try to Ambitions people do that really great.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="section-content">
-
-                            <div className="container-fluid">
-                           <div className="container">
-                                <div className="projects-slider-two">
-                                    <div className="owl-carousel projects-carousel-two owl-btn-vertical-center col-12" style={{display:'block'}}>
-                                   
-
-<div className="row">
-    <div className="col-12 col-md-6 col-lg-4 mb-4">
-        <div className="projects-two-info text-white">
-            <h4 className="wt-tilte m-t0" data-title="01">
-                <a href="javascript:;" className="text-white">Architecture Design</a>
-            </h4>
-            <p>We provide top-notch architectural solutions with innovative designs.</p>
-            <div className="wt-media img-reflection">
-                <img src="assets/images/gallery/pic1.jpg" alt="Architecture Design" />
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+        {/* our blog end  */}
 
-    <div className="col-12 col-md-6 col-lg-4 mb-4">
-        <div className="projects-two-info text-white">
-            <h4 className="wt-tilte m-t0" data-title="02">
-                <a href="javascript:;" className="text-white">Interior Design</a>
-            </h4>
-            <p>Creating stunning and functional interior spaces that inspire.</p>
-            <div className="wt-media img-reflection">
-                <img src="assets/images/gallery/pic2.jpg" alt="Interior Design" />
-            </div>
-        </div>
-    </div>
-
-    <div className="col-12 col-md-6 col-lg-4 mb-4">
-        <div className="projects-two-info text-white">
-            <h4 className="wt-tilte m-t0" data-title="03">
-                <a href="javascript:;" className="text-white">Landscape Design</a>
-            </h4>
-            <p>Transforming outdoor spaces into breathtaking landscapes.</p>
-            <div className="wt-media img-reflection">
-                <img src="assets/images/gallery/pic3.jpg" alt="Landscape Design" />
-            </div>
-        </div>
-    </div>
-</div>
-
-
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                      
-
-                    </div>
-            
-     <Footer />
+       <Footers />
 
         {/* <!-- BUTTON TOP START --> */}
         <button className="scroltop">
