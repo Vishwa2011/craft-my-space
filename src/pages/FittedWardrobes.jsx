@@ -7,9 +7,9 @@ const categories = [
   { id: "all", name: "All" },
   { id: "cat-1", name: "Hinged Wardrobes" },
   { id: "cat-2", name: "Sliding Wardrobes" },
-  { id: "cat-3", name: "Walk in Wardrobes" },
-  { id: "cat-4", name: "Loft Wardrobes" },
-  { id: "cat-5", name: "Storage" },
+  { id: "cat-3", name: "Fitted Bedrooms" },
+  { id: "cat-4", name: "Walk in Wardrobes" },
+  { id: "cat-5", name: "Childrens Bedrooms" },
 ];
 
 
@@ -31,22 +31,22 @@ const items = [
   {
     id: 3,
     category: "cat-3",
-    title: "Luxury Walk In Wardrobes",
-    p: "We offer a wide range of classic Linear Walk-in Fitted Wardrobes, tailored to your needs, with a convenient and reliable service to deliver your luxury wardrobe quickly.",
+    title: "DreamNest",
+    p: "Maximize your space with custom-fitted bedroom furniture that blends style, storage, and comfort seamlessly.",
     image: "assets/images/gallery/pic3.jpg",
   },
   {
     id: 4,
     category: "cat-4",
-    title: "Loft Storage Solution",
-    p: "We offer a range of styles for under stairs and loft storage conversions, tailored to your needs, creating bespoke spaces without sacrificing room in your home.",
+    title: "LuxeCloset",
+    p: "Experience luxury and organization with a stylish walk-in wardrobe designed for maximum storage and elegance.",
     image: "assets/images/gallery/pic4.jpg",
   },
   {
     id: 5,
     category: "cat-5",
-    title: "Kitchen Storage",
-    p: "Kitchens are the heart of a home, and Inspired Elements offers top-quality, bespoke kitchen storage solutions with premium materials and a wide range of colors and finishes, serving London and the UK.",
+    title: "KiddieNest",
+    p: "Create a fun, cozy, and organized space with playful and functional bedroom furniture for your little one.",
     image: "assets/images/gallery/pic5.jpg",
   },
   {
@@ -59,15 +59,15 @@ const items = [
   {
     id: 7,
     category: "cat-3",
-    title: "Small Walk In Wardrobes",
-    p: "We offer luxury small walk-in wardrobes with drawers for bedrooms, dressing rooms, cloakrooms, and lofts, complete with a range of accessories to fit any space.",
+    title: "SleepHaven",
+    p: "Create a cozy and organized retreat with sleek, space-saving bedroom furniture designed for modern living.",
     image: "assets/images/gallery/pic7.jpg",
   },
   {
     id: 8,
     category: "cat-4",
-    title: "Attic Wardrobes",
-    p: "Design your bespoke Framed Glass Fitted Wardrobes at Inspired Elements, with long profile thin frame panels in finishes like polished, gloss, and silver-white, adding a royal touch to your modern wardrobe.",
+    title: "StyleHaven",
+    p: "Upgrade your space with a sleek, functional walk-in wardrobe that keeps your clothing and accessories perfectly organized.",
     image: "assets/images/gallery/pic4.jpg",
   },
   {
@@ -87,8 +87,8 @@ const items = [
   {
     id: 11,
     category: "cat-5",
-    title: "Living Room Storage",
-    p: "The living room is the heart of the home, and Inspired Elements helps you create beautiful storage units that showcase your design sense, making your living room a true reflection of your style.",
+    title: "DreamHaven",
+    p: "Design a magical and comfortable children’s bedroom with smart storage and stylish, kid-friendly furniture.",
     image: "assets/images/gallery/pic5.jpg",
   },
   {
@@ -101,22 +101,22 @@ const items = [
   {
     id: 13,
     category: "cat-3",
-    title: "Modern Walk In Wardrobes",
-    p: "The modern wardrobe is the dream for style-conscious individuals, featuring a spacious dresser area with stylish lighting. We offer the perfect solution to create a highly organized space.",
+    title: "ComfortCove",
+    p: "Transform your bedroom with fitted furniture that offers smart storage solutions and a luxurious aesthetic.",
     image: "assets/images/gallery/pic9.jpg",
   },
   {
     id: 14,
     category: "cat-4",
-    title: "Loft Conversion",
-    p: "Our Loft Storage Solutions are tailored for sloped roofs, maximizing space with bespoke wardrobes that fit perfectly in your loft or attic bedroom.",
+    title: "WardrobeNest",
+    p: "Create a personalized dressing area with a walk-in wardrobe that blends sophistication, space efficiency, and convenience.",
     image: "assets/images/gallery/pic4.jpg",
   },
   {
     id: 15,
     category: "cat-5",
-    title: "Fitted Wardrobe Storage",
-    p: "The living room is the heart of the home, and Inspired Elements helps you create beautiful storage units that showcase your design sense, making your living room a true reflection of your style.",
+    title: "TinyRetreat",
+    p: "Transform your child’s room with space-saving, vibrant, and durable furniture that grows with them.",
     image: "assets/images/gallery/pic5.jpg",
   },
 ];

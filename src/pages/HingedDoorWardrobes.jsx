@@ -1,11 +1,10 @@
 import React from 'react'
+import Navbar from './Navbar'
 
-const HingedDoorWardrobes = () => {
+export default function HingedDoorWardrobes() {
   return (
     <div>
-      
+      <Navbar />
     </div>
   )
 }
-
-export default HingedDoorWardrobes
