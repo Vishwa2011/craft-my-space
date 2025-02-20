@@ -32,6 +32,7 @@ import BayWindows from "./pages/BayWindows";
 import LandingHallways from "./pages/LandingHallways";
 import SlopingCeilings from "./pages/SlopingCeilings";
 import UnderStairs from "./pages/UnderStairs";
+import Termandcondition from "./pages/Termandcondition";
 // import Navbar from "./pages/Navbar";
 
 function App() {
@@ -72,6 +73,8 @@ function App() {
         <Route path="/LandingHallways" element={<LandingHallways />} />
         <Route path="/SlopingCeilings" element={<SlopingCeilings />} />
         <Route path="/UnderStairs" element={<UnderStairs />} />
+        <Route path="/Termandcondition" element={<Termandcondition />} />
+
 
 
         

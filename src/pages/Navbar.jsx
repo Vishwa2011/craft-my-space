@@ -162,6 +162,7 @@ const Navbar = () => {
                                                 <li><a href="/Getaquote">Get A Quote</a></li>
                                                 <li><a href="/Orderafreebrochure">Order A Free Brochure</a></li>
                                                 <li><a href="/PrivacyPolicy">Privacy Policy</a></li>
+                                                <li><a href="/Termandcondition">Terms & Condition</a></li>
                                                 {/* <li><a href="project-detail.html">Project Detail</a></li> */}
                                             </ul>
                                         </li>
