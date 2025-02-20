@@ -3,6 +3,7 @@ import Footers from './Footer'
 import Navbar from './Navbar'
 
 const Inspiration = () => {
+    
   return (
     <>
         <div className="page-wraper">
@@ -42,121 +43,167 @@ const Inspiration = () => {
                             <div >                    	
                                 <div className="news-listing ">
                                   <div className='col-12'>
-                                  <div className="row">
-                                    {/* <!-- COLUMNS 1 --> */}
-                                     <div className="blog-post blog-md date-style-1 clearfix  m-b60 bg-white col-4" >
-                                        <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href="javascript:void(0);"><img src="/assets/images/blog/default/thum1.jpg" alt=""  /></a>
-                                        </div>
-                                        <div className="wt-post-info p-a30">
-                                            <div className="wt-post-meta ">
-                                                <ul>
-                                                    <li className="post-date"><strong>25 </strong> <span>Aug 2019</span> </li>
-                                                    <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a> </li>
-                                                    <li className="post-comment"><i className="fa fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a> </li>                                                
-                                                </ul>
-                                            </div>                                        
-                                            <div className="wt-post-title ">
-                                                <h3 className="post-title"><a href="javascript:void(0);" className=" m-t0">Being a famous designer is like being a famous.</a></h3>
-                                            </div>
-                                            <div className="wt-post-text">
-                                                <p>The longer I live, the more beautiful life becomes. If you foolishly ignore beauty, you will soon find yourself without it. Your life will be impoverished. But if you invest in beauty, it will remain with you all the days of your life.</p> 
-                                            </div>
-                                            <a href="javascript:void(0);" className="site-button-link">Read More</a>
-                                        </div>
-                                    </div>                             
-        
-                                    {/* <!-- COLUMNS 2 --> */}
-                                     <div className="blog-post blog-md date-style-1 clearfix  m-b60 bg-white col-4" >
-                                        <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href="javascript:void(0);"><img src="/assets/images/blog/default/thum2.jpg" alt="" /></a>
-                                        </div>
-                                        <div className="wt-post-info p-a30">
-                                            <div className="wt-post-meta ">
-                                                <ul>
-                                                    <li className="post-date"><strong>25 </strong> <span>Aug 2019</span> </li>
-                                                    <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a> </li>
-                                                    <li className="post-comment"><i className="fa fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a> </li>                                                
-                                                </ul>
-                                            </div>                                        
-                                            <div className="wt-post-title ">
-                                                <h3 className="post-title"><a href="javascript:void(0);" className=" m-t0">Architecture is not based on concrete and steel.</a></h3>
-                                            </div>
-                                            <div className="wt-post-text">
-                                                <p>The longer I live, the more beautiful life becomes. If you foolishly ignore beauty, you will soon find yourself without it. Your life will be impoverished. But if you invest in beauty, it will remain with you all the days of your life.</p> 
-                                            </div>
-                                            <a href="javascript:void(0);" className="site-button-link">Read More</a>
-                                        </div>
-                                    </div> 
-                                    
-                                    {/* <!-- COLUMNS 3 --> */}
-                                     <div className="blog-post blog-md date-style-1 clearfix  m-b60 bg-white col-4" >
-                                        <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href="javascript:void(0);"><img src="/assets/images/blog/default/thum3.jpg" alt="" /></a>
-                                        </div>
-                                        <div className="wt-post-info p-a30">
-                                            <div className="wt-post-meta ">
-                                                <ul>
-                                                    <li className="post-date"><strong>25 </strong> <span>Aug 2019</span> </li>
-                                                    <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a> </li>
-                                                    <li className="post-comment"><i className="fa fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a> </li>                                                
-                                                </ul>
-                                            </div>                                        
-                                            <div className="wt-post-title ">
-                                                <h3 className="post-title"><a href="javascript:void(0);" className=" m-t0">An object should be judged by whether.</a></h3>
-                                            </div>
-                                            <div className="wt-post-text">
-                                                <p>The longer I live, the more beautiful life becomes. If you foolishly ignore beauty, you will soon find yourself without it. Your life will be impoverished. But if you invest in beauty, it will remain with you all the days of your life.</p> 
-                                            </div>
-                                            <a href="javascript:void(0);" className="site-button-link">Read More</a>
-                                        </div>
-                                    </div> 
-                                    
-                                    {/* <!-- COLUMNS 4 --> */}
-                                     <div className="blog-post blog-md date-style-1 clearfix  m-b60 bg-white col-4" >
-                                        <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href="javascript:void(0);"><img src="/assets/images/blog/default/thum4.jpg" alt="" /></a>
-                                        </div>
-                                        <div className="wt-post-info p-a30">
-                                            <div className="wt-post-meta ">
-                                                <ul>
-                                                    <li className="post-date"><strong>25 </strong> <span>Aug 2019</span> </li>
-                                                    <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a> </li>
-                                                    <li className="post-comment"><i className="fa fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a> </li>                                                
-                                                </ul>
-                                            </div>                                        
-                                            <div className="wt-post-title ">
-                                                <h3 className="post-title"><a href="javascript:void(0);" className=" m-t0">Very often the opinion of the clients must be.</a></h3>
-                                            </div>
-                                            <div className="wt-post-text">
-                                                <p>The longer I live, the more beautiful life becomes. If you foolishly ignore beauty, you will soon find yourself without it. Your life will be impoverished. But if you invest in beauty, it will remain with you all the days of your life.</p> 
-                                            </div>
-                                            <a href="javascript:void(0);" className="site-button-link">Read More</a>
-                                        </div>
-                                    </div> 
-                                    
-                                    {/* <!-- COLUMNS 5 --> */}
-                                     <div className="blog-post blog-md date-style-1 clearfix  m-b60 bg-white col-4" >
-                                        <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href="javascript:void(0);"><img src="/assets/images/blog/default/thum5.jpg" alt="" /></a>
-                                        </div>
-                                        <div className="wt-post-info p-a30">
-                                            <div className="wt-post-meta ">
-                                                <ul>
-                                                    <li className="post-date"><strong>25</strong> <span>Aug 2019</span> </li>
-                                                    <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a> </li>
-                                                    <li className="post-comment"><i className="fa fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a> </li>                                                
-                                                </ul>
-                                            </div>                                        
-                                            <div className="wt-post-title ">
-                                                <h3 className="post-title"><a href="javascript:void(0);" className=" m-t0">Architects spend an entire life with this.</a></h3>
-                                            </div>
-                                            <div className="wt-post-text">
-                                                <p>The longer I live, the more beautiful life becomes. If you foolishly ignore beauty, you will soon find yourself without it. Your life will be impoverished. But if you invest in beauty, it will remain with you all the days of your life.</p> 
-                                            </div>
-                                            <a href="javascript:void(0);" className="site-button-link">Read More</a>
-                                        </div>
-                                    </div>                             
+                                  <div className="row g4 ">
+                                    {/* COLUMN 1 */}
+                                  <div className="col-lg-4 col-md-6">
+            <div className="blog-post blog-md date-style-1 clearfix bg-white">
+                <div className="wt-post-media wt-img-effect zoom-slow">
+                    <a href="javascript:void(0);">
+                        <img src="/assets/images/blog/default/thum1.jpg" alt="" />
+                    </a>
+                </div>
+                <div className=" p-a30">
+                    <div className="wt-post-meta">
+                        <ul>
+                            {/* <li className="post-date"><span>Aug 2019</span></li> */}
+                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a></li>
+                        </ul>
+                    </div>
+                    <div className="wt-post-title">
+                        <h4 className="post-title"><a href="javascript:void(0);">Being a famous designer...</a></h4>
+                    </div>
+                    <div className="wt-post-text">
+                        <p>The longer I live, the more beautiful life becomes...</p>
+                    </div>
+                    <a href="javascript:void(0);" className="site-button-link">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        {/* COLUMN 2 */}
+        <div className="col-lg-4 col-md-6">
+            <div className="blog-post blog-md date-style-1 clearfix bg-white">
+                <div className="wt-post-media wt-img-effect zoom-slow">
+                    <a href="javascript:void(0);">
+                        <img src="/assets/images/blog/default/thum1.jpg" alt="" />
+                    </a>
+                </div>
+                <div className=" p-a30">
+                    <div className="wt-post-meta">
+                        <ul>
+                            {/* <li className="post-date"><span>Aug 2019</span></li> */}
+                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a></li>
+                        </ul>
+                    </div>
+                    <div className="wt-post-title">
+                        <h4 className="post-title"><a href="javascript:void(0);">Being a famous designer...</a></h4>
+                    </div>
+                    <div className="wt-post-text">
+                        <p>The longer I live, the more beautiful life becomes...</p>
+                    </div>
+                    <a href="javascript:void(0);" className="site-button-link">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        {/* COLUMN 3 */}
+        <div className="col-lg-4 col-md-6">
+            <div className="blog-post blog-md date-style-1 clearfix bg-white">
+                <div className="wt-post-media wt-img-effect zoom-slow">
+                    <a href="javascript:void(0);">
+                        <img src="/assets/images/blog/default/thum1.jpg" alt="" />
+                    </a>
+                </div>
+                <div className=" p-a30">
+                    <div className="wt-post-meta">
+                        <ul>
+                            {/* <li className="post-date"><span>Aug 2019</span></li> */}
+                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a></li>
+                        </ul>
+                    </div>
+                    <div className="wt-post-title">
+                        <h4 className="post-title"><a href="javascript:void(0);">Being a famous designer...</a></h4>
+                    </div>
+                    <div className="wt-post-text">
+                        <p>The longer I live, the more beautiful life becomes...</p>
+                    </div>
+                    <a href="javascript:void(0);" className="site-button-link">Read More</a>
+                </div>
+            </div>
+        </div>
+                                         {/* COLUMN 4 */}
+                                         <div className="col-lg-4 col-md-6">
+            <div className="blog-post blog-md date-style-1 clearfix bg-white">
+                <div className="wt-post-media wt-img-effect zoom-slow">
+                    <a href="javascript:void(0);">
+                        <img src="/assets/images/blog/default/thum1.jpg" alt="" />
+                    </a>
+                </div>
+                <div className="p-a30">
+                    <div className="wt-post-meta">
+                        <ul>
+                            {/* <li className="post-date"><span>Aug 2019</span></li> */}
+                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a></li>
+                        </ul>
+                    </div>
+                    <div className="wt-post-title">
+                        <h4 className="post-title"><a href="javascript:void(0);">Being a famous designer...</a></h4>
+                    </div>
+                    <div className="wt-post-text">
+                        <p>The longer I live, the more beautiful life becomes...</p>
+                    </div>
+                    <a href="javascript:void(0);" className="site-button-link">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        {/* COLUMN 5 */}
+        <div className="col-lg-4 col-md-6">
+            <div className="blog-post blog-md date-style-1 clearfix bg-white">
+                <div className="wt-post-media wt-img-effect zoom-slow">
+                    <a href="javascript:void(0);">
+                        <img src="/assets/images/blog/default/thum1.jpg" alt="" />
+                    </a>
+                </div>
+                <div className=" p-a30">
+                    <div className="wt-post-meta">
+                        <ul>
+                            {/* <li className="post-date"><span>Aug 2019</span></li> */}
+                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a></li>
+                        </ul>
+                    </div>
+                    <div className="wt-post-title">
+                        <h4 className="post-title"><a href="javascript:void(0);">Being a famous designer...</a></h4>
+                    </div>
+                    <div className="wt-post-text">
+                        <p>The longer I live, the more beautiful life becomes...</p>
+                    </div>
+                    <a href="javascript:void(0);" className="site-button-link">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        {/* COLUMN 6 */}
+        <div className="col-lg-4 col-md-6">
+            <div className="blog-post blog-md date-style-1 clearfix bg-white">
+                <div className="wt-post-media wt-img-effect zoom-slow">
+                    <a href="javascript:void(0);">
+                        <img src="/assets/images/blog/default/thum1.jpg" alt="" />
+                    </a>
+                </div>
+                <div className=" p-a30">
+                    <div className="wt-post-meta">
+                        <ul>
+                            {/* <li className="post-date"><span>Aug 2019</span></li> */}
+                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a></li>
+                        </ul>
+                    </div>
+                    <div className="wt-post-title">
+                        <h4 className="post-title"><a href="javascript:void(0);">Being a famous designer...</a></h4>
+                    </div>
+                    <div className="wt-post-text">
+                        <p>The longer I live, the more beautiful life becomes...</p>
+                    </div>
+                    <a href="javascript:void(0);" className="site-button-link">Read More</a>
+                </div>
+            </div>
+        </div>
                                       </div>
                                       </div>                                                      
                                 </div>
@@ -395,6 +442,9 @@ const Inspiration = () => {
             </div>
         </div>
         <Footers />
+        <button className="scroltop">
+          <span className="fa fa-angle-up  relative" id="btn-vibrate"></span>
+        </button>
         </div>
 
     </>
