@@ -116,31 +116,7 @@ const ChildrenFittedBadrooms = () => {
           {/* customer end  */}
           {/* img start  */}
           <div className="blog-post date-style-1 blog-detail text-black">
-                        <div className="wt-post-media">
-                            {/* <!--Fade slider--> */}
-                            <div className="owl-carousel owl-fade-slider-one owl-btn-vertical-center owl-dots-bottom-right m-b30">
-                            
-                                <div className="item">
-                                    <div className="wt-thum-bx">
-                                        <img src="assets/images/blog/default/thum1.jpg" alt="" />
-                                    </div>
-                                </div>
-                                
-                                <div className="item">
-                                    <div className="wt-thum-bx">
-                                        <img src="assets/images/blog/default/thum2.jpg" alt="" />
-                                    </div>
-                                </div>
-                                
-                                <div className="item">
-                                    <div className="wt-thum-bx">
-                                        <img src="assets/images/blog/default/thum3.jpg" alt="" />
-                                    </div>
-                                </div>                                    
-                            
-                            </div>
-                            {/* <!--fade slider END--> */}
-                        </div>
+                        
                         
                         <div className="wt-post-info p-a30 bg-white">
                            
@@ -178,6 +154,10 @@ const ChildrenFittedBadrooms = () => {
     </div>
       
       <Footers />
+       {/* <!-- BUTTON TOP START --> */}
+       <button className="scroltop">
+          <span className="fa fa-angle-up  relative" id="btn-vibrate"></span>
+        </button>
     </div>
   )
 }

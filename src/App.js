@@ -54,14 +54,14 @@ function App() {
         <Route path="/HingedDoorWardrobes" element={<HingedDoorWardrobes/>} />
         <Route path="/SlidingWardrobedDoorsByCMS" element={<SlidingWardrobedDoorsByCMS/>} />
         <Route path="/Slidingwardrobed" element={<Slidingwardrobed/>} />
-        <Route path="/fitted-bedroom/ChildrensBedroomSlidingDoorWardrobes" element={<ChildrensBedroomSlidingDoorWardrobes/>} />
+        <Route path="/ChildrensBedroomSlidingDoorWardrobes" element={<ChildrensBedroomSlidingDoorWardrobes/>} />
         <Route path="/WhyCraftMySpace" element={<WhyCraftMySpace />} />
         <Route path="/Walkinwardrobed" element={<Walkinwardrobed />} />
         <Route path="/ChildrenFittedBadrooms" element={<ChildrenFittedBadrooms />} />
-        <Route path="/fitted-bedroom/Slidingwardrobed/SlidingHallwayWardrobes" element={<SlidingHallwayWardrobes />} />
-        <Route path="/fitted-bedroom/Slidingwardrobed/SlidingHomeOfficeWardrobes" element={<SlidingHomeOfficeWardrobes />} />
-        <Route path="/fitted-bedroom/Slidingwardrobed/SlidingLivingAreaWardrobes" element={<SlidingLivingAreaWardrobes />} />
-        <Route path="/fitted-bedroom/Slidingwardrobed/SlidingBedroomWardrobes" element={<SlidingBedroomWardrobes />} />
+        <Route path="/SlidingHallwayWardrobes" element={<SlidingHallwayWardrobes />} />
+        <Route path="/SlidingHomeOfficeWardrobes" element={<SlidingHomeOfficeWardrobes />} />
+        <Route path="/SlidingLivingAreaWardrobes" element={<SlidingLivingAreaWardrobes />} />
+        <Route path="/SlidingBedroomWardrobes" element={<SlidingBedroomWardrobes />} />
         <Route path="/FittedLiving/Bathroom" element={<Bathroom />} />
         <Route path="/FittedLiving/DiningRoom" element={<DiningRoom />} />
         <Route path="/FittedLiving/HomeOffice" element={<HomeOffice />} />

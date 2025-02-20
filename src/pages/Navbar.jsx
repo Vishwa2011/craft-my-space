@@ -91,11 +91,11 @@ const Navbar = () => {
                                                 <li><a href="/SlidingWardrobedDoorsByCMS"> Sliding  Wardrobed Doors By cms</a></li>
                                                 <li><a href="/Slidingwardrobed"> Sliding Wardrobed</a>
                                                      <ul className="sub-menu has-child">
-                                                <li><a href="/fitted-bedroom/Slidingwardrobed/ChildrensBedroomSlidingDoorWardrobes">Children’s Bedroom Sliding Door Wardrobes</a></li>
-                                                <li><a href="/fitted-bedroom/Slidingwardrobed/SlidingHallwayWardrobes">Sliding Hallway Wardrobes</a></li>
-                                                <li><a href="/fitted-bedroom/Slidingwardrobed/SlidingHomeOfficeWardrobes">Sliding Home Office Wardrobes</a></li>
-                                                <li><a href="/fitted-bedroom/Slidingwardrobed/SlidingLivingAreaWardrobes">Sliding Living Area Wardrobes</a></li>
-                                                <li><a href="/fitted-bedroom/Slidingwardrobed/SlidingBedroomWardrobes">Sliding Bedroom Wardrobes</a></li>
+                                                <li><a href="/ChildrensBedroomSlidingDoorWardrobes">Children’s Bedroom Sliding Door Wardrobes</a></li>
+                                                <li><a href="/SlidingHallwayWardrobes">Sliding Hallway Wardrobes</a></li>
+                                                <li><a href="/SlidingHomeOfficeWardrobes">Sliding Home Office Wardrobes</a></li>
+                                                <li><a href="/SlidingLivingAreaWardrobes">Sliding Living Area Wardrobes</a></li>
+                                                <li><a href="/SlidingBedroomWardrobes">Sliding Bedroom Wardrobes</a></li>
 
                                             </ul>
                                                 </li>

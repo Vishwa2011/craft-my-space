@@ -221,6 +221,10 @@ const SlidingWardrobedDoorsByCMS = () => {
           {/* <!-- SECTION CONTENT END  --> */}
       </div>
       <Footers />
+       {/* <!-- BUTTON TOP START --> */}
+       <button className="scroltop">
+          <span className="fa fa-angle-up  relative" id="btn-vibrate"></span>
+        </button>
     </div>
   );
 };
