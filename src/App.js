@@ -54,25 +54,24 @@ function App() {
         <Route path="/HingedDoorWardrobes" element={<HingedDoorWardrobes/>} />
         <Route path="/SlidingWardrobedDoorsByCMS" element={<SlidingWardrobedDoorsByCMS/>} />
         <Route path="/Slidingwardrobed" element={<Slidingwardrobed/>} />
-        <Route path="/fitted-bedroom/ChildrensBedroomSlidingDoorWardrobes" element={<ChildrensBedroomSlidingDoorWardrobes/>} />
+        <Route path="/ChildrensBedroomSlidingDoorWardrobes" element={<ChildrensBedroomSlidingDoorWardrobes/>} />
         <Route path="/WhyCraftMySpace" element={<WhyCraftMySpace />} />
         <Route path="/Walkinwardrobed" element={<Walkinwardrobed />} />
         <Route path="/ChildrenFittedBadrooms" element={<ChildrenFittedBadrooms />} />
-        <Route path="/fitted-bedroom/Slidingwardrobed/SlidingHallwayWardrobes" element={<SlidingHallwayWardrobes />} />
-        <Route path="/fitted-bedroom/Slidingwardrobed/SlidingHomeOfficeWardrobes" element={<SlidingHomeOfficeWardrobes />} />
-        <Route path="/fitted-bedroom/Slidingwardrobed/SlidingLivingAreaWardrobes" element={<SlidingLivingAreaWardrobes />} />
-        <Route path="/fitted-bedroom/Slidingwardrobed/SlidingBedroomWardrobes" element={<SlidingBedroomWardrobes />} />
-        <Route path="/FittedLiving/Bathroom" element={<Bathroom />} />
-        <Route path="/FittedLiving/DiningRoom" element={<DiningRoom />} />
-        <Route path="/FittedLiving/HomeOffice" element={<HomeOffice />} />
-        <Route path="/FittedLiving/Kitchens" element={<Kitchens />} />
-        <Route path="/FittedLiving/MediaRoom" element={<MediaRoom />} />
-        <Route path="/AwkwardSpaces/Alcoves" element={<Alcoves />} />
-        <Route path="/AwkwardSpaces/BayWindows" element={<BayWindows />} />
-        <Route path="/AwkwardSpaces/BayWindows" element={<BayWindows />} />
-        <Route path="/AwkwardSpaces/LandingHallways" element={<LandingHallways />} />
-        <Route path="/AwkwardSpaces/SlopingCeilings" element={<SlopingCeilings />} />
-        <Route path="/AwkwardSpaces/UnderStairs" element={<UnderStairs />} />
+        <Route path="/SlidingHallwayWardrobes" element={<SlidingHallwayWardrobes />} />
+        <Route path="/SlidingHomeOfficeWardrobes" element={<SlidingHomeOfficeWardrobes />} />
+        <Route path="/SlidingLivingAreaWardrobes" element={<SlidingLivingAreaWardrobes />} />
+        <Route path="/SlidingBedroomWardrobes" element={<SlidingBedroomWardrobes />} />
+        <Route path="/Bathroom" element={<Bathroom />} />
+        <Route path="/DiningRoom" element={<DiningRoom />} />
+        <Route path="/HomeOffice" element={<HomeOffice />} />
+        <Route path="/Kitchens" element={<Kitchens />} />
+        <Route path="/MediaRoom" element={<MediaRoom />} />
+        <Route path="/Alcoves" element={<Alcoves />} />
+        <Route path="/BayWindows" element={<BayWindows />} />
+        <Route path="/LandingHallways" element={<LandingHallways />} />
+        <Route path="/SlopingCeilings" element={<SlopingCeilings />} />
+        <Route path="/UnderStairs" element={<UnderStairs />} />
 
 
         
