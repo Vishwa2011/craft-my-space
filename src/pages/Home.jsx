@@ -48,7 +48,7 @@ export default function Home() {
                     >
                       {/* <!-- MAIN IMAGE --> */}
                       <img
-                        src="assets/images/main-slider/slider1/slide1.jpg"
+                        src="/assets/pic/header1.webp"
                         alt=""
                         data-lazyload="images/main-slider/slider1/slide1.jpg"
                         data-bgposition="center center"
@@ -341,7 +341,7 @@ export default function Home() {
                         }}
                       >
                         <img
-                          src="assets/images/main-slider/slider1/img-1.jpg"
+                          src="/assets/pic/headersmall2.avif"
                           alt=""
                         />
                       </div>
@@ -368,7 +368,7 @@ export default function Home() {
                     >
                       {/* <!-- MAIN IMAGE --> */}
                       <img
-                        src="assets/images/main-slider/slider1/slide2.jpg"
+                        src="/assets/pic/header2.webp"
                         alt=""
                         data-lazyload="images/main-slider/slider1/slide2.jpg"
                         data-bgposition="center center"
@@ -494,7 +494,7 @@ export default function Home() {
                             className="text-white"
                             style={{ letterSpacing: "20px" }}
                           >
-                            Fitted Kitchens
+                             Kitchens
                           </span>
                           <br />
                         </div>
@@ -654,7 +654,7 @@ export default function Home() {
                         }}
                       >
                         <img
-                          src="assets/images/main-slider/slider1/img-2.jpg"
+                          src="/assets/pic/headersmall.avif"
                           alt=""
                         />
                       </div>
@@ -681,7 +681,7 @@ export default function Home() {
                     >
                       {/* <!-- MAIN IMAGE --> */}
                       <img
-                        src="assets/images/main-slider/slider1/slide3.jpg"
+                        src="/assets/pic/header3.webp"
                         alt=""
                         data-lazyload="images/main-slider/slider1/slide3.jpg"
                         data-bgposition="center center"
@@ -807,7 +807,7 @@ export default function Home() {
                             className="text-white"
                             style={{ letterSpacing: "20px" }}
                           >
-                           Kitchens
+                           Bedrooms
                           </span>
                           <br />
                         </div>
@@ -970,7 +970,7 @@ export default function Home() {
                         }}
                       >
                         <img
-                          src="assets/images/main-slider/slider1/img-3.jpg"
+                          src="/assets/pic/headersmall3.avif"
                           alt=""
                         />
                       </div>
@@ -1060,88 +1060,13 @@ export default function Home() {
               className="custom-block-outer clearfix bg-cover"
               style={{ backgroundImage: "url(images/background/video-bg.png)" }}
             >
-              <div
-                className="custom-left-part overlay-wraper clearfix bg-cover"
-                style={{
-                  backgroundImage:
-                    "url(images/background/verticle-slide-bg.jpg)",
-                }}
-              >
-                <div className="bg-black opacity-08 overlay-main"></div>
-                <div className="verticle-center-slider-block-outer mfp-gallery">
-                  <div className="vertical-center-slider">
-                    <div className="verticle-center-slider-block">
-                      <div className="wt-box">
-                        <img src="images/gallery/pic1.jpg" alt="" />
-                        <a href="javascript:;">
-                          What makes we the best in the architecture
-                        </a>
-                        <a href="images/gallery/pic1.jpg" className="mfp-link">
-                          <i className="fa fa-expand"></i>
-                        </a>
-                      </div>
-                    </div>
+            
 
-                    <div className="verticle-center-slider-block">
-                      <div className="wt-box">
-                        <img src="images/gallery/pic2.jpg" alt="" />
-                        <a href="javascript:;">
-                          What makes we the best in the architecture
-                        </a>
-                        <a href="images/gallery/pic2.jpg" className="mfp-link">
-                          <i className="fa fa-expand"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="verticle-center-slider-block">
-                      <div className="wt-box">
-                        <img src="images/gallery/pic3.jpg" alt="" />
-                        <a href="javascript:;">
-                          What makes we the best in the architecture
-                        </a>
-                        <a href="images/gallery/pic3.jpg" className="mfp-link">
-                          <i className="fa fa-expand"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="verticle-center-slider-block">
-                      <div className="wt-box">
-                        <img src="images/gallery/pic4.jpg" alt="" />
-                        <a href="javascript:;">
-                          What makes we the best in the architecture
-                        </a>
-                        <a href="images/gallery/pic4.jpg" className="mfp-link">
-                          <i className="fa fa-expand"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="verticle-center-slider-block">
-                      <div className="wt-box">
-                        <img src="images/gallery/pic5.jpg" alt="" />
-                        <a href="javascript:;">
-                          What makes we the best in the architecture
-                        </a>
-                        <a href="images/gallery/pic5.jpg" className="mfp-link">
-                          <i className="fa fa-expand"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="v-title">
-                  <span>Projects</span>
-                </div>
-              </div>
-
-              <div className="custom-right-part ">
-                <div className="custom-right-part-content p-t80">
-                  <div className="video-section-outer">
+              {/* <div className="custom-right-part "> */}
+                <div className="custom-right-part-content">
+                  {/* <div className="video-section-outer"> */}
                     <div className="section-head clearfix">
-                      <div className="wt-tilte-main">
+                      <div style={{textAlign:'center'}}>
                         <small className="wt-small-title">
                           [ Latest Projects ]
                         </small>
@@ -1181,9 +1106,9 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  {/* </div> */}
                 </div>
-              </div>
+              {/* </div> */}
             </div>
           </div>
         </div>
@@ -1210,8 +1135,8 @@ export default function Home() {
               <div className="col-xl-4 col-lg-6 col-md-12">
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
                   <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="javascript:void(0);">
-                      <img src="/assets/images/blog/default/thum1.jpg" alt="" />
+                    <a href="">
+                      <img src="/assets/pic/stratford.webp" alt="" />
                     </a>
                   </div>
                   <div
@@ -1220,7 +1145,7 @@ export default function Home() {
                   >
                     <div className="wt-post-title ">
                       <h4 className="post-title">
-                        <a href="javascript:void(0);" className=" m-t0">
+                        <a href="" className=" m-t0">
                           Fitted Wardrobes
                         </a>
                       </h4>
@@ -1239,7 +1164,7 @@ export default function Home() {
                         is let us know how you want it to look..
                       </p>
                     </div>
-                    <a href="javascript:void(0);" className="site-button-link">
+                    <a href="" className="site-button-link">
                       Read More
                     </a>
                   </div>
@@ -1248,8 +1173,8 @@ export default function Home() {
               <div className="col-xl-4 col-lg-6 col-md-12">
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
                   <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="javascript:void(0);">
-                      <img src="/assets/images/blog/default/thum2.jpg" alt="" />
+                    <a href="">
+                      <img src="/assets/pic/ImageNewAdd5.avif" alt="" />
                     </a>
                   </div>
                   <div
@@ -1258,7 +1183,7 @@ export default function Home() {
                   >
                     <div className="wt-post-title ">
                       <h4 className="post-title">
-                        <a href="javascript:void(0);" className=" m-t0">
+                        <a href="" className=" m-t0">
                           Fitted Kitchen
                         </a>
                       </h4>
@@ -1278,7 +1203,7 @@ export default function Home() {
                         multiple years.
                       </p>
                     </div>
-                    <a href="javascript:void(0);" className="site-button-link">
+                    <a href="" className="site-button-link">
                       Read More
                     </a>
                   </div>
@@ -1288,8 +1213,8 @@ export default function Home() {
               <div className="col-xl-4 col-lg-6 col-md-12">
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
                   <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="javascript:void(0);">
-                      <img src="/assets/images/blog/default/thum1.jpg" alt="" />
+                    <a href="">
+                      <img src="/assets/pic/bespoke.jpg" alt="" />
                     </a>
                   </div>
                   <div
@@ -1298,7 +1223,7 @@ export default function Home() {
                   >
                     <div className="wt-post-title ">
                       <h4 className="post-title">
-                        <a href="javascript:void(0);" className=" m-t0">
+                        <a href="" className=" m-t0">
                           Bespoke Furniture
                         </a>
                       </h4>
@@ -1315,7 +1240,7 @@ export default function Home() {
                         traditional styles.
                       </p>
                     </div>
-                    <a href="javascript:void(0);" className="site-button-link">
+                    <a href="" className="site-button-link">
                       Read More
                     </a>
                   </div>
@@ -1324,8 +1249,8 @@ export default function Home() {
               <div className="col-xl-4 col-lg-6 col-md-12">
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
                   <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="javascript:void(0);">
-                      <img src="/assets/images/blog/default/thum1.jpg" alt="" />
+                    <a href="">
+                      <img src="/assets/pic/display.jpg" alt="" />
                     </a>
                   </div>
                   <div
@@ -1334,7 +1259,7 @@ export default function Home() {
                   >
                     <div className="wt-post-title ">
                       <h4 className="post-title">
-                        <a href="javascript:void(0);" className=" m-t0">
+                        <a href="" className=" m-t0">
                           Awkward Spaces
                         </a>
                       </h4>
@@ -1345,7 +1270,7 @@ export default function Home() {
                         Wardrobes
                       </p>
                     </div>
-                    <a href="javascript:void(0);" className="site-button-link">
+                    <a href="" className="site-button-link">
                       Read More
                     </a>
                   </div>
