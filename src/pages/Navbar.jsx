@@ -21,17 +21,17 @@ const Navbar = () => {
                 <span className="icon-bar bar-three"></span>
               </button>
               {/* <!-- ETRA Nav --> */}
-              <div className="extra-nav">
+              {/* <div className="extra-nav">
                 <div className="extra-cell">
                   <a href="#search" className=" text-white">
                     <i className="fa fa-search"></i>
                   </a>
                 </div>
-              </div>
+              </div> */}
               {/* <!-- ETRA Nav --> */}
 
               {/* <!-- SITE Search --> */}
-              <div id="search">
+              {/* <div id="search">
                 <span className="close"></span>
                 <form
                   role="search"
@@ -55,7 +55,7 @@ const Navbar = () => {
                     </span>
                   </div>
                 </form>
-              </div>
+              </div> */}
               {/* <!-- MAIN Vav --> */}
               <div className="header-nav">
                 <ul className=" nav navbar-nav">
@@ -106,11 +106,11 @@ const Navbar = () => {
                                                 <li>
                                                     <a href="/FittedLiving">Fitted Living</a>
                                                     <ul className="sub-menu has-child">
-                                                <li><a href="/FittedLiving/Bathroom">Bathroom</a></li>
-                                                <li><a href="/FittedLiving/DiningRoom">Dining Room</a></li>
-                                                <li><a href="/FittedLiving/HomeOffice">Home Office</a></li>
-                                                <li><a href="/FittedLiving/Kitchens">Kitchens</a></li>
-                                                <li><a href="/FittedLiving/MediaRoom">Media Room</a></li>
+                                                <li><a href="/Bathroom">Bathroom</a></li>
+                                                <li><a href="/DiningRoom">Dining Room</a></li>
+                                                <li><a href="/HomeOffice">Home Office</a></li>
+                                                <li><a href="/Kitchens">Kitchens</a></li>
+                                                <li><a href="/MediaRoom">Media Room</a></li>
                                             
 
                                             </ul>
@@ -118,11 +118,11 @@ const Navbar = () => {
                                                 <li>
                                                     <a href="/AwkwardSpaces">Awkward Spaces</a>
                                                     <ul className="sub-menu has-child">
-                                                <li><a href="/AwkwardSpaces/Alcoves">Alcoves</a></li>
-                                                <li><a href="/AwkwardSpaces/BayWindows">Bay Windows</a></li>
-                                                <li><a href="/AwkwardSpaces/LandingHallways">Landing & Hallways</a></li>
-                                                <li><a href="/AwkwardSpaces/SlopingCeilings">Sloping Ceilings</a></li>
-                                                <li><a href="/AwkwardSpaces/UnderStairs">Under Stairs </a></li>
+                                                <li><a href="/Alcoves">Alcoves</a></li>
+                                                <li><a href="/BayWindows">Bay Windows</a></li>
+                                                <li><a href="/LandingHallways">Landing & Hallways</a></li>
+                                                <li><a href="/SlopingCeilings">Sloping Ceilings</a></li>
+                                                <li><a href="/UnderStairs">Under Stairs </a></li>
                                             
 
                                             </ul>

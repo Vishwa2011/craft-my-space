@@ -62,17 +62,16 @@ function App() {
         <Route path="/SlidingHomeOfficeWardrobes" element={<SlidingHomeOfficeWardrobes />} />
         <Route path="/SlidingLivingAreaWardrobes" element={<SlidingLivingAreaWardrobes />} />
         <Route path="/SlidingBedroomWardrobes" element={<SlidingBedroomWardrobes />} />
-        <Route path="/FittedLiving/Bathroom" element={<Bathroom />} />
-        <Route path="/FittedLiving/DiningRoom" element={<DiningRoom />} />
-        <Route path="/FittedLiving/HomeOffice" element={<HomeOffice />} />
-        <Route path="/FittedLiving/Kitchens" element={<Kitchens />} />
-        <Route path="/FittedLiving/MediaRoom" element={<MediaRoom />} />
-        <Route path="/AwkwardSpaces/Alcoves" element={<Alcoves />} />
-        <Route path="/AwkwardSpaces/BayWindows" element={<BayWindows />} />
-        <Route path="/AwkwardSpaces/BayWindows" element={<BayWindows />} />
-        <Route path="/AwkwardSpaces/LandingHallways" element={<LandingHallways />} />
-        <Route path="/AwkwardSpaces/SlopingCeilings" element={<SlopingCeilings />} />
-        <Route path="/AwkwardSpaces/UnderStairs" element={<UnderStairs />} />
+        <Route path="/Bathroom" element={<Bathroom />} />
+        <Route path="/DiningRoom" element={<DiningRoom />} />
+        <Route path="/HomeOffice" element={<HomeOffice />} />
+        <Route path="/Kitchens" element={<Kitchens />} />
+        <Route path="/MediaRoom" element={<MediaRoom />} />
+        <Route path="/Alcoves" element={<Alcoves />} />
+        <Route path="/BayWindows" element={<BayWindows />} />
+        <Route path="/LandingHallways" element={<LandingHallways />} />
+        <Route path="/SlopingCeilings" element={<SlopingCeilings />} />
+        <Route path="/UnderStairs" element={<UnderStairs />} />
 
 
         
