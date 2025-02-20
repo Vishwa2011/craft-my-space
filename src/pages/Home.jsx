@@ -1422,21 +1422,7 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-                <div>
-                  <h4 style={{ marginBottom: "30px" }}>
-                    Book Your Free Design Visit
-                  </h4>
-                  <a
-                    href=""
-                    style={{
-                      background: "#141b1f",
-                      color: "white",
-                      padding: "20px",
-                    }}
-                  >
-                    Book Now
-                  </a>
-                </div>
+                
               </div>
             </div>
           </div>

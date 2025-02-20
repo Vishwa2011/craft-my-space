@@ -14,32 +14,32 @@ const Footers = () => {
               <div className="footer-social-content">
                 <ul>
                   <li>
-                    <a href="javascript:;">
+                    <a href="">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:;">
+                    <a href="">
                       <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:;">
+                    <a href="">
                       <i className="fa fa-pinterest-p"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:;">
+                    <a href="">
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:;">
+                    <a href="">
                       <i className="fa fa-vimeo"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:;">
+                    <a href="">
                       <i className="fa fa-youtube"></i>
                     </a>
                   </li>
@@ -79,10 +79,10 @@ const Footers = () => {
                       <ChevronRightIcon /> <a href="/FittedLiving" style={{color:"#7e878c",lineHeight:'30px'}}>Fitted Living</a>                        
                       </li>
                       <li>
-                      <ChevronRightIcon />  <a href="javascript:;" style={{color:"#7e878c",lineHeight:'30px'}}>Kitchens</a>                       
+                      <ChevronRightIcon />  <a href="/Kitchens" style={{color:"#7e878c",lineHeight:'30px'}}>Kitchens</a>                       
                       </li>
                       <li>
-                      <ChevronRightIcon />  <a href="javascript:;" style={{color:"#7e878c",lineHeight:'30px'}}>Home Office</a>                   
+                      <ChevronRightIcon />  <a href="/HomeOffice" style={{color:"#7e878c",lineHeight:'30px'}}>Home Office</a>                   
                       </li>
                       <li>
                       <ChevronRightIcon />  <a href="/AwkwardSpaces" style={{color:"#7e878c",lineHeight:'30px'}}>Awkward Spaces</a>                  
@@ -147,7 +147,7 @@ const Footers = () => {
           <div className="footer-bottom">
             <div className="container">
               <div className="footer-logo-bar">
-                <a href="index.html">
+                <a href="/">
                   <img src="assets/images/logo-dark.png" alt="" />
                 </a>
                 <span className="copyrights-text">
