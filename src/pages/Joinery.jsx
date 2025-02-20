@@ -1,59 +1,31 @@
 import React, { useState } from 'react'
 import Footers from './Footer'
 import Navbar from './Navbar'
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import { FaPlus, FaMinus } from "react-icons/fa";
+
+
+const faqs = [
+  {
+    question: "What is the lead time for production? ",
+    answer:
+      "Our production lead time is typically two to three months. This timeframe ensures that we meticulously follow all necessary technological stages in the manufacturing process. These stages include material preparation, drying, and resting periods, which help eliminate internal stress within the wood",
+  },
+  {
+    question: "What does the cost depend on? ",
+    answer:
+      "The cost is determined by several key factors, including the size and quantity of the wooden products, the materials used (such as solid wood, MDF, or veneers), the type of fittings selected, and the complexity of the finishing process..",
+  },
+
+];
 
 const Joinery = () => {
 
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState(null);
 
-  const faqs = [
-    {
-      question: "Can CRM software integrate with other tools we already use?",
-      answer:
-        "Yes, most modern CRM solutions offer integration capabilities with popular business tools such as email marketing platforms, accounting software, customer support systems, and more. Integration ensures seamless data flow and enhances overall efficiency.",
-    },
-    {
-      question: "How does CRM software help with customer service?",
-      answer:
-        "CRM software improves customer service by centralizing customer information, enabling personalized interactions, tracking customer issues and inquiries, and facilitating timely responses and resolutions.",
-    },
-    {
-      question: "What is CRM software, and how can it benefit my business?",
-      answer:
-        "CRM (Customer Relationship Management) software helps businesses manage interactions with current and potential customers, streamline processes, and improve customer relationships. It centralizes customer data, automates sales and marketing tasks, and provides insights to enhance decision-making and business efficiency.",
-    },
-    {
-      question: "How do I know if my business needs CRM software?",
-      answer:
-        "If your business struggles with managing customer relationships, tracking sales opportunities, or maintaining efficient communication across teams, CRM software can significantly benefit you. It helps businesses of all sizes enhance productivity, boost sales, and improve customer satisfaction.",
-    },
-    {
-      question: "How does CRM software help with sales and marketing efforts?",
-      answer:
-        "CRM software enhances sales and marketing efforts by providing tools for lead generation, lead nurturing, campaign management, customer segmentation, personalized marketing communications, and performance analytics to optimize strategies.",
-    },
-    {
-      question: "Is CRM software difficult to implement and use?",
-      answer:
-        "The ease of implementation and use varies depending on the CRM solution. Look for platforms that offer user-friendly interfaces, intuitive design, and comprehensive training and support options to facilitate adoption among your team members.",
-    },
-    {
-      question: "What type of support and training do you offer for implementing CRM software?",
-      answer:
-        "We provide comprehensive support, including initial setup assistance, training sessions for your team, ongoing technical support, and access to a knowledge base or help center to address any questions or issues.",
-    },
-    {
-      question: "Is my data secure with CRM software?",
-      answer:
-        "Yes, ensuring data security is a priority. Our CRM software complies with industry standards and regulations, employs encryption protocols, conducts regular security audits, and offers features for user permissions and access control to protect your sensitive information.",
-    },
-  ];
-
-  const handleToggle = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
+  const toggleFAQ = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
   };
-
   return (
     <>
        <div className="page-wraper">
@@ -85,6 +57,97 @@ const Joinery = () => {
             </div>
             
           </div>
+
+          {/* joinery start */}
+          <div style={{padding:'100px 0px'}}>
+            <div className='container'>
+            <div className='col-12'>
+                 <div className='row'>
+                    <div className='col-6'>
+                     <div>
+                        <h3>What is joinery?</h3>
+                        <p>Joinery refers to the craft of constructing wooden structures, fittings, and furniture by precisely joining pieces of wood together without the use of nails or screws in traditional methods. It involves skilled techniques such as mortise and tenon, dovetail, and tongue-and-groove joints to create durable and aesthetically pleasing woodwork.</p>
+                     </div>
+                    <div
+          className=" overflow-hide v-title-outer"
+          style={{ textAlign: "center" }}
+        >
+          <div className="section-content">
+            <div className="custom-block-outer clearfix bg-cover">
+              {/* <div className="custom-right-part "> */}
+              <div className="custom-right-part-content ">
+                {/* <div className="video-section-outer"> */}
+                <div className="our-ability m-t50">
+                  <div className="row">
+                    <div className="col-md-3 col-sm-3">
+                      <div className="m-b30 text-black  center">
+                        <h1 className=" font-weight-800 m-b5 site-text-primary">
+                          <img
+                            src="https://bravolondon.co.uk/wp-content/uploads/2022/10/h1.png"
+                            alt=""
+                          />
+                        </h1>
+                        <h4 className="wt-tilte m-b0">10 years warranty</h4>
+                      </div>
+                    </div>
+
+                    <div className="col-md-3 col-sm-3">
+                      <div className="m-b30 text-black  center">
+                        <h1 className=" font-weight-800 m-b5 site-text-primary">
+                          <img
+                            src="	https://bravolondon.co.uk/wp-content/uploads/2022/10/h2.png"
+                            alt=""
+                          />
+                        </h1>
+                        <h4 className="wt-tilte m-b0">
+                          The best materials
+                        </h4>
+                      </div>
+                    </div>
+                    <div className="col-md-3 col-sm-3">
+                      <div className="m-b30 text-black  center">
+                        <h1 className=" font-weight-800 m-b5 site-text-primary">
+                          <img
+                            src="	https://bravolondon.co.uk/wp-content/uploads/2022/10/h4.png"
+                            alt=""
+                          />
+                        </h1>
+                        <h4 className="wt-tilte m-b0">Fast production</h4>
+                      </div>
+                    </div>
+                    <div className="col-md-3 col-sm-3">
+                      <div className="m-b30 text-black  center">
+                        <h1 className=" font-weight-800 m-b5 site-text-primary">
+                          <img
+                            src="	https://bravolondon.co.uk/wp-content/uploads/2022/10/h3.png"
+                            alt=""
+                          />
+                        </h1>
+                        <h4 className="wt-tilte m-b0">
+                        Professional installation
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* </div> */}
+              </div>
+              {/* </div> */}
+            </div>
+          </div>
+        </div>
+        <div>
+          <p>Joinery is the art and craft of working with wood to create structures, furniture, and decorative elements through precise joining techniques. It involves cutting, shaping, and assembling wood pieces to produce durable and aesthetically appealing products. Unlike carpentry, which focuses on broader construction tasks, joinery specializes in intricate details such as doors, windows, staircases, and cabinetry.</p>
+        </div>
+                    </div>
+                    <div className='col-6'>
+                          <img src='assets/images/blog/large-blog.jpg'/>
+                    </div>
+                 </div>
+            </div>
+            </div>
+          </div>
+          {/* joinery end */}
               {/* card start  */}
         <div className="container mt-5">
           <div className="portfolio-wrap mfp-gallery work-grid row clearfix">
@@ -282,46 +345,73 @@ const Joinery = () => {
           {/* customer end  */}
 
         {/* faq start */}
-        <section className="bg-gray-100 py-16">
-      <div className="container mx-auto px-6">
-        <div className="text-center mb-12">
-          <h6 className="text-blue-600 font-semibold text-lg">FAQs</h6>
-          <h2 className="text-3xl font-bold text-gray-800">
-            Frequently Asked Questions
-          </h2>
+        <section className="faqs section-padding position-re" style={{padding:'140px 0px'}}>
+      <div className="container">
+        <div className='col-12'>
+          <div className='row '>
+        <div className='col-5'>
+          <div>
+            <img />
+          </div>
         </div>
-
-        <div className="max-w-3xl mx-auto">
-          {faqs.map((faq, index) => (
-            <div
-              key={index}
-              className="bg-white shadow-md rounded-lg mb-4 overflow-hidden transition-all duration-300"
-            >
-              <button
-                onClick={() => handleToggle(index)}
-                className="flex justify-between items-center w-full p-5 text-left text-gray-800 font-medium text-lg hover:bg-gray-200 transition-all duration-200"
-              >
-                {faq.question}
-                <span className={`text-xl transition-transform duration-300 ${activeIndex === index ? "rotate-180 text-blue-600" : ""}`}>
-                  ⌄
-                </span>
-              </button>
-
-              <motion.div
-                initial={{ height: 0, opacity: 0 }}
-                animate={{
-                  height: activeIndex === index ? "auto" : 0,
-                  opacity: activeIndex === index ? 1 : 0,
-                }}
-                transition={{ duration: 0.3 }}
-                className="overflow-hidden"
-              >
-                <div className="p-5 border-t border-gray-300 text-gray-600">
-                  {faq.answer}
-                </div>
-              </motion.div>
+       <div className='col-7'>
+       
+        
+            <div className="sec-head md-mb80">
+              <h6 className="sub-title main-color mb-15">FAQS</h6>
+              <h2 className="fontmanage">Frequently Asked Questions</h2>
             </div>
-          ))}
+       
+       
+
+        
+          <div>
+            <div className="accordion">
+              {faqs.map((faq, index) => (
+                <div
+                  key={index}
+                  className={`item mb-15 ${openIndex === index ? "active" : ""}`}
+                  onClick={() => toggleFAQ(index)}
+                  style={{
+                    border: "1px solid #ddd",
+                    borderRadius: "10px",
+                    padding: "15px",
+                    cursor: "pointer",
+                    transition: "all 0.3s ease",
+                    background: openIndex === index ? "#f7f7f7" : "#fff",
+                    boxShadow: openIndex === index ? "0px 4px 10px rgba(0,0,0,0.1)" : "none",
+                    marginBottom:'15px'
+                  }}
+                >
+                  <div className="title d-flex justify-content-between align-items-center">
+                    <h6 style={{ margin: 0,fontSize:'16px'}}>{faq.question}</h6>
+                    {openIndex === index ? (
+                      <FaMinus style={{ color: "#ff6600" }} />
+                    ) : (
+                      <FaPlus style={{ color: "#333" }} />
+                    )}
+                  </div>
+                  <AnimatePresence>
+                    {openIndex === index && (
+                      <motion.div
+                        className="accordion-info"
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: "auto" }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.3 }}
+                        style={{ overflow: "hidden", paddingTop: "10px" }}
+                      >
+                        <p className="mb-0" style={{ color: "#555" }}>{faq.answer}</p>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              ))}
+            </div>
+          </div>
+        
+        </div>
+        </div>
         </div>
       </div>
     </section>
@@ -333,7 +423,7 @@ const Joinery = () => {
                     <div className="section-content">
                     	<div className="row">
                    
-                    		<div className="col-xl-5  col-lg-6 col-md-12" style={{zIndex:'999'}}>
+                    		<div className="col-xl-5  col-lg-6 col-md-12" >
                             	<div className="home-2-about-left-outer">
                                     <div className="section-head clearfix">
                                         <div className="wt-tilte-main">
