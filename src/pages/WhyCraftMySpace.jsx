@@ -14,7 +14,8 @@ const WhyCraftMySpace = () => {
             className="wt-bnr-inr overlay-wraper bg-parallax bg-top-center"
             data-stellar-background-ratio="0.5"
             style={{
-              backgroundImage: "url(assets/images/banner/2.jpg)",
+              // backgroundImage: "url(assets/images/banner/2.jpg)",
+              backgroundImage:"url(assets/pic/cms.jpg)"
             }}
           >
             <div className="overlay-main bg-black opacity-07"></div>
@@ -113,7 +114,7 @@ const WhyCraftMySpace = () => {
                 <div className="col-lg-4 col-md-6 m-b30">
                   <div className="project-detail-pic ">
                     <div className="wt-media">
-                      <img src="assets/images/gallery/pic1.jpg" alt="" />
+                      <img src="/assets/pic/cms1.webp" alt="" />
                     </div>
                   </div>
                 </div>
@@ -121,7 +122,7 @@ const WhyCraftMySpace = () => {
                 <div className="col-lg-4 col-md-6 m-b30">
                   <div className="project-detail-pic">
                     <div className="wt-media">
-                      <img src="assets/images/gallery/pic2.jpg" alt="" />
+                      <img src="/assets/pic/cms2.webp" alt="" />
                     </div>
                   </div>
                 </div>

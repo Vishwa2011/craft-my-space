@@ -128,12 +128,12 @@ const Footers = () => {
                   <div>
                     <div style={{border:'1px solid #fff', background:'#fff',padding:" 16px 10px",width:'70%',borderRadius:'10px'}}>
                       <span>
-                         <a>Book a Free Design Visit  </a>  
+                         <a href='/Getaquote'>Book a Free Design Visit  </a>  
                       </span>
                       </div>
                       <div style={{border:'1px solid #fff', background:'#fff',padding:" 16px 10px",width:'70%',borderRadius:'10px',marginTop:'10px'}}>
                       <span>
-                         <a> Order a Free Brochure </a>  
+                         <a href='/Orderafreebrochure'> Order a Free Brochure </a>  
                       </span>
                       </div>
                   </div>

@@ -59,99 +59,47 @@ const Joinery = () => {
           </div>
 
           {/* joinery start */}
-          <div style={{padding:'100px 0px'}}>
-            <div className='container'>
-            <div className='col-12'>
-                 <div className='row'>
-                    <div className='col-6'>
-                     <div>
-                        <h3>What is joinery?</h3>
-                        <p>Joinery refers to the craft of constructing wooden structures, fittings, and furniture by precisely joining pieces of wood together without the use of nails or screws in traditional methods. It involves skilled techniques such as mortise and tenon, dovetail, and tongue-and-groove joints to create durable and aesthetically pleasing woodwork.</p>
-                     </div>
-                    <div
-          className=" overflow-hide v-title-outer"
-          style={{ textAlign: "center" }}
-        >
-          <div className="section-content">
-            <div className="custom-block-outer clearfix bg-cover">
-              {/* <div className="custom-right-part "> */}
-              <div className="custom-right-part-content ">
-                {/* <div className="video-section-outer"> */}
-                <div className="our-ability m-t50">
-                  <div className="row">
-                    <div className="col-md-3 col-sm-3">
-                      <div className="m-b30 text-black  center">
-                        <h1 className=" font-weight-800 m-b5 site-text-primary">
-                          <img
-                            src="https://bravolondon.co.uk/wp-content/uploads/2022/10/h1.png"
-                            alt=""
-                          />
-                        </h1>
-                        <h4 className="wt-tilte m-b0">10 years warranty</h4>
-                      </div>
-                    </div>
+          <div class="container py-5">
+    <div class="row align-items-center">
+        {/* <!-- Text Section --> */}
+        <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+            <h3>What is joinery?</h3>
+            <p>Joinery refers to the craft of constructing wooden structures, fittings, and furniture by precisely joining pieces of wood together without the use of nails or screws in traditional methods. It involves skilled techniques such as mortise and tenon, dovetail, and tongue-and-groove joints to create durable and aesthetically pleasing woodwork.</p>
+            <p>Joinery is the art and craft of working with wood to create structures, furniture, and decorative elements through precise joining techniques. It involves cutting, shaping, and assembling wood pieces to produce durable and aesthetically appealing products. Unlike carpentry, which focuses on broader construction tasks, joinery specializes in intricate details such as doors, windows, staircases, and cabinetry.</p>
+        </div>
+        
+        {/* <!-- Image Section --> */}
+        <div class="col-lg-6 col-md-12 text-center">
+            <img src="assets/images/blog/large-blog.jpg" class="img-fluid rounded" alt="Joinery Image"   />
+        </div>
+    </div>
+    
+    {/* <!-- Features Section --> */}
+    <div class="row text-center mt-5">
+        <div class="col-6 col-md-3 mb-4">
+            <img src="https://bravolondon.co.uk/wp-content/uploads/2022/10/h1.png" alt="Warranty" class="img-fluid mb-2" />
+            <h4>10 Years Warranty</h4>
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+            <img src="https://bravolondon.co.uk/wp-content/uploads/2022/10/h2.png" alt="Materials" class="img-fluid mb-2" />
+            <h4>The Best Materials</h4>
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+            <img src="https://bravolondon.co.uk/wp-content/uploads/2022/10/h4.png" alt="Production" class="img-fluid mb-2" />
+            <h4>Fast Production</h4>
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+            <img src="https://bravolondon.co.uk/wp-content/uploads/2022/10/h3.png" alt="Installation" class="img-fluid mb-2" /> 
+            <h4>Professional Installation</h4>
+        </div>
+    </div>
+</div>
 
-                    <div className="col-md-3 col-sm-3">
-                      <div className="m-b30 text-black  center">
-                        <h1 className=" font-weight-800 m-b5 site-text-primary">
-                          <img
-                            src="	https://bravolondon.co.uk/wp-content/uploads/2022/10/h2.png"
-                            alt=""
-                          />
-                        </h1>
-                        <h4 className="wt-tilte m-b0">
-                          The best materials
-                        </h4>
-                      </div>
-                    </div>
-                    <div className="col-md-3 col-sm-3">
-                      <div className="m-b30 text-black  center">
-                        <h1 className=" font-weight-800 m-b5 site-text-primary">
-                          <img
-                            src="	https://bravolondon.co.uk/wp-content/uploads/2022/10/h4.png"
-                            alt=""
-                          />
-                        </h1>
-                        <h4 className="wt-tilte m-b0">Fast production</h4>
-                      </div>
-                    </div>
-                    <div className="col-md-3 col-sm-3">
-                      <div className="m-b30 text-black  center">
-                        <h1 className=" font-weight-800 m-b5 site-text-primary">
-                          <img
-                            src="	https://bravolondon.co.uk/wp-content/uploads/2022/10/h3.png"
-                            alt=""
-                          />
-                        </h1>
-                        <h4 className="wt-tilte m-b0">
-                        Professional installation
-                        </h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* </div> */}
-              </div>
-              {/* </div> */}
-            </div>
-          </div>
-        </div>
-        <div>
-          <p>Joinery is the art and craft of working with wood to create structures, furniture, and decorative elements through precise joining techniques. It involves cutting, shaping, and assembling wood pieces to produce durable and aesthetically appealing products. Unlike carpentry, which focuses on broader construction tasks, joinery specializes in intricate details such as doors, windows, staircases, and cabinetry.</p>
-        </div>
-                    </div>
-                    <div className='col-6'>
-                          <img src='assets/images/blog/large-blog.jpg'/>
-                    </div>
-                 </div>
-            </div>
-            </div>
-          </div>
           {/* joinery end */}
               {/* card start  */}
         <div className="container mt-5">
           <div className="portfolio-wrap mfp-gallery work-grid row clearfix">
-            <div>
+            <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
               <h3>Joinery Production</h3>
               <p>Combining advanced technology with artisanal expertise, our joinery production delivers precision-crafted woodwork tailored to your needs. Our skilled craftsmen, trained in leading European techniques, transform premium-quality wood into elegant furniture, custom doors, decorative wall and ceiling panels, arches, columns, beams, and staircases. Whether for residential or commercial spaces, we ensure every piece reflects exceptional craftsmanship, durability, and timeless aesthetics, elevating interiors with bespoke joinery solutions</p>
             </div>
@@ -345,27 +293,17 @@ const Joinery = () => {
           {/* customer end  */}
 
         {/* faq start */}
-        <section className="faqs section-padding position-re" style={{padding:'140px 0px'}}>
+        <section className="faqs section-padding position-re" style={{ padding: "140px 0px" }}>
       <div className="container">
-        <div className='col-12'>
-          <div className='row '>
-        <div className='col-5'>
-          <div>
-            <img />
+        <div className="row align-items-center">
+          <div className="col-lg-5 col-md-6 text-center mb-4 mb-md-0">
+            <img src="your-image-url.jpg" alt="FAQ" className="img-fluid" />
           </div>
-        </div>
-       <div className='col-7'>
-       
-        
+          <div className="col-lg-7 col-md-6">
             <div className="sec-head md-mb80">
               <h6 className="sub-title main-color mb-15">FAQS</h6>
               <h2 className="fontmanage">Frequently Asked Questions</h2>
             </div>
-       
-       
-
-        
-          <div>
             <div className="accordion">
               {faqs.map((faq, index) => (
                 <div
@@ -380,11 +318,11 @@ const Joinery = () => {
                     transition: "all 0.3s ease",
                     background: openIndex === index ? "#f7f7f7" : "#fff",
                     boxShadow: openIndex === index ? "0px 4px 10px rgba(0,0,0,0.1)" : "none",
-                    marginBottom:'15px'
+                    marginBottom: "15px",
                   }}
                 >
                   <div className="title d-flex justify-content-between align-items-center">
-                    <h6 style={{ margin: 0,fontSize:'16px'}}>{faq.question}</h6>
+                    <h6 style={{ margin: 0, fontSize: "16px" }}>{faq.question}</h6>
                     {openIndex === index ? (
                       <FaMinus style={{ color: "#ff6600" }} />
                     ) : (
@@ -409,9 +347,6 @@ const Joinery = () => {
               ))}
             </div>
           </div>
-        
-        </div>
-        </div>
         </div>
       </div>
     </section>
