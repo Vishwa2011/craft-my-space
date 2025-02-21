@@ -407,6 +407,9 @@ const Orderafreebrochure = () => {
           </div>
         </div>
         <Footers />
+        <button className="scroltop">
+        <span className="fa fa-angle-up  relative" id="btn-vibrate"></span>
+      </button>
       </div>
     </>
   );

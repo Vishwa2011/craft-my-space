@@ -85,7 +85,7 @@ const items = [
     title: "Glass Wardrobes",
     p: "We offer Soft-close German Hinges for durable hinged glass wardrobe doors. Our made-to-measure system is versatile, with high-quality accessories built to last.",
     // image: "assets/images/gallery/pic9.jpg",
-    image: "assets/images/gallery/pic9.jpg",
+    image: "https://img.freepik.com/free-photo/3d-rendering-minimal-scandinavian-wood-walk-closet-with-wardrobe_105762-2298.jpg?ga=GA1.1.1277442416.1735988239&semt=ais_hybrid",
   },
   {
     id: 11,
