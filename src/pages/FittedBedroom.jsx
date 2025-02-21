@@ -12,7 +12,8 @@ const FittedBedroom = () => {
         <div
           className="wt-bnr-inr overlay-wraper bg-parallax bg-top-center"
           data-stellar-background-ratio="0.5"
-          style={{ backgroundimage: "url(/assets/pic/fitterbed.jpg)" }}
+          style={{ backgroundImage: "url(/assets/pic/fitterbed.jpg)" }}
+       
         >
           <div className="overlay-main bg-black opacity-07"></div>
           <div className="container">
@@ -118,7 +119,8 @@ const FittedBedroom = () => {
             <div className="masonry-item cat-1 col-lg-4 col-md-6 col-sm-12 m-b30">
               <div className="project-img-effect-1">
                 <img
-                  src="assets/images/gallery/pic1.jpg"
+                  // src="assets/images/gallery/pic1.jpg"
+                  src="/assets/pic/bedroom1.avif"
                   alt=""
                 />
                 <div className="wt-info">
@@ -137,7 +139,8 @@ const FittedBedroom = () => {
             <div className="masonry-item cat-2 col-lg-4 col-md-6 col-sm-12 m-b30">
               <div className="project-img-effect-1">
                 <img
-                  src="assets/images/gallery/pic2.jpg"
+                  // src="assets/images/gallery/pic2.jpg"
+                  src="/assets/pic/bedroom2.avif"
                   alt=""
                 />
                 <div className="wt-info">
@@ -156,7 +159,8 @@ const FittedBedroom = () => {
             <div className="masonry-item cat-3 col-lg-4 col-md-6 col-sm-12 m-b30">
               <div className="project-img-effect-1">
                 <img
-                  src="assets/images/gallery/pic3.jpg"
+                  // src="assets/images/gallery/pic3.jpg"
+                  src="/assets/pic/bedroom3.jpg"
                   alt=""
                 />
                 <div className="wt-info">

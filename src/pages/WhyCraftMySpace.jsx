@@ -114,6 +114,7 @@ const WhyCraftMySpace = () => {
                 <div className="col-lg-4 col-md-6 m-b30">
                   <div className="project-detail-pic ">
                     <div className="wt-media">
+                      {/* <img src="assets/images/gallery/pic3.jpg" alt="" /> */}
                       <img src="/assets/pic/cms1.webp" alt="" />
                     </div>
                   </div>
@@ -122,6 +123,7 @@ const WhyCraftMySpace = () => {
                 <div className="col-lg-4 col-md-6 m-b30">
                   <div className="project-detail-pic">
                     <div className="wt-media">
+                      {/* <img src="assets/images/gallery/pic3.jpg" alt="" /> */}
                       <img src="/assets/pic/cms2.webp" alt="" />
                     </div>
                   </div>
@@ -130,14 +132,16 @@ const WhyCraftMySpace = () => {
                 <div className="col-lg-4 col-md-12 m-b30">
                   <div className="project-detail-pic">
                     <div className="wt-media">
-                      <img src="assets/images/gallery/pic3.jpg" alt="" />
+                      {/* <img src="assets/images/gallery/pic3.jpg" alt="" /> */}
+                      <img src="/assets/pic/cms3.webp" alt="" />
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-6 m-b30">
                   <div className="project-detail-pic ">
                     <div className="wt-media">
-                      <img src="assets/images/gallery/pic1.jpg" alt="" />
+                      {/* <img src="assets/images/gallery/pic1.jpg" alt="" /> */}
+                      <img src="/assets/pic/cms4.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -145,7 +149,8 @@ const WhyCraftMySpace = () => {
                 <div className="col-lg-4 col-md-6 m-b30">
                   <div className="project-detail-pic">
                     <div className="wt-media">
-                      <img src="assets/images/gallery/pic2.jpg" alt="" />
+                      {/* <img src="assets/images/gallery/pic2.jpg" alt="" /> */}
+                      <img src="/assets/pic/cms5.webp" alt="" />
                     </div>
                   </div>
                 </div>
@@ -153,7 +158,8 @@ const WhyCraftMySpace = () => {
                 <div className="col-lg-4 col-md-12 m-b30">
                   <div className="project-detail-pic">
                     <div className="wt-media">
-                      <img src="assets/images/gallery/pic3.jpg" alt="" />
+                      {/* <img src="assets/images/gallery/pic3.jpg" alt="" /> */}
+                      <img src="/assets/pic/cms6.webp" alt="" />
                     </div>
                   </div>
                 </div>
@@ -289,7 +295,8 @@ const WhyCraftMySpace = () => {
                   <div className="custom-right-part-content p-t80 p-b80">
                     <div className="video-section-outer">
                       <div className="video-section">
-                        <img src="assets/images/video-img.jpg" alt="" />
+                        {/* <img src="assets/images/video-img.jpg" alt="" /> */}
+                        <img src="/assets/pic/videoimg.jpg" alt="" />
                         <a
                           href="https://player.vimeo.com/video/34741214?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0"
                           className="mfp-video play-now"

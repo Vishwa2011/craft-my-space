@@ -19,7 +19,8 @@ const items = [
     category: "cat-1",
     title: "Bifold Wardrobes",
     p: "We customize hinged folding wardrobe doors in various finishes, including wood, mirror, matte, laminate, and routed shutters. For a modern touch, choose metal-framed shutters with glass panels.",
-    image: "assets/images/gallery/pic1.jpg",
+    // image: "assets/images/gallery/pic1.jpg",
+    image: "/assets/pic/wardrobes1.webp",
   },
   {
     id: 2,
@@ -54,7 +55,8 @@ const items = [
     category: "cat-1",
     title: "Hinged Wardrobes",
     p: "Our fitted hinged wardrobe system offers modularity with bespoke finishes, seamlessly matching living rooms, bedrooms, and bed units.",
-    image: "assets/images/gallery/pic6.jpg",
+    // image: "assets/images/gallery/pic6.jpg",
+    image: "/assets/pic/w3.jpg",
   },
   {
     id: 7,
@@ -82,6 +84,7 @@ const items = [
     category: "cat-1",
     title: "Glass Wardrobes",
     p: "We offer Soft-close German Hinges for durable hinged glass wardrobe doors. Our made-to-measure system is versatile, with high-quality accessories built to last.",
+    // image: "assets/images/gallery/pic9.jpg",
     image: "assets/images/gallery/pic9.jpg",
   },
   {
@@ -139,7 +142,8 @@ const FittedWardrobes = () => {
           <div
             className="wt-bnr-inr overlay-wraper bg-parallax bg-top-center"
             data-stellar-background-ratio="0.5"
-            style={{ backgroundImage: "url(assets/images/banner/2.jpg)" }}
+            // style={{ backgroundImage: "url(assets/images/banner/2.jpg)" }}
+            style={{ backgroundImage: "url(assets/pic/Wardrobe.webp)" }}
           >
             <div className="overlay-main bg-black opacity-07"></div>
             <div className="container">
