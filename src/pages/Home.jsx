@@ -1465,33 +1465,33 @@ export default function Home() {
               >
                 <div className="item">
                   <div className="wt-media">
-                    <img src="/assets/images/testimonials/small/1.jpg" alt="" />
+                    <img src="/assets/pic/profile.webp" alt="" />
                   </div>
                 </div>
                 <div className="item">
                   <div className="wt-media">
-                    <img src="/assets/images/testimonials/small/2.jpg" alt="" />
+                    <img src="/assets/pic/profile.webp" alt="" />
                   </div>
                 </div>
                 <div className="item">
                   <div className="wt-media">
-                    <img src="/assets/images/testimonials/small/3.jpg" alt="" />
+                    <img src="/assets/pic/profile.webp" alt="" />
                   </div>
                 </div>
                 <div className="item">
                   <div className="wt-media">
-                    <img src="/assets/images/testimonials/small/4.jpg" alt="" />
+                    <img src="/assets/pic/profile.webp" alt="" />
                   </div>
                 </div>
                 <div className="item">
                   <div className="wt-media">
-                    <img src="/assets/images/testimonials/small/5.jpg" alt="" />
+                    <img src="/assets/pic/profile.webp" alt="" />
                   </div>
                 </div>
                 {/* New Thumbnail for the new testimonial */}
                 <div className="item">
                   <div className="wt-media">
-                    <img src="/assets/images/testimonials/small/6.jpg" alt="" />
+                    <img src="/assets/pic/profile.webp" alt="" />
                   </div>
                 </div>
               </div>
@@ -1666,7 +1666,8 @@ export default function Home() {
                           Discover how custom furniture can perfectly fit your space and elevate your home’s style.
                           </p>
                           <div className="wt-media img-reflection">
-                            <img src="assets/images/gallery/pic1.jpg" alt="" />
+                            {/* <img src="assets/images/gallery/pic1.jpg" alt="" /> */}
+                            <img src="/assets/pic/blog.png" alt="" />
                           </div>
                         </div>
                       </div>
@@ -1682,7 +1683,8 @@ export default function Home() {
                           Turn awkward areas into functional, stylish spots with tailor-made furniture that maximizes every inch.
                           </p>
                           <div className="wt-media img-reflection">
-                            <img src="assets/images/gallery/pic2.jpg" alt="" />
+                            {/* <img src="assets/images/gallery/pic2.jpg" alt="" /> */}
+                            <img src="/assets/pic/blog2.jpg" alt="" />
                           </div>
                         </div>
                       </div>
@@ -1698,7 +1700,8 @@ export default function Home() {
                           Stay updated on the latest furniture trends to refresh your space with modern and functional designs.
                           </p>
                           <div className="wt-media img-reflection">
-                            <img src="assets/images/gallery/pic3.jpg" alt="" />
+                            {/* <img src="assets/images/gallery/pic3.jpg" alt="" /> */}
+                            <img src="/assets/pic/blog3.jpg" alt="" />
                           </div>
                         </div>
                       </div>
