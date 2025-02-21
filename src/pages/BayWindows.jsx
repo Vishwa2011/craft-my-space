@@ -14,7 +14,7 @@ const BayWindows = () => {
           className="wt-bnr-inr overlay-wraper bg-parallax bg-top-center"
           data-stellar-background-ratio="0.5"
           style={{
-            backgroundImage: "url(https://img.freepik.com/premium-photo/home-office-with-built-window-seat-relaxation_1170794-258976.jpg?ga=GA1.1.1277442416.1735988239&semt=ais_hybrid)",
+            backgroundImage: "url(assets/pic/windowheader.png)",
           }}
         >
           <div className="overlay-main bg-black opacity-07"></div>
