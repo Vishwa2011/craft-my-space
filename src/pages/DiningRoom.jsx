@@ -117,7 +117,7 @@ const DiningRoom = () => {
                     Custom dining room furniture offers limitless possibilities, from showcasing fine china to organizing everyday essentials. Thoughtfully designed fitted cabinets can transform your dining area into a stylish and functional space, serving as a beautiful focal point while maximizing storage.
                     </p>
                     <p>
-                    Whether you have a dedicated dining room or an open-plan kitchen diner, made-to-measure furniture ensures a perfect fit for your space and needs. Unlike bulky freestanding pieces, built-in dining cabinets provide ample storage while maintaining a sleek and uncluttered look, allowing for easy movement and a more comfortable dining experience. At Bravo, we craft bespoke dining solutions tailored to your home, blending elegance with practicality.
+                    Whether you have a dedicated dining room or an open-plan kitchen diner, made-to-measure furniture ensures a perfect fit for your space and needs. Unlike bulky freestanding pieces, built-in dining cabinets provide ample storage while maintaining a sleek and uncluttered look, allowing for easy movement and a more comfortable dining experience. At Craft My Space, we craft bespoke dining solutions tailored to your home, blending elegance with practicality.
                     </p>
                     
                   </div>

@@ -291,9 +291,10 @@ const Getaquote = () => {
                   </form>
                 </div>
                 
-                <div className="contact-info col-md-6 col-12 text-center bg-gray p-4" style={{ display: 'flex', flexDirection: 'column', justifyContent:'center' }}>
+                <div className="contact-info col-md-6 col-12 text-center bg-gray p-4" style={{ display: 'flex', flexDirection: 'column', justifyContent:'center',alignItems:'center' }}>
                 <div>
                         <h4 style={{marginBottom:'30px'}}>Craft My Space</h4>
+                        <div style={{textAlign:'justify'}}>
                         <div>
                               <div className="icon-content">
                                    <p><i className="sl-icon-phone" style={{border:'1px solid #000',borderRadius:'100%',background:'#000',color:'#fff',padding:'5px',marginRight:'10px'}}></i>+01753530216</p>
@@ -310,6 +311,7 @@ const Getaquote = () => {
                               
                               <p> <i className="sl-icon-envolope" style={{border:'1px solid #000',borderRadius:'100%',background:'#000',color:'#fff',padding:'5px',marginRight:'10px'}}></i>demo@gmail.com</p>
                             </div>
+                        </div>
                         </div>
 </div>
                      

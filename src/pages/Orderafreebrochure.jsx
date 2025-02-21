@@ -338,11 +338,13 @@ const Orderafreebrochure = () => {
                         display: "flex",
                         justifyContent: "center",
                         flexDirection: "column",
+                        alignItems:'center'
                       }}
                     >
-                      <div>
+                      {/* <div> */}
                         <h4 style={{ marginBottom: "30px" }}>Craft My Space</h4>
-                        <div>
+                       <div style={{textAlign:'justify'}}>
+                       <div>
                           <div className="icon-content">
                             <p>
                               <i
@@ -398,7 +400,8 @@ const Orderafreebrochure = () => {
                             </p>
                           </div>
                         </div>
-                      </div>
+                       </div>
+                      {/* </div> */}
                     </div>
                   </div>
                 </div>

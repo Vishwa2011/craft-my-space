@@ -2161,7 +2161,7 @@ ol.list-num-count.list-outline-none > li:before {background-color:transparent;	c
   }
 
 .masonry-filter { display:table;	margin-bottom:0;}
-.masonry-filter > li {display: inline-block;	margin-right:30px;	position:relative;}
+.masonry-filter > li {display: inline-block;	margin-right:30px;	position:relative;margin-bottom: 10px;}
 
 .masonry-filter > li a {color: #262423;    font-size: 14px;	font-weight:500;    }
 

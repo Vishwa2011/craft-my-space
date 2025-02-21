@@ -19,8 +19,7 @@ const items = [
     category: "cat-1",
     title: "Bifold Wardrobes",
     p: "We customize hinged folding wardrobe doors in various finishes, including wood, mirror, matte, laminate, and routed shutters. For a modern touch, choose metal-framed shutters with glass panels.",
-    // image: "assets/images/gallery/pic1.jpg",
-    image: "/assets/pic/wardrobes1.webp",
+    image: "assets/images/gallery/pic1.jpg",
   },
   {
     id: 2,
@@ -55,8 +54,7 @@ const items = [
     category: "cat-1",
     title: "Hinged Wardrobes",
     p: "Our fitted hinged wardrobe system offers modularity with bespoke finishes, seamlessly matching living rooms, bedrooms, and bed units.",
-    // image: "assets/images/gallery/pic6.jpg",
-    image: "/assets/pic/w3.jpg",
+    image: "assets/images/gallery/pic6.jpg",
   },
   {
     id: 7,
@@ -84,8 +82,7 @@ const items = [
     category: "cat-1",
     title: "Glass Wardrobes",
     p: "We offer Soft-close German Hinges for durable hinged glass wardrobe doors. Our made-to-measure system is versatile, with high-quality accessories built to last.",
-    // image: "assets/images/gallery/pic9.jpg",
-    image: "https://img.freepik.com/free-photo/3d-rendering-minimal-scandinavian-wood-walk-closet-with-wardrobe_105762-2298.jpg?ga=GA1.1.1277442416.1735988239&semt=ais_hybrid",
+    image: "assets/images/gallery/pic9.jpg",
   },
   {
     id: 11,

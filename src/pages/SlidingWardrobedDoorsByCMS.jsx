@@ -12,7 +12,7 @@ const SlidingWardrobedDoorsByCMS = () => {
             className="wt-bnr-inr overlay-wraper bg-parallax bg-top-center"
             data-stellar-background-ratio="0.5"
             style={{
-              backgroundImage: "url(assets/images/banner/2.jpg)",
+              backgroundImage: "url(assets/pic/internal.jpg)",
             }}
           >
             <div className="overlay-main bg-black opacity-07"></div>
