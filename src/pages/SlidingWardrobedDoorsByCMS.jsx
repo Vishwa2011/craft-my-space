@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Footers from "./Footer";
 
 const SlidingWardrobedDoorsByCMS = () => {
+  
   return (
     <div className="page-wraper">
       <Navbar />
