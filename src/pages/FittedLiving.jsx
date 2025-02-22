@@ -240,7 +240,7 @@ const FittedLiving = () => {
                   <div className="custom-right-part-content p-t80 p-b80">
                     <div className="video-section-outer">
                       <div className="video-section">
-                        <img src="assets/images/video-img.jpg" alt="" />
+                        <img src="/assets/pic/MAINAU.png" alt="" />
                         <a
                           href="https://player.vimeo.com/video/34741214?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0"
                           className="mfp-video play-now"
