@@ -86,25 +86,25 @@ export default function HingedDoorWardrobes() {
                 {/* <!-- COLUMNS 1 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/gallery/pic1.jpg" alt="" />
+                    <img src="assets/pic/hiding5.png" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 2 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/projects/pic-1.jpg" alt="" />
+                    <img src="assets/pic/hiding1.png" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 3 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/gallery/pic2.jpg" alt="" />
+                    <img src="assets/pic/hiding6.png" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 4 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/projects/pic-2.jpg" alt="" />
+                    <img src="assets/pic/hiding2.png" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 5 --> */}
@@ -113,13 +113,13 @@ export default function HingedDoorWardrobes() {
                   style={{ marginTop: "-245px" }}
                 >
                   <div className="project-img-effect-1">
-                    <img src="assets/images/projects/pic-5.jpg" alt="" />
+                    <img src="assets/pic/hiding3.png" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 6 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/gallery/pic9.jpg" alt="" />
+                    <img src="assets/pic/hiding7.png" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 7 --> */}
@@ -128,13 +128,13 @@ export default function HingedDoorWardrobes() {
                   style={{ marginTop: "-245px" }}
                 >
                   <div className="project-img-effect-1">
-                    <img src="assets/images/projects/pic-4.jpg" alt="" />
+                    <img src="assets/pic/hiding4.png" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 8 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/gallery/pic9.jpg" alt="" />
+                    <img src="assets/pic/hiding8.png" alt="" />
                   </div>
                 </div>
               </div>

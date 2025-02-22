@@ -74,25 +74,25 @@ const SlidingWardrobedDoorsByCMS = () => {
                 {/* <!-- COLUMNS 1 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/gallery/pic1.jpg" alt="" />
+                    <img src="/assets/pic/swd1.png" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 2 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/projects/pic-1.jpg" alt="" />
+                    <img src="/assets/pic/swd8.png" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 3 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/gallery/pic2.jpg" alt="" />
+                    <img src="/assets/pic/swd2.png" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 4 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/projects/pic-2.jpg" alt="" />
+                    <img src="/assets/pic/swd7.png" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 5 --> */}
@@ -101,13 +101,13 @@ const SlidingWardrobedDoorsByCMS = () => {
                   style={{ marginTop: "-245px" }}
                 >
                   <div className="project-img-effect-1">
-                    <img src="assets/images/projects/pic-5.jpg" alt="" />
+                    <img src="/assets/pic/swd6.png" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 6 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/gallery/pic9.jpg" alt="" />
+                    <img src="/assets/pic/swd3.png" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 7 --> */}
@@ -116,13 +116,13 @@ const SlidingWardrobedDoorsByCMS = () => {
                   style={{ marginTop: "-245px" }}
                 >
                   <div className="project-img-effect-1">
-                    <img src="assets/images/projects/pic-4.jpg" alt="" />
+                    <img src="/assets/pic/swd5.png" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 8 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/gallery/pic9.jpg" alt="" />
+                    <img src="/assets/pic/swd4.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -132,93 +132,7 @@ const SlidingWardrobedDoorsByCMS = () => {
           </div>
           {/* <!-- SECTION CONTENT END  --> */}
 
-           {/* text start  */}
-           <div className="container mt-5 mb-5">
-            <div className="project-detail-outer">
-              <div className="project-detail-containt">
-                <div className="bg-white text-black">
-                  <h3>Discover a Stunning Collection of Glass and Mirror Sliding Wardrobe Doors for Every Style</h3>
-                  <p>
-                  Enhance the elegance of your living space with our exquisite range of glass and mirror sliding wardrobe doors. Designed to reflect light and create an illusion of spaciousness, these doors offer a perfect balance of style and functionality. Whether you prefer a sleek modern look or a timeless classic design, our collection includes a variety of finishes to suit your taste. With smooth sliding mechanisms and durable materials, our doors provide effortless operation and long-lasting performance.
-                  </p>
-                  <p>
-                  From frosted glass to full-length mirrors, our wardrobe doors are crafted to complement any interior décor. The reflective surfaces not only add depth to your room but also bring a touch of sophistication to your space. Available in multiple designs, colors, and frame options, these doors are the perfect choice for those looking to maximize both aesthetics and practicality. Elevate your home with our premium sliding wardrobe doors that blend luxury and convenience seamlessly.
-                  </p>
-                  
-                  
-                 
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* text end  */}
-
-             {/* <!-- SECTION CONTENT START --> */}
-             <div className="section-full p-t80 p-b50 bg-gray">
-            
-            <div className="container-fluid">
-             
-              <div className="portfolio-wrap mfp-gallery work-grid row clearfix" >
-                {/* <!-- COLUMNS 1 --> */}
-                <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
-                  <div className="project-img-effect-1">
-                    <img src="assets/images/gallery/pic1.jpg" alt="" />
-                  </div>
-                </div>
-                {/* <!-- COLUMNS 2 --> */}
-                <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
-                  <div className="project-img-effect-1">
-                    <img src="assets/images/projects/pic-1.jpg" alt="" />
-                  </div>
-                </div>
-                {/* <!-- COLUMNS 3 --> */}
-                <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
-                  <div className="project-img-effect-1">
-                    <img src="assets/images/gallery/pic2.jpg" alt="" />
-                  </div>
-                </div>
-                {/* <!-- COLUMNS 4 --> */}
-                <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
-                  <div className="project-img-effect-1">
-                    <img src="assets/images/projects/pic-2.jpg" alt="" />
-                  </div>
-                </div>
-                {/* <!-- COLUMNS 5 --> */}
-                <div
-                  className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30"
-                  style={{ marginTop: "-245px" }}
-                >
-                  <div className="project-img-effect-1">
-                    <img src="assets/images/projects/pic-5.jpg" alt="" />
-                  </div>
-                </div>
-                {/* <!-- COLUMNS 6 --> */}
-                <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
-                  <div className="project-img-effect-1">
-                    <img src="assets/images/gallery/pic9.jpg" alt="" />
-                  </div>
-                </div>
-                {/* <!-- COLUMNS 7 --> */}
-                <div
-                  className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30"
-                  style={{ marginTop: "-245px" }}
-                >
-                  <div className="project-img-effect-1">
-                    <img src="assets/images/projects/pic-4.jpg" alt="" />
-                  </div>
-                </div>
-                {/* <!-- COLUMNS 8 --> */}
-                <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
-                  <div className="project-img-effect-1">
-                    <img src="assets/images/gallery/pic9.jpg" alt="" />
-                  </div>
-                </div>
-              </div>
-             
-            </div>
-            
-          </div>
-          {/* <!-- SECTION CONTENT END  --> */}
+        
       </div>
       <Footers />
        {/* <!-- BUTTON TOP START --> */}
