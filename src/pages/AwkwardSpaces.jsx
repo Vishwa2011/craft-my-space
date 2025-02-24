@@ -145,7 +145,7 @@ const AwkwardSpaces = () => {
                     <h2 className="text-white">Awkward Spaces</h2>
                   </div>
                 </div>
-                {/* <!-- BREADCRUMB ROW -->                             */}
+                {/* <!-- BREADCRUMB ROW -->    */}
 
                 <div>
                   <ul className="wt-breadcrumb breadcrumb-style-2">
@@ -157,7 +157,7 @@ const AwkwardSpaces = () => {
                   </ul>
                 </div>
 
-                {/* <!-- BREADCRUMB ROW END -->                         */}
+                {/* <!-- BREADCRUMB ROW END -->  */}
               </div>
             </div>
           </div>
