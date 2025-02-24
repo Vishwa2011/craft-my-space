@@ -256,7 +256,7 @@ const Slidingwardrobed = () => {
                   <div className="arc-home-about-left">
                     <div className="arc-home-left-content  bg-gray">
                       <h3 className="m-t0 wt-tilte-light">
-                      Childrens Sliding Bedroom Wardrobes
+                      Childrens Bedroom Sliding Wardrobes
                       </h3>
                       <p>
                       Create a fun and organized space for your little ones with our children's sliding bedroom wardrobes. Designed for easy access and maximum storage, these wardrobes keep clothes, toys, and essentials neatly arranged.

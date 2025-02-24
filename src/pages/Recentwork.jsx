@@ -5,19 +5,19 @@ import Footers from "./Footer";
 const Recentwork = () => {
   const images = [
     {
-      src: "assets/images/gallery/pic1.jpg",
+      src: "/assets/pic/galary1.webp",
       title: "Fitted Hinged Doors Wardrobes",
     },
     {
-      src: "assets/images/gallery/pic2.jpg",
+      src: "/assets/pic/modern-kitchen.jpg",
       title: "Maximising Space and Functionality",
     },
     {
-      src: "assets/images/gallery/pic3.jpg",
+      src: "/assets/pic/hisher.jpg",
       title: "His and Hers Fitted Wardrobes",
     },
     {
-      src: "assets/images/gallery/pic1.jpg",
+      src: "/assets/pic/online.webp",
       title: "Fitted Wardrobes Delivered Ready To Paint",
     },
     {
@@ -32,90 +32,93 @@ const Recentwork = () => {
       src: "assets/images/gallery/pic1.jpg",
       title: "Bedroom Sliding Door Wardrobe",
     },
-    { src: "assets/images/gallery/pic2.jpg", title: "Hallway Wardrobe" },
+    {
+       src: "assets/images/gallery/pic2.jpg",
+       title: "Hallway Wardrobe"
+       },
     {
       src: "assets/images/gallery/pic3.jpg",
       title: "Walk-in Wardrobe in XyloCleaf",
     },
-    { src: "assets/images/gallery/pic3.jpg", title: "Walk-in Wardrobe" },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Under Sink Storage Solution",
-    },
-    { src: "assets/images/gallery/pic3.jpg", title: "Six-door wardrobe" },
-    { src: "assets/images/gallery/pic3.jpg", title: "12-Drawer Sideboard" },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Boardroom Fitted Furniture",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Latest Walk-in Dressing Room",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Maximising Storage in Challenging Spaces",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Fitted Wardrobe with Built-in Led Lighting",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Loft Conversion with Bespoke Furniture: A Perfect Blend of Style",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Sliding doors for West Hampstead!",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Statement style sliding wardrobe doors!",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Verona Style Sliding Doors!",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Bronzed Mirror Sliding Door wardrobe!",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Luxurious Sliding Doors for Edgware – craft my space Style!",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "White Glass Corner Wardrobe – craft my space Style",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Sliding Doors – London Style",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Premium Quality Bespoke Furniture",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Sliding doors – Wood Green Style!",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Stunning sliding door Champagne Two-Piece",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Stunning Sliding Doors for Ealing – craft my space Style!",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Sliding doors for Walthamstow – craft my space style!",
-    },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Sliding doors for Kingston – Stunning!",
-    },
+    // { src: "assets/images/gallery/pic3.jpg", title: "Walk-in Wardrobe" },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Under Sink Storage Solution",
+    // },
+    // { src: "assets/images/gallery/pic3.jpg", title: "Six-door wardrobe" },
+    // { src: "assets/images/gallery/pic3.jpg", title: "12-Drawer Sideboard" },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Boardroom Fitted Furniture",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Latest Walk-in Dressing Room",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Maximising Storage in Challenging Spaces",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Fitted Wardrobe with Built-in Led Lighting",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Loft Conversion with Bespoke Furniture: A Perfect Blend of Style",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Sliding doors for West Hampstead!",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Statement style sliding wardrobe doors!",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Verona Style Sliding Doors!",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Bronzed Mirror Sliding Door wardrobe!",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Luxurious Sliding Doors for Edgware – craft my space Style!",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "White Glass Corner Wardrobe – craft my space Style",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Sliding Doors – London Style",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Premium Quality Bespoke Furniture",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Sliding doors – Wood Green Style!",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Stunning sliding door Champagne Two-Piece",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Stunning Sliding Doors for Ealing – craft my space Style!",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Sliding doors for Walthamstow – craft my space style!",
+    // },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Sliding doors for Kingston – Stunning!",
+    // },
   ];
 
   const [visibleImages, setVisibleImages] = useState(3);
@@ -132,7 +135,7 @@ const Recentwork = () => {
         <div
           className="wt-bnr-inr overlay-wraper bg-parallax bg-top-center"
           data-stellar-background-ratio="0.5"
-          style={{ backgroundimage: "url(images/banner/1.jpg)" }}
+          style={{ backgroundImage: "url(assets/pic/resent.jpg)" }}
         >
           <div className="overlay-main bg-black opacity-07"></div>
           <div className="container">
