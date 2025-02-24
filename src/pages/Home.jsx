@@ -1630,22 +1630,22 @@ export default function Home() {
                   >
                     <div className="row">
                       <div className="item col-12 col-md-6 col-lg-4 mb-4">
-                        <div className="projects-two-info text-white">
+                        <div className="projects-two-info text-white" style={{ padding:"30px 30px 30px 30px"}}>
                         <div >
                     <div className="wt-post-meta">
                         <ul>
                        
-                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);"> 20 November 2024</a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);"> <span>Craft My space</span></a></li>
+                            <li className="post-author" ><i className="fa fa-user"></i><a href="javascript:void(0);" style={{color:'#fff'}}> 20 November 2024</a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);"> <span style={{color:'#fff'}}>Craft My space</span></a></li>
                         </ul>
                     </div>
                     <div className="wt-post-title">
-                        <h4 className="post-title"><a href="javascript:void(0);">Craft My Space Fitted Furniture Storage Solutions</a></h4>
+                        <h4 className="post-title"><a href="javascript:void(0);" style={{color:'#fff'}}>Craft My Space Fitted Furniture Storage Solutions</a></h4>
                     </div>
                     <div className="wt-post-text">
-                        <p  style={{fontFamily:"sans-serif"}}>Craft My Space  fitted furniture storage solutions blend style and functionality to maximize your space efficiently. Designed with precision, our bespoke storage solutions cater to your unique needs, whether for bedrooms, living rooms, or home offices. </p>
+                        <p  style={{fontFamily:"sans-serif"}}>Craft My Space  fitted furniture storage solutions blend style and functionality to maximize your space efficiently. Designed with precision, our bespoke storage solutions cater to your unique needs, whether for bedrooms, living rooms, or home offices.... </p>
                     </div>
-                    <a href="javascript:void(0);" className="site-button-link">Read More</a>
+                    <a href="/Inspiration" className="site-button-link" style={{color:'#fff'}}>Read More</a>
                 </div>
                           <div className="wt-media img-reflection">
                             {/* <img src="assets/images/gallery/pic1.jpg" alt="" /> */}
@@ -1655,15 +1655,25 @@ export default function Home() {
                       </div>
 
                       <div className="item col-12 col-md-6 col-lg-4 mb-4">
-                        <div className="projects-two-info text-white">
-                          <h4 className="wt-tilte m-t0" data-title="02">
-                            <a href="" className="text-white">
-                            Space Solutions
-                            </a>
-                          </h4>
-                          <p>
-                          Turn awkward areas into functional, stylish spots with tailor-made furniture that maximizes every inch.
-                          </p>
+                        <div className="projects-two-info text-white" style={{ padding:"30px 30px 30px 30px"}}>
+                        <div >
+                    <div className="wt-post-meta">
+                        <ul>
+                            {/* <li className="post-date"><span>Aug 2019</span></li> */}
+                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);" style={{color:'#fff'}}> 28 April 2024</a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);"> <span style={{color:'#fff'}}>Craft My space</span></a></li>
+                        </ul>
+                    </div>
+                    <div className="wt-post-title">
+                        <h4 className="post-title"><a href="javascript:void(0);" style={{color:'#fff'}}>The Advantages of Aluminum Profile Sliding Wardrobe Doors
+
+</a></h4>
+                    </div>
+                    <div className="wt-post-text">
+                        <p  style={{fontFamily:"sans-serif"}}>Aluminum profile sliding wardrobe doors offer a sleek, modern, and space-saving solution for any home. Their lightweight yet durable construction ensures long-lasting performance while providing smooth and effortless operation. Unlike traditional hinged doors... </p>
+                    </div>
+                    <a href="/Inspiration" className="site-button-link" style={{color:'#fff'}}>Read More</a>
+                </div>
                           <div className="wt-media img-reflection">
                             {/* <img src="assets/images/gallery/pic2.jpg" alt="" /> */}
                             <img src="/assets/pic/bloggg2.jpg" alt="" />
@@ -1672,15 +1682,25 @@ export default function Home() {
                       </div>
 
                       <div className="item col-12 col-md-6 col-lg-4 mb-4">
-                        <div className="projects-two-info text-white">
-                          <h4 className="wt-tilte m-t0" data-title="03">
-                            <a href="" className="text-white">
-                            Trend Watch
-                            </a>
-                          </h4>
-                          <p>
-                          Stay updated on the latest furniture trends to refresh your space with modern and functional designs.
-                          </p>
+                        <div className="projects-two-info text-white"   style={{ padding:"30px 30px 30px 30px"}}>
+                        <div>
+                    <div className="wt-post-meta">
+                        <ul>
+                            
+                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);" style={{color:'#fff'}}> 24 June 2024</a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);"> <span style={{color:'#fff'}}>Craft My space</span></a></li>
+                        </ul>
+                    </div>
+                    <div className="wt-post-title">
+                        <h4 className="post-title"><a href="" style={{color:'#fff'}}>Stages When Ordering From Craft My Space
+
+</a></h4>
+                    </div>
+                    <div className="wt-post-text">
+                        <p  style={{fontFamily:"sans-serif"}}>When ordering from Craft My Space, the process begins with an inquiry and consultation, where customers share their requirements, design preferences, and budget. Our expert designers then create custom concepts and 3D renders for approval. Once the design is ....</p>
+                    </div>
+                    <a href="/Inspiration" className="site-button-link" style={{color:'#fff'}}>Read More</a>
+                </div>
                           <div className="wt-media img-reflection">
                             {/* <img src="assets/images/gallery/pic3.jpg" alt="" /> */}
                             <img src="/assets/pic/blogg3.jpg" alt="" />
