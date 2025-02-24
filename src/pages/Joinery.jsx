@@ -70,7 +70,7 @@ const Joinery = () => {
         
         {/* <!-- Image Section --> */}
         <div class="col-lg-6 col-md-12 text-center">
-            <img src="assets/images/blog/large-blog.jpg" class="img-fluid rounded" alt="Joinery Image"   />
+            <img src="/assets/pic/joinery.jpeg" class="img-fluid rounded" alt="Joinery Image"   />
         </div>
     </div>
     
@@ -106,7 +106,7 @@ const Joinery = () => {
             <div className="masonry-item cat-1 col-lg-4 col-md-6 col-sm-12 m-b30">
               <div className="project-img-effect-1">
                 <img
-                  src="assets/images/gallery/pic1.jpg"
+                  src="/assets/pic/joinery1.jpg"
                   alt=""
                 />
                 <div className="wt-info">
@@ -120,7 +120,7 @@ const Joinery = () => {
             <div className="masonry-item cat-2 col-lg-4 col-md-6 col-sm-12 m-b30">
               <div className="project-img-effect-1">
                 <img
-                  src="assets/images/gallery/pic2.jpg"
+                  src="/assets/pic/joinery2.jpg"
                   alt=""
                 />
                 <div className="wt-info">
@@ -134,7 +134,7 @@ const Joinery = () => {
             <div className="masonry-item cat-3 col-lg-4 col-md-6 col-sm-12 m-b30">
               <div className="project-img-effect-1">
                 <img
-                  src="assets/images/gallery/pic3.jpg"
+                  src="/assets/pic/joinery3.jpg"
                   alt=""
                 />
                 <div className="wt-info">
@@ -149,7 +149,7 @@ const Joinery = () => {
             <div className="masonry-item cat-4 col-lg-4 col-md-6 col-sm-12 m-b30">
               <div className="project-img-effect-1">
                 <img
-                  src="assets/images/gallery/pic1.jpg"
+                  src="/assets/pic/joinery4.jpg"
                   alt=""
                 />
                 <div className="wt-info">
@@ -163,7 +163,7 @@ const Joinery = () => {
             <div className="masonry-item cat-5 col-lg-4 col-md-6 col-sm-12 m-b30">
               <div className="project-img-effect-1">
                 <img
-                  src="assets/images/gallery/pic2.jpg"
+                  src="/assets/pic/joinery5.jpg"
                   alt=""
                 />
                 <div className="wt-info">
@@ -177,7 +177,7 @@ const Joinery = () => {
             <div className="masonry-item cat-6 col-lg-4 col-md-6 col-sm-12 m-b30">
               <div className="project-img-effect-1">
                 <img
-                  src="assets/images/gallery/pic3.jpg"
+                  src="/assets/pic/joinery6.jpg"
                   alt=""
                 />
                 <div className="wt-info">
@@ -201,7 +201,7 @@ const Joinery = () => {
                     <h3>Joinery and Furniture Production</h3>
                     <p>Our joinery and furniture production combines traditional craftsmanship with modern technology to create bespoke woodwork of the highest quality. From custom doors, windows, and staircases to elegant furniture and architectural wood elements, we manufacture pieces that seamlessly blend functionality and aesthetics.</p>
                         <div class="  awards-win-section-left bg-cover bg-no-repeat bg-center bg-gray" >
-                         <img src='assets/images/background/bg-8.jpg'/>
+                         <img src='https://img.freepik.com/free-photo/carpenter-cutting-mdf-board-inside-workshop_23-2149451076.jpg?uid=R108338383&ga=GA1.1.1239697019.1727327661&semt=ais_hybrid'/>
                         	<div class="awards-win-left-content">
                             </div>
                         </div>

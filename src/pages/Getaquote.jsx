@@ -245,7 +245,7 @@ const Getaquote = () => {
         <div
             className="wt-bnr-inr overlay-wraper bg-parallax bg-top-center"
             data-stellar-background-ratio="0.5"
-            style={{ backgroundimage: "url(images/banner/1.jpg)" }}
+            style={{ backgroundImage: "url(assets/pic/getaquote.jpg)" }}
           >
             <div className="overlay-main bg-black opacity-07"></div>
             <div className="container">
