@@ -48,25 +48,25 @@ const Inspiration = () => {
                                   <div className="col-lg-4 col-md-6">
             <div className="blog-post blog-md date-style-1 clearfix bg-white">
                 <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="javascript:void(0);">
-                        <img src="/assets/images/blog/default/thum1.jpg" alt="" />
+                    <a href="">
+                        <img src="/assets/pic/blog1.jpg" alt="" />
                     </a>
                 </div>
                 <div className=" p-a30">
                     <div className="wt-post-meta">
                         <ul>
                             {/* <li className="post-date"><span>Aug 2019</span></li> */}
-                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a></li>
+                            <li className="post-author"><i className="fa fa-user"></i><a href=""> 20 November 2024</a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>Craft My space</span></a></li>
                         </ul>
                     </div>
                     <div className="wt-post-title">
-                        <h4 className="post-title"><a href="javascript:void(0);">Being a famous designer...</a></h4>
+                        <h4 className="post-title"><a href="">Craft My Space Fitted Furniture Storage Solutions</a></h4>
                     </div>
                     <div className="wt-post-text">
-                        <p>The longer I live, the more beautiful life becomes...</p>
+                        <p  style={{fontFamily:"sans-serif"}}>Craft My Space  fitted furniture storage solutions blend style and functionality to maximize your space efficiently. Designed with precision, our bespoke storage solutions cater to your unique needs, whether for bedrooms, living rooms, or home offices. With a focus on high-quality craftsmanship and modern aesthetics, we transform cluttered spaces into organized, elegant interiors. Experience seamless integration, smart storage, and timeless designs with Bravo London’s expert solutions</p>
                     </div>
-                    <a href="javascript:void(0);" className="site-button-link">Read More</a>
+                    <a href="" className="site-button-link">Read More</a>
                 </div>
             </div>
         </div>
@@ -75,25 +75,27 @@ const Inspiration = () => {
         <div className="col-lg-4 col-md-6">
             <div className="blog-post blog-md date-style-1 clearfix bg-white">
                 <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="javascript:void(0);">
-                        <img src="/assets/images/blog/default/thum1.jpg" alt="" />
+                    <a href="">
+                        <img src="/assets/pic/bloggg2.jpg" alt="" />
                     </a>
                 </div>
                 <div className=" p-a30">
                     <div className="wt-post-meta">
                         <ul>
                             {/* <li className="post-date"><span>Aug 2019</span></li> */}
-                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a></li>
+                            <li className="post-author"><i className="fa fa-user"></i><a href=""> 28 April 2024</a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>Craft My space</span></a></li>
                         </ul>
                     </div>
                     <div className="wt-post-title">
-                        <h4 className="post-title"><a href="javascript:void(0);">Being a famous designer...</a></h4>
+                        <h4 className="post-title"><a href="">The Advantages of Aluminum Profile Sliding Wardrobe Doors
+
+</a></h4>
                     </div>
                     <div className="wt-post-text">
-                        <p>The longer I live, the more beautiful life becomes...</p>
+                        <p  style={{fontFamily:"sans-serif"}}>Aluminum profile sliding wardrobe doors offer a sleek, modern, and space-saving solution for any home. Their lightweight yet durable construction ensures long-lasting performance while providing smooth and effortless operation. Unlike traditional hinged doors, sliding doors maximize space efficiency, making them ideal for compact rooms. The aluminum frame adds a touch of elegance and is resistant to rust, corrosion, and wear, ensuring minimal maintenance. </p>
                     </div>
-                    <a href="javascript:void(0);" className="site-button-link">Read More</a>
+                    <a href="" className="site-button-link">Read More</a>
                 </div>
             </div>
         </div>
@@ -102,25 +104,27 @@ const Inspiration = () => {
         <div className="col-lg-4 col-md-6">
             <div className="blog-post blog-md date-style-1 clearfix bg-white">
                 <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="javascript:void(0);">
-                        <img src="/assets/images/blog/default/thum1.jpg" alt="" />
+                    <a href="">
+                        <img src="/assets/pic/blogg3.jpg" alt="" />
                     </a>
                 </div>
-                <div className=" p-a30">
+                <div className=" p-a30" style={{height:'530px'}}>
                     <div className="wt-post-meta">
                         <ul>
                             {/* <li className="post-date"><span>Aug 2019</span></li> */}
-                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a></li>
+                            <li className="post-author"><i className="fa fa-user"></i><a href=""> 24 June 2024</a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>Craft My space</span></a></li>
                         </ul>
                     </div>
                     <div className="wt-post-title">
-                        <h4 className="post-title"><a href="javascript:void(0);">Being a famous designer...</a></h4>
+                        <h4 className="post-title"><a href="">Stages When Ordering From Craft My Space
+
+</a></h4>
                     </div>
                     <div className="wt-post-text">
-                        <p>The longer I live, the more beautiful life becomes...</p>
+                        <p  style={{fontFamily:"sans-serif"}}>When ordering from Craft My Space, the process begins with an inquiry and consultation, where customers share their requirements, design preferences, and budget. Our expert designers then create custom concepts and 3D renders for approval. Once the design is finalized, we provide a detailed quotation, and upon approval, production begins with skilled artisans crafting each piece meticulously.</p>
                     </div>
-                    <a href="javascript:void(0);" className="site-button-link">Read More</a>
+                    <a href="" className="site-button-link">Read More</a>
                 </div>
             </div>
         </div>
@@ -128,25 +132,25 @@ const Inspiration = () => {
                                          <div className="col-lg-4 col-md-6">
             <div className="blog-post blog-md date-style-1 clearfix bg-white">
                 <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="javascript:void(0);">
-                        <img src="/assets/images/blog/default/thum1.jpg" alt="" />
+                    <a href="">
+                        <img src="/assets/pic/blogg4.jpg" alt="" />
                     </a>
                 </div>
                 <div className="p-a30">
                     <div className="wt-post-meta">
                         <ul>
                             {/* <li className="post-date"><span>Aug 2019</span></li> */}
-                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a></li>
+                            <li className="post-author"><i className="fa fa-user"></i><a href=""> 5 November 2024</a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>Craft My space</span></a></li>
                         </ul>
                     </div>
                     <div className="wt-post-title">
-                        <h4 className="post-title"><a href="javascript:void(0);">Being a famous designer...</a></h4>
+                        <h4 className="post-title"><a href="">Egger vs Kronospan MFC for Fitted Wardrobes: The Ultimate Comparison</a></h4>
                     </div>
                     <div className="wt-post-text">
-                        <p>The longer I live, the more beautiful life becomes...</p>
+                        <p  style={{fontFamily:"sans-serif"}}>When choosing between Egger and Kronospan MFC for fitted wardrobes, both brands offer high-quality, durable, and aesthetically appealing options. Egger MFC is known for its premium finishes, extensive color range, and superior scratch resistance, making it a preferred choice for high-end interiors.</p>
                     </div>
-                    <a href="javascript:void(0);" className="site-button-link">Read More</a>
+                    <a href="" className="site-button-link">Read More</a>
                 </div>
             </div>
         </div>
@@ -155,25 +159,25 @@ const Inspiration = () => {
         <div className="col-lg-4 col-md-6">
             <div className="blog-post blog-md date-style-1 clearfix bg-white">
                 <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="javascript:void(0);">
-                        <img src="/assets/images/blog/default/thum1.jpg" alt="" />
+                    <a href="">
+                        <img src="/assets/pic/blogg5.jpg" alt="" />
                     </a>
                 </div>
                 <div className=" p-a30">
                     <div className="wt-post-meta">
                         <ul>
                             {/* <li className="post-date"><span>Aug 2019</span></li> */}
-                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a></li>
+                            <li className="post-author"><i className="fa fa-user"></i><a href=""> 27 November 2024</a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>Craft My space</span></a></li>
                         </ul>
                     </div>
                     <div className="wt-post-title">
-                        <h4 className="post-title"><a href="javascript:void(0);">Being a famous designer...</a></h4>
+                        <h4 className="post-title"><a href="">The Ultimate Guide to Sliding Door Wardrobes: Transform Your Space Today!</a></h4>
                     </div>
                     <div className="wt-post-text">
-                        <p>The longer I live, the more beautiful life becomes...</p>
+                        <p  style={{fontFamily:"sans-serif"}}>A sliding door wardrobe is a stylish and space-saving solution that enhances both functionality and aesthetics in any room.  Available in a variety of materials, finishes, and designs—from sleek mirrored panels to elegant wooden textures—these wardrobes can be customized to complement any interior style. </p>
                     </div>
-                    <a href="javascript:void(0);" className="site-button-link">Read More</a>
+                    <a href="" className="site-button-link">Read More</a>
                 </div>
             </div>
         </div>
@@ -182,32 +186,32 @@ const Inspiration = () => {
         <div className="col-lg-4 col-md-6">
             <div className="blog-post blog-md date-style-1 clearfix bg-white">
                 <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="javascript:void(0);">
-                        <img src="/assets/images/blog/default/thum1.jpg" alt="" />
+                    <a href="">
+                        <img src="/assets/pic/blogg6.jpg" alt="" />
                     </a>
                 </div>
                 <div className=" p-a30">
                     <div className="wt-post-meta">
                         <ul>
                             {/* <li className="post-date"><span>Aug 2019</span></li> */}
-                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);">By <span>Admin</span></a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);">10 <span>Comment</span></a></li>
+                            <li className="post-author"><i className="fa fa-user"></i><a href="">28 February</a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>Craft My space</span></a></li>
                         </ul>
                     </div>
                     <div className="wt-post-title">
-                        <h4 className="post-title"><a href="javascript:void(0);">Being a famous designer...</a></h4>
+                        <h4 className="post-title"><a href="">The Ultimate Guide to MFC Fitted Wardrobes: Stylish, Functional, and Affordable</a></h4>
                     </div>
                     <div className="wt-post-text">
-                        <p>The longer I live, the more beautiful life becomes...</p>
+                        <p style={{fontFamily:"sans-serif"}}>MFC fitted wardrobes are the perfect blend of style, functionality, and affordability, making them a popular choice for modern homes. Made from Melamine Faced Chipboard (MFC), these wardrobes offer a sleek and durable finish, available in a wide range of colors, textures, and woodgrain effects to suit any interior. </p>
                     </div>
-                    <a href="javascript:void(0);" className="site-button-link">Read More</a>
+                    <a href="" className="site-button-link">Read More</a>
                 </div>
             </div>
         </div>
                                       </div>
                                       </div>                                                      
                                 </div>
-                                <ul className="pagination m-t0 m-b20">
+                                {/* <ul className="pagination m-t0 m-b20">
                                    <li className="page-item"><a href="#" className="page-link">«</a></li>
                                    <li className="page-item"><a href="#" className="page-link">1</a></li>
                                    <li className="page-item"><a href="#" className="page-link">2</a></li>
@@ -215,7 +219,7 @@ const Inspiration = () => {
                                    <li className="page-item"><a href="#" className="page-link">4</a></li>
                                    <li className="page-item"><a href="#" className="page-link">5</a></li>
                                    <li className="page-item"><a href="#" className="page-link">»</a></li>
-                                </ul>
+                                </ul> */}
                             </div>   
                             {/* <!-- SIDE BAR START --> */}
                             {/* <div className="col-lg-4 col-md-12 col-sm-12 rightSidebar">
@@ -240,12 +244,12 @@ const Inspiration = () => {
 									<div className="widget bg-white  widget_services p-a30 bg-white">
                                     	<h4 className="widget-title">Categories</h4>
                                         <ul>
-                                            <li><a href="javascript:void(0);">Architecture</a><span> (28)</span></li>
-                                            <li><a href="javascript:void(0);">Awards</a><span> (05)</span></li>
-                                            <li><a href="javascript:void(0);">Reseller</a><span> (24)</span></li>
-                                            <li><a href="javascript:void(0);">Uncategorized</a><span> (15)</span></li>
-                                            <li><a href="javascript:void(0);">Interviews</a><span> (20)</span></li>
-                                            <li><a href="javascript:void(0);">Event</a><span> (90)</span></li>
+                                            <li><a href="">Architecture</a><span> (28)</span></li>
+                                            <li><a href="">Awards</a><span> (05)</span></li>
+                                            <li><a href="">Reseller</a><span> (24)</span></li>
+                                            <li><a href="">Uncategorized</a><span> (15)</span></li>
+                                            <li><a href="">Interviews</a><span> (20)</span></li>
+                                            <li><a href="">Event</a><span> (90)</span></li>
                                         </ul>
                                     </div>                                        
                                         
@@ -416,18 +420,18 @@ const Inspiration = () => {
                                         <div className="widget widget_tag_cloud p-a30 bg-white">
                                             <h4 className="widget-title">Tags</h4>
                                             <div className="tagcloud">
-                                                <a href="javascript:void(0);">Trouble </a>
-                                                <a href="javascript:void(0);">Programmers</a>
-                                                <a href="javascript:void(0);">Never</a>
-                                                <a href="javascript:void(0);">Tell</a>
-                                                <a href="javascript:void(0);">Doing</a>
-                                                <a href="javascript:void(0);">Person</a>
-                                                <a href="javascript:void(0);">Inventors Tag</a>
-                                                <a href="javascript:void(0);">Between </a>
-                                                <a href="javascript:void(0);">Abilities</a>
-                                                <a href="javascript:void(0);">Fault </a>
-                                                <a href="javascript:void(0);">Gets </a>
-                                                <a href="javascript:void(0);">Macho</a>
+                                                <a href="">Trouble </a>
+                                                <a href="">Programmers</a>
+                                                <a href="">Never</a>
+                                                <a href="">Tell</a>
+                                                <a href="">Doing</a>
+                                                <a href="">Person</a>
+                                                <a href="">Inventors Tag</a>
+                                                <a href="">Between </a>
+                                                <a href="">Abilities</a>
+                                                <a href="">Fault </a>
+                                                <a href="">Gets </a>
+                                                <a href="">Macho</a>
                                             </div>
                                         </div> 
                                     
