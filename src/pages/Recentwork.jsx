@@ -21,25 +21,25 @@ const Recentwork = () => {
       title: "Fitted Wardrobes Delivered Ready To Paint",
     },
     {
-      src: "assets/images/gallery/pic2.jpg",
+      src: "/assets/pic/royal.webp",
       title: "Fitted Wardrobes and Cabinets in the Loft",
     },
     {
-      src: "assets/images/gallery/pic3.jpg",
+      src: "/assets/pic/lfs-buy.webp",
       title: "Fitted Wardrobe and Chest of Drawers in White",
     },
-    {
-      src: "assets/images/gallery/pic1.jpg",
-      title: "Bedroom Sliding Door Wardrobe",
-    },
-    {
-       src: "assets/images/gallery/pic2.jpg",
-       title: "Hallway Wardrobe"
-       },
-    {
-      src: "assets/images/gallery/pic3.jpg",
-      title: "Walk-in Wardrobe in XyloCleaf",
-    },
+    // {
+    //   src: "assets/images/gallery/pic1.jpg",
+    //   title: "Bedroom Sliding Door Wardrobe",
+    // },
+    // {
+    //    src: "assets/images/gallery/pic2.jpg",
+    //    title: "Hallway Wardrobe"
+    //    },
+    // {
+    //   src: "assets/images/gallery/pic3.jpg",
+    //   title: "Walk-in Wardrobe in XyloCleaf",
+    // },
     // { src: "assets/images/gallery/pic3.jpg", title: "Walk-in Wardrobe" },
     // {
     //   src: "assets/images/gallery/pic3.jpg",
