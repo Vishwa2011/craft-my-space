@@ -77,7 +77,7 @@ const Bathroom = () => {
                 <div className="row justify-content-center">
                   <div className="col-12 col-sm-12 col-md-4 p-3">
                     <a
-                      href="#"
+                      href=""
                       className="wt-img-effect client-logo-media shadow"
                     >
                       <div>
@@ -91,7 +91,7 @@ const Bathroom = () => {
                   </div>
                   <div className="col-12 col-sm-12 col-md-4 p-3">
                     <a
-                      href="#"
+                      href=""
                       className="wt-img-effect client-logo-media shadow"
                     >
                        <div>
@@ -105,7 +105,7 @@ const Bathroom = () => {
                   </div>
                   <div className="col-12 col-sm-12 col-md-4 p-3">
                     <a
-                      href="#"
+                      href=""
                       className="wt-img-effect client-logo-media shadow"
                     >
                        <div>

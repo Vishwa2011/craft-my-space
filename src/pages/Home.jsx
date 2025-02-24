@@ -989,7 +989,7 @@ export default function Home() {
               <div className="slider-social-right">
                 <ul>
                   <li>
-                    <a href="#">
+                    <a href="">
                       <span>
                         <i className="fa fa-facebook"></i>
                       </span>
@@ -997,7 +997,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="">
                       <span>
                         <i className="fa fa-twitter"></i>
                       </span>
@@ -1005,7 +1005,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="">
                       <span>
                         <i className="fa fa-instagram"></i>
                       </span>
@@ -1021,7 +1021,7 @@ export default function Home() {
             <div className="slider-social-right">
               <ul>
                 <li>
-                  <a href="#">
+                  <a href="">
                     <span>
                       <i className="fa fa-facebook"></i>
                     </span>
@@ -1029,7 +1029,7 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="">
                     <span>
                       <i className="fa fa-twitter"></i>
                     </span>
@@ -1037,7 +1037,7 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="">
                     <span>
                       <i className="fa fa-instagram"></i>
                     </span>
@@ -1270,7 +1270,7 @@ export default function Home() {
                 <div className="row justify-content-center">
                   <div className="col-12 col-sm-12 col-md-3 p-3">
                     <a
-                      href="#"
+                      href=""
                       className="wt-img-effect client-logo-media shadow"
                     >
                       <div>
@@ -1283,7 +1283,7 @@ export default function Home() {
                   </div>
                   <div className="col-12 col-sm-12 col-md-3 p-3">
                     <a
-                      href="#"
+                      href=""
                       className="wt-img-effect client-logo-media shadow"
                     >
                       <div>
@@ -1296,7 +1296,7 @@ export default function Home() {
                   </div>
                   <div className="col-12 col-sm-12 col-md-3 p-3">
                     <a
-                      href="#"
+                      href=""
                       className="wt-img-effect client-logo-media shadow"
                     >
                       <div>
@@ -1309,7 +1309,7 @@ export default function Home() {
                   </div>
                   <div className="col-12 col-sm-12 col-md-3 p-3">
                     <a
-                      href="#"
+                      href=""
                       className="wt-img-effect client-logo-media shadow"
                     >
                       <div>
@@ -1635,12 +1635,12 @@ export default function Home() {
                     <div className="wt-post-meta">
                         <ul>
                        
-                            <li className="post-author" ><i className="fa fa-user"></i><a href="javascript:void(0);" style={{color:'#fff'}}> 20 November 2024</a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);"> <span style={{color:'#fff'}}>Craft My space</span></a></li>
+                            <li className="post-author" ><i className="fa fa-user"></i><a href="" style={{color:'#fff'}}> 20 November 2024</a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span style={{color:'#fff'}}>Craft My space</span></a></li>
                         </ul>
                     </div>
                     <div className="wt-post-title">
-                        <h4 className="post-title"><a href="javascript:void(0);" style={{color:'#fff'}}>Craft My Space Fitted Furniture Storage Solutions</a></h4>
+                        <h4 className="post-title"><a href="" style={{color:'#fff'}}>Craft My Space Fitted Furniture Storage Solutions</a></h4>
                     </div>
                     <div className="wt-post-text">
                         <p  style={{fontFamily:"sans-serif"}}>Craft My Space  fitted furniture storage solutions blend style and functionality to maximize your space efficiently. Designed with precision, our bespoke storage solutions cater to your unique needs, whether for bedrooms, living rooms, or home offices.... </p>
@@ -1660,12 +1660,12 @@ export default function Home() {
                     <div className="wt-post-meta">
                         <ul>
                             {/* <li className="post-date"><span>Aug 2019</span></li> */}
-                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);" style={{color:'#fff'}}> 28 April 2024</a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);"> <span style={{color:'#fff'}}>Craft My space</span></a></li>
+                            <li className="post-author"><i className="fa fa-user"></i><a href="" style={{color:'#fff'}}> 28 April 2024</a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span style={{color:'#fff'}}>Craft My space</span></a></li>
                         </ul>
                     </div>
                     <div className="wt-post-title">
-                        <h4 className="post-title"><a href="javascript:void(0);" style={{color:'#fff'}}>The Advantages of Aluminum Profile Sliding Wardrobe Doors
+                        <h4 className="post-title"><a href="" style={{color:'#fff'}}>The Advantages of Aluminum Profile Sliding Wardrobe Doors
 
 </a></h4>
                     </div>
@@ -1687,8 +1687,8 @@ export default function Home() {
                     <div className="wt-post-meta">
                         <ul>
                             
-                            <li className="post-author"><i className="fa fa-user"></i><a href="javascript:void(0);" style={{color:'#fff'}}> 24 June 2024</a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href="javascript:void(0);"> <span style={{color:'#fff'}}>Craft My space</span></a></li>
+                            <li className="post-author"><i className="fa fa-user"></i><a href="" style={{color:'#fff'}}> 24 June 2024</a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span style={{color:'#fff'}}>Craft My space</span></a></li>
                         </ul>
                     </div>
                     <div className="wt-post-title">

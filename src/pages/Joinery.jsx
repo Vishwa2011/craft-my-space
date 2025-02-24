@@ -370,7 +370,7 @@ const Joinery = () => {
                                         <div className="home-2-about-left-content  bg-secondry p-a50 text-white">
                                             <h2 className="m-t0 wt-title">Exploring the Quality Ways through Design.</h2>
                                             <p>We are uncompetitor in architectural solutions Friendly neighbour there that power.Keep away Architecture who try to Ambitions people do that really </p>
-                                            <a href="javascript:;" className="site-button-link white">Read More</a>
+                                            <a href="" className="site-button-link white">Read More</a>
                                         </div>
                                     </div>
                                 </div>
