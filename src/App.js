@@ -33,6 +33,7 @@ import LandingHallways from "./pages/LandingHallways";
 import SlopingCeilings from "./pages/SlopingCeilings";
 import UnderStairs from "./pages/UnderStairs";
 import Termandcondition from "./pages/Termandcondition";
+import Blogdetail from "./pages/Blogdetail";
 // import Navbar from "./pages/Navbar";
 
 function App() {
@@ -74,6 +75,8 @@ function App() {
         <Route path="/SlopingCeilings" element={<SlopingCeilings />} />
         <Route path="/UnderStairs" element={<UnderStairs />} />
         <Route path="/Termandcondition" element={<Termandcondition />} />
+        <Route path="/Blogdetail" element={<Blogdetail />} />
+
 
 
 

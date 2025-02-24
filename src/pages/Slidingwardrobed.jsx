@@ -68,24 +68,24 @@ const Slidingwardrobed = () => {
                     <div className="row">
                         <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/l-2.jpg" alt="" />
+                          <img src="/assets/pic/bedroomsliding1.png" alt="" />
                         </div>
                       </div>
 
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/l-2.jpg" alt="" />
+                          <img src="/assets/pic/bedroomsliding2.png" alt="" />
                         </div>
                       </div>
 
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/s-3.jpg" alt="" />
+                          <img src="/assets/pic/bedroomsliding3.png" alt="" />
                         </div>
                       </div>
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/s-3.jpg" alt="" />
+                          <img src="/assets/pic/bedroomsliding4.png" alt="" />
                         </div>
                       </div>
                     </div>
@@ -113,24 +113,24 @@ const Slidingwardrobed = () => {
                     <div className="row">
                         <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/l-2.jpg" alt="" />
+                          <img src="/assets/pic/homesliding1.png" alt="" />
                         </div>
                       </div>
 
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/l-2.jpg" alt="" />
+                          <img src="/assets/pic/homesliding2.png" alt="" />
                         </div>
                       </div>
 
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/s-3.jpg" alt="" />
+                          <img src="/assets/pic/homesliding3.png" alt="" />
                         </div>
                       </div>
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/s-3.jpg" alt="" />
+                          <img src="/assets/pic/homesliding4.png" alt="" />
                         </div>
                       </div>
                     </div>
@@ -185,24 +185,24 @@ const Slidingwardrobed = () => {
                     <div className="row">
                         <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/l-2.jpg" alt="" />
+                          <img src="/assets/pic/livingsliding1.png" alt="" />
                         </div>
                       </div>
 
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/l-2.jpg" alt="" />
+                          <img src="/assets/pic/livingsliding2.png" alt="" />
                         </div>
                       </div>
 
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/s-3.jpg" alt="" />
+                          <img src="/assets/pic/livingsliding3.png" alt="" />
                         </div>
                       </div>
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/s-3.jpg" alt="" />
+                          <img src="/assets/pic/livingsliding4.png" alt="" />
                         </div>
                       </div>
                     </div>
@@ -229,24 +229,24 @@ const Slidingwardrobed = () => {
                     <div className="row">
                         <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/l-2.jpg" alt="" />
+                          <img src="/assets/pic/childslider1.png" alt="" />
                         </div>
                       </div>
 
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/l-2.jpg" alt="" />
+                          <img src="/assets/pic/childslider2.png" alt="" />
                         </div>
                       </div>
 
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/s-3.jpg" alt="" />
+                          <img src="/assets/pic/childslide3.png" alt="" />
                         </div>
                       </div>
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/s-3.jpg" alt="" />
+                          <img src="/assets/pic//childslider4.png" alt="" />
                         </div>
                       </div>
                     </div>
