@@ -125,19 +125,19 @@ const ChildrenFittedBadrooms = () => {
                                 <div className="row m-t30">
                                     <div className="col-md-4  m-b30">
                                         <div className="wt-media">
-                                            <img src="assets/images/projects/pic-4.jpg" alt="" />
+                                            <img src="/assets/pic/walk1.png" alt="" />
                                         </div>	
                                     </div>
                                     
                                     <div className="col-md-4  m-b30">
                                         <div className="wt-media">
-                                            <img src="assets/images/projects/pic-5.jpg" alt="" />
+                                            <img src="/assets/pic/walk2.png" alt="" />
                                         </div>	
                                     </div>
                                     
                                     <div className="col-md-4 m-b30">
                                         <div className="wt-media">
-                                            <img src="assets/images/projects/pic-1.jpg" alt="" />
+                                            <img src="/assets/pic/walk3.png" alt="" />
                                         </div>	
                                     </div>                                                                                     
                                     

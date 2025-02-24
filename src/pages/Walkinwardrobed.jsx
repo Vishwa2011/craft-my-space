@@ -23,7 +23,7 @@ const Walkinwardrobed = () => {
                   <h2 className="text-white">Walk in Wardrobes</h2>
                 </div>
               </div>
-              {/* <!-- BREADCRUMB ROW -->                             */}
+              {/* <!-- BREADCRUMB ROW -->  */}
 
               <div>
                 <ul className="wt-breadcrumb breadcrumb-style-2">
@@ -35,7 +35,7 @@ const Walkinwardrobed = () => {
                 </ul>
               </div>
 
-              {/* <!-- BREADCRUMB ROW END -->                         */}
+              {/* <!-- BREADCRUMB ROW END -->   */}
             </div>
           </div>
         </div>
@@ -68,24 +68,24 @@ const Walkinwardrobed = () => {
                     <div className="row">
                         <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/l-2.jpg" alt="" />
+                          <img src="/assets/pic/walk6.png" alt="" />
                         </div>
                       </div>
 
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/l-2.jpg" alt="" />
+                          <img src="/assets/pic/walk7.png" alt="" />
                         </div>
                       </div>
 
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/s-3.jpg" alt="" />
+                          <img src="/assets/pic/walk4.png" alt="" />
                         </div>
                       </div>
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/s-3.jpg" alt="" />
+                          <img src="/assets/pic/walk5.png" alt="" />
                         </div>
                       </div>
                     </div>
