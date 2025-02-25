@@ -14,40 +14,39 @@ const Footers = () => {
               <div className="footer-social-content">
                 <ul>
                   <li>
-                    <a href="">
-                      <i className="fa fa-facebook"></i>
-                    </a>
+                  <a href="https://www.facebook.com/login" target="_blank">
+  <i className="fa fa-facebook"></i>
+</a>
                   </li>
                   <li>
-                    <a href="">
-                      <i className="fa fa-twitter"></i>
-                    </a>
+                  <a href="https://twitter.com/login" target="_blank">
+  <i className="fa fa-twitter"></i>
+</a>
                   </li>
                   <li>
-                    <a href="">
-                      <i className="fa fa-pinterest-p"></i>
-                    </a>
+                  <a href="https://www.pinterest.com/login/" target="_blank">
+  <i className="fa fa-pinterest-p"></i>
+</a>
                   </li>
                   <li>
-                    <a href="">
-                      <i className="fa fa-instagram"></i>
-                    </a>
+                  <a href="https://www.instagram.com/accounts/login/" target="_blank">
+  <i className="fa fa-instagram"></i>
+</a>
                   </li>
                   <li>
-                    <a href="">
-                      <i className="fa fa-vimeo"></i>
-                    </a>
+                  <a href="https://vimeo.com/log_in" target="_blank">
+  <i className="fa fa-vimeo"></i>
+</a>
                   </li>
                   <li>
-                    <a href="">
-                      <i className="fa fa-youtube"></i>
-                    </a>
+                  <a href="https://accounts.google.com/signin/v2/identifier?service=youtube" target="_blank">
+  <i className="fa fa-youtube"></i>
+</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-
           <div className="footer-top overlay-wraper">
             <div className="overlay-main"></div>
             <div className="container-fluid">
@@ -88,9 +87,7 @@ const Footers = () => {
                       <ChevronRightIcon />  <a href="/AwkwardSpaces" style={{color:"#7e878c",lineHeight:'30px'}}>Awkward Spaces</a>                  
                       </li>                  
                     </ul>
-                  </div>
-
-                  
+                  </div>                 
                 </div>
 
              
@@ -151,7 +148,7 @@ const Footers = () => {
                   <img src="/assets/pic/Craft_My_Space_Custom_C_Logo_180x31.png" alt="" />
                 </a>
                 <span className="copyrights-text">
-                  © 2019 Your Company. Designed By thewebmax.
+                  © 2019 Your Company.
                 </span>
               </div>
             </div>

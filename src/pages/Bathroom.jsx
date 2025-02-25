@@ -66,7 +66,7 @@ const Bathroom = () => {
           {/* text end  */}
 
            {/* STEP INSPIRED SOLUTION start  */}
-        <div className="section-full p-t80 p-b50 bg-white">
+        <div className="section-full p-t20 p-b50 bg-white">
           <div className="container">
            
             <div

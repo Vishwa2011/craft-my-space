@@ -1152,7 +1152,7 @@ export default function Home() {
                     </div>
                     <div className="wt-post-text">
                       <p>
-                      "Fitted wardrobes add a touch of elegance while maximizing storage space with a seamless, customized design."
+                      Fitted wardrobes add a touch of elegance while maximizing storage space with a seamless, customized design.
                       </p>
                     </div>
                     <a href="" className="site-button-link">
@@ -1181,7 +1181,7 @@ export default function Home() {
                     </div>
                     <div className="wt-post-text">
                       <p>
-                      "A fitted kitchen makes every corner stylish and functional with modern design and maximum storage."
+                     A fitted kitchen makes every corner stylish and functional with modern design and maximum storage.
                       </p>
                     </div>
                     <a href="" className="site-button-link">
@@ -1211,7 +1211,7 @@ export default function Home() {
                     </div>
                     <div className="wt-post-text">
                       <p>
-                      "When bespoke furniture is added, every space transforms into a unique blend of style, functionality, and personalized elegance."
+                      When bespoke furniture is added, every space transforms into a unique blend of style, functionality, and personalized elegance.
                       </p>
                     </div>
                     <a href="" className="site-button-link">
