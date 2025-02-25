@@ -8,7 +8,7 @@ export default function Blogdetail() {
       <Navbar />
        <div className="page-content">
             {/* <!-- INNER PAGE BANNER --> */}
-            <div className="wt-bnr-inr overlay-wraper bg-parallax bg-top-center"  data-stellar-background-ratio="0.5"  style={{backgroundImage:"url(assets/images/banner/3.jpg)"}}>
+            <div className="wt-bnr-inr overlay-wraper bg-parallax bg-top-center"  data-stellar-background-ratio="0.5"  style={{backgroundImage:"url(assets/pic/blogdetail.jpg)"}}>
             	<div className="overlay-main bg-black opacity-07"></div>
                 <div className="container">
                     <div className="wt-bnr-inr-entry">
