@@ -36,7 +36,7 @@ const Inspiration = () => {
             
           </div>
           <div className="section-full p-t80 p-b50 bg-gray ">
-            
+  
                 {/* <!-- GALLERY CONTENT START --> */}
                 	<div className="container">
                     

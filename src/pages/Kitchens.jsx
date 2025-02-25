@@ -204,19 +204,19 @@ const Kitchens = () => {
                 <div className="owl-carousel owl-fade-slider-one owl-btn-vertical-center owl-dots-bottom-right " style={{marginBottom:'45px'}}>
                   <div className="item">
                     <div className="wt-thum-bx">
-                      <img src="assets/images/blog/default/thum1.jpg" alt="" />
+                      <img src="/assets/pic/kitchen1.jpg" alt="" />
                     </div>
                   </div>
 
                   <div className="item">
                     <div className="wt-thum-bx">
-                      <img src="assets/images/blog/default/thum2.jpg" alt="" />
+                      <img src="/assets/pic/kitchen2.jpg" alt="" />
                     </div>
                   </div>
 
                   <div className="item">
                     <div className="wt-thum-bx">
-                      <img src="assets/images/blog/default/thum3.jpg" alt="" />
+                      <img src="/assets/pic/kitchen3.jpg" alt="" />
                     </div>
                   </div>
                 </div>

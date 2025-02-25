@@ -142,25 +142,25 @@ const MediaRoom = () => {
                 {/* <!-- COLUMNS 1 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/gallery/pic1.jpg" alt="" />
+                    <img src="/assets/pic/media1.jpg" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 2 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/projects/pic-1.jpg" alt="" />
+                    <img src="/assets/pic/media5.jpg" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 3 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/gallery/pic2.jpg" alt="" />
+                    <img src="/assets/pic/media2.jpg" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 4 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/projects/pic-2.jpg" alt="" />
+                    <img src="/assets/pic/media6.jpeg" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 5 --> */}
@@ -169,13 +169,13 @@ const MediaRoom = () => {
                   style={{ marginTop: "-245px" }}
                 >
                   <div className="project-img-effect-1">
-                    <img src="assets/images/projects/pic-5.jpg" alt="" />
+                    <img src="/assets/pic/media7.jpg" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 6 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/gallery/pic9.jpg" alt="" />
+                    <img src="/assets/pic/media3.jpg" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 7 --> */}
@@ -184,13 +184,13 @@ const MediaRoom = () => {
                   style={{ marginTop: "-245px" }}
                 >
                   <div className="project-img-effect-1">
-                    <img src="assets/images/projects/pic-4.jpg" alt="" />
+                    <img src="/assets/pic/media8.webp" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 8 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
-                    <img src="assets/images/gallery/pic9.jpg" alt="" />
+                    <img src="/assets/pic/media4.webp" alt="" />
                   </div>
                 </div>
               </div>
