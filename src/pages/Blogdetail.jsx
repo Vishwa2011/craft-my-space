@@ -43,7 +43,7 @@ export default function Blogdetail() {
                                     {/* <!-- COLUMNS 1 --> */}
                                      <div className="blog-post blog-md date-style-1 clearfix  m-b60 bg-white" >
                                         <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href="/"><img src="assets/images/blog/default/thum1.jpg" alt="" /></a>
+                                            <a href="/"><img src="/assets/pic/blogdetail1.jpg" alt="" /></a>
                                         </div>
                                         <div className="wt-post-info p-a30">
                                             <div className="wt-post-meta ">
@@ -66,7 +66,7 @@ export default function Blogdetail() {
                                     {/* <!-- COLUMNS 2 --> */}
                                      <div className="blog-post blog-md date-style-1 clearfix  m-b60 bg-white" >
                                         <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href=""><img src="assets/images/blog/default/thum2.jpg" alt="" /></a>
+                                            <a href=""><img src="/assets/pic/blogdetail2.jpg" alt="" /></a>
                                         </div>
                                         <div className="wt-post-info p-a30">
                                             <div className="wt-post-meta ">
@@ -89,7 +89,7 @@ export default function Blogdetail() {
                                     {/* <!-- COLUMNS 3 --> */}
                                      <div className="blog-post blog-md date-style-1 clearfix  m-b60 bg-white" >
                                         <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href=""><img src="assets/images/blog/default/thum3.jpg" alt="" /></a>
+                                            <a href=""><img src="/assets/pic/blogdetail3.jpg" alt="" /></a>
                                         </div>
                                         <div className="wt-post-info p-a30">
                                             <div className="wt-post-meta ">
@@ -112,7 +112,7 @@ export default function Blogdetail() {
                                     {/* <!-- COLUMNS 4 --> */}
                                      <div className="blog-post blog-md date-style-1 clearfix  m-b60 bg-white" >
                                         <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href=""><img src="assets/images/blog/default/thum4.jpg" alt="" /></a>
+                                            <a href=""><img src="/assets/pic/blogdetail4.jpg" alt="" /></a>
                                         </div>
                                         <div className="wt-post-info p-a30">
                                             <div className="wt-post-meta ">
@@ -135,7 +135,7 @@ export default function Blogdetail() {
                                     {/* <!-- COLUMNS 5 --> */}
                                      <div className="blog-post blog-md date-style-1 clearfix  m-b60 bg-white" >
                                         <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href=""><img src="assets/images/blog/default/thum5.jpg" alt="" /></a>
+                                            <a href=""><img src="/assets/pic/blogdetail5.webp" alt="" /></a>
                                         </div>
                                         <div className="wt-post-info p-a30">
                                             <div className="wt-post-meta ">
