@@ -388,13 +388,13 @@ const Joinery = () => {
 
                   <div className="item">
                     <div className="wt-thum-bx">
-                      <img src="assets/images/blog/default/thum2.jpg" alt="" />
+                      <img src="/assets/pic/jupiter (1).jpg" alt="" />
                     </div>
                   </div>
 
                   <div className="item">
                     <div className="wt-thum-bx">
-                      <img src="assets/images/blog/default/thum3.jpg" alt="" />
+                      <img src="/assets/pic/bathroom-design (2).jpg" alt="" />
                     </div>
                   </div>
                 </div>
