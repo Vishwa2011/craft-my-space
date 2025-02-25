@@ -111,7 +111,7 @@ const SlidingBedroomWardrobes = () => {
         {/* <!--   SECTION END -->   */}
 
          {/* <!--  SECTION START --> */}
-         <div className="section-full p-t80 p-b80 bg-gray overflow-hide">
+         {/* <div className="section-full p-t80 p-b80 bg-gray overflow-hide">
           <div className="container">
             <div className="section-content">
               <div className="row">
@@ -172,7 +172,7 @@ const SlidingBedroomWardrobes = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!--   SECTION END -->   */}
        
       </div>

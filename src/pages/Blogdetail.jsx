@@ -156,15 +156,7 @@ export default function Blogdetail() {
                                     </div>                             
                                                                                             
                                 </div>
-                                {/* <ul className="pagination m-t0 m-b20">
-                                   <li className="page-item"><a href="#" className="page-link">«</a></li>
-                                   <li className="page-item"><a href="#" className="page-link">1</a></li>
-                                   <li className="page-item"><a href="#" className="page-link">2</a></li>
-                                   <li className="page-item"><a href="#" className="page-link">3</a></li>
-                                   <li className="page-item"><a href="#" className="page-link">4</a></li>
-                                   <li className="page-item"><a href="#" className="page-link">5</a></li>
-                                   <li className="page-item"><a href="#" className="page-link">»</a></li>
-                                </ul> */}
+                                
                             </div>   
                             {/* <!-- SIDE BAR START --> */}
                             <div className="col-lg-4 col-md-12 col-sm-12 rightSidebar">
