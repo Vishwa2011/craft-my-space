@@ -177,7 +177,7 @@ const HomeOffice = () => {
                 {/* <!-- COLUMNS 5 --> */}
                 <div
                   className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30"
-                  style={{ marginTop: "-245px" }}
+                  style={{ marginTop: "-222px" }}
                 >
                   <div className="project-img-effect-1">
                     <img src="/assets/pic/ho7.jpg" alt="" />
@@ -192,7 +192,7 @@ const HomeOffice = () => {
                 {/* <!-- COLUMNS 7 --> */}
                 <div
                   className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30"
-                  style={{ marginTop: "-245px" }}
+                  style={{ marginTop: "-222px" }}
                 >
                   <div className="project-img-effect-1">
                     <img src="/assets/pic/ho8.jpeg" alt="" />
