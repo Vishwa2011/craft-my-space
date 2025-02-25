@@ -66,7 +66,7 @@ export default function Blogdetail() {
                                     {/* <!-- COLUMNS 2 --> */}
                                      <div className="blog-post blog-md date-style-1 clearfix  m-b60 bg-white" >
                                         <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href=""><img src="/assets/pic/blogdetail2.jpg" alt="" /></a>
+                                            <a href=""><img src="/assets/pic/Best-Furniture-Brands-In-India (1).jpg" alt="" /></a>
                                         </div>
                                         <div className="wt-post-info p-a30">
                                             <div className="wt-post-meta ">
@@ -89,7 +89,7 @@ export default function Blogdetail() {
                                     {/* <!-- COLUMNS 3 --> */}
                                      <div className="blog-post blog-md date-style-1 clearfix  m-b60 bg-white" >
                                         <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href=""><img src="/assets/pic/blogdetail3.jpg" alt="" /></a>
+                                            <a href=""><img src="/assets/pic/Kitchenhome (1).jpg" alt="" /></a>
                                         </div>
                                         <div className="wt-post-info p-a30">
                                             <div className="wt-post-meta ">
@@ -205,76 +205,47 @@ export default function Blogdetail() {
                                             <div className="row no-gutters justify-content-center">
                                                 <div className="col-6 col-sm-4 ">
                                                     <div className="wt-post-thum m-1">
-                                                        <a href="images/gallery/pic1.jpg" className="mfp-link" ><img src="assets/images/gallery/thumb/pic1.jpg" alt="" /></a>
+                                                        <a href="/assets/pic/kl (2).jpg" className="mfp-link" ><img src="/assets/pic/kl (1).jpg" alt="" /></a>
                                                     </div>
                                                 </div>
                                                 
                                                 <div className="col-6 col-sm-4 ">
                                                     <div className="wt-post-thum m-1">
-                                                        <a href="images/gallery/pic2.jpg" className="mfp-link"><img src="assets/images/gallery/thumb/pic2.jpg" alt="" /></a>
+                                                        <a href="/assets/pic/kp (2).jpg" className="mfp-link"><img src="/assets/pic/kp (1).jpg" alt="" /></a>
                                                     </div>
                                                 </div>
                                                 
                                                 <div className="col-6 col-sm-4 ">
                                                     <div className="wt-post-thum  m-1">
-                                                        <a href="images/gallery/pic3.jpg" className="mfp-link"><img src="assets/images/gallery/thumb/pic3.jpg" alt="" /></a>
+                                                        <a href="/assets/pic/kblog (4).webp" className="mfp-link"><img src="/assets/pic/kblog (1).webp" alt="" /></a>
                                                     </div>
                                                 </div>
                                                 
                                                 <div className="col-6 col-sm-4 ">
                                                     <div className="wt-post-thum m-1">
-                                                        <a href="images/gallery/pic4.jpg" className="mfp-link"><img src="assets/images/gallery/thumb/pic4.jpg" alt="" /></a>
+                                                        <a href="/assets/pic/childrensblog (2).jpg" className="mfp-link"><img src="/assets/pic/childrensblog (1).jpg" alt="" /></a>
                                                     </div>
                                                 </div>
                                                 
                                                 <div className="col-6 col-sm-4 ">
                                                     <div className="wt-post-thum m-1">
-                                                        <a href="images/gallery/pic5.jpg" className="mfp-link"><img src="assets/images/gallery/thumb/pic5.jpg" alt="" /></a>
+                                                        <a href="/assets/pic/underblog (2).webp" className="mfp-link"><img src="/assets/pic/underblog (1).webp" alt="" /></a>
                                                     </div>
                                                 </div>
                                                 
                                                 <div className="col-6 col-sm-4 ">
                                                     <div className="wt-post-thum m-1">
-                                                        <a href="images/gallery/pic6.jpg" className="mfp-link"><img src="assets/images/gallery/thumb/pic6.jpg" alt="" /></a>
+                                                        <a href="/assets/pic/dainingblog (2).jpg" className="mfp-link"><img src="/assets/pic/dainingblog (1).jpg" alt="" /></a>
                                                     </div>
                                                 </div>
                                                 
-                                                <div className="col-6 col-sm-4 ">
-                                                    <div className="wt-post-thum m-1">
-                                                        <a href="images/gallery/pic7.jpg" className="mfp-link" ><img src="assets/images/gallery/thumb/pic7.jpg" alt="" /></a>
-                                                    </div>
-                                                </div>
-                                                
-                                                <div className="col-6 col-sm-4 ">
-                                                    <div className="wt-post-thum m-1">
-                                                        <a href="images/gallery/pic8.jpg" className="mfp-link"><img src="assets/images/gallery/thumb/pic8.jpg" alt="" /></a>
-                                                    </div>
-                                                </div>
-                                                
-                                               <div className="col-6 col-sm-4 ">
-                                                    <div className="wt-post-thum  m-1">
-                                                        <a href="images/gallery/pic7.jpg" className="mfp-link"><img src="assets/images/gallery/thumb/pic9.jpg" alt="" /></a>
-                                                    </div>
-                                                </div>
+                                               
     
                                                 
                                             </div>
                                         </div> 
                                         
-                                         {/* <!-- ABOUT AUTHOR --> */}
-                                        <div className="widget widget-team p-a30 bg-white">
-                                            <h4 className="widget-title">About Author</h4>
-                                            <div className="widget-post m-b15">
-                                                <img src="assets/images/our-team1/pic1.jpg" alt="" className="img-responsive" />
-                                            </div>
-                                            <div className="team-detail  text-center">
-                                                <h4 className="m-t0">Taminm Alows</h4>
-                                                <p>We are the dolor sit ametLorem Ipsum Proin gravida nibh vel velit auctor aliquet.
-                                                  Aenean sollicitudin. 
-                                                 </p>
-                                             </div>                                            
-                                            
-                                        </div>                                        
+                                                                              
                                         
                                         {/* <!-- RECENT POSTS --> */}
                                         <div className="widget  recent-posts-entry p-a30 bg-white">
@@ -283,7 +254,7 @@ export default function Blogdetail() {
                                                 <div className="widget-post-bx">
                                                     <div className="widget-post clearfix">
                                                         <div className="wt-post-media">
-                                                            <img src="assets/images/blog/recent-blog/pic1.jpg" alt="" />
+                                                            <img src="/assets/pic/table (2).jpg" alt="" />
                                                         </div>
                                                         <div className="wt-post-info">
                                                             <div className="wt-post-meta">
@@ -298,7 +269,7 @@ export default function Blogdetail() {
                                                     </div>
                                                     <div className="widget-post clearfix">
                                                         <div className="wt-post-media">
-                                                            <img src="assets/images/blog/recent-blog/pic2.jpg" alt="" />
+                                                            <img src="/assets/pic/bedblog (1).jpg" alt="" />
                                                         </div>
                                                         <div className="wt-post-info">
                                                             <div className="wt-post-meta">
@@ -313,7 +284,7 @@ export default function Blogdetail() {
                                                     </div>
                                                     <div className="widget-post clearfix">
                                                         <div className="wt-post-media">
-                                                            <img src="assets/images/blog/recent-blog/pic3.jpg" alt="" />
+                                                            <img src="/assets/pic/livingblog (1).jpg" alt="" />
                                                         </div>
                                                         <div className="wt-post-info">
                                                             <div className="wt-post-meta">
