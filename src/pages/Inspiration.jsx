@@ -64,7 +64,7 @@ const Inspiration = () => {
                         <h4 className="post-title"><a href="">Craft My Space Fitted Furniture Storage Solutions</a></h4>
                     </div>
                     <div className="wt-post-text">
-                        <p  style={{fontFamily:"sans-serif"}}>Craft My Space  fitted furniture storage solutions blend style and functionality to maximize your space efficiently. Designed with precision, our bespoke storage solutions cater to your unique needs, whether for bedrooms, living rooms, or home offices. With a focus on high-quality craftsmanship and modern aesthetics, we transform cluttered spaces into organized, elegant interiors. Experience seamless integration, smart storage, and timeless designs with Bravo London’s expert solutions</p>
+                        <p  style={{fontFamily:"sans-serif", color:"#7c7c7c"}}>Craft My Space  fitted furniture storage solutions blend style and functionality to maximize your space efficiently. Designed with precision, our bespoke storage solutions cater to your unique needs, whether for bedrooms, living rooms, or home offices. With a focus on high-quality craftsmanship and modern aesthetics, we transform cluttered spaces into organized, elegant interiors. Experience seamless integration, smart storage, and timeless designs with Bravo London’s expert solutions</p>
                     </div>
                     <a href="/Blogdetail" className="site-button-link">Read More</a>
                 </div>
@@ -93,7 +93,7 @@ const Inspiration = () => {
 </a></h4>
                     </div>
                     <div className="wt-post-text">
-                        <p  style={{fontFamily:"sans-serif"}}>Aluminum profile sliding wardrobe doors offer a sleek, modern, and space-saving solution for any home. Their lightweight yet durable construction ensures long-lasting performance while providing smooth and effortless operation. Unlike traditional hinged doors, sliding doors maximize space efficiency, making them ideal for compact rooms. The aluminum frame adds a touch of elegance and is resistant to rust, corrosion, and wear, ensuring minimal maintenance. </p>
+                        <p  style={{fontFamily:"sans-serif", color:"#7c7c7c"}}>Aluminum profile sliding wardrobe doors offer a sleek, modern, and space-saving solution for any home. Their lightweight yet durable construction ensures long-lasting performance while providing smooth and effortless operation. Unlike traditional hinged doors, sliding doors maximize space efficiency, making them ideal for compact rooms. The aluminum frame adds a touch of elegance and is resistant to rust, corrosion, and wear, ensuring minimal maintenance. </p>
                     </div>
                     <a href="/Blogdetail" className="site-button-link">Read More</a>
                 </div>
@@ -122,7 +122,7 @@ const Inspiration = () => {
 </a></h4>
                     </div>
                     <div className="wt-post-text">
-                        <p  style={{fontFamily:"sans-serif"}}>When ordering from Craft My Space, the process begins with an inquiry and consultation, where customers share their requirements, design preferences, and budget. Our expert designers then create custom concepts and 3D renders for approval. Once the design is finalized, we provide a detailed quotation, and upon approval, production begins with skilled artisans crafting each piece meticulously.</p>
+                        <p  style={{fontFamily:"sans-serif", color:"#7c7c7c"}}>When ordering from Craft My Space, the process begins with an inquiry and consultation, where customers share their requirements, design preferences, and budget. Our expert designers then create custom concepts and 3D renders for approval. Once the design is finalized, we provide a detailed quotation, and upon approval, production begins with skilled artisans crafting each piece meticulously.</p>
                     </div>
                     <a href="/Blogdetail" className="site-button-link">Read More</a>
                 </div>
@@ -148,7 +148,7 @@ const Inspiration = () => {
                         <h4 className="post-title"><a href="">Egger vs Kronospan MFC for Fitted Wardrobes: The Ultimate Comparison</a></h4>
                     </div>
                     <div className="wt-post-text">
-                        <p  style={{fontFamily:"sans-serif"}}>When choosing between Egger and Kronospan MFC for fitted wardrobes, both brands offer high-quality, durable, and aesthetically appealing options. Egger MFC is known for its premium finishes, extensive color range, and superior scratch resistance, making it a preferred choice for high-end interiors.</p>
+                        <p  style={{fontFamily:"sans-serif", color:"#7c7c7c"}}>When choosing between Egger and Kronospan MFC for fitted wardrobes, both brands offer high-quality, durable, and aesthetically appealing options. Egger MFC is known for its premium finishes, extensive color range, and superior scratch resistance, making it a preferred choice for high-end interiors.</p>
                     </div>
                     <a href="/Blogdetail" className="site-button-link">Read More</a>
                 </div>
@@ -175,7 +175,7 @@ const Inspiration = () => {
                         <h4 className="post-title"><a href="">The Ultimate Guide to Sliding Door Wardrobes: Transform Your Space Today!</a></h4>
                     </div>
                     <div className="wt-post-text">
-                        <p  style={{fontFamily:"sans-serif"}}>A sliding door wardrobe is a stylish and space-saving solution that enhances both functionality and aesthetics in any room.  Available in a variety of materials, finishes, and designs—from sleek mirrored panels to elegant wooden textures—these wardrobes can be customized to complement any interior style. </p>
+                        <p  style={{fontFamily:"sans-serif", color:"#7c7c7c"}}>A sliding door wardrobe is a stylish and space-saving solution that enhances both functionality and aesthetics in any room.  Available in a variety of materials, finishes, and designs—from sleek mirrored panels to elegant wooden textures—these wardrobes can be customized to complement any interior style. </p>
                     </div>
                     <a href="/Blogdetail" className="site-button-link">Read More</a>
                 </div>
@@ -202,7 +202,7 @@ const Inspiration = () => {
                         <h4 className="post-title"><a href="">The Ultimate Guide to MFC Fitted Wardrobes: Stylish, Functional, and Affordable</a></h4>
                     </div>
                     <div className="wt-post-text">
-                        <p style={{fontFamily:"sans-serif"}}>MFC fitted wardrobes are the perfect blend of style, functionality, and affordability, making them a popular choice for modern homes. Made from Melamine Faced Chipboard (MFC), these wardrobes offer a sleek and durable finish, available in a wide range of colors, textures, and woodgrain effects to suit any interior. </p>
+                        <p style={{fontFamily:"sans-serif", color:"#7c7c7c"}}>MFC fitted wardrobes are the perfect blend of style, functionality, and affordability, making them a popular choice for modern homes. Made from Melamine Faced Chipboard (MFC), these wardrobes offer a sleek and durable finish, available in a wide range of colors, textures, and woodgrain effects to suit any interior. </p>
                     </div>
                     <a href="/Blogdetail" className="site-button-link">Read More</a>
                 </div>
