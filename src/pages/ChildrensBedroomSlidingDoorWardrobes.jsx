@@ -79,24 +79,24 @@ const ChildrensBedroomSlidingDoorWardrobes = () => {
                       <div className="row">
                         <div className="col-md-6 col-sm-6 masonry-item">
                           <div className="wt-media m-b20  img-reflection">
-                            <img src="assets/images/about/l-2.jpg" alt="" />
+                            <img src="/assets/pic/bed-web (1).jpg" alt="" />
                           </div>
                         </div>
 
                         <div className="col-md-6 col-sm-6 masonry-item">
                           <div className="wt-media m-b20  img-reflection">
-                            <img src="assets/images/about/l-2.jpg" alt="" />
+                            <img src="/assets/pic/huffpost (1).webp" alt="" />
                           </div>
                         </div>
 
                         <div className="col-md-6 col-sm-6 masonry-item">
                           <div className="wt-media m-b20  img-reflection">
-                            <img src="assets/images/about/s-3.jpg" alt="" />
+                            <img src="/assets/pic/white-shaker (1).jpg" alt="" />
                           </div>
                         </div>
                         <div className="col-md-6 col-sm-6 masonry-item">
                           <div className="wt-media m-b20  img-reflection">
-                            <img src="assets/images/about/s-3.jpg" alt="" />
+                            <img src="/assets/pic/childbath (1).jpg" alt="" />
                           </div>
                         </div>
                       </div>

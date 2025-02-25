@@ -81,24 +81,24 @@ const SlidingHallwayWardrobes = () => {
                       <div className="row">
                         <div className="col-md-6 col-sm-6 masonry-item">
                           <div className="wt-media m-b20  img-reflection">
-                            <img src="assets/images/about/l-2.jpg" alt="" />
+                            <img src="/assets/pic/panorama (1).jpg" alt="" />
                           </div>
                         </div>
 
                         <div className="col-md-6 col-sm-6 masonry-item">
                           <div className="wt-media m-b20  img-reflection">
-                            <img src="assets/images/about/l-2.jpg" alt="" />
+                            <img src="/assets/pic/cabinet (1).webp" alt="" />
                           </div>
                         </div>
 
                         <div className="col-md-6 col-sm-6 masonry-item">
                           <div className="wt-media m-b20  img-reflection">
-                            <img src="assets/images/about/s-3.jpg" alt="" />
+                            <img src="/assets/pic/productbed (1).jpg" alt="" />
                           </div>
                         </div>
                         <div className="col-md-6 col-sm-6 masonry-item">
                           <div className="wt-media m-b20  img-reflection">
-                            <img src="assets/images/about/s-3.jpg" alt="" />
+                            <img src="/assets/pic/blueidea (1).jpg" alt="" />
                           </div>
                         </div>
                       </div>
