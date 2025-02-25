@@ -192,23 +192,23 @@ const Joinery = () => {
         </div>
         {/* card end  */}
         {/* <!-- OUR STORY SECTION START --> */}
-            <div class="bg-white">
+            <div class="bg-white" >
                     
                 <div class="section-content">                    
              		<div class="row awards-win-section">    
-                  <div className='col-lg-6 col-md-12'>
-                    <div className='awards-win'>
+                  <div className='col-lg-6 col-md-12  mt-4'>
+                    <div className='awards-win pb-0'>
                     <h3>Joinery and Furniture Production</h3>
                     <p>Our joinery and furniture production combines traditional craftsmanship with modern technology to create bespoke woodwork of the highest quality. From custom doors, windows, and staircases to elegant furniture and architectural wood elements, we manufacture pieces that seamlessly blend functionality and aesthetics.</p>
-                        <div class="  awards-win-section-left bg-cover bg-no-repeat bg-center bg-gray" >
-                         <img src='https://img.freepik.com/free-photo/carpenter-cutting-mdf-board-inside-workshop_23-2149451076.jpg?uid=R108338383&ga=GA1.1.1239697019.1727327661&semt=ais_hybrid'/>
-                        	<div class="awards-win-left-content">
-                            </div>
+                        <div class="  awards-win-section-left bg-cover bg-no-repeat bg-center bg-gray  "  >
+                         <img src='/assets/pic/bench (1).jpg'/>
+                        	{/* <div class="awards-win-left-content">
+                            </div> */}
                         </div>
                         </div>
                   </div>                                     	
                         
-                        <div class="col-lg-6 col-md-12 awards-win-section-right bg-gray">
+                        <div class="col-lg-6 col-md-12 awards-win-section-right bg-gray  mt-4">
                         	<div class="awards-win-right-content">
                                 <div class="awards-win">
                                
@@ -297,7 +297,7 @@ const Joinery = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-5 col-md-6 text-center mb-4 mb-md-0">
-            <img src="your-image-url.jpg" alt="FAQ" className="img-fluid" />
+            <img src="/assets/pic/faq.webp" alt="FAQ" className="img-fluid" />
           </div>
           <div className="col-lg-7 col-md-6">
             <div className="sec-head md-mb80">
@@ -382,7 +382,7 @@ const Joinery = () => {
                 <div className="owl-carousel owl-fade-slider-one owl-btn-vertical-center owl-dots-bottom-right m-b30">
                   <div className="item">
                     <div className="wt-thum-bx">
-                      <img src="assets/images/blog/default/thum1.jpg" alt="" />
+                      <img src="/assets/pic/Kitchen-Furniture (1).jpg" alt="" />
                     </div>
                   </div>
 

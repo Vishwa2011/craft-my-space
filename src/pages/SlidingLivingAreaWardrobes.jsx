@@ -81,24 +81,24 @@ const SlidingLivingAreaWardrobes = () => {
                     <div className="row">
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/l-2.jpg" alt="" />
+                          <img src="/assets/pic/Bespoke-dressing-room (1).jpg" alt="" />
                         </div>
                       </div>
 
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/l-2.jpg" alt="" />
+                          <img src="/assets/pic/living_configurations (1).jpg" alt="" />
                         </div>
                       </div>
 
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/s-3.jpg" alt="" />
+                          <img src="/assets/pic/hill (1).jpg" alt="" />
                         </div>
                       </div>
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/s-3.jpg" alt="" />
+                          <img src="/assets/pic/Fitted-Folding (1).jpg" alt="" />
                         </div>
                       </div>
                     </div>
@@ -122,24 +122,24 @@ const SlidingLivingAreaWardrobes = () => {
                     <div className="row">
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/l-2.jpg" alt="" />
+                          <img src="/assets/pic/holl (1).jpg" alt="" />
                         </div>
                       </div>
 
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/l-2.jpg" alt="" />
+                          <img src="/assets/pic/holl1 (1).webp" alt="" />
                         </div>
                       </div>
 
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/s-3.jpg" alt="" />
+                          <img src="/assets/pic/holl2 (1).webp" alt="" />
                         </div>
                       </div>
                       <div className="col-md-6 col-sm-6 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="assets/images/about/s-3.jpg" alt="" />
+                          <img src="/assets/pic/holl4 (1).jpg" alt="" />
                         </div>
                       </div>
                     </div>
