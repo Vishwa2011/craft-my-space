@@ -143,25 +143,25 @@ const SlopingCeilings = () => {
             {/* <!-- COLUMNS 1 --> */}
             <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
               <div className="project-img-effect-1">
-                <img src="assets/images/gallery/pic1.jpg" alt="" />
+                <img src="/assets/pic/ceiling1 (1).webp" alt="" />
               </div>
             </div>
             {/* <!-- COLUMNS 2 --> */}
             <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
               <div className="project-img-effect-1">
-                <img src="assets/images/projects/pic-1.jpg" alt="" />
+                <img src="/assets/pic/celling2 (1).jpg" alt="" />
               </div>
             </div>
             {/* <!-- COLUMNS 3 --> */}
             <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
               <div className="project-img-effect-1">
-                <img src="assets/images/gallery/pic2.jpg" alt="" />
+                <img src="/assets/pic/ceiling4 (1).jpg" alt="" />
               </div>
             </div>
             {/* <!-- COLUMNS 4 --> */}
             <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
               <div className="project-img-effect-1">
-                <img src="assets/images/projects/pic-2.jpg" alt="" />
+                <img src="/assets/pic/ceiling3 (1).jpg" alt="" />
               </div>
             </div>
             {/* <!-- COLUMNS 5 --> */}
@@ -170,13 +170,13 @@ const SlopingCeilings = () => {
               style={{ marginTop: "-245px" }}
             >
               <div className="project-img-effect-1">
-                <img src="assets/images/projects/pic-5.jpg" alt="" />
+                <img src="/assets/pic/ceiling5 (1).jpg" alt="" />
               </div>
             </div>
             {/* <!-- COLUMNS 6 --> */}
             <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
               <div className="project-img-effect-1">
-                <img src="assets/images/gallery/pic9.jpg" alt="" />
+                <img src="/assets/pic/ceiling6 (1).jpg" alt="" />
               </div>
             </div>
             {/* <!-- COLUMNS 7 --> */}
@@ -185,13 +185,13 @@ const SlopingCeilings = () => {
               style={{ marginTop: "-245px" }}
             >
               <div className="project-img-effect-1">
-                <img src="assets/images/projects/pic-4.jpg" alt="" />
+                <img src="/assets/pic/ceiling7 (1).jpg" alt="" />
               </div>
             </div>
             {/* <!-- COLUMNS 8 --> */}
             <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
               <div className="project-img-effect-1">
-                <img src="assets/images/gallery/pic9.jpg" alt="" />
+                <img src="/assets/pic/ceiling8 (1).webp" alt="" />
               </div>
             </div>
           </div>
