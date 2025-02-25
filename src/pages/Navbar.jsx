@@ -10,7 +10,7 @@ const Navbar = () => {
               <div className="logo-header">
                 <div className="logo-header-inner logo-header-one">
                   <a href="/">
-                    <img src="assets/images/logo-light.png" alt="" />
+                    <img src="/assets/pic/Craft_My_Space_Custom_C_Logo_180x31.png" alt="" />
                   </a>
                 </div>
               </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
               <div className="header-nav">
                 <ul className=" nav navbar-nav">
                   <li className="">
-                    <a href="/WhyCraftMySpace">Why CMS</a>
+                    <a href="/WhyCraftMySpace">Why Craft My Space?</a>
                     {/* <ul className="sub-menu">
                                                 <li>
                                                     <a href="index.html">Home 1</a>

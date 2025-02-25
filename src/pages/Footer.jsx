@@ -148,7 +148,7 @@ const Footers = () => {
             <div className="container">
               <div className="footer-logo-bar">
                 <a href="/">
-                  <img src="assets/images/logo-dark.png" alt="" />
+                  <img src="/assets/pic/Craft_My_Space_Custom_C_Logo_180x31.png" alt="" />
                 </a>
                 <span className="copyrights-text">
                   © 2019 Your Company. Designed By thewebmax.
