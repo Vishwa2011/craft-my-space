@@ -77,11 +77,17 @@ const SlidingWardrobedDoorsByCMS = () => {
                   <div className="project-img-effect-1">
                     <img src="/assets/pic/swd1.png" alt="" />
                   </div>
+                  <div className="project-img-effect-1 mt-4">
+                    <img src="/assets/pic/swd6.png" alt="" />
+                  </div>
                 </div>
                 {/* <!-- COLUMNS 2 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
                     <img src="/assets/pic/swd8.png" alt="" />
+                  </div>
+                  <div className="project-img-effect-1 mt-4">
+                    <img src="/assets/pic/swd3.png" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 3 --> */}
@@ -89,43 +95,20 @@ const SlidingWardrobedDoorsByCMS = () => {
                   <div className="project-img-effect-1">
                     <img src="/assets/pic/swd2.png" alt="" />
                   </div>
+                  <div className="project-img-effect-1 mt-4">
+                    <img src="/assets/pic/swd5.png" alt="" />
+                  </div>
                 </div>
                 {/* <!-- COLUMNS 4 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
                     <img src="/assets/pic/swd7.png" alt="" />
                   </div>
-                </div>
-                {/* <!-- COLUMNS 5 --> */}
-                <div
-                  className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30"
-                  style={{ marginTop: "-245px" }}
-                >
-                  <div className="project-img-effect-1">
-                    <img src="/assets/pic/swd6.png" alt="" />
-                  </div>
-                </div>
-                {/* <!-- COLUMNS 6 --> */}
-                <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
-                  <div className="project-img-effect-1">
-                    <img src="/assets/pic/swd3.png" alt="" />
-                  </div>
-                </div>
-                {/* <!-- COLUMNS 7 --> */}
-                <div
-                  className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30"
-                  style={{ marginTop: "-245px" }}
-                >
-                  <div className="project-img-effect-1">
-                    <img src="/assets/pic/swd5.png" alt="" />
-                  </div>
-                </div>
-                {/* <!-- COLUMNS 8 --> */}
-                <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
-                  <div className="project-img-effect-1">
+                  <div className="project-img-effect-1 mt-4">
                     <img src="/assets/pic/swd4.png" alt="" />
                   </div>
                 </div>
+               
               </div>
              
             </div>

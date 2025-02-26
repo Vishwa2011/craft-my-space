@@ -88,11 +88,17 @@ export default function HingedDoorWardrobes() {
                   <div className="project-img-effect-1">
                     <img src="assets/pic/hiding5.png" alt="" />
                   </div>
+                  <div className="project-img-effect-1 mt-4">
+                    <img src="assets/pic/hiding3.png" alt="" />
+                  </div>
                 </div>
                 {/* <!-- COLUMNS 2 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
                     <img src="assets/pic/hiding1.png" alt="" />
+                  </div>
+                  <div className="project-img-effect-1 mt-4">
+                    <img src="assets/pic/hiding7.png" alt="" />
                   </div>
                 </div>
                 {/* <!-- COLUMNS 3 --> */}
@@ -100,43 +106,20 @@ export default function HingedDoorWardrobes() {
                   <div className="project-img-effect-1">
                     <img src="assets/pic/hiding6.png" alt="" />
                   </div>
+                  <div className="project-img-effect-1 mt-4">
+                    <img src="assets/pic/hiding4.png" alt="" />
+                  </div>
                 </div>
                 {/* <!-- COLUMNS 4 --> */}
                 <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
                   <div className="project-img-effect-1">
                     <img src="assets/pic/hiding2.png" alt="" />
                   </div>
-                </div>
-                {/* <!-- COLUMNS 5 --> */}
-                <div
-                  className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30"
-                  style={{ marginTop: "-245px" }}
-                >
-                  <div className="project-img-effect-1">
-                    <img src="assets/pic/hiding3.png" alt="" />
-                  </div>
-                </div>
-                {/* <!-- COLUMNS 6 --> */}
-                <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
-                  <div className="project-img-effect-1">
-                    <img src="assets/pic/hiding7.png" alt="" />
-                  </div>
-                </div>
-                {/* <!-- COLUMNS 7 --> */}
-                <div
-                  className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30"
-                  style={{ marginTop: "-245px" }}
-                >
-                  <div className="project-img-effect-1">
-                    <img src="assets/pic/hiding4.png" alt="" />
-                  </div>
-                </div>
-                {/* <!-- COLUMNS 8 --> */}
-                <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
-                  <div className="project-img-effect-1">
+                  <div className="project-img-effect-1 mt-4">
                     <img src="assets/pic/hiding8.png" alt="" />
                   </div>
                 </div>
+              
               </div>
              
             </div>
