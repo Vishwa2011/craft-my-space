@@ -144,11 +144,17 @@ const BayWindows = () => {
               <div className="project-img-effect-1">
                 <img src="/assets/pic/windo5.webp" alt="" />
               </div>
+              <div className="project-img-effect-1 mt-4">
+                <img src="/assets/pic/windo3.webp" alt="" />
+              </div>
             </div>
             {/* <!-- COLUMNS 2 --> */}
             <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
               <div className="project-img-effect-1">
                 <img src="/assets/pic/windo1.jpg" alt="" />
+              </div>
+              <div className="project-img-effect-1 mt-4">
+                <img src="/assets/pic/windo7.jpg" alt="" />
               </div>
             </div>
             {/* <!-- COLUMNS 3 --> */}
@@ -156,43 +162,20 @@ const BayWindows = () => {
               <div className="project-img-effect-1">
                 <img src="/assets/pic/windo6.webp" alt="" />
               </div>
+              <div className="project-img-effect-1 mt-4">
+                <img src="/assets/pic/windo4.webp" alt="" />
+              </div>
             </div>
             {/* <!-- COLUMNS 4 --> */}
             <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
               <div className="project-img-effect-1">
                 <img src="/assets/pic/window.jpg" alt="" />
               </div>
-            </div>
-            {/* <!-- COLUMNS 5 --> */}
-            <div
-              className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30"
-              style={{ marginTop: "-245px" }}
-            >
-              <div className="project-img-effect-1">
-                <img src="/assets/pic/windo3.webp" alt="" />
-              </div>
-            </div>
-            {/* <!-- COLUMNS 6 --> */}
-            <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
-              <div className="project-img-effect-1">
-                <img src="/assets/pic/windo7.jpg" alt="" />
-              </div>
-            </div>
-            {/* <!-- COLUMNS 7 --> */}
-            <div
-              className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30"
-              style={{ marginTop: "-245px" }}
-            >
-              <div className="project-img-effect-1">
-                <img src="/assets/pic/windo4.webp" alt="" />
-              </div>
-            </div>
-            {/* <!-- COLUMNS 8 --> */}
-            <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
-              <div className="project-img-effect-1">
+              <div className="project-img-effect-1 mt-4">
                 <img src="/assets/pic/windo8.jpg" alt="" />
               </div>
             </div>
+        
           </div>
          
         </div>
