@@ -473,7 +473,7 @@ const WhyCraftMySpace = () => {
         
         {/* <!-- CONTENT END --> */}
       </div>
-      <Footers />.
+      <Footers />
       <button className="scroltop">
         <span className="fa fa-angle-up  relative" id="btn-vibrate"></span>
       </button>
