@@ -145,11 +145,17 @@ const SlopingCeilings = () => {
               <div className="project-img-effect-1">
                 <img src="/assets/pic/ceiling1 (1).webp" alt="" />
               </div>
+              <div className="project-img-effect-1 mt-4">
+                <img src="/assets/pic/ceiling5 (1).jpg" alt="" />
+              </div>
             </div>
             {/* <!-- COLUMNS 2 --> */}
             <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
               <div className="project-img-effect-1">
                 <img src="/assets/pic/celling2 (1).jpg" alt="" />
+              </div>
+              <div className="project-img-effect-1 mt-4">
+                <img src="/assets/pic/ceiling6 (1).jpg" alt="" />
               </div>
             </div>
             {/* <!-- COLUMNS 3 --> */}
@@ -157,43 +163,21 @@ const SlopingCeilings = () => {
               <div className="project-img-effect-1">
                 <img src="/assets/pic/ceiling4 (1).jpg" alt="" />
               </div>
+              <div className="project-img-effect-1 mt-4">
+                <img src="/assets/pic/ceiling7 (1).jpg" alt="" />
+              </div>
             </div>
             {/* <!-- COLUMNS 4 --> */}
             <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
               <div className="project-img-effect-1">
                 <img src="/assets/pic/ceiling3 (1).jpg" alt="" />
               </div>
-            </div>
-            {/* <!-- COLUMNS 5 --> */}
-            <div
-              className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30"
-              style={{ marginTop: "-245px" }}
-            >
-              <div className="project-img-effect-1">
-                <img src="/assets/pic/ceiling5 (1).jpg" alt="" />
-              </div>
-            </div>
-            {/* <!-- COLUMNS 6 --> */}
-            <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
-              <div className="project-img-effect-1">
-                <img src="/assets/pic/ceiling6 (1).jpg" alt="" />
-              </div>
-            </div>
-            {/* <!-- COLUMNS 7 --> */}
-            <div
-              className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30"
-              style={{ marginTop: "-245px" }}
-            >
-              <div className="project-img-effect-1">
-                <img src="/assets/pic/ceiling7 (1).jpg" alt="" />
-              </div>
-            </div>
-            {/* <!-- COLUMNS 8 --> */}
-            <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
-              <div className="project-img-effect-1">
+              <div className="project-img-effect-1 mt-4">
                 <img src="/assets/pic/ceiling8 (1).webp" alt="" />
               </div>
             </div>
+         
+           
           </div>
          
         </div>
