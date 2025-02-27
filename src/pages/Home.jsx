@@ -2,13 +2,12 @@ import React from "react";
 import Navbar from "./Navbar";
 import Footers from "./Footer";
 
-
 export default function Home() {
   return (
     <>
       <div className="page-wraper">
         <Navbar />
-        
+
         {/* <!-- slider start --> */}
         <div className="page-content">
           <div className="slider-section">
@@ -174,7 +173,7 @@ export default function Home() {
                             className="text-white"
                             style={{ letterSpacing: "20px" }}
                           >
-                           Living
+                            Living
                           </span>
                           <br />
                         </div>
@@ -340,10 +339,7 @@ export default function Home() {
                           borderWidth: "0px",
                         }}
                       >
-                        <img
-                          src="/assets/pic/headersmall2.avif"
-                          alt=""
-                        />
+                        <img src="/assets/pic/headersmall2.avif" alt="" />
                       </div>
                     </li>
 
@@ -494,7 +490,7 @@ export default function Home() {
                             className="text-white"
                             style={{ letterSpacing: "20px" }}
                           >
-                             Kitchens
+                            Kitchens
                           </span>
                           <br />
                         </div>
@@ -533,7 +529,9 @@ export default function Home() {
                         }}
                       >
                         <div style={{ fontFamily: "'Oswald', sans-serif" }}>
-                          <span className="text-white">Stylish. Modified. Space.</span>
+                          <span className="text-white">
+                            Stylish. Modified. Space.
+                          </span>
                           <br />
                         </div>
                       </div>
@@ -568,7 +566,7 @@ export default function Home() {
                           className="rev-slider-custom-btn"
                           style={{ fontFamily: "'Oswald', sans-serif" }}
                         >
-                        view The Projects
+                          view The Projects
                         </a>
                       </div>
 
@@ -653,10 +651,7 @@ export default function Home() {
                           borderWidth: "0px",
                         }}
                       >
-                        <img
-                          src="/assets/pic/headersmall.avif"
-                          alt=""
-                        />
+                        <img src="/assets/pic/headersmall.avif" alt="" />
                       </div>
                     </li>
 
@@ -807,7 +802,7 @@ export default function Home() {
                             className="text-white"
                             style={{ letterSpacing: "20px" }}
                           >
-                           Bedrooms
+                            Bedrooms
                           </span>
                           <br />
                         </div>
@@ -846,7 +841,9 @@ export default function Home() {
                         }}
                       >
                         <div style={{ fontFamily: "'Oswald', sans-serif" }}>
-                          <span className="text-white">Made-To-Measure Designs</span>
+                          <span className="text-white">
+                            Made-To-Measure Designs
+                          </span>
                           <br />
                         </div>
                       </div>
@@ -884,7 +881,7 @@ export default function Home() {
                           className="rev-slider-custom-btn"
                           style={{ fontFamily: " 'Oswald', sans-serif" }}
                         >
-                         view The Projects
+                          view The Projects
                         </a>
                       </div>
 
@@ -969,13 +966,9 @@ export default function Home() {
                           borderWidth: "0px",
                         }}
                       >
-                        <img
-                          src="/assets/pic/headersmall3.avif"
-                          alt=""
-                        />
+                        <img src="/assets/pic/headersmall3.avif" alt="" />
                       </div>
                     </li>
-                    
                   </ul>
                   <div
                     className="tp-bannertimer tp-bottom"
@@ -989,21 +982,27 @@ export default function Home() {
               <div className="slider-social-right">
                 <ul>
                   <li>
-                    <a href="">
+                    <a href="https://www.facebook.com/login" target="_blank">
                       <span>
                         <i className="fa fa-facebook"></i>
                       </span>
-                      facebook
+                      Facebook
                     </a>
                   </li>
+
                   <li>
-                    <a href="">
+                    <a
+                      href="https://twitter.com/login"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <span>
                         <i className="fa fa-twitter"></i>
                       </span>
                       Twitter
                     </a>
                   </li>
+
                   <li>
                     <a href="">
                       <span>
@@ -1021,23 +1020,32 @@ export default function Home() {
             <div className="slider-social-right">
               <ul>
                 <li>
-                  <a href="">
+                  <a href="https://www.facebook.com/login" target="_blank">
                     <span>
                       <i className="fa fa-facebook"></i>
                     </span>
-                    facebook
+                    Facebook
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a
+                    href="https://twitter.com/login"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <span>
                       <i className="fa fa-twitter"></i>
                     </span>
                     Twitter
                   </a>
                 </li>
+
                 <li>
-                  <a href="">
+                  <a
+                    href="https://www.instagram.com/accounts/login/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <span>
                       <i className="fa fa-instagram"></i>
                     </span>
@@ -1060,54 +1068,50 @@ export default function Home() {
               className="custom-block-outer clearfix bg-cover"
               style={{ backgroundImage: "url(images/background/video-bg.png)" }}
             >
-            
-
               {/* <div className="custom-right-part "> */}
-                <div className="custom-right-part-content">
-                  {/* <div className="video-section-outer"> */}
-                    <div className="section-head clearfix">
-                      <div style={{textAlign:'center'}}>
-                        <small className="wt-small-title">
-                          [ Latest Projects ]
-                        </small>
-                        <h2 className="m-b5">Our Projects</h2>
-                      </div>
-                    </div>
-
-                   
-
-                    <div className="our-ability m-t50">
-                      <div className="row">
-                        <div className="col-md-4 col-sm-4">
-                          <div className="m-b30 text-black wt-icon-box-wraper center">
-                            <h1 className="counter font-weight-800 m-b5 site-text-primary">
-                              132
-                            </h1>
-                            <h4 className="wt-tilte m-b0">Five stars rating</h4>
-                          </div>
-                        </div>
-
-                        <div className="col-md-4 col-sm-4">
-                          <div className="m-b30 text-black wt-icon-box-wraper center">
-                            <h1 className="counter font-weight-800 m-b5 site-text-primary">
-                              206
-                            </h1>
-                            <h4 className="wt-tilte m-b0">Happy customer</h4>
-                          </div>
-                        </div>
-
-                        <div className="col-md-4 col-sm-4">
-                          <div className="m-b30 text-black wt-icon-box-wraper center">
-                            <h1 className="counter font-weight-800 m-b5 site-text-primary">
-                              336
-                            </h1>
-                            <h4 className="wt-tilte m-b0">Project Complete</h4>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  {/* </div> */}
+              <div className="custom-right-part-content">
+                {/* <div className="video-section-outer"> */}
+                <div className="section-head clearfix">
+                  <div style={{ textAlign: "center" }}>
+                    <small className="wt-small-title">
+                      [ Latest Projects ]
+                    </small>
+                    <h2 className="m-b5">Our Projects</h2>
+                  </div>
                 </div>
+
+                <div className="our-ability m-t50">
+                  <div className="row">
+                    <div className="col-md-4 col-sm-4">
+                      <div className="m-b30 text-black wt-icon-box-wraper center">
+                        <h1 className="counter font-weight-800 m-b5 site-text-primary">
+                          132
+                        </h1>
+                        <h4 className="wt-tilte m-b0">Five stars rating</h4>
+                      </div>
+                    </div>
+
+                    <div className="col-md-4 col-sm-4">
+                      <div className="m-b30 text-black wt-icon-box-wraper center">
+                        <h1 className="counter font-weight-800 m-b5 site-text-primary">
+                          206
+                        </h1>
+                        <h4 className="wt-tilte m-b0">Happy customer</h4>
+                      </div>
+                    </div>
+
+                    <div className="col-md-4 col-sm-4">
+                      <div className="m-b30 text-black wt-icon-box-wraper center">
+                        <h1 className="counter font-weight-800 m-b5 site-text-primary">
+                          336
+                        </h1>
+                        <h4 className="wt-tilte m-b0">Project Complete</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* </div> */}
+              </div>
               {/* </div> */}
             </div>
           </div>
@@ -1152,7 +1156,9 @@ export default function Home() {
                     </div>
                     <div className="wt-post-text">
                       <p>
-                      Fitted wardrobes add a touch of elegance while maximizing storage space with a seamless, customized design.
+                        Fitted wardrobes add a touch of elegance while
+                        maximizing storage space with a seamless, customized
+                        design.
                       </p>
                     </div>
                     <a href="" className="site-button-link">
@@ -1181,7 +1187,8 @@ export default function Home() {
                     </div>
                     <div className="wt-post-text">
                       <p>
-                     A fitted kitchen makes every corner stylish and functional with modern design and maximum storage.
+                        A fitted kitchen makes every corner stylish and
+                        functional with modern design and maximum storage.
                       </p>
                     </div>
                     <a href="" className="site-button-link">
@@ -1211,7 +1218,9 @@ export default function Home() {
                     </div>
                     <div className="wt-post-text">
                       <p>
-                      When bespoke furniture is added, every space transforms into a unique blend of style, functionality, and personalized elegance.
+                        When bespoke furniture is added, every space transforms
+                        into a unique blend of style, functionality, and
+                        personalized elegance.
                       </p>
                     </div>
                     <a href="" className="site-button-link">
@@ -1321,7 +1330,6 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-                
               </div>
             </div>
           </div>
@@ -1478,12 +1486,17 @@ export default function Home() {
           <div className="container">
             <div className="section-head clearfix">
               <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid">
-                <small className="wt-small-title">[ Why Choose Craft My Space]</small>
+                <small className="wt-small-title">
+                  [ Why Choose Craft My Space]
+                </small>
                 <h2 className="m-b5">Why Craft My Space?</h2>
               </div>
               <div className="title-right-detail">
                 <p>
-                Choose Craft My Space for custom, high-quality furniture that fits your style and space. Our expert craftsmanship and attention to detail ensure durability and elegance, transforming any area into a functional and beautiful space.
+                  Choose Craft My Space for custom, high-quality furniture that
+                  fits your style and space. Our expert craftsmanship and
+                  attention to detail ensure durability and elegance,
+                  transforming any area into a functional and beautiful space.
                 </p>
               </div>
             </div>
@@ -1492,12 +1505,13 @@ export default function Home() {
                 <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
                   <div className="icon-content m-b30">
                     <h4 className="wt-tilte-large m-t0" data-title="G">
-                    Guaranteed Quality
+                      Guaranteed Quality
                     </h4>
                     <p>
-                    Guaranteed Quality" means we deliver durable, high-quality furniture crafted with the finest materials for lasting performance and beauty.                
-                        </p>
-                  
+                      Guaranteed Quality" means we deliver durable, high-quality
+                      furniture crafted with the finest materials for lasting
+                      performance and beauty.
+                    </p>
                   </div>
                   <div className="icon-xl inline-icon">
                     <span className="icon-cell">
@@ -1510,12 +1524,12 @@ export default function Home() {
                 <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
                   <div className="icon-content m-b30">
                     <h4 className="wt-tilte-large m-t0" data-title="P">
-                    Professional Manufacturing
+                      Professional Manufacturing
                     </h4>
                     <p>
-                    Professional Manufacturing guarantees precision and high-quality craftsmanship in every piece of furniture.
+                      Professional Manufacturing guarantees precision and
+                      high-quality craftsmanship in every piece of furniture.
                     </p>
-                    
                   </div>
                   <div className="icon-xl inline-icon">
                     <span className="icon-cell">
@@ -1528,12 +1542,13 @@ export default function Home() {
                 <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
                   <div className="icon-content m-b30">
                     <h4 className="wt-tilte-large m-t0" data-title="H">
-                    High Quality Service
+                      High Quality Service
                     </h4>
                     <p>
-                    High Quality Service ensures personalized attention and exceptional results, delivering furniture that exceeds expectations in both style .
+                      High Quality Service ensures personalized attention and
+                      exceptional results, delivering furniture that exceeds
+                      expectations in both style .
                     </p>
-                    
                   </div>
                   <div className="icon-xl inline-icon">
                     <span className="icon-cell">
@@ -1546,12 +1561,13 @@ export default function Home() {
                 <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
                   <div className="icon-content m-b30">
                     <h4 className="wt-tilte-large m-t0" data-title="C">
-                    Convenience of Choice
+                      Convenience of Choice
                     </h4>
                     <p>
-                    Convenience of Choice offers a wide range of customizable furniture options, allowing you to select designs that perfectly fit your style and needs.
+                      Convenience of Choice offers a wide range of customizable
+                      furniture options, allowing you to select designs that
+                      perfectly fit your style and needs.
                     </p>
-                  
                   </div>
                   <div className="icon-xl inline-icon">
                     <span className="icon-cell">
@@ -1564,12 +1580,13 @@ export default function Home() {
                 <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
                   <div className="icon-content m-b30">
                     <h4 className="wt-tilte-large m-t0" data-title="E">
-                    Easy Delivery
+                      Easy Delivery
                     </h4>
                     <p>
-                    Easy and Timely Delivery ensures your furniture arrives quickly and safely, right to your doorstep with minimal hassle.
+                      Easy and Timely Delivery ensures your furniture arrives
+                      quickly and safely, right to your doorstep with minimal
+                      hassle.
                     </p>
-                   
                   </div>
                   <div className="icon-xl inline-icon">
                     <span className="icon-cell">
@@ -1582,12 +1599,13 @@ export default function Home() {
                 <div className="wt-icon-box-wraper m-b30 p-lr30 p-tb25 data-title-large  v-icon-effect block-bg-hover bg-white">
                   <div className="icon-content m-b30">
                     <h4 className="wt-tilte-large m-t0" data-title="M">
-                    Made in Britain
+                      Made in Britain
                     </h4>
                     <p>
-                    Made in Britain guarantees high-quality craftsmanship, using locally sourced materials and skilled artisans to create durable and stylish furniture.
+                      Made in Britain guarantees high-quality craftsmanship,
+                      using locally sourced materials and skilled artisans to
+                      create durable and stylish furniture.
                     </p>
-                   
                   </div>
                   <div className="icon-xl inline-icon">
                     <span className="icon-cell">
@@ -1614,7 +1632,10 @@ export default function Home() {
               </div>
               <div className="title-right-detail text-white">
                 <p>
-                Our blog offers expert insights, tips, and inspiration on furniture design, home decor, and space optimization. We share the latest trends, DIY ideas, and advice to help you create beautiful, functional spaces that reflect your personal style.
+                  Our blog offers expert insights, tips, and inspiration on
+                  furniture design, home decor, and space optimization. We share
+                  the latest trends, DIY ideas, and advice to help you create
+                  beautiful, functional spaces that reflect your personal style.
                 </p>
               </div>
             </div>
@@ -1630,23 +1651,57 @@ export default function Home() {
                   >
                     <div className="row">
                       <div className="item col-12 col-md-6 col-lg-4 mb-4">
-                        <div className="projects-two-info text-white" style={{ padding:"30px 30px 30px 30px"}}>
-                        <div >
-                    <div className="wt-post-meta">
-                        <ul>
-                       
-                            <li className="post-author" ><i className="fa fa-user"></i><a href="" style={{color:'#fff'}}> 20 November 2024</a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span style={{color:'#fff'}}>Craft My space</span></a></li>
-                        </ul>
-                    </div>
-                    <div className="wt-post-title">
-                        <h4 className="post-title"><a href="" style={{color:'#fff'}}>Craft My Space Fitted Furniture Storage Solutions</a></h4>
-                    </div>
-                    <div className="wt-post-text">
-                        <p  style={{fontFamily:"sans-serif"}}>Craft My Space  fitted furniture storage solutions blend style and functionality to maximize your space efficiently. Designed with precision, our bespoke storage solutions cater to your unique needs, whether for bedrooms, living rooms, or home offices.... </p>
-                    </div>
-                    <a href="/Inspiration" className="site-button-link" style={{color:'#fff'}}>Read More</a>
-                </div>
+                        <div
+                          className="projects-two-info text-white"
+                          style={{ padding: "30px 30px 30px 30px" }}
+                        >
+                          <div>
+                            <div className="wt-post-meta">
+                              <ul>
+                                <li className="post-author">
+                                  <i className="fa fa-user"></i>
+                                  <a href="" style={{ color: "#fff" }}>
+                                    {" "}
+                                    20 November 2024
+                                  </a>
+                                </li>
+                                <li className="post-comment">
+                                  <i className="fa fa-comments"></i>
+                                  <a href="">
+                                    {" "}
+                                    <span style={{ color: "#fff" }}>
+                                      Craft My space
+                                    </span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div className="wt-post-title">
+                              <h4 className="post-title">
+                                <a href="" style={{ color: "#fff" }}>
+                                  Craft My Space Fitted Furniture Storage
+                                  Solutions
+                                </a>
+                              </h4>
+                            </div>
+                            <div className="wt-post-text">
+                              <p style={{ fontFamily: "sans-serif" }}>
+                                Craft My Space fitted furniture storage
+                                solutions blend style and functionality to
+                                maximize your space efficiently. Designed with
+                                precision, our bespoke storage solutions cater
+                                to your unique needs, whether for bedrooms,
+                                living rooms, or home offices....{" "}
+                              </p>
+                            </div>
+                            <a
+                              href="/Inspiration"
+                              className="site-button-link"
+                              style={{ color: "#fff" }}
+                            >
+                              Read More
+                            </a>
+                          </div>
                           <div className="wt-media img-reflection">
                             {/* <img src="assets/images/gallery/pic1.jpg" alt="" /> */}
                             <img src="/assets/pic/blog1.jpg" alt="" />
@@ -1655,25 +1710,58 @@ export default function Home() {
                       </div>
 
                       <div className="item col-12 col-md-6 col-lg-4 mb-4">
-                        <div className="projects-two-info text-white" style={{ padding:"30px 30px 30px 30px"}}>
-                        <div >
-                    <div className="wt-post-meta">
-                        <ul>
-                            {/* <li className="post-date"><span>Aug 2019</span></li> */}
-                            <li className="post-author"><i className="fa fa-user"></i><a href="" style={{color:'#fff'}}> 28 April 2024</a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span style={{color:'#fff'}}>Craft My space</span></a></li>
-                        </ul>
-                    </div>
-                    <div className="wt-post-title">
-                        <h4 className="post-title"><a href="" style={{color:'#fff'}}>The Advantages of Aluminum Profile Sliding Wardrobe Doors
-
-</a></h4>
-                    </div>
-                    <div className="wt-post-text">
-                        <p  style={{fontFamily:"sans-serif"}}>Aluminum profile sliding wardrobe doors offer a sleek, modern, and space-saving solution for any home. Their lightweight yet durable construction ensures long-lasting performance while providing smooth and effortless operation. Unlike traditional hinged doors... </p>
-                    </div>
-                    <a href="/Inspiration" className="site-button-link" style={{color:'#fff'}}>Read More</a>
-                </div>
+                        <div
+                          className="projects-two-info text-white"
+                          style={{ padding: "30px 30px 30px 30px" }}
+                        >
+                          <div>
+                            <div className="wt-post-meta">
+                              <ul>
+                                {/* <li className="post-date"><span>Aug 2019</span></li> */}
+                                <li className="post-author">
+                                  <i className="fa fa-user"></i>
+                                  <a href="" style={{ color: "#fff" }}>
+                                    {" "}
+                                    28 April 2024
+                                  </a>
+                                </li>
+                                <li className="post-comment">
+                                  <i className="fa fa-comments"></i>
+                                  <a href="">
+                                    {" "}
+                                    <span style={{ color: "#fff" }}>
+                                      Craft My space
+                                    </span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div className="wt-post-title">
+                              <h4 className="post-title">
+                                <a href="" style={{ color: "#fff" }}>
+                                  The Advantages of Aluminum Profile Sliding
+                                  Wardrobe Doors
+                                </a>
+                              </h4>
+                            </div>
+                            <div className="wt-post-text">
+                              <p style={{ fontFamily: "sans-serif" }}>
+                                Aluminum profile sliding wardrobe doors offer a
+                                sleek, modern, and space-saving solution for any
+                                home. Their lightweight yet durable construction
+                                ensures long-lasting performance while providing
+                                smooth and effortless operation. Unlike
+                                traditional hinged doors...{" "}
+                              </p>
+                            </div>
+                            <a
+                              href="/Inspiration"
+                              className="site-button-link"
+                              style={{ color: "#fff" }}
+                            >
+                              Read More
+                            </a>
+                          </div>
                           <div className="wt-media img-reflection">
                             {/* <img src="assets/images/gallery/pic2.jpg" alt="" /> */}
                             <img src="/assets/pic/bloggg2.jpg" alt="" />
@@ -1682,25 +1770,56 @@ export default function Home() {
                       </div>
 
                       <div className="item col-12 col-md-6 col-lg-4 mb-4">
-                        <div className="projects-two-info text-white"   style={{ padding:"30px 30px 30px 30px"}}>
-                        <div>
-                    <div className="wt-post-meta">
-                        <ul>
-                            
-                            <li className="post-author"><i className="fa fa-user"></i><a href="" style={{color:'#fff'}}> 24 June 2024</a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span style={{color:'#fff'}}>Craft My space</span></a></li>
-                        </ul>
-                    </div>
-                    <div className="wt-post-title">
-                        <h4 className="post-title"><a href="" style={{color:'#fff'}}>Stages When Ordering From Craft My Space
-
-</a></h4>
-                    </div>
-                    <div className="wt-post-text">
-                        <p  style={{fontFamily:"sans-serif"}}>When ordering from Craft My Space, the process begins with an inquiry and consultation, where customers share their requirements, design preferences, and budget. Our expert designers then create custom concepts and 3D renders for approval. Once the design is ....</p>
-                    </div>
-                    <a href="/Inspiration" className="site-button-link" style={{color:'#fff'}}>Read More</a>
-                </div>
+                        <div
+                          className="projects-two-info text-white"
+                          style={{ padding: "30px 30px 30px 30px" }}
+                        >
+                          <div>
+                            <div className="wt-post-meta">
+                              <ul>
+                                <li className="post-author">
+                                  <i className="fa fa-user"></i>
+                                  <a href="" style={{ color: "#fff" }}>
+                                    {" "}
+                                    24 June 2024
+                                  </a>
+                                </li>
+                                <li className="post-comment">
+                                  <i className="fa fa-comments"></i>
+                                  <a href="">
+                                    {" "}
+                                    <span style={{ color: "#fff" }}>
+                                      Craft My space
+                                    </span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div className="wt-post-title">
+                              <h4 className="post-title">
+                                <a href="" style={{ color: "#fff" }}>
+                                  Stages When Ordering From Craft My Space
+                                </a>
+                              </h4>
+                            </div>
+                            <div className="wt-post-text">
+                              <p style={{ fontFamily: "sans-serif" }}>
+                                When ordering from Craft My Space, the process
+                                begins with an inquiry and consultation, where
+                                customers share their requirements, design
+                                preferences, and budget. Our expert designers
+                                then create custom concepts and 3D renders for
+                                approval. Once the design is ....
+                              </p>
+                            </div>
+                            <a
+                              href="/Inspiration"
+                              className="site-button-link"
+                              style={{ color: "#fff" }}
+                            >
+                              Read More
+                            </a>
+                          </div>
                           <div className="wt-media img-reflection">
                             {/* <img src="assets/images/gallery/pic3.jpg" alt="" /> */}
                             <img src="/assets/pic/blogg3.jpg" alt="" />
@@ -1716,7 +1835,7 @@ export default function Home() {
         </div>
         {/* our blog end  */}
 
-       <Footers />
+        <Footers />
 
         {/* <!-- BUTTON TOP START --> */}
         <button className="scroltop">
