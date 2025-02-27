@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="page-wraper">
       <header class="site-header header-style-1  header-fixed nav-wide mobile-sider-drawer-menu">
         <div className="main-bar-wraper">
-          <div className="main-bar p-t5" style={{ backgroundColor: "#000" }}>
+          <div className="main-bar p-t5" >
             <div className="container">
               <div className="logo-header">
                 <div className="logo-header-inner logo-header-one">
@@ -60,7 +60,7 @@ const Navbar = () => {
               <div className="header-nav">
                 <ul className=" nav navbar-nav">
                   <li className="">
-                    <a href="/WhyCraftMySpace">Why Craft My Space?</a>
+                    <a href="/WhyCraftMySpace">Why CMS?</a>
                     {/* <ul className="sub-menu">
                                                 <li>
                                                     <a href="index.html">Home 1</a>

@@ -1202,7 +1202,7 @@ export default function Home() {
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
                   <div className="wt-post-media wt-img-effect zoom-slow">
                     <a href="">
-                      <img src="/assets/pic/bespoke.jpg" alt="" />
+                      <img src="/assets/pic/Best-Bespoke-Furniture (1).webp" alt="" />
                     </a>
                   </div>
                   <div
