@@ -53,7 +53,7 @@ const Inspiration = () => {
             >
                 <div className="wt-post-media wt-img-effect zoom-slow">
                     <a href="">
-                        <img src="/assets/pic/blog1.jpg" alt="" />
+                        <img src="/assets/pic/INSPIRATION1.webp" alt="" />
                     </a>
                 </div>
                 <div className=" p-a30">
