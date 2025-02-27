@@ -1704,7 +1704,7 @@ export default function Home() {
                           </div>
                           <div className="wt-media img-reflection">
                             {/* <img src="assets/images/gallery/pic1.jpg" alt="" /> */}
-                            <img src="/assets/pic/blog1.jpg" alt="" />
+                            <img src="/assets/pic/INSPIRATION1.webp" alt="" />
                           </div>
                         </div>
                       </div>
