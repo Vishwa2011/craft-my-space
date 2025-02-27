@@ -14,7 +14,7 @@ const faqs = [
   {
     question: "What does the cost depend on? ",
     answer:
-      "The cost is determined by several key factors, including the size and quantity of the wooden products, the materials used (such as solid wood, MDF, or veneers), the type of fittings selected, and the complexity of the finishing process..",
+      "The cost is determined by several key factors, including the size and quantity of the wooden products, the materials used (such as solid wood, MDF, or veneers), the type of fittings selected, and the complexity of the finishing process..",  
   },
 
 ];
