@@ -170,7 +170,11 @@ const Navbar = () => {
                     <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="../WhyCraftMySpace">WhyCraftMySpace?</a>
+                    <a href="/WhyCraftMySpace">Why CraftMySpace?</a>
+                    <ul className="sub-menu">
+                      <li><a  href="/Mission">Our Mission</a></li>
+                      <li><a  href="/Vission">Our Vission</a></li>
+                    </ul>
                   </li>
                   <li>
                     <a href="">Services</a>
