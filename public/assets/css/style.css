@@ -5344,7 +5344,8 @@ line-height:normal;}
 .footer-social-content ul{display:table; width:100%; margin:0px;}
 .footer-social-content ul li{display:table-cell; border-left:1px solid #1e292f; text-align:center;}
 .footer-social-content ul li:last-child{border-right:1px solid #1e292f;}
-.footer-social-content ul li a{display:block;padding:30px;color:#d5dd02; font-size:28px; opacity:0.3;}
+.footer-social-content ul li a{display:block;padding:30px;color:white; font-size:28px;}
+.footer-social-content ul li a:hover{color:#d5dd02;}
 .footer-social-content ul li:hover a{opacity:1;}
 
 
