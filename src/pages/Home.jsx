@@ -248,7 +248,7 @@ export default function Home() {
                         style={{ zIndex: 13, textTransform: "uppercase" }}
                       >
                         <a
-                          href="javascript:;"
+                          href=""
                           className="rev-slider-custom-btn"
                           style={{
                             fontFamily: "'Oswald', sans-serif",
@@ -562,7 +562,7 @@ export default function Home() {
                         style={{ zIndex: 13, textTransform: "uppercase" }}
                       >
                         <a
-                          href="javascript:;"
+                          href=""
                           className="rev-slider-custom-btn"
                           style={{ fontFamily: "'Oswald', sans-serif" }}
                         >
@@ -877,7 +877,7 @@ export default function Home() {
                         }}
                       >
                         <a
-                          href="javascript:;"
+                          href=""
                           className="rev-slider-custom-btn"
                           style={{ fontFamily: " 'Oswald', sans-serif" }}
                         >
@@ -1139,7 +1139,7 @@ export default function Home() {
               <div className="col-xl-4 col-lg-6 col-md-12">
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
                   <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="">
+                    <a href="/FittedWardrobes">
                       <img src="/assets/pic/stratford.webp" alt="" />
                     </a>
                   </div>
@@ -1149,7 +1149,7 @@ export default function Home() {
                   >
                     <div className="wt-post-title ">
                       <h4 className="post-title">
-                        <a href="" className=" m-t0">
+                        <a href="/FittedWardrobes" className=" m-t0">
                           Fitted Wardrobes
                         </a>
                       </h4>
@@ -1161,7 +1161,7 @@ export default function Home() {
                         design.
                       </p>
                     </div>
-                    <a href="" className="site-button-link">
+                    <a href="/FittedWardrobes" className="site-button-link">
                       Read More
                     </a>
                   </div>
@@ -1170,7 +1170,7 @@ export default function Home() {
               <div className="col-xl-4 col-lg-6 col-md-12">
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
                   <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="">
+                    <a href="/Kitchens">
                       <img src="/assets/pic/ImageNewAdd5.avif" alt="" />
                     </a>
                   </div>
@@ -1180,7 +1180,7 @@ export default function Home() {
                   >
                     <div className="wt-post-title ">
                       <h4 className="post-title">
-                        <a href="" className=" m-t0">
+                        <a href="/Kitchens" className=" m-t0">
                           Fitted Kitchen
                         </a>
                       </h4>
@@ -1191,7 +1191,7 @@ export default function Home() {
                         functional with modern design and maximum storage.
                       </p>
                     </div>
-                    <a href="" className="site-button-link">
+                    <a href="/Kitchens" className="site-button-link">
                       Read More
                     </a>
                   </div>
@@ -1201,7 +1201,7 @@ export default function Home() {
               <div className="col-xl-4 col-lg-6 col-md-12">
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
                   <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="">
+                    <a href="/Bathroom">
                       <img src="/assets/pic/Best-Bespoke-Furniture (1).webp" alt="" />
                     </a>
                   </div>
@@ -1211,7 +1211,7 @@ export default function Home() {
                   >
                     <div className="wt-post-title ">
                       <h4 className="post-title">
-                        <a href="" className=" m-t0">
+                        <a href="/Bathroom" className=" m-t0">
                           Bespoke Furniture
                         </a>
                       </h4>
@@ -1223,7 +1223,7 @@ export default function Home() {
                         personalized elegance.
                       </p>
                     </div>
-                    <a href="" className="site-button-link">
+                    <a href="/Bathroom" className="site-button-link">
                       Read More
                     </a>
                   </div>
@@ -1232,7 +1232,7 @@ export default function Home() {
               <div className="col-xl-4 col-lg-6 col-md-12">
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
                   <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="">
+                    <a href="/AwkwardSpaces">
                       <img src="/assets/pic/display.jpg" alt="" />
                     </a>
                   </div>
@@ -1242,7 +1242,7 @@ export default function Home() {
                   >
                     <div className="wt-post-title ">
                       <h4 className="post-title">
-                        <a href="" className=" m-t0">
+                        <a href="/AwkwardSpaces" className=" m-t0">
                           Awkward Spaces
                         </a>
                       </h4>
@@ -1253,7 +1253,7 @@ export default function Home() {
                         Wardrobes
                       </p>
                     </div>
-                    <a href="" className="site-button-link">
+                    <a href="/AwkwardSpaces" className="site-button-link">
                       Read More
                     </a>
                   </div>

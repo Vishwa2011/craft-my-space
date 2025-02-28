@@ -56,7 +56,7 @@ const Slidingwardrobed = () => {
                       <p>
                       Upgrade your bedroom with stylish sliding wardrobes that combine elegance and functionality. Designed to maximize space, these wardrobes offer seamless storage solutions while enhancing your room’s aesthetic appeal.
                       </p>
-                      <a href="" className="site-button-link" style={{background:'#141b1f',color:'white',padding:'18px'}}>
+                      <a href="/Bathroom" className="site-button-link" style={{background:'#141b1f',color:'white',padding:'18px'}}>
                         Read More
                       </a>
                     </div>
@@ -145,7 +145,7 @@ const Slidingwardrobed = () => {
                       <p>
                       Optimize your workspace with home office sliding wardrobes, designed for both style and efficiency. These sleek wardrobes provide ample storage while maintaining a clean and organized environment.
                       </p>
-                      <a href="" className="site-button-link" style={{background:'#141b1f',color:'white',padding:'18px'}}>
+                      <a href="/HomeOffice" className="site-button-link" style={{background:'#141b1f',color:'white',padding:'18px'}}>
                         Read More
                       </a>
                     </div>
@@ -173,7 +173,7 @@ const Slidingwardrobed = () => {
                       <p>
                       Maximize space and style with our elegant living room sliding wardrobes, designed for seamless storage and a modern aesthetic. These wardrobes blend effortlessly with your décor while keeping your essentials neatly organized.
                       </p>
-                      <a href="" className="site-button-link" style={{background:'#141b1f',color:'white',padding:'18px'}}>
+                      <a href="/FittedLiving" className="site-button-link" style={{background:'#141b1f',color:'white',padding:'18px'}}>
                         Read More
                       </a>
                     </div>
@@ -261,7 +261,7 @@ const Slidingwardrobed = () => {
                       <p>
                       Create a fun and organized space for your little ones with our children's sliding bedroom wardrobes. Designed for easy access and maximum storage, these wardrobes keep clothes, toys, and essentials neatly arranged.
                       </p>
-                      <a href="" className="site-button-link" style={{background:'#141b1f',color:'white',padding:'18px'}}>
+                      <a href="/ChildrenFittedBadrooms" className="site-button-link" style={{background:'#141b1f',color:'white',padding:'18px'}}>
                         Read More
                       </a>
                     </div>
