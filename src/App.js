@@ -34,6 +34,8 @@ import SlopingCeilings from "./pages/SlopingCeilings";
 import UnderStairs from "./pages/UnderStairs";
 import Termandcondition from "./pages/Termandcondition";
 import Blogdetail from "./pages/Blogdetail";
+import Mission from "./pages/Mission";
+import Vission from "./pages/Vission";
 // import Navbar from "./pages/Navbar";
 
 function App() {
@@ -76,7 +78,8 @@ function App() {
         <Route path="/UnderStairs" element={<UnderStairs />} />
         <Route path="/Termandcondition" element={<Termandcondition />} />
         <Route path="/Blogdetail" element={<Blogdetail />} />
-
+        <Route path="/Mission" element={<Mission />} />
+        <Route path="/Vission" element={<Vission />} />
 
 
 

@@ -128,7 +128,6 @@ import React, { useState } from "react";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  
 
   return (
     <div className="page-wraper">
@@ -224,7 +223,6 @@ const Navbar = () => {
           </div>
         </div>
       </header>
-      
       <style>{`
         @media (max-width: 768px) {
           .mobile-menu-toggle {
