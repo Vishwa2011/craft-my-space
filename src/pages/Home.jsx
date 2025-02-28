@@ -1087,7 +1087,7 @@ export default function Home() {
                         <h1 className="counter font-weight-800 m-b5 site-text-primary">
                           132
                         </h1>
-                        <h4 className="wt-tilte m-b0">Five stars rating</h4>
+                         <h4 className="wt-tilte m-b0">Five stars rating</h4>
                       </div>
                     </div>
 
