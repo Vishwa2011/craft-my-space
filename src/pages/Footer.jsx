@@ -1,10 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmailIcon from "@mui/icons-material/Email";
 import CallIcon from "@mui/icons-material/Call";
 import { TextField, Button, Box } from "@mui/material";
+
 const Footers = () => {
+  const [email, setEmail] = useState("");
+  const [error, setError] = useState("");
+
+  const handleChange = (event) => {
+    setEmail(event.target.value);
+    setError(""); // Clear error when user starts typing
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    if (!email) {
+      setError("Email is required");
+      return;
+    }
+    if (!/\S+@\S+\.\S+/.test(email)) {
+      setError("Invalid email format");
+      return;
+    }
+
+    console.log("Submitted Email:", email);
+    setEmail(""); // Clear input after submission
+  };
   return (
     <>
       {/* <!-- FOOTER START --> */}
@@ -168,40 +191,58 @@ const Footers = () => {
               <div className="col-xl-3 col-lg-6 col-md-6">
                 <div className="widget widget_address_outer m-b20">
                   <h4 className="widget-title">Office Info</h4>
-                  <Box
-                    sx={{
-                      display: "flex",
-                      maxWidth: 400,
-                      border: "1px solid #ccc",
-                      borderRadius: "4px",
-                      overflow: "hidden",
-                    }}
-                  >
-                    <TextField
-                      variant="filled"
-                      placeholder="Email Address"
-                      fullWidth
-                      InputProps={{
-                        disableUnderline: true,
-                        sx: {
-                          backgroundColor: "#333",
-                          color: "#fff",
-                          paddingLeft: "10px",
-                          paddingTop:'17px'
-                        },
-                      }}
-                    />
-                    <Button
-                      sx={{
-                        backgroundColor: "#b19777",
-                        color: "#fff",
-                        fontWeight: "bold",
-                        ":hover": { backgroundColor: "#a08565" },
-                      }}
-                    >
-                      Send
-                    </Button>
-                  </Box>
+                  <form onSubmit={handleSubmit}>
+  <Box
+    sx={{
+      display: "flex",
+      flexDirection: "column",
+      maxWidth: 400,
+      border: "1px solid #ccc",
+      borderRadius: "4px",
+      overflow: "hidden",
+    }}
+  >
+    <Box
+      sx={{
+        display: "flex",
+      }}
+    >
+      <TextField
+        variant="filled"
+        placeholder="Email Address"
+        fullWidth
+        className="foot_mail"
+        value={email}
+        onChange={handleChange}
+        InputProps={{
+          disableUnderline: true,
+          sx: {
+            backgroundColor: "#333",
+            color: "#fff",
+            paddingLeft: "10px",
+          },
+        }}
+      />
+      <Button
+        type="submit"
+        sx={{
+          backgroundColor: "white",
+          color: "black",
+          fontWeight: "bold",
+          ":hover": { backgroundColor: "white" },
+        }}
+      >
+        Send
+      </Button>
+    </Box>
+  </Box>
+    {error && (
+      <Box sx={{ color: "red", fontSize: "14px", mt: 1, textAlign: "left" }}>
+        {error}
+      </Box>
+    )}
+</form>
+
                 </div>
               </div>
 
@@ -255,7 +296,7 @@ const Footers = () => {
               }}
             >
               <span className="copyrights-text">
-                Copyright By © StyleMySpace Interiors ltd. Registered in England
+                Copyright By © CraftMySpace Interiors ltd. Registered in England
                 and Wales No.
               </span>
               <span className="copyrights-text">
