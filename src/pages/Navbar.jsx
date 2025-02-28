@@ -17,6 +17,7 @@ import PinterestIcon from "@mui/icons-material/Pinterest";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import HomeIcon from "@mui/icons-material/Home";
+import CloseIcon from "@mui/icons-material/Close";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -36,12 +37,15 @@ const Navbar = () => {
     <Box
       sx={{ width: 400, padding: 2, backgroundColor: "#1c1c1c", color: "#fff" }}
     >
-      <Box sx={{ textAlign: "center", marginBottom: 2,marginTop:2 }}>
+      <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 2, marginTop: 2 }}>
         <img
-          src="/assets/pic/CMS LOGO 1.png"
-          alt="Bravo London"
+           src="/assets/pic/CMS LOGO 1.png"
+         alt="CraftMySpace"
           style={{ width: "150px" }}
         />
+        <IconButton onClick={() => setOpen(false)} sx={{ color: "#fff" }}>
+          <CloseIcon />
+        </IconButton>
       </Box>
       {/* <!-- OUR GALLERY  --> */}
       <div className=" widget_gallery mfp-gallery p-a30 ">
