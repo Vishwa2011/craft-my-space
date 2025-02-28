@@ -1283,23 +1283,10 @@ export default function Home() {
                       className="wt-img-effect client-logo-media shadow"
                     >
                       <div>
-                        <img src="/assets/images/client-logo/w1.png" alt="" />
+                        <img src="/assets/pic/conversation (2).png" alt="" />
                       </div>
                       <div>
-                        <p>DISCUSS & PLAN</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div className="col-12 col-sm-12 col-md-3 p-3">
-                    <a
-                      href=""
-                      className="wt-img-effect client-logo-media shadow"
-                    >
-                      <div>
-                        <img src="/assets/images/client-logo/w1.png" alt="" />
-                      </div>
-                      <div>
-                        <p>DESIGN & INNOVATE</p>
+                        <p className="mt-3">DISCUSS & PLAN</p>
                       </div>
                     </a>
                   </div>
@@ -1309,10 +1296,10 @@ export default function Home() {
                       className="wt-img-effect client-logo-media shadow"
                     >
                       <div>
-                        <img src="/assets/images/client-logo/w1.png" alt="" />
+                        <img src="/assets/pic/staircase.png" alt="" />
                       </div>
                       <div>
-                        <p>MANUFACTURE & DELIVER</p>
+                        <p className="mt-3">DESIGN & INNOVATE</p>
                       </div>
                     </a>
                   </div>
@@ -1322,10 +1309,23 @@ export default function Home() {
                       className="wt-img-effect client-logo-media shadow"
                     >
                       <div>
-                        <img src="/assets/images/client-logo/w1.png" alt="" />
+                        <img src="/assets/pic/industrial-park.png" alt="" />
                       </div>
                       <div>
-                        <p>FINAL FITTING</p>
+                        <p className="mt-3">MANUFACTURE & DELIVER</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="col-12 col-sm-12 col-md-3 p-3">
+                    <a
+                      href=""
+                      className="wt-img-effect client-logo-media shadow"
+                    >
+                      <div>
+                        <img src="/assets/pic/puzzle.png" alt="" />
+                      </div>
+                      <div>
+                        <p className="mt-3">FINAL FITTING</p>
                       </div>
                     </a>
                   </div>

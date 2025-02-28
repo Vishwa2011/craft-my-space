@@ -84,8 +84,8 @@ const Footers = () => {
                 <div className="widget recent-posts-entry">
                   <h4>
                     <a href="/">
-                      <img
-                        src="/assets/pic/Craft_My_Space_Custom_C_Logo_180x31.png"
+                      <img style={{maxWidth:'70%'}}
+                        src="/assets/pic/CMS LOGO 1.png"
                         alt=""
                       />
                     </a>
