@@ -4595,7 +4595,7 @@ header .logo{	display:block;	padding:4px 0;}
 /* responsive strat when media screen [991px] css START*/
 .header-fixed .header-nav .nav {
     overflow: auto;
-    height: 200px;
+    /* height: 200px; */
 	width:100%
 }
 

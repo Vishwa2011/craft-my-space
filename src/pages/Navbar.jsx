@@ -1,134 +1,146 @@
-// import React from "react";
-
-// const Navbar = () => {
-//   return (
-//     <div className="page-wraper">
-//       <header class="site-header header-style-1  header-fixed nav-wide mobile-sider-drawer-menu">
-//         <div className="main-bar-wraper">
-//           <div className="main-bar p-t5" >
-//             <div className="container">
-//               <div className="logo-header">
-//                 <div className="logo-header-inner logo-header-one">
-//                   <a href="/">
-//                     <img src="/assets/pic/CMS LOGO 1.png" alt="" />
-//                   </a>
-//                 </div>
-//               </div>
-//               {/* <!-- NAV Toggle Button --> */}
-//               <button id="mobile-side-drawer">
-//                 <span className="icon-bar bar-one"></span>
-//                 <span className="icon-bar bar-two"></span>
-//                 <span className="icon-bar bar-three"></span>
-//               </button>
-//               {/* <!-- ETRA Nav --> */}
-             
-//               {/* <!-- MAIN Vav --> */}
-//               <div className="header-nav">
-//                 <ul className=" nav navbar-nav">
-//                 <li>
-//                                                     <a href="/">Home</a>
-                                                
-//                                                 </li>
-//                   <li>
-//                     <a href="../WhyCraftMySpace">WhyCraftMySpace?</a>
-                   
-//                                         </li>
-//                                         <li>
-//                                             <a href="">Services</a>
-//                                             <ul className="sub-menu">
-
-//                                                 <li>
-//                                                     <a href="/fitted-bedroom">Fitted Bedrooms</a>
-                                                
-//                                                 </li>
-//                                                 <li>
-//                                                     <a href="/FittedWardrobes">Fitted Wardrobes</a>
-//                                                     <ul className="sub-menu has-child">
-//                                                 <li><a href="/HingedDoorWardrobes">Hinged Door Wardrobed</a></li>
-//                                                 <li><a href="/SlidingWardrobedDoorsByCMS"> Sliding  Wardrobed Doors By cms</a></li>
-//                                                 <li><a href="/Slidingwardrobed"> Sliding Wardrobed</a>
-//                                                      <ul className="sub-menu has-child">
-//                                                 <li><a href="/ChildrensBedroomSlidingDoorWardrobes">Children’s Bedroom Sliding Door Wardrobes</a></li>
-//                                                 <li><a href="/SlidingHallwayWardrobes">Sliding Hallway Wardrobes</a></li>
-//                                                 <li><a href="/SlidingHomeOfficeWardrobes">Sliding Home Office Wardrobes</a></li>
-//                                                 <li><a href="/SlidingLivingAreaWardrobes">Sliding Living Area Wardrobes</a></li>
-//                                                 <li><a href="/SlidingBedroomWardrobes">Sliding Bedroom Wardrobes</a></li>
-
-//                                             </ul>
-//                                                 </li>
-//                                                 <li><a href="/Walkinwardrobed"> Walk in  Wardrobed</a></li>
-//                                                 <li><a href="/ChildrenFittedBadrooms"> Children's Fitted Badrooms</a></li>
-//                                                </ul>
-//                                                 </li>
-//                                                 <li>
-//                                                     <a href="/FittedLiving">Fitted Living</a>
-//                                                     <ul className="sub-menu has-child">
-//                                                 <li><a href="/Bathroom">Bathroom</a></li>
-//                                                 <li><a href="/DiningRoom">Dining Room</a></li>
-//                                                 <li><a href="/HomeOffice">Home Office</a></li>
-//                                                 <li><a href="/Kitchens">Kitchens</a></li>
-//                                                 <li><a href="/MediaRoom">Media Room</a></li>
-                                            
-
-//                                             </ul>
-//                                                 </li>
-//                                                 <li>
-//                                                     <a href="/AwkwardSpaces">Awkward Spaces</a>
-//                                                     <ul className="sub-menu has-child">
-//                                                 <li><a href="/Alcoves">Alcoves</a></li>
-//                                                 <li><a href="/BayWindows">Bay Windows</a></li>
-//                                                 <li><a href="/LandingHallways">Landing & Hallways</a></li>
-//                                                 <li><a href="/SlopingCeilings">Sloping Ceilings</a></li>
-//                                                 <li><a href="/UnderStairs">Under Stairs </a></li>
-                                            
-
-//                                             </ul>
-//                                                 </li>
-//                                             </ul>
-//                                         </li>
-//                                         <li>
-//                                             <a href="/Joinery">Joinery</a>
-                                            
-//                   </li>
-//                   <li>
-//                     <a href="/Inspiration">Inspiration</a>
-                    
-//                   </li>
-
-//                                         <li className="submenu-direction">
-//                                             <a href="">Gallery</a>
-//                                             <ul className="sub-menu">
-//                                                 <li><a href="/Recentwork">Recent Work</a></li>
-                                                
-//                                             </ul>
-//                                         </li>
-//                                         <li className="submenu-direction">
-//                                             <a href="">Contact</a>
-//                                             <ul className="sub-menu">
-//                                                 <li><a href="/Getaquote">Contact Us</a></li>
-//                                                 <li><a href="/Orderafreebrochure">Order A Free Brochure</a></li>
-//                                                 <li><a href="/PrivacyPolicy">Privacy Policy</a></li>
-//                                                 <li><a href="/Termandcondition">Terms & Condition</a></li>
-                                               
-//                                             </ul>
-//                                         </li>
-//                                     </ul>
-//                                 </div>
-
-//                             </div>
-//                         </div>
-//                     </div>
-//     </header>
-//     </div>
-//   );
-// };
-
-// export default Navbar;
 import React, { useState } from "react";
-
+import Box from "@mui/material/Box";
+import Drawer from "@mui/material/Drawer";
+import IconButton from "@mui/material/IconButton";
+import AppsIcon from "@mui/icons-material/Apps";
+import Typography from "@mui/material/Typography";
+import Divider from "@mui/material/Divider";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import ListItemText from "@mui/material/ListItemText";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import EmailIcon from "@mui/icons-material/Email";
+import PhoneIcon from "@mui/icons-material/Phone";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import PinterestIcon from "@mui/icons-material/Pinterest";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import HomeIcon from "@mui/icons-material/Home";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  
+
+  const [open, setOpen] = React.useState(false);
+
+  const toggleDrawer = (open) => (event) => {
+    if (
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
+    ) {
+      return;
+    }
+    setOpen(open);
+  };
+
+  const list = (
+    <Box
+      sx={{ width: 400, padding: 2, backgroundColor: "#1c1c1c", color: "#fff" }}
+    >
+      <Box sx={{ textAlign: "center", marginBottom: 2,marginTop:2 }}>
+        <img
+          src="/assets/pic/CMS LOGO 1.png"
+          alt="Bravo London"
+          style={{ width: "150px" }}
+        />
+      </Box>
+      {/* <!-- OUR GALLERY  --> */}
+      <div className=" widget_gallery mfp-gallery p-a30 ">
+        <h4 className="widget-title " style={{color:'white'}}>Our Gallery</h4>
+        <div className="row no-gutters justify-content-center">
+          <div className="col-6 col-sm-4 ">
+            <div className="wt-post-thum m-1">
+              <a href="/assets/pic/kl (2).jpg" className="mfp-link" >
+                <img src="/assets/pic/kl (1).jpg" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div className="col-6 col-sm-4 ">
+            <div className="wt-post-thum m-1">
+              <a href="/assets/pic/kp (2).jpg" className="mfp-link">
+                <img src="/assets/pic/kp (1).jpg" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div className="col-6 col-sm-4 ">
+            <div className="wt-post-thum  m-1">
+              <a href="/assets/pic/kblog (4).webp" className="mfp-link">
+                <img src="/assets/pic/kblog (1).webp" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div className="col-6 col-sm-4 ">
+            <div className="wt-post-thum m-1">
+              <a href="/assets/pic/childrensblog (2).jpg" className="mfp-link">
+                <img src="/assets/pic/childrensblog (1).jpg" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div className="col-6 col-sm-4 ">
+            <div className="wt-post-thum m-1">
+              <a href="/assets/pic/underblog (2).webp" className="mfp-link">
+                <img src="/assets/pic/underblog (1).webp" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div className="col-6 col-sm-4 ">
+            <div className="wt-post-thum m-1">
+              <a href="/assets/pic/dainingblog (2).jpg" className="mfp-link">
+                <img src="/assets/pic/dainingblog (1).jpg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Divider sx={{ backgroundColor: "#444" }} />
+      <Typography variant="h6" gutterBottom sx={{ marginTop: 2,color:"white" }}>
+        Contact Info
+      </Typography>
+      <List>
+        <ListItem>
+          <ListItemIcon>
+            <LocationOnIcon sx={{ color: "#fff" }} />
+          </ListItemIcon>
+          <ListItemText primary="Unit 9 Slough Interchange,Whittenham Close,Slough SL2 5EP" />
+        </ListItem>
+        <ListItem>
+          <ListItemIcon>
+            <EmailIcon sx={{ color: "#fff" }} />
+          </ListItemIcon>
+          <ListItemText primary="info@stylemyspace.uk" />
+        </ListItem>
+        <ListItem>
+          <ListItemIcon>
+            <PhoneIcon sx={{ color: "#fff" }} />
+          </ListItemIcon>
+          <ListItemText primary="01753530216" />
+        </ListItem>
+      </List>
+      <Box
+        sx={{ display: "flex", justifyContent: "center", gap: 1, marginTop: 2 }}
+      >
+        <IconButton sx={{ color: "#fff" }}>
+          <FacebookIcon />
+        </IconButton>
+        <IconButton sx={{ color: "#fff" }}>
+          <PinterestIcon />
+        </IconButton>
+        <IconButton sx={{ color: "#fff" }}>
+          <InstagramIcon />
+        </IconButton>
+        <IconButton sx={{ color: "#fff" }}>
+          <YouTubeIcon />
+        </IconButton>
+        <IconButton sx={{ color: "#fff" }}>
+          <HomeIcon />
+        </IconButton>
+      </Box>
+    </Box>
+  );
 
   return (
     <div className="page-wraper">
@@ -144,8 +156,8 @@ const Navbar = () => {
                 </div>
               </div>
               {/* Toggle button for mobile */}
-              <button 
-                className="mobile-menu-toggle" 
+              <button
+                className="mobile-menu-toggle"
                 onClick={() => setMenuOpen(!menuOpen)}
                 style={{ color: "white", justifyContent: "flex-end" }}
               >
@@ -154,69 +166,160 @@ const Navbar = () => {
               {/* MAIN Nav */}
               <div className={`header-nav ${menuOpen ? "open" : ""}`}>
                 <ul className="nav navbar-nav scroll">
-                  <li><a href="/">Home</a></li>
-                  <li><a href="../WhyCraftMySpace">WhyCraftMySpace?</a></li>
+                  <li>
+                    <a href="/">Home</a>
+                  </li>
+                  <li>
+                    <a href="../WhyCraftMySpace">WhyCraftMySpace?</a>
+                  </li>
                   <li>
                     <a href="">Services</a>
                     <ul className="sub-menu">
-                      <li><a href="/fitted-bedroom">Fitted Bedrooms</a></li>
+                      <li>
+                        <a href="/fitted-bedroom">Fitted Bedrooms</a>
+                      </li>
                       <li>
                         <a href="/FittedWardrobes">Fitted Wardrobes</a>
                         <ul className="sub-menu">
-                          <li><a href="/HingedDoorWardrobes">Hinged Door Wardrobes</a></li>
-                          <li><a href="/SlidingWardrobedDoorsByCMS">Sliding Wardrobe Doors By CMS</a></li>
+                          <li>
+                            <a href="/HingedDoorWardrobes">
+                              Hinged Door Wardrobes
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/SlidingWardrobedDoorsByCMS">
+                              Sliding Wardrobe Doors By CMS
+                            </a>
+                          </li>
                           <li>
                             <a href="/Slidingwardrobed">Sliding Wardrobes</a>
                             <ul className="sub-menu">
-                              <li><a href="/ChildrensBedroomSlidingDoorWardrobes">Children’s Bedroom Sliding Door Wardrobes</a></li>
-                              <li><a href="/SlidingHallwayWardrobes">Sliding Hallway Wardrobes</a></li>
-                              <li><a href="/SlidingHomeOfficeWardrobes">Sliding Home Office Wardrobes</a></li>
-                              <li><a href="/SlidingLivingAreaWardrobes">Sliding Living Area Wardrobes</a></li>
-                              <li><a href="/SlidingBedroomWardrobes">Sliding Bedroom Wardrobes</a></li>
+                              <li>
+                                <a href="/ChildrensBedroomSlidingDoorWardrobes">
+                                  Children’s Bedroom Sliding Door Wardrobes
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/SlidingHallwayWardrobes">
+                                  Sliding Hallway Wardrobes
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/SlidingHomeOfficeWardrobes">
+                                  Sliding Home Office Wardrobes
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/SlidingLivingAreaWardrobes">
+                                  Sliding Living Area Wardrobes
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/SlidingBedroomWardrobes">
+                                  Sliding Bedroom Wardrobes
+                                </a>
+                              </li>
                             </ul>
                           </li>
-                          <li><a href="/Walkinwardrobed">Walk-in Wardrobes</a></li>
-                          <li><a href="/ChildrenFittedBadrooms">Children's Fitted Bedrooms</a></li>
+                          <li>
+                            <a href="/Walkinwardrobed">Walk-in Wardrobes</a>
+                          </li>
+                          <li>
+                            <a href="/ChildrenFittedBadrooms">
+                              Children's Fitted Bedrooms
+                            </a>
+                          </li>
                         </ul>
                       </li>
                       <li>
                         <a href="/FittedLiving">Fitted Living</a>
                         <ul className="sub-menu">
-                          <li><a href="/Bathroom">Bathroom</a></li>
-                          <li><a href="/DiningRoom">Dining Room</a></li>
-                          <li><a href="/HomeOffice">Home Office</a></li>
-                          <li><a href="/Kitchens">Kitchens</a></li>
-                          <li><a href="/MediaRoom">Media Room</a></li>
+                          <li>
+                            <a href="/Bathroom">Bathroom</a>
+                          </li>
+                          <li>
+                            <a href="/DiningRoom">Dining Room</a>
+                          </li>
+                          <li>
+                            <a href="/HomeOffice">Home Office</a>
+                          </li>
+                          <li>
+                            <a href="/Kitchens">Kitchens</a>
+                          </li>
+                          <li>
+                            <a href="/MediaRoom">Media Room</a>
+                          </li>
                         </ul>
                       </li>
                       <li>
                         <a href="/AwkwardSpaces">Awkward Spaces</a>
                         <ul className="sub-menu">
-                          <li><a href="/Alcoves">Alcoves</a></li>
-                          <li><a href="/BayWindows">Bay Windows</a></li>
-                          <li><a href="/LandingHallways">Landing & Hallways</a></li>
-                          <li><a href="/SlopingCeilings">Sloping Ceilings</a></li>
-                          <li><a href="/UnderStairs">Under Stairs</a></li>
+                          <li>
+                            <a href="/Alcoves">Alcoves</a>
+                          </li>
+                          <li>
+                            <a href="/BayWindows">Bay Windows</a>
+                          </li>
+                          <li>
+                            <a href="/LandingHallways">Landing & Hallways</a>
+                          </li>
+                          <li>
+                            <a href="/SlopingCeilings">Sloping Ceilings</a>
+                          </li>
+                          <li>
+                            <a href="/UnderStairs">Under Stairs</a>
+                          </li>
                         </ul>
                       </li>
                     </ul>
                   </li>
-                  <li><a href="/Joinery">Joinery</a></li>
-                  <li><a href="/Inspiration">Inspiration</a></li>
+                  <li>
+                    <a href="/Joinery">Joinery</a>
+                  </li>
+                  <li>
+                    <a href="/Inspiration">Inspiration</a>
+                  </li>
                   <li>
                     <a href="">Gallery</a>
                     <ul className="sub-menu">
-                      <li><a href="/Recentwork">Recent Work</a></li>
+                      <li>
+                        <a href="/Recentwork">Recent Work</a>
+                      </li>
                     </ul>
                   </li>
                   <li>
                     <a href="">Contact</a>
                     <ul className="sub-menu">
-                      <li><a href="/Getaquote">Contact Us</a></li>
-                      <li><a href="/Orderafreebrochure">Order A Free Brochure</a></li>
-                      <li><a href="/PrivacyPolicy">Privacy Policy</a></li>
-                      <li><a href="/Termandcondition">Terms & Conditions</a></li>
+                      <li>
+                        <a href="/Getaquote">Contact Us</a>
+                      </li>
+                      <li>
+                        <a href="/Orderafreebrochure">Order A Free Brochure</a>
+                      </li>
+                      <li>
+                        <a href="/PrivacyPolicy">Privacy Policy</a>
+                      </li>
+                      <li>
+                        <a href="/Termandcondition">Terms & Conditions</a>
+                      </li>
                     </ul>
+                  </li>
+                  <li>
+                    <div>
+                      <IconButton
+                        onClick={() => setOpen(!open)}
+                        style={{ color: "white", padding: "0px" }}
+                      >
+                        <AppsIcon />
+                      </IconButton>
+                      <Drawer
+                        anchor="right"
+                        open={open}
+                        onClose={toggleDrawer(false)}
+                      >
+                        {list}
+                      </Drawer>
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -224,7 +327,7 @@ const Navbar = () => {
           </div>
         </div>
       </header>
-      
+
       <style>{`
         @media (max-width: 768px) {
           .mobile-menu-toggle {
