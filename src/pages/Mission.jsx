@@ -64,28 +64,12 @@ const Mission = () => {
                 <div className="col-lg-6 col-md-12">
                   <div className="arc-home-about-right portfolio-wrap">
                     <div className="row">
-                        <div className="col-md-6 col-sm-6 masonry-item">
+                        <div className="col-md-12 col-sm-12 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
                           <img src="/assets/pic/walk6.png" alt="" />
                         </div>
                       </div>
 
-                      <div className="col-md-6 col-sm-6 masonry-item">
-                        <div className="wt-media m-b20  img-reflection">
-                          <img src="/assets/pic/walk7.png" alt="" />
-                        </div>
-                      </div>
-
-                      <div className="col-md-6 col-sm-6 masonry-item">
-                        <div className="wt-media m-b20  img-reflection">
-                          <img src="/assets/pic/walk4.png" alt="" />
-                        </div>
-                      </div>
-                      <div className="col-md-6 col-sm-6 masonry-item">
-                        <div className="wt-media m-b20  img-reflection">
-                          <img src="/assets/pic/walk5.png" alt="" />
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
