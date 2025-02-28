@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="page-wraper">
       <header class="site-header header-style-1  header-fixed nav-wide mobile-sider-drawer-menu">
         <div className="main-bar-wraper">
-          <div className="main-bar p-t5" style={{ backgroundColor: "#000" }}>
+          <div className="main-bar p-t5" >
             <div className="container">
               <div className="logo-header">
                 <div className="logo-header-inner logo-header-one">
