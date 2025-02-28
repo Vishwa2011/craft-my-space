@@ -148,7 +148,7 @@ const Footers = () => {
                   <img src="/assets/pic/Craft_My_Space_Custom_C_Logo_180x31.png" alt="" />
                 </a>
                 <span className="copyrights-text">
-                  © 2025 Your Company.
+                  © 2019 Your Company.
                 </span>
               </div>
             </div>

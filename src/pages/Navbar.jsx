@@ -60,7 +60,7 @@ const Navbar = () => {
               <div className="header-nav">
                 <ul className=" nav navbar-nav">
                   <li className="">
-                    <a href="/WhyCraftMySpace">Why CMS?</a>
+                    <a href="../WhyCraftMySpace">Why Craft My Space?</a>
                     {/* <ul className="sub-menu">
                                                 <li>
                                                     <a href="index.html">Home 1</a>
