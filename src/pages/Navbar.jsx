@@ -22,6 +22,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const [open, setOpen] = React.useState(false);
+  
 
   const toggleDrawer = (open) => (event) => {
     if (
@@ -304,7 +305,7 @@ const Navbar = () => {
                     <a href="">Contact</a>
                     <ul className="sub-menu">
                       <li>
-                        <a href="/Getaquote">Contact Us</a>
+                        <a href="/Contact">Contact Us</a>
                       </li>
                       <li>
                         <a href="/Orderafreebrochure">Order A Free Brochure</a>
@@ -317,7 +318,28 @@ const Navbar = () => {
                       </li>
                     </ul>
                   </li>
+                  {/* <li style={{marginRight:'22px'}}>
+                  <div className="extra-nav" style={{height:'0px'}}>
+                                <div className="extra-cell" style={{display:"block"}}>											
+                                    <a href="#search" className=" text-white">
+                                    	<i className="fa fa-search" style={{fontSize:'20px'}}></i>
+                                    </a>
+                                </div>
+                            </div>
+                        
+                            <div id="search"> 
+                                <span className="close"></span>
+                                <form role="search" id="searchform" action="/search" method="get" className="radius-xl">
+                                    <div className="input-group">
+                                        <input className="form-control" value="" name="q" type="search" placeholder="Type to search"/>
+                                        <span className="input-group-append"><button type="button" className="search-btn"><i className="sl-icon-magnifier"></i></button></span>
+                                    </div>   
+                                </form>
+                            </div> 
+                  </li> */}
                   <li>
+          
+                            
                     <div>
                       <IconButton
                         onClick={() => setOpen(!open)}

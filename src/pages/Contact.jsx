@@ -103,7 +103,7 @@ const Getaquote = () => {
               <div className="wt-bnr-inr-entry">
                 <div className="banner-title-outer">
                   <div className="banner-title-name">
-                    <h2 className="text-white">Get A Quote </h2>
+                    <h2 className="text-white"> Contact Us </h2>
                   </div>
                 </div>
 
@@ -112,7 +112,7 @@ const Getaquote = () => {
                     <li>
                       <a href="/">Home</a>
                     </li>
-                    <li> Get A Quote</li>
+                    <li> Contact Us</li>
                   </ul>
                 </div>
               </div>
