@@ -92,7 +92,7 @@ const Footers = () => {
                   </h4>
                   <p>
                     Bespoke fitted bedrooms, fitted wardrobes, fitted furniture
-                    and kitchens designed and installed by CRAFT MY SPACE.
+                    and kitchens designed and installed by <b>CraftMySpace</b>.
                   </p>
                 </div>
               </div>
@@ -173,11 +173,11 @@ const Footers = () => {
                     </li>
                     <li>
                       <EmailIcon style={{ marginRight: "7px" }} />
-                      info@stylemyspace.uk
+                      info@craftmyspace.uk
                     </li>
                     <li>
                       <EmailIcon style={{ marginRight: "7px" }} />
-                      salil@stylemyspace.uk
+                      salil@craftmyspace.uk
                     </li>
                     <li>
                       <CallIcon style={{ marginRight: "7px" }} />
@@ -247,8 +247,8 @@ const Footers = () => {
               </div>
 
               <div className="col-xl-3 col-lg-6 col-md-6">
-                <div className="widget widget_address_outer m-b20">
-                  <h4 className="widget-title">Booking & Brochure</h4>
+                <div className=" widget_address_outer mb-3">
+                  <h4 className="widget-title mb-0">Booking & Brochure</h4>
                 </div>
                 <div>
                   <div
@@ -287,12 +287,14 @@ const Footers = () => {
         {/* <!-- FOOTER COPYRIGHT --> */}
         <div className="footer-bottom">
           <div className="container">
-            <div
+            <div className="row">
+              <div className="col-6">
+              <div
               className="footer-logo-bar"
               style={{
                 display: "flex",
                 flexDirection: "column",
-                alignItems: "center",
+                alignItems: "start",
               }}
             >
               <span className="copyrights-text">
@@ -303,6 +305,11 @@ const Footers = () => {
                 11976914. Registered Office: Unit 9 Slough Interchange,
                 Whittenham Close, Slough SL2 5EP.
               </span>
+            </div>
+              </div>
+              <div className="col-6" style={{display:'flex',justifyContent:'end'}}>
+                <span className="copyrights-text">Proudly Powered by : Success Innovative Technologies Pvt. Ltd.</span>
+              </div>
             </div>
           </div>
         </div>

@@ -4569,15 +4569,15 @@ display: block;	left: -85px;	top:100%;	list-style: none;	margin:8px 0px 0px 0px 
 .header-nav .nav > li.submenu-direction .sub-menu li:hover > .sub-menu {	left:auto;	right:220px;	margin:0 0 0 0;}
 .has-child .submenu-toogle {
     position:absolute;
-    right:4px;
-    top:4px;
-    color:#262423;
+    right:-8px;
+    top:20px;
+    color:white;
     background-color:transparent;
     z-index:900;
     cursor:pointer;
     padding:10px;
-    font-size:14px;
-    display:none;
+    font-size:10px;
+    display:block;
 }
 .header-nav .has-child li .submenu-toogle  {opacity:0.9;}
 
@@ -4647,7 +4647,18 @@ header .logo{	display:block;	padding:4px 0;}
     opacity:1;
     margin:0 !important;
 }
-.has-child .submenu-toogle {    display:block;}
+.has-child .submenu-toogle {
+    position:absolute;
+    right:4px;
+    top:4px;
+    color:#262423;
+    background-color:transparent;
+    z-index:900;
+    cursor:pointer;
+    padding:10px;
+    font-size:14px;
+    display:block;
+}
 
 .header-nav .has-child.nav-active > a + .submenu-toogle.fa-plus:before {
 
