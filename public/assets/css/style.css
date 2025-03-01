@@ -6351,7 +6351,7 @@ ol.commentlist li::after {
 	border-bottom: 40px solid #000;
 }
 
-.awards-win ul li{position:relative;padding-left:150px; margin-bottom:30px;}
+.awards-win ul li{position:relative;padding-left:120px; margin-bottom:30px;}
 .awards-win ul li:last-child{margin-bottom:0px;}
 .awards-win ul li p{margin-bottom:0px;}
 .awards-win ul li .title-year{position:absolute;left:0px;top:0px;}
@@ -8274,3 +8274,19 @@ padding: 20px;;}
     outline: 0px dotted;
      outline: 0px auto -webkit-focus-ring-color;
 }
+.title-year img {
+    width: 80px; /* Adjust as needed */
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    .title-year img {
+      width: 60px; /* Smaller size for tablets */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .title-year img {
+      width: 50px; /* Even smaller size for mobile devices */
+    }
+  }
