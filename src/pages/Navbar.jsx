@@ -121,7 +121,7 @@ const Navbar = () => {
           <ListItemIcon>
             <EmailIcon sx={{ color: "#fff" }} />
           </ListItemIcon>
-          <ListItemText primary="info@stylemyspace.uk" />
+          <ListItemText primary="info@craftmyspace.uk" />
         </ListItem>
         <ListItem>
           <ListItemIcon>
