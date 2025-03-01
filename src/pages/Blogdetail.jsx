@@ -293,38 +293,7 @@ export default function Blogdetail() {
                                             </div>
                                         </div>                                    
 
-                                        {/* <!-- OUR CLIENT --> */}
-                                        <div className="widget p-a30 bg-white">
-                                            <h4 className="widget-title">Our Client</h4>
-                                            <div className="owl-carousel widget-client p-t10">
-                                            
-                                                {/* <!-- COLUMNS 1 -->  */}
-                                                <div className="item">
-                                                    <div className="ow-client-logo">
-                                                        <div className="client-logo wt-img-effect on-color">
-                                                            <a href="#"><img src="assets/images/client-logo/w1.png" alt="" /></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                {/* <!-- COLUMNS 2 -->  */}
-                                                <div className="item">
-                                                    <div className="ow-client-logo">
-                                                        <div className="client-logo wt-img-effect on-color">
-                                                            <a href="#"><img src="assets/images/client-logo/w2.png" alt="" /></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                {/* <!-- COLUMNS 3 -->  */}
-                                                <div className="item">
-                                                    <div className="ow-client-logo">
-                                                        <div className="client-logo wt-img-effect on-color">
-                                                            <a href="#"><img src="assets/images/client-logo/w3.png" alt="" /></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                              
-                                            </div>
-                                        </div>                                     
+                                                                          
     
                                         {/* <!-- TAGS --> */}
                                         <div className="widget widget_tag_cloud p-a30 bg-white">

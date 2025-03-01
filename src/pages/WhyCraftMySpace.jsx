@@ -1,8 +1,10 @@
-import React from "react";
+import { Formik, Form, Field } from "formik";
 import Navbar from "./Navbar";
 import Footers from "./Footer";
-
+import { useState } from "react";
+import Swal from "sweetalert2";
 const WhyCraftMySpace = () => {
+  const [errors, setErrors] = useState({});
   return (
     <div className="page-wraper">
       <Navbar />
@@ -327,7 +329,8 @@ const WhyCraftMySpace = () => {
                         </div>
                         <div className="icon-content">
                           <h5 className="m-t0 font-weight-500">Phone number</h5>
-                          <p>+1 (456) 789 10 12</p>
+                          <p>01753530216</p>
+                          
                         </div>
                       </div>
                     </div>
@@ -351,7 +354,7 @@ const WhyCraftMySpace = () => {
                         </div>
                         <div className="icon-content">
                           <h5 className="m-t0 font-weight-500">Address info</h5>
-                          <p>55/11 Land Street, Modern New Yourk City, USA</p>
+                          <p>Unit 9 Slough Interchange,Whittenham Close,Slough SL2 5EP</p>
                         </div>
                       </div>
                     </div>
@@ -373,100 +376,171 @@ const WhyCraftMySpace = () => {
           
           {/* book start  */}
           <div className="section-full p-t80 p-b80">
-            {/* <!-- LOCATION BLOCK--> */}
-            <div className="container">
-              {/* <!-- GOOGLE MAP & CONTACT FORM --> */}
-              <div className="section-content">
-                <div className="contact-form p-a30 bg-gray">
-                  <form
-                    className="cons-contact-form"
-                    method="post"
-                    action="form-handler.php"
-                  >
-                    <div className="contact-one">
-                      {/* <!-- TITLE START -->/ */}
-                      <div className="section-head text-left">
-                        <h3 className="m-b5">Book free design visit</h3>
-                        <p>Enter your details and we will contact you shortly to discuss booking your design visit.</p>
-                      </div>
-                      {/* <!-- TITLE END -->   */}
-                      <div className="row">
-                        <div className="col-md-6">
-                          <div className="form-group">
-                            <input
-                              name="username"
-                              type="text"
-                              required
-                              className="form-control"
-                              placeholder="Name"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-md-6">
-                          <div className="form-group">
-                            <input
-                              name="email"
-                              type="text"
-                              className="form-control"
-                              required
-                              placeholder="Email"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-md-6">
-                          <div className="form-group">
-                            <input
-                              name="number"
-                              type="tel"
-                              required
-                              className="form-control"
-                              placeholder="phone number"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-md-6">
-                          <div className="form-group">
-                            <input
-                              name="address"
-                              type="text"
-                              className="form-control"
-                              required
-                              placeholder="address"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-md-12">
-                          <div className="form-group">
-                            <textarea
-                              name="message"
-                              rows="4"
-                              className="form-control "
-                              required
-                              placeholder="How can we held?"
-                            ></textarea>
-                          </div>
-                        </div>
-                        <div className="col-md-12">
-                          <div className="text-right">
-                            <button
-                              name="submit"
-                              type="submit"
-                              value="Submit"
-                              className="site-button radius-no text-uppercase font-weight-600"
-                            >
-                              Submit
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                </div>
+  <div className="container">
+    <div className="section-content">
+      <div className="contact-form p-a30 bg-gray">
+      <Formik
+  initialValues={{
+    username: "",
+    email: "",
+    number: "",
+    address: "",
+    message: "",
+  }}
+  validate={(values) => {
+    let errors = {};
 
-               
-              </div>
+    // Email validation
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (!values.email.trim()) {
+      errors.email = "Email is required";
+    } else if (!emailRegex.test(values.email)) {
+      errors.email = "Please enter a valid email address";
+    }
+
+    // Phone number validation (must be exactly 10 digits)
+    const phoneRegex = /^[0-9]{10}$/;
+    if (!values.number.trim()) {
+      errors.number = "Phone number is required";
+    } else if (!phoneRegex.test(values.number)) {
+      errors.number = "Phone number must be exactly 10 digits";
+    }
+
+    return errors;
+  }}
+  onSubmit={(values, { setSubmitting, resetForm }) => {
+    console.log("Form Submitted:", values);
+
+    // SweetAlert on success
+    Swal.fire({
+      title: "Success!",
+      text: "Form submitted successfully!",
+      icon: "success",
+      confirmButtonText: "OK",
+    });
+
+    resetForm();
+    setSubmitting(false);
+  }}
+>
+  {({ values, errors, touched, handleBlur, handleChange }) => (
+    <Form className="cons-contact-form">
+      <div className="contact-one">
+        <div className="section-head text-left">
+          <h3 className="m-b5">Book free design visit</h3>
+          <p>Enter your details and we will contact you shortly to discuss booking your design visit.</p>
+        </div>
+
+        <div className="row">
+          {/* Name Field */}
+          <div className="col-md-6">
+            <div className="form-group">
+              <Field
+                name="username"
+                type="text"
+                required
+                className="form-control"
+                placeholder="Name"
+                onChange={(e) => {
+                  const regex = /^[A-Za-z\s]*$/;
+                  if (regex.test(e.target.value)) {
+                    handleChange(e);
+                  }
+                }}
+              />
             </div>
           </div>
+
+          {/* Email Field */}
+          <div className="col-md-6">
+            <div className="form-group">
+              <Field
+                name="email"
+                type="text"
+                required
+                className="form-control"
+                placeholder="Email"
+              />
+              {errors.email && touched.email && (
+                <p style={{ color: "red", fontSize: "14px" }}>{errors.email}</p>
+              )}
+            </div>
+          </div>
+
+          {/* Phone Number Field */}
+          <div className="col-md-6">
+            <div className="form-group">
+              <Field
+                name="number"
+                type="tel"
+                required
+                className="form-control"
+                placeholder="Phone Number"
+                value={values.number}
+                onChange={(e) => {
+                  const value = e.target.value;
+                  if (/^\d{0,10}$/.test(value)) {
+                    handleChange(e);
+                  }
+                }}
+              />
+              {errors.number && touched.number && (
+                <p style={{ color: "red", fontSize: "14px" }}>{errors.number}</p>
+              )}
+            </div>
+          </div>
+
+          {/* Address Field */}
+          <div className="col-md-6">
+            <div className="form-group">
+              <Field
+                name="address"
+                type="text"
+                required
+                className="form-control"
+                placeholder="Address"
+              />
+            </div>
+          </div>
+
+          {/* Message Field */}
+          <div className="col-md-12">
+            <div className="form-group">
+              <Field
+                as="textarea"
+                name="message"
+                rows="4"
+                className="form-control"
+                required
+                placeholder="How can we help?"
+              />
+            </div>
+          </div>
+
+          {/* Submit Button */}
+          <div className="col-md-12">
+            <div className="text-right">
+              <button
+                type="submit"
+                className="site-button radius-no text-uppercase font-weight-600"
+                disabled={Object.keys(errors).length > 0}
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Form>
+  )}
+</Formik>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
           {/* book end  */}
         
         {/* <!-- CONTENT END --> */}
