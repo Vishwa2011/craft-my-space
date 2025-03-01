@@ -69,8 +69,7 @@ const WhyCraftMySpace = () => {
                   <p>
                     Whether you're looking for a Sliding Glass Door Wardrobe,
                     Full Mirror Door Wardrobe, Hinged Door Wardrobe, Walk-in
-                    Wardrobe, or a Custom Living or Bedroom Wardrobe, Craft My
-                    Space is your perfect choice. Our bespoke furniture and
+                    Wardrobe, or a Custom Living or Bedroom Wardrobe, CraftMySpace is your perfect choice. Our bespoke furniture and
                     built-in wardrobes are entirely made-to-measure, ensuring a
                     perfect fit for your home. We offer high-quality, affordable
                     products and storage solutions across London and the Home
@@ -95,8 +94,7 @@ const WhyCraftMySpace = () => {
                       next stage—bringing your dream furniture to life.
                     </p>
                     <p>
-                      "Everything will fit perfectly!" – Since 2009, Craft My
-                      Space has been delivering high-quality fitted furniture
+                      "Everything will fit perfectly!" – Since 2009, CraftMySpace has been delivering high-quality fitted furniture
                       and wardrobes, ensuring every design meets your unique
                       needs.
                     </p>
