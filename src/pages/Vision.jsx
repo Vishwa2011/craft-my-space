@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footers from './Footer'
 
-const Vission = () => {
+const Vision = () => {
   return (
     <>
        <div className="page-wraper">
@@ -20,7 +20,7 @@ const Vission = () => {
                 <div className="wt-bnr-inr-entry">
                   <div className="banner-title-outer">
                     <div className="banner-title-name">
-                      <h2 className="text-white">Our Vission</h2>
+                      <h2 className="text-white">Our Vision</h2>
                     </div>
                   </div>
                   {/* <!-- BREADCRUMB ROW -->  */}
@@ -31,7 +31,7 @@ const Vission = () => {
                         <a href="/">Home</a>
                       </li>
                      
-                      <li>Our Vission</li>
+                      <li>Our Vision</li>
                     </ul>
                   </div>
 
@@ -88,4 +88,4 @@ const Vission = () => {
   )
 }
 
-export default Vission
+export default Vision

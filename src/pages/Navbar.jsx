@@ -182,7 +182,7 @@ const Navbar = () => {
                     <a href="/WhyCraftMySpace">Why CraftMySpace?</a>
                     <ul className="sub-menu">
                       <li><a  href="/Mission">Our Mission</a></li>
-                      <li><a  href="/Vission">Our Vission</a></li>
+                      <li><a  href="/Vision">Our Vision</a></li>
                     </ul>
                   </li>
                   <li>
@@ -362,7 +362,10 @@ const Navbar = () => {
             display: block;
             width: 250px; 
             height: 100vh;
-            overflow: hidden;
+            overflow: scroll;
+          }
+          .icon_focus{
+            display:none;
           }
         }
         @media (min-width: 769px) {
