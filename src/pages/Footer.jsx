@@ -288,7 +288,7 @@ const Footers = () => {
         <div className="footer-bottom">
           <div className="container">
             <div className="row">
-              <div className="col-6">
+              <div className="col-12 col-md-6">
               <div
               className="footer-logo-bar"
               style={{
@@ -297,18 +297,20 @@ const Footers = () => {
                 alignItems: "start",
               }}
             >
-              <span className="copyrights-text">
+              <span className="copyrights-text mt-2">
                 Copyright By © CraftMySpace Interiors ltd. Registered in England
                 and Wales No.
               </span>
-              <span className="copyrights-text">
+              <span className="copyrights-text mt-2">
                 11976914. Registered Office: Unit 9 Slough Interchange,
                 Whittenham Close, Slough SL2 5EP.
               </span>
             </div>
               </div>
-              <div className="col-6" style={{display:'flex',justifyContent:'end'}}>
-                <span className="copyrights-text">Proudly Powered by : Success Innovative Technologies Pvt. Ltd.</span>
+              <div className="col-12 col-md-6 mt-2" style={{display:'flex',justifyContent:'end'}}>
+                <div className="copyrights-text">
+                <span >Proudly Powered by : Success Innovative Technologies Pvt. Ltd.</span>
+                </div>
               </div>
             </div>
           </div>

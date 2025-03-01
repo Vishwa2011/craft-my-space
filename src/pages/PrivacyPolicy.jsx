@@ -41,7 +41,7 @@ const PrivacyPolicy = () => {
                 <h4>1.Information That We Collect</h4>
                 <ul style={{ lineHeight: "30px", listStyle: "none" }}>
                   <li>
-                    Our website at www.stylemyspace.uk uses cookies, which is a
+                    Our website at www.craftmyspace.uk uses cookies, which is a
                     string of information a website stores on to a visitor`s
                     computer. These cookies log the visitor`s browser every time
                     they return. Visitors to the website who do not wish to have

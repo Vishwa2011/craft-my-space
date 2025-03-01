@@ -5349,7 +5349,7 @@ line-height:normal;}
 .footer-logo-bar span{display:table-cell;}
 
 .footer-logo-bar a{text-align:left;}
-.footer-logo-bar span{text-align:right;}
+.footer-logo-bar span{text-align:left;}
 
 .footer-social-section{border-bottom:1px solid #1e292f;}
 .footer-social-content ul{display:table; width:100%; margin:0px;}
@@ -5378,7 +5378,7 @@ line-height:normal;}
     display:none;
 }
 .footer-logo-bar span {
-    text-align: center;
+    text-align: start;
 }	
 }
 
