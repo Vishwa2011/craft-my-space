@@ -35,7 +35,12 @@ const Navbar = () => {
 
   const list = (
     <Box
-      sx={{ width: 400, padding: 2, backgroundColor: "#1c1c1c", color: "#fff" }}
+    sx={{ 
+      width: { xs: 320, sm: 375, md: 400 }, 
+      padding: 2, 
+      backgroundColor: "#1c1c1c", 
+      color: "#fff" 
+    }}
     >
       <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 2, marginTop: 2 }}>
         <img
@@ -51,52 +56,52 @@ const Navbar = () => {
       <div className=" widget_gallery mfp-gallery p-a30 ">
         <h4 className="widget-title " style={{color:'white'}}>Our Gallery</h4>
         <div className="row no-gutters justify-content-center">
-          <div className="col-6 col-sm-4 ">
-            <div className="wt-post-thum m-1">
-              <a href="/assets/pic/kl (2).jpg" className="mfp-link" >
+          <div className="col-6 col-sm-4 p-1">
+            {/* <div className="wt-post-thum m-1">
+              <a href="/assets/pic/kl (2).jpg" className="mfp-link" > */}
                 <img src="/assets/pic/kl (1).jpg" alt="" />
-              </a>
-            </div>
+              {/* </a>
+            </div> */}
           </div>
 
-          <div className="col-6 col-sm-4 ">
-            <div className="wt-post-thum m-1">
-              <a href="/assets/pic/kp (2).jpg" className="mfp-link">
+          <div className="col-6 col-sm-4 p-1">
+            {/* <div className="wt-post-thum m-1">
+              <a href="/assets/pic/kp (2).jpg" className="mfp-link"> */}
                 <img src="/assets/pic/kp (1).jpg" alt="" />
-              </a>
-            </div>
+              {/* </a>
+            </div> */}
           </div>
 
-          <div className="col-6 col-sm-4 ">
-            <div className="wt-post-thum  m-1">
-              <a href="/assets/pic/kblog (4).webp" className="mfp-link">
+          <div className="col-6 col-sm-4 p-1">
+            {/* <div className="wt-post-thum  m-1">
+              <a href="/assets/pic/kblog (4).webp" className="mfp-link"> */}
                 <img src="/assets/pic/kblog (1).webp" alt="" />
-              </a>
-            </div>
+              {/* </a>
+            </div> */}
           </div>
 
-          <div className="col-6 col-sm-4 ">
-            <div className="wt-post-thum m-1">
-              <a href="/assets/pic/childrensblog (2).jpg" className="mfp-link">
+          <div className="col-6 col-sm-4 p-1">
+            {/* <div className="wt-post-thum m-1">
+              <a href="/assets/pic/childrensblog (2).jpg" className="mfp-link"> */}
                 <img src="/assets/pic/childrensblog (1).jpg" alt="" />
-              </a>
-            </div>
+              {/* </a>
+            </div> */}
           </div>
 
-          <div className="col-6 col-sm-4 ">
-            <div className="wt-post-thum m-1">
-              <a href="/assets/pic/underblog (2).webp" className="mfp-link">
+          <div className="col-6 col-sm-4 p-1">
+            {/* <div className="wt-post-thum m-1">
+              <a href="/assets/pic/underblog (2).webp" className="mfp-link"> */}
                 <img src="/assets/pic/underblog (1).webp" alt="" />
-              </a>
-            </div>
+              {/* </a>
+            </div> */}
           </div>
 
-          <div className="col-6 col-sm-4 ">
-            <div className="wt-post-thum m-1">
-              <a href="/assets/pic/dainingblog (2).jpg" className="mfp-link">
+          <div className="col-6 col-sm-4 p-1">
+            {/* <div className="wt-post-thum m-1">
+              <a href="/assets/pic/dainingblog (2).jpg" className="mfp-link"> */}
                 <img src="/assets/pic/dainingblog (1).jpg" alt="" />
-              </a>
-            </div>
+              {/* </a>
+            </div> */}
           </div>
         </div>
       </div>
@@ -136,12 +141,12 @@ const Navbar = () => {
         <IconButton sx={{ color: "#fff" }}>
           <InstagramIcon />
         </IconButton>
-        <IconButton sx={{ color: "#fff" }}>
+        {/* <IconButton sx={{ color: "#fff" }}>
           <YouTubeIcon />
         </IconButton>
         <IconButton sx={{ color: "#fff" }}>
           <HomeIcon />
-        </IconButton>
+        </IconButton> */}
       </Box>
     </Box>
   );
@@ -316,6 +321,7 @@ const Navbar = () => {
                     <div>
                       <IconButton
                         onClick={() => setOpen(!open)}
+                        className="icon_focus"
                         style={{ color: "white", padding: "0px" }}
                       >
                         <AppsIcon />
