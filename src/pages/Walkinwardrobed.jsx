@@ -118,17 +118,17 @@ const Walkinwardrobed = () => {
                   <li className='mb-2'><b>Customized Storage Solutions :</b> Create a system that perfectly fits your lifestyle and storage needs.</li>
                  </ul>
                   </p>
-                  <p>In addition to clothing and accessories, a walk-in wardrobe can also house built-in appliances, helping to free up space in other areas of your home. Some people even opt for multi-functional designs, such as integrating a laundry area or creating a stylish dressing space with ample mirrors. No matter the vision, <b>Craft My Space</b> can help bring your ideal walk-in wardrobe to life.</p>
+                  <p>In addition to clothing and accessories, a walk-in wardrobe can also house built-in appliances, helping to free up space in other areas of your home. Some people even opt for multi-functional designs, such as integrating a laundry area or creating a stylish dressing space with ample mirrors. No matter the vision, <b>CraftMySpace</b> can help bring your ideal walk-in wardrobe to life.</p>
                  
                  
                 </div>
                 <div className="bg-white text-black">
-                  <h3>Dressing room to order “Craft My Space” – a dream that becomes a reality</h3>
+                  <h3>Dressing room to order “CraftMySpace” – a dream that becomes a reality</h3>
                   
                   <p>
-                  A well-designed dressing room is more than just a storage space—it’s a personal retreat that combines luxury, organization, and convenience. With Craft My Space, you can create a bespoke dressing room tailored to your style and needs. From elegant shelving and spacious wardrobes to stylish lighting and mirrors, every element is thoughtfully designed to enhance your daily routine.
+                  A well-designed dressing room is more than just a storage space—it’s a personal retreat that combines luxury, organization, and convenience. With CraftMySpace, you can create a bespoke dressing room tailored to your style and needs. From elegant shelving and spacious wardrobes to stylish lighting and mirrors, every element is thoughtfully designed to enhance your daily routine.
                   </p>
-                 <p>Whether you dream of a chic boutique-style dressing area or a minimalistic, space-saving design, our custom solutions bring functionality and elegance together. With high-quality materials, smart storage options, and a flawless finish, Craft My Space transforms your vision into reality, making your dressing room a perfect blend of beauty and practicality.</p>
+                 <p>Whether you dream of a chic boutique-style dressing area or a minimalistic, space-saving design, our custom solutions bring functionality and elegance together. With high-quality materials, smart storage options, and a flawless finish, CraftMySpace transforms your vision into reality, making your dressing room a perfect blend of beauty and practicality.</p>
                  
                 </div>
               </div>

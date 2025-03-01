@@ -50,7 +50,7 @@ export default function HingedDoorWardrobes() {
                   <h3>Elegant Hinged Wardrobe Doors for Stylish Living</h3>
                   <p>
                     Custom Built-In Fitted Wardrobes Tailored to Your Space in
-                    London and the Home Counties – From Craft My SpaceUpgrade
+                    London and the Home Counties – From CraftMySpaceUpgrade
                     your space with our premium hinged wardrobe doors, designed
                     for both functionality and aesthetics. Crafted with
                     high-quality materials, these doors provide easy access to

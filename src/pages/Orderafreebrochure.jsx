@@ -342,7 +342,7 @@ const Orderafreebrochure = () => {
                       }}
                     >
                       {/* <div> */}
-                        <h4 style={{ marginBottom: "30px" }}>Craft My Space</h4>
+                        <h4 style={{ marginBottom: "30px" }}>CraftMySpace</h4>
                        <div style={{textAlign:'justify'}}>
                        <div>
                           <div className="icon-content">
@@ -377,7 +377,7 @@ const Orderafreebrochure = () => {
                                   marginRight: "10px",
                                 }}
                               ></i>
-                              info@gmail.com
+                           info@craftmyspace.uk
                             </p>
                           </div>
                         </div>
@@ -396,7 +396,7 @@ const Orderafreebrochure = () => {
                                   marginRight: "10px",
                                 }}
                               ></i>
-                              demo@gmail.com
+                                salil@craftmyspace.uk
                             </p>
                           </div>
                         </div>

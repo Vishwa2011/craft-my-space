@@ -61,14 +61,14 @@ const Inspiration = () => {
                         <ul>
                             {/* <li className="post-date"><span>Aug 2019</span></li> */}
                             <li className="post-author"><i className="fa fa-user"></i><a href=""> 20 November 2024</a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>Craft My space</span></a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>CraftMyspace</span></a></li>
                         </ul>
                     </div>
                     <div className="wt-post-title">
-                        <h4 className="post-title"><a href="">Craft My Space Fitted Furniture Storage Solutions</a></h4>
+                        <h4 className="post-title"><a href="">CraftMySpace Fitted Furniture Storage Solutions</a></h4>
                     </div>
                     <div className="wt-post-text">
-                        <p  style={{fontFamily:"sans-serif", color:"#7c7c7c"}}>Craft My Space  fitted furniture storage solutions blend style and functionality to maximize your space efficiently. Designed with precision, our bespoke storage solutions cater to your unique needs, whether for bedrooms, living rooms, or home offices. With a focus on high-quality craftsmanship and modern aesthetics, we transform cluttered spaces into organized, elegant interiors. Experience seamless integration, smart storage, and timeless designs with Bravo London’s expert solutions</p>
+                        <p  style={{fontFamily:"sans-serif", color:"#7c7c7c"}}>CraftMySpace  fitted furniture storage solutions blend style and functionality to maximize your space efficiently. Designed with precision, our bespoke storage solutions cater to your unique needs, whether for bedrooms, living rooms, or home offices. With a focus on high-quality craftsmanship and modern aesthetics, we transform cluttered spaces into organized, elegant interiors. Experience seamless integration, smart storage, and timeless designs with Bravo London’s expert solutions</p>
                     </div>
                     <a href="/Blogdetail" className="site-button-link">Read More</a>
                 </div>
@@ -92,7 +92,7 @@ const Inspiration = () => {
                         <ul>
                             {/* <li className="post-date"><span>Aug 2019</span></li> */}
                             <li className="post-author"><i className="fa fa-user"></i><a href=""> 28 April 2024</a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>Craft My space</span></a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>CraftMySpace</span></a></li>
                         </ul>
                     </div>
                     <div className="wt-post-title">
@@ -125,16 +125,16 @@ const Inspiration = () => {
                         <ul>
                             {/* <li className="post-date"><span>Aug 2019</span></li> */}
                             <li className="post-author"><i className="fa fa-user"></i><a href=""> 24 June 2024</a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>Craft My space</span></a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>CraftMyspace</span></a></li>
                         </ul>
                     </div>
                     <div className="wt-post-title">
-                        <h4 className="post-title"><a href="">Stages When Ordering From Craft My Space
+                        <h4 className="post-title"><a href="">Stages When Ordering From CraftMySpace
 
 </a></h4>
                     </div>
                     <div className="wt-post-text">
-                        <p  style={{fontFamily:"sans-serif", color:"#7c7c7c"}}>When ordering from Craft My Space, the process begins with an inquiry and consultation, where customers share their requirements, design preferences, and budget. Our expert designers then create custom concepts and 3D renders for approval. Once the design is finalized, we provide a detailed quotation, and upon approval, production begins with skilled artisans crafting each piece meticulously.</p>
+                        <p  style={{fontFamily:"sans-serif", color:"#7c7c7c"}}>When ordering from CraftMySpace, the process begins with an inquiry and consultation, where customers share their requirements, design preferences, and budget. Our expert designers then create custom concepts and 3D renders for approval. Once the design is finalized, we provide a detailed quotation, and upon approval, production begins with skilled artisans crafting each piece meticulously.</p>
                     </div>
                     <a href="/Blogdetail" className="site-button-link">Read More</a>
                 </div>
@@ -157,7 +157,7 @@ const Inspiration = () => {
                         <ul>
                             {/* <li className="post-date"><span>Aug 2019</span></li> */}
                             <li className="post-author"><i className="fa fa-user"></i><a href=""> 5 November 2024</a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>Craft My space</span></a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>CraftMyspace</span></a></li>
                         </ul>
                     </div>
                     <div className="wt-post-title">
@@ -188,7 +188,7 @@ const Inspiration = () => {
                         <ul>
                             {/* <li className="post-date"><span>Aug 2019</span></li> */}
                             <li className="post-author"><i className="fa fa-user"></i><a href=""> 27 November 2024</a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>Craft My space</span></a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>CraftMyspace</span></a></li>
                         </ul>
                     </div>
                     <div className="wt-post-title">
@@ -219,7 +219,7 @@ const Inspiration = () => {
                         <ul>
                             {/* <li className="post-date"><span>Aug 2019</span></li> */}
                             <li className="post-author"><i className="fa fa-user"></i><a href="">28 February</a></li>
-                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>Craft My space</span></a></li>
+                            <li className="post-comment"><i className="fa fa-comments"></i><a href=""> <span>CraftMyspace</span></a></li>
                         </ul>
                     </div>
                     <div className="wt-post-title">

@@ -211,7 +211,7 @@ const FittedLiving = () => {
                   <h3>Custom Fitted Living Spaces</h3>
                   
                   <p>
-                  At Craft My Space, we specialize in creating personalized living spaces with our custom fitted storage solutions. Whether it's for your living room, bedroom, or hallway, our bespoke designs are tailored to maximize space and complement your unique style. Experience functional elegance with our expertly crafted living solutions, designed to make your home organized and stylish.
+                  At CraftMySpace, we specialize in creating personalized living spaces with our custom fitted storage solutions. Whether it's for your living room, bedroom, or hallway, our bespoke designs are tailored to maximize space and complement your unique style. Experience functional elegance with our expertly crafted living solutions, designed to make your home organized and stylish.
                   </p>
                   
                   <p>

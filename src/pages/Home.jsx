@@ -1487,13 +1487,13 @@ export default function Home() {
             <div className="section-head clearfix">
               <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid">
                 <small className="wt-small-title">
-                  [ Why Choose Craft My Space]
+                  [ Why Choose CraftMySpace]
                 </small>
-                <h2 className="m-b5">Why Craft My Space?</h2>
+                <h2 className="m-b5">Why CraftMySpace?</h2>
               </div>
               <div className="title-right-detail">
                 <p>
-                  Choose Craft My Space for custom, high-quality furniture that
+                  Choose CraftMySpace for custom, high-quality furniture that
                   fits your style and space. Our expert craftsmanship and
                   attention to detail ensure durability and elegance,
                   transforming any area into a functional and beautiful space.
@@ -1670,7 +1670,7 @@ export default function Home() {
                                   <a href="">
                                     {" "}
                                     <span style={{ color: "#fff" }}>
-                                      Craft My space
+                                      CraftMyspace
                                     </span>
                                   </a>
                                 </li>
@@ -1679,14 +1679,14 @@ export default function Home() {
                             <div className="wt-post-title">
                               <h4 className="post-title">
                                 <a href="" style={{ color: "#fff" }}>
-                                  Craft My Space Fitted Furniture Storage
+                                  CraftMySpace Fitted Furniture Storage
                                   Solutions
                                 </a>
                               </h4>
                             </div>
                             <div className="wt-post-text">
                               <p style={{ fontFamily: "sans-serif" }}>
-                                Craft My Space fitted furniture storage
+                                CraftMySpace fitted furniture storage
                                 solutions blend style and functionality to
                                 maximize your space efficiently. Designed with
                                 precision, our bespoke storage solutions cater
@@ -1730,7 +1730,7 @@ export default function Home() {
                                   <a href="">
                                     {" "}
                                     <span style={{ color: "#fff" }}>
-                                      Craft My space
+                                      CraftMyspace
                                     </span>
                                   </a>
                                 </li>
@@ -1789,7 +1789,7 @@ export default function Home() {
                                   <a href="">
                                     {" "}
                                     <span style={{ color: "#fff" }}>
-                                      Craft My space
+                                      CraftMyspace
                                     </span>
                                   </a>
                                 </li>
@@ -1798,13 +1798,13 @@ export default function Home() {
                             <div className="wt-post-title">
                               <h4 className="post-title">
                                 <a href="" style={{ color: "#fff" }}>
-                                  Stages When Ordering From Craft My Space
+                                  Stages When Ordering From CraftMySpace
                                 </a>
                               </h4>
                             </div>
                             <div className="wt-post-text">
                               <p style={{ fontFamily: "sans-serif" }}>
-                                When ordering from Craft My Space, the process
+                                When ordering from CraftMySpace, the process
                                 begins with an inquiry and consultation, where
                                 customers share their requirements, design
                                 preferences, and budget. Our expert designers

@@ -114,12 +114,12 @@ const ChildrensBedroomSlidingDoorWardrobes = () => {
                 <div className="bg-white text-black">
                   
                   <p>
-                  Available in a variety of colors, styles, and finishes, our sliding wardrobes not only maximize space but also add a stylish touch to any room. Whether you choose a built-in or freestanding design, these wardrobes make organizing fun for kids while ensuring a clutter-free and functional living space. Craft My Space offers the perfect blend of practicality and creativity to enhance your child’s room.
+                  Available in a variety of colors, styles, and finishes, our sliding wardrobes not only maximize space but also add a stylish touch to any room. Whether you choose a built-in or freestanding design, these wardrobes make organizing fun for kids while ensuring a clutter-free and functional living space. CraftMySpace offers the perfect blend of practicality and creativity to enhance your child’s room.
                   </p>
                  
                 <h3>Simplifying Your Child’s Daily Routine with Practical Storage</h3>
                 <p>A well-organized space plays a crucial role in a child’s daily routine, making it easier for them to find their clothes, toys, and school essentials. Our custom-fitted wardrobes are designed with smart storage solutions like adjustable shelves and spacious compartments, ensuring that everything has its place. As your child grows, the wardrobe adapts, eliminating the need for frequent replacements.</p>
-                <p>With a wide range of colors, finishes, and styles to choose from, these wardrobes seamlessly blend with any bedroom décor. More than just storage, they encourage independence by helping children develop good organizational habits. <b>Craft My Space</b> creates wardrobes that make life simpler, tidier, and more enjoyable for both parents and kids.</p>
+                <p>With a wide range of colors, finishes, and styles to choose from, these wardrobes seamlessly blend with any bedroom décor. More than just storage, they encourage independence by helping children develop good organizational habits. <b>CraftMySpace</b> creates wardrobes that make life simpler, tidier, and more enjoyable for both parents and kids.</p>
                  
                  
                 </div>

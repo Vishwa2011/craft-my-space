@@ -211,7 +211,7 @@ const AwkwardSpaces = () => {
                   <h3>Awkward Spaces</h3>
                   
                   <p>
-                  Awkwardly shaped rooms with slopes and angles are no challenge for Craft My Space fitted furniture. Our bespoke designs make the most of every inch, turning tricky spaces into functional and stylish areas.
+                  Awkwardly shaped rooms with slopes and angles are no challenge for CraftMySpace fitted furniture. Our bespoke designs make the most of every inch, turning tricky spaces into functional and stylish areas.
                   </p>
                   
                   <p>

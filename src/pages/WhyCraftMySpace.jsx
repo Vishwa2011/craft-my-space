@@ -23,7 +23,7 @@ const WhyCraftMySpace = () => {
               <div className="wt-bnr-inr-entry">
                 <div className="banner-title-outer">
                   <div className="banner-title-name">
-                    <h2 className="text-white">Why Craft My Space?</h2>
+                    <h2 className="text-white">Why CraftMySpace?</h2>
                   </div>
                 </div>
                 {/* <!-- BREADCRUMB ROW -->                             */}
@@ -33,7 +33,7 @@ const WhyCraftMySpace = () => {
                     <li>
                       <a href="/">Home</a>
                     </li>
-                    <li>Why Craft My Space?</li>
+                    <li>Why CraftMySpace?</li>
                   </ul>
                 </div>
 
@@ -51,14 +51,14 @@ const WhyCraftMySpace = () => {
                   <h3>Crafting Bespoke Furniture Solutions Since 2009</h3>
                   <p>
                     Bespoke fitted wardrobes, bedrooms, furniture, and kitchens
-                    designed and installed by Craft My Space.
+                    designed and installed by CraftMySpace.
                   </p>
                   <p>
                     We design, manufacture, and install premium-quality fitted
                     bedroom furniture across London and the UK. Our expertise
                     lies in creating tailor-made hinged door and sliding door
                     wardrobes, offering functional and stylish storage
-                    solutions. Craft My Space specializes in designing,
+                    solutions. CraftMySpace specializes in designing,
                     producing, and installing beautifully crafted built-in
                     wardrobes, fitted bedrooms, and innovative storage systems
                     that cater to individual needs and preferences. We are also
@@ -174,7 +174,7 @@ const WhyCraftMySpace = () => {
               <div className="project-detail-containt">
                 <div className="bg-white text-black">
                   <p>
-                    At <b>Craft My Space</b>, we take immense pride in our
+                    At <b>CraftMySpace</b>, we take immense pride in our
                     exceptional team!
                   </p>
                   <p>
@@ -248,7 +248,7 @@ const WhyCraftMySpace = () => {
                 <div className="bg-white text-black">
                   <h3>Sliding Wardrobe Doors Manufacturer</h3>
                   <p>
-                    <b>Craft My Space</b> is more than just a wardrobe
+                    <b>CraftMySpace</b> is more than just a wardrobe
                     specialist—we are one of the leading sliding door
                     manufacturers in the UK. We design and produce high-quality
                     sliding doors for other wardrobe manufacturers and trade
@@ -267,7 +267,7 @@ const WhyCraftMySpace = () => {
                   <p>
                     Visit our{" "}
                     <b>
-                      sliding wardrobe door factory website — Craft My Space
+                      sliding wardrobe door factory website — CraftMySpace
                     </b>
                   </p>
                   <p>
@@ -342,7 +342,7 @@ const WhyCraftMySpace = () => {
                           <h5 className="m-t0 font-weight-500">
                             Email address
                           </h5>
-                          <p>demo@gmail.com</p>
+                          <p>info@craftmyspace.uk</p>
                         </div>
                       </div>
                     </div>
@@ -482,3 +482,4 @@ const WhyCraftMySpace = () => {
 };
 
 export default WhyCraftMySpace;
+ 

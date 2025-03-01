@@ -216,7 +216,7 @@ const FittedWardrobes = () => {
                   <h3>Built In Fitted Wardrobes</h3>
                   <h3>
                     Custom Built-In Fitted Wardrobes Tailored to Your Space in
-                    London and the Home Counties – From Craft My Space
+                    London and the Home Counties – From CraftMySpace
                   </h3>
                   <p>
                     A wardrobe is second only to the bed in room decor.
@@ -224,12 +224,12 @@ const FittedWardrobes = () => {
                     built into niches or walls, wardrobes help organize and
                     enhance your space. These custom wardrobes not only offer
                     functionality but also reflect the style and design of your
-                    room. With Craft My Space, you can order a tailored fitted
+                    room. With CraftMySpace, you can order a tailored fitted
                     wardrobe for your bedroom, hallway, or living room.
                   </p>
                   <h3>Your Reliable Home Assistant</h3>
                   <p>
-                    The hallmark of Craft My Space is our innovative systems for
+                    The hallmark of CraftMySpace is our innovative systems for
                     organizing storage. Our bespoke fitted wardrobes are
                     designed to be your reliable home assistant, combining
                     functionality with style. These wardrobes offer:

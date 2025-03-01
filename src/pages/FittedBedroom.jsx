@@ -60,7 +60,7 @@ const FittedBedroom = () => {
                   But there's a solution to turning your bedroom into a serene
                   and tidy haven: it all begins with a strong foundation. A
                   well-designed storage system, like the Fitted Bedrooms
-                  Wardrobe from Craft My Space, is the key. These sliding
+                  Wardrobe from CraftMySpace, is the key. These sliding
                   wardrobe doors offer a perfect combination of style,
                   functionality, and space optimization. Available in a wide
                   variety of designs, colors, patterns, sizes, and shapes, these
@@ -84,7 +84,7 @@ const FittedBedroom = () => {
                   the room becomes cluttered and disorganized, making it harder
                   to unwind.If you choose to add a sliding door wardrobe to your
                   bedroom later, you won't have to worry about adjusting the
-                  existing design or layout of the room. At Craft My Space, our
+                  existing design or layout of the room. At CraftMySpace, our
                   expert designers create bespoke fitted wardrobes that
                   perfectly utilize the available space in your bedroom.
                 </p>
@@ -96,7 +96,7 @@ const FittedBedroom = () => {
                   Not only do they maximize your storage space, but they also
                   blend seamlessly with the room, enhancing the aesthetic
                   without compromising on functionality. Whether it's sloped
-                  ceilings, stairs, or low ceilings, Craft My Space provides the
+                  ceilings, stairs, or low ceilings, CraftMySpace provides the
                   perfect solution tailored to your needs.
                 </p>
                 <p>
@@ -128,7 +128,7 @@ const FittedBedroom = () => {
                     Guaranteed quality
                   </h4>
                   <p>
-                    At Craft My Space, we ensure top-notch quality in every
+                    At CraftMySpace, we ensure top-notch quality in every
                     piece of furniture we create. Our products are crafted with
                     precision, using premium materials for durability and
                     elegance.
@@ -148,7 +148,7 @@ const FittedBedroom = () => {
                     Professional installation
                   </h4>
                   <p>
-                    At Craft My Space, we provide expert installation services
+                    At CraftMySpace, we provide expert installation services
                     to ensure your furniture is set up perfectly. Our skilled
                     professionals handle every detail with care for a
                     hassle-free experience.
@@ -168,7 +168,7 @@ const FittedBedroom = () => {
                     Convenience of choice
                   </h4>
                   <p>
-                    At Craft My Space, we offer a wide range of furniture styles
+                    At CraftMySpace, we offer a wide range of furniture styles
                     to suit every taste and need. Choose from our diverse
                     collection to find the perfect fit for your space
                     effortlessly.
