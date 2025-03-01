@@ -66,7 +66,7 @@ const Vission = () => {
                     <div className="row">
                         <div className="col-md-12 col-sm-12 masonry-item">
                         <div className="wt-media m-b20  img-reflection">
-                          <img src="/assets/pic/walk6.png" alt="" />
+                          <img src="/assets/pic/vissionimage.jpeg" alt="" />
                         </div>
                       </div>
 
