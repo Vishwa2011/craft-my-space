@@ -261,7 +261,7 @@ const Footers = () => {
                     }}
                   >
                     <span>
-                      <a href="/Getaquote">Book a Free Design Visit </a>
+                      <a href="/Contact">Book a Free Design Visit </a>
                     </span>
                   </div>
                   <div

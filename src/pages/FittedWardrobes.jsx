@@ -249,11 +249,11 @@ const FittedWardrobes = () => {
                   </p>
                 </div>
                 <div style={{display:'flex',justifyContent:'center'}}>
-                  <a href="/Getaquote"    style={{
+                  <a href="/Contact"    style={{
                       background: "#141b1f",
                       color: "white",
                       padding: "20px",
-                    }}>Get A Quote</a>
+                    }}>Contact Now</a>
                 </div>
               </div>
             </div>
