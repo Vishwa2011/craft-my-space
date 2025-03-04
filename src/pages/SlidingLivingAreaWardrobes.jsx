@@ -22,7 +22,7 @@ const SlidingLivingAreaWardrobes = () => {
             <div className="wt-bnr-inr-entry">
               <div className="banner-title-outer">
                 <div className="banner-title-name">
-                  <h2 className="text-white" style={{fontSize:'65px'}}>
+                  <h2 className="text-white" >
                   Sliding Living Area Wardrobes
                   </h2>
                 </div>
