@@ -7,6 +7,7 @@ import InputAdornment from "@mui/material/InputAdornment";
 import Footers from "./Footer";
 import "@mui/material/FilledInput";
 import "@mui/material/InputBase";
+import Swal from "sweetalert2";
 
 const Getaquote = () => {
   const [formData, setFormData] = useState({
@@ -58,7 +59,7 @@ const Getaquote = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
+  
     // Validate all fields
     const newErrors = {};
     Object.keys(formData).forEach((key) => {
@@ -67,15 +68,23 @@ const Getaquote = () => {
         newErrors[key] = `${key} is required`;
       }
     });
-
+  
     if (Object.values(newErrors).some((error) => error)) {
       setErrors(newErrors);
       return;
     }
-
+  
     // Show data in console
     console.log("Form Data Submitted:", formData);
-
+  
+    // Show SweetAlert confirmation
+    Swal.fire({
+      title: "Success!",
+      text: "Your message has been sent successfully.",
+      icon: "success",
+      confirmButtonText: "OK",
+    });
+  
     // Reset form fields
     setFormData({
       name: "",
@@ -84,10 +93,11 @@ const Getaquote = () => {
       email: "",
       message: "",
     });
-
+  
     // Clear errors
     setErrors({});
   };
+  
   return (
     <>
       <div className="page-wrapper">
@@ -123,72 +133,8 @@ const Getaquote = () => {
             <div className="container">
               <div
                 className="row"
-                style={{ display: "flex", flexWrap: "wrap" }}
-              >
-                {/* <div className="contact-form p-a30 col-md-6 col-12">
-                  <form
-                    className="cons-contact-form"
-                    method="post"
-                    action="form-handler.php"
-                  >
-                    <div className="contact-one">
-                      <h4 className="m-b6">Contact Us</h4>
-                      <h3>Do You Need Any Help? Send Message</h3>
-                      <Box sx={{ width: "100%" }}>
-                        <TextField
-                          fullWidth
-                          label="Your Name"
-                          variant="standard"
-                          margin="normal"
-                        />
-                        <TextField
-                          fullWidth
-                          label="Mobile"
-                          variant="standard"
-                          margin="normal"
-                        />
-                        <TextField
-                          fullWidth
-                          label="Subject"
-                          variant="standard"
-                          margin="normal"
-                        />
-                        <TextField
-                          fullWidth
-                          label="Email"
-                          variant="standard"
-                          margin="normal"
-                          InputProps={{
-                            endAdornment: (
-                              <InputAdornment position="end">
-                                @gmail.com
-                              </InputAdornment>
-                            ),
-                          }}
-                        />
-                        <TextField
-                          fullWidth
-                          label="Message"
-                          multiline
-                          rows={4}
-                          variant="standard"
-                          margin="normal"
-                        />
-                      </Box>
-                      <button
-                        className="site-button"
-                        style={{
-                          background: "#000",
-                          color: "#fff",
-                          padding: "10px 20px",
-                          marginTop: "20px",
-                        }}
-                      >
-                        Submit
-                      </button>
-                    </div>
-                  </form>
-                </div> */}
+                style={{ display: "flex", flexWrap: "wrap" }}  >
+                
                 <div className="contact-form p-a30 col-md-6 col-12">
                   <form className="cons-contact-form" onSubmit={handleSubmit}>
                     <div className="contact-one">
