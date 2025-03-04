@@ -251,6 +251,7 @@ const Footers = () => {
                   <h4 className="widget-title mb-0">Booking & Brochure</h4>
                 </div>
                 <div>
+                <a href="/Contact">
                   <div
                     style={{
                       border: "1px solid #fff",
@@ -261,9 +262,13 @@ const Footers = () => {
                     }}
                   >
                     <span>
-                      <a href="/Contact">Book a Free Design Visit </a>
+                      
+                      Book a Free Design Visit 
+                     
                     </span>
                   </div>
+                  </a>
+                  <a href="/Orderafreebrochure">
                   <div
                     style={{
                       border: "1px solid #fff",
@@ -275,9 +280,10 @@ const Footers = () => {
                     }}
                   >
                     <span>
-                      <a href="/Orderafreebrochure"> Order a Free Brochure </a>
+                  Order a Free Brochure 
                     </span>
                   </div>
+                  </a>
                 </div>
               </div>
               {/* <!-- NEWSLETTER --> */}
