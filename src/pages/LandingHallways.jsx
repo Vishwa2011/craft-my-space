@@ -170,7 +170,7 @@ const LandingHallways = () => {
             {/* <!-- COLUMNS 4 --> */}
             <div className="masonry-item col-xl-3 col-lg-4  col-md-6 col-sm-6 m-b30">
               <div className="project-img-effect-1">
-                <img src="/assets/pic/Alcoves6.jpg" alt="" />
+                <img src="/assets/pic/Hallways.webp" alt="" />
               </div>
               <div className="project-img-effect-1 mt-4">
                 <img src="/assets/pic/landinghall4.jpg" alt="" />

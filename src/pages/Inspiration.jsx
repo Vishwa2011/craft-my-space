@@ -68,7 +68,7 @@ const Inspiration = () => {
                         <h4 className="post-title"><a href="">CraftMySpace Fitted Furniture Storage Solutions</a></h4>
                     </div>
                     <div className="wt-post-text">
-                        <p  style={{fontFamily:"sans-serif", color:"#7c7c7c"}}>CraftMySpace  fitted furniture storage solutions blend style and functionality to maximize your space efficiently. Designed with precision, our bespoke storage solutions cater to your unique needs, whether for bedrooms, living rooms, or home offices. With a focus on high-quality craftsmanship and modern aesthetics, we transform cluttered spaces into organized, elegant interiors. Experience seamless integration, smart storage, and timeless designs with Bravo London’s expert solutions</p>
+                        <p  style={{fontFamily:"sans-serif", color:"#7c7c7c"}}>CraftMySpace  fitted furniture storage solutions blend style and functionality to maximize your space efficiently. Designed with precision, our bespoke storage solutions cater to your unique needs, whether for bedrooms, living rooms, or home offices. With a focus on high-quality craftsmanship and modern aesthetics, we transform cluttered spaces into organized, elegant interiors. Experience seamless integration, smart storage, and timeless designs with CraftMySpace expert solutions</p>
                     </div>
                     <a href="/Blogdetail" className="site-button-link">Read More</a>
                 </div>
