@@ -21,7 +21,7 @@ const ChildrensBedroomSlidingDoorWardrobes = () => {
               <div className="wt-bnr-inr-entry">
                 <div className="banner-title-outer">
                   <div className="banner-title-name">
-                    <h2 className="text-white" style={{ fontSize: "50px" }}>
+                    <h2 className="text-white " >
                       Children’s Bedroom Sliding Door Wardrobes
                     </h2>
                   </div>
@@ -136,6 +136,7 @@ const ChildrensBedroomSlidingDoorWardrobes = () => {
       <button className="scroltop">
         <span className="fa fa-angle-up  relative" id="btn-vibrate"></span>
       </button>
+      
     </div>
   );
 };

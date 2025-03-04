@@ -77,263 +77,74 @@ const Orderafreebrochure = () => {
               </div>
             </div>
           </div>
+
+          
           <div className="section-full p-t30">
-            {/* <!-- LOCATION BLOCK--> */}
-            <div className="container">
-              {/* <!-- GOOGLE MAP & CONTACT FORM --> */}
-              <div className="section-content">
-                <div className="col-12">
-                  <div className="row">
-                    <div className="contact-form p-a30 col-6">
-                      <form
-                        className="cons-contact-form"
-                        method="post"
-                        action="form-handler.php"
-                      >
-                        <div className="contact-one">
-                          {/* <!-- TITLE START --> */}
-                          <div
-                            className="section-head text-left"
-                            style={{ marginBottom: "30px" }}
-                          >
-                            <h2>Order a Free Brochure</h2>
-                          </div>
-                          {/* <!-- TITLE END -->   */}
-                          <div className="row">
-                            <div className="col-md-12">
-                              <Box
-                                component="form"
-                                sx={{
-                                  "& > :not(style)": { m: 1, width: "25ch" },
-                                }}
-                                noValidate
-                                autoComplete="off"
-                              >
-                                <TextField
-                                  id="standard-basic"
-                                  label="Your Name"
-                                  variant="standard"
-                                  style={{ width: "100%" }}
-                                />
-                              </Box>
-                            </div>
+  <div className="container">
+    <div className="section-content">
+      <div className="row">
+        {/* Left Side: Form */}
+        <div className="col-12 col-md-6 p-md-5 p-3">
+          <form className="cons-contact-form">
+            <div className="section-head text-left mb-4">
+              <h2>Order a Free Brochure</h2>
+            </div>
 
-                            <div className="col-md-12">
-                              <Box
-                                component="form"
-                                sx={{
-                                  "& > :not(style)": { m: 1, width: "57ch" },
-                                }}
-                                noValidate
-                                autoComplete="off"
-                              >
-                                <TextField
-                                  id="standard-suffix-shrink"
-                                  label="Email"
-                                  variant="standard"
-                                  slotProps={{
-                                    htmlInput: {
-                                      sx: { textAlign: "right" },
-                                    },
-                                    input: {
-                                      endAdornment: (
-                                        <InputAdornment
-                                          position="end"
-                                          sx={{
-                                            alignSelf: "flex-end",
-                                            margin: 0,
-                                            marginBottom: "5px",
-                                            opacity: 0,
-                                            pointerEvents: "none",
-                                            [`[data-shrink=true] ~ .${inputBaseClasses.root} > &`]:
-                                              {
-                                                opacity: 1,
-                                              },
-                                          }}
-                                        >
-                                          @gmail.com
-                                        </InputAdornment>
-                                      ),
-                                    },
-                                  }}
-                                />
-                              </Box>
-                            </div>
-                            <div className="col-md-12">
-                              <Box
-                                component="form"
-                                sx={{
-                                  "& > :not(style)": { m: 1, width: "25ch" },
-                                }}
-                                noValidate
-                                autoComplete="off"
-                              >
-                                <TextField
-                                  id="standard-basic"
-                                  label="Mobile number*"
-                                  variant="standard"
-                                  style={{ width: "100%" }}
-                                />
-                              </Box>
-                            </div>
-                            <div className="col-md-12">
-                              <TextField
-                                id="standard-multiline-flexible"
-                                label=" Address"
-                                multiline
-                                maxRows={4}
-                                variant="standard"
-                                style={{ width: "100%", marginLeft: "7px" }}
-                              />
-                            </div>
+            <div className="row">
+              <div className="col-12 mb-3">
+                <TextField label="Your Name" variant="standard" fullWidth />
+              </div>
+              <div className="col-12 mb-3">
+                <TextField label="Email" variant="standard" fullWidth />
+              </div>
+              <div className="col-12 mb-3">
+                <TextField label="Mobile Number*" variant="standard" fullWidth />
+              </div>
+              <div className="col-12 mb-3">
+                <TextField label="Address" multiline maxRows={4} variant="standard" fullWidth />
+              </div>
 
-                            <div>
-                              <div style={{ padding: " 9px 22px" }}>
-                                <p style={{ marginBottom: "0px" }}>
-                                  I’m looking to create a beautiful...
-                                </p>
-                                <div>
-                                  <form>
-                                    <label
-                                      style={{
-                                        color: "#000000a8",
-                                        marginBottom: "0px",
-                                      }}
-                                    >
-                                      {" "}
-                                      <Checkbox {...label} /> Fitted Wardrobe
-                                    </label>
-                                    <label
-                                      style={{
-                                        color: "#000000a8",
-                                        marginBottom: "0px",
-                                      }}
-                                    >
-                                      {" "}
-                                      <Checkbox {...label} /> Living Space
-                                    </label>
-                                    <label
-                                      style={{
-                                        color: "#000000a8",
-                                        marginBottom: "0px",
-                                      }}
-                                    >
-                                      {" "}
-                                      <Checkbox {...label} /> Kitchen
-                                    </label>
-                                    <label
-                                      style={{
-                                        color: "#000000a8",
-                                        marginBottom: "0px",
-                                      }}
-                                    >
-                                      {" "}
-                                      <Checkbox {...label} /> Office
-                                    </label>
-                                    <label
-                                      style={{
-                                        color: "#000000a8",
-                                        marginBottom: "0px",
-                                      }}
-                                    >
-                                      <Checkbox {...label} /> Other
-                                    </label>
-                                  </form>
-                                </div>
-                                <div>
-                                  <p style={{ marginBottom: "0px" }}>
-                                    I’m also interested in having a design visit
-                                  </p>
-                                  <label
-                                    style={{
-                                      color: "#000000a8",
-                                      marginBottom: "0px",
-                                    }}
-                                  >
-                                    {" "}
-                                    <Checkbox {...label} /> Please phone me to
-                                    arrange a time
-                                  </label>
-                                </div>
-                              </div>
-                            </div>
-                            <div style={{padding:'10px 20px'}}>
-                              <div className="mb-3 d-flex align-items-center">
-                                <h4 style={{ marginRight: "5px" }}>Code : </h4>
-                                <canvas
-                                  id="captcha"
-                                  width="200"
-                                  height="50"
-                                  ref={canvasRef}
-                                  style={{ marginRight: "15px" }}
-                                ></canvas>
-                                <button
-                                  type="button"
-                                  className="btn btn-secondary"
-                                  onClick={generateCaptcha}
-                                >
-                                  <i className="fa fa-refresh"></i>
-                                </button>
-                              </div>
+              <div className="col-12 mb-3">
+                <p>I’m looking to create a beautiful...</p>
+                <div className="d-flex flex-wrap">
+                  {["Fitted Wardrobe", "Living Space", "Kitchen", "Office", "Other"].map((item, index) => (
+                    <label key={index} className="d-flex align-items-center me-3">
+                      <Checkbox /> {item}
+                    </label>
+                  ))}
+                </div>
+              </div>
 
-                              <div className="mb-3">
-                                {/* <input
-          type="text"
-          className="form-control"
-          id="captcha-input"
-          value={captchaInput}
-          onChange={handleCaptchaChange}
-          required
-        /> */}
-                                <Box
-                                  component="form"
-                                  sx={{
-                                    "& > :not(style)": { m: 1, width: "57ch" },
-                                  }}
-                                  noValidate
-                                  autoComplete="off"
-                                >
-                                  <TextField
-                                    label="Enter Captcha "
-                                    variant="standard"
-                                    type="text"
-                                    className="form-control"
-                                    id="captcha-input"
-                                    value={captchaInput}
-                                    onChange={handleCaptchaChange}
-                                    required
-                                   
-                                  />
-                                </Box>
-                              </div>
-                            </div>
-                            <div
-                              className="col-md-12"
-                              style={{
-                                marginTop: "30px",
-                                display: "flex",
-                                justifyContent: "start",
-                              }}
-                            >
-                              <div className="text-right">
-                                <button
-                                  name="submit"
-                                  type="submit"
-                                  value="Submit"
-                                  className="site-button radius-no text-uppercase font-weight-600"
-                                  style={{ background: "#000", color: "#fff" }}
-                                >
-                                  Order Now
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
+              <div className="col-12 mb-3">
+                <p>I’m also interested in having a design visit</p>
+                <label className="d-flex align-items-center">
+                  <Checkbox /> Please phone me to arrange a time
+                </label>
+              </div>
 
-                    <div
-                      className="contact-info text-center m-t80 bg-gray  m-b50 col-6"
+              {/* CAPTCHA Section */}
+              <div className="col-12 mb-3">
+                <div className="d-flex align-items-center">
+                  <h4 className="me-2">Code :</h4>
+                  <canvas id="captcha" width="200" height="50" ref={canvasRef} className="me-3"></canvas>
+                  <button type="button" className="btn btn-secondary" onClick={generateCaptcha}>
+                    <i className="fa fa-refresh"></i>
+                  </button>
+                </div>
+                <TextField label="Enter Captcha" variant="standard" fullWidth value={captchaInput} onChange={handleCaptchaChange} required />
+              </div>
+
+              {/* Submit Button */}
+              <div className="col-12 mt-3">
+                <button className="btn btn-dark text-uppercase w-100">Order Now</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        {/* Right Side: Contact Info */}
+        <div
+                      className="col-12 col-md-6 p-md-5 p-3 contact-info text-center m-t80 bg-gray  m-b50 col-6"
                       style={{
                         display: "flex",
                         justifyContent: "center",
@@ -341,7 +152,7 @@ const Orderafreebrochure = () => {
                         alignItems:'center'
                       }}
                     >
-                      {/* <div> */}
+                    
                         <h4 style={{ marginBottom: "30px" }}>CraftMySpace</h4>
                        <div style={{textAlign:'justify'}}>
                        <div>
@@ -401,13 +212,19 @@ const Orderafreebrochure = () => {
                           </div>
                         </div>
                        </div>
-                      {/* </div> */}
+                     
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+                
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
         </div>
         <Footers />
         <button className="scroltop">
