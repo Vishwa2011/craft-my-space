@@ -133,15 +133,17 @@ const Navbar = () => {
       <Box
         sx={{ display: "flex", justifyContent: "center", gap: 1, marginTop: 2 }}
       >
-        <IconButton sx={{ color: "#fff" }}>
-          <FacebookIcon />
-        </IconButton>
-        <IconButton sx={{ color: "#fff" }}>
-          <PinterestIcon />
-        </IconButton>
-        <IconButton sx={{ color: "#fff" }}>
-          <InstagramIcon />
-        </IconButton>
+        <IconButton component="a" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" sx={{ color: "#fff" }}>
+  <FacebookIcon />
+</IconButton>
+
+<IconButton component="a" href="https://www.pinterest.com" target="_blank" rel="noopener noreferrer" sx={{ color: "#fff" }}>
+  <PinterestIcon />
+</IconButton>
+
+<IconButton component="a" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" sx={{ color: "#fff" }}>
+  <InstagramIcon />
+</IconButton>
         {/* <IconButton sx={{ color: "#fff" }}>
           <YouTubeIcon />
         </IconButton>
