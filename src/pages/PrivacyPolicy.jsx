@@ -5,7 +5,7 @@ import Footers from "./Footer";
 const PrivacyPolicy = () => {
   return (
     <>
-      <div className="page-wraper">
+      <div className="page-wraper ">
         <Navbar />
         <div className="page-content">
           <div
@@ -40,7 +40,7 @@ const PrivacyPolicy = () => {
               <div style={{marginBottom:"50px"}}>
                 <h4>1.Information That We Collect</h4>
                 <ul style={{ lineHeight: "30px", listStyle: "none" }}>
-                  <li>
+                  <li style={{textAlign:'justify'}}>
                     Our website at www.craftmyspace.uk uses cookies, which is a
                     string of information a website stores on to a visitor`s
                     computer. These cookies log the visitor`s browser every time
@@ -48,7 +48,7 @@ const PrivacyPolicy = () => {
                     cookies placed on their computers should set their browsers
                     to refuse cookies before using the website.{" "}
                   </li>
-                  <li>
+                  <li style={{textAlign:'justify'}}>
                     {" "}
                     We process your personal information to meet our legal,
                     statutory and contractual obligations, to provide you with
@@ -68,7 +68,7 @@ const PrivacyPolicy = () => {
                   <li>Address</li>
                   <li>Email</li>
                   <li>Contact Number</li>
-                  <li>
+                  <li style={{textAlign:'justify'}}>
                     We collect the information about you from your completion of
                     a brochure request form, a design visit form or an order
                     form, from any other forms and surveys you complete and from
@@ -82,7 +82,7 @@ const PrivacyPolicy = () => {
                   3.How We Use Your Personal Data (Legal Basis for Processing)
                 </h4>
                 <ul style={{ lineHeight: "30px", listStyle: "none" }}>
-                  <li>
+                  <li style={{textAlign:'justify'}}>
                     We take your privacy very seriously and will never
                     disclosure, share or sell your data without your consent,
                     unless required to do so by law. We only retain your data
@@ -91,18 +91,18 @@ const PrivacyPolicy = () => {
                     with promotional offers and marketing, you are free to
                     withdraw consent at any time.{" "}
                   </li>
-                  <li>
+                  <li style={{textAlign:'justify'}}>
                     We collect your information in order to perform our contract
                     with you.{" "}
                   </li>
-                  <li>
+                  <li style={{textAlign:'justify'}}>
                     {" "}
                     Where you have consented to us providing you with
                     promotional offers and marketing, we collect your
                     information for marketing purposes as a legitimate business
                     interest.
                   </li>
-                  <li>
+                  <li style={{textAlign:'justify'}}>
                     Where you have entered a competition, we collect the
                     information based on your consent.
                   </li>
@@ -111,23 +111,23 @@ const PrivacyPolicy = () => {
               <div style={{marginBottom:"50px"}}>
                 <h4>4.Your Rights</h4>
                 <ul style={{ lineHeight: "30px", listStyle: "none" }}>
-                  <li>
+                  <li style={{textAlign:'justify'}}>
                     You have the right to access any personal information that
                     we process about you and to request information about: –
                   </li>
-                  <li>What personal data we hold about you.</li>
-                  <li>The purposes of the processing.</li>
-                  <li>The categories of personal data concerned.</li>
-                  <li>
+                  <li style={{textAlign:'justify'}}>What personal data we hold about you.</li>
+                  <li style={{textAlign:'justify'}}>The purposes of the processing.</li>
+                  <li style={{textAlign:'justify'}}>The categories of personal data concerned.</li>
+                  <li style={{textAlign:'justify'}}>
                     The recipients to whom the personal data has/will be
                     disclosed.
                   </li>
-                  <li>How long we intend to store your personal data for.</li>
-                  <li>
+                  <li style={{textAlign:'justify'}}>How long we intend to store your personal data for.</li>
+                  <li style={{textAlign:'justify'}}>
                     If we did not collect the data directly from you,
                     information about the source.
                   </li>
-                  <li>
+                  <li style={{textAlign:'justify'}}>
                     If you believe that we hold any incomplete or inaccurate
                     data about you, you have the right to ask us to correct
                     and/or complete the information and we will strive to
@@ -135,14 +135,14 @@ const PrivacyPolicy = () => {
                     valid reason for not doing so, at which point you will be
                     notified.
                   </li>
-                  <li>
+                  <li style={{textAlign:'justify'}}>
                     You also have the right to request erasure of your personal
                     data or to restrict processing in accordance with data
                     protection laws, as well as to object to any direct
                     marketing from us and to be informed about any automated
                     decision-making that we use.{" "}
                   </li>
-                  <li>
+                  <li style={{textAlign:'justify'}}>
                     If we receive a request from you to exercise any of the
                     above rights, we may ask you to verify your identity before
                     acting on the relevant request; this is to ensure that your

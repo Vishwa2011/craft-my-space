@@ -176,7 +176,7 @@ const Recentwork = () => {
                     <h4 className="wt-tilte text-white m-b10 m-t0">
                       {image.title}
                     </h4>
-                    <p>[ Recent Works ]</p>
+                    <p style={{textAlign:'center'}}>[ Recent Works ]</p>
                   </div>
                 </div>
               </div>

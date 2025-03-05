@@ -5,7 +5,7 @@ import Footers from './Footer'
 const Termandcondition = () => {
   return (
     <>
-       <div className="page-wraper">
+       <div className="page-wraper term_li">
        <Navbar />
        <div className="page-content">
        <div
