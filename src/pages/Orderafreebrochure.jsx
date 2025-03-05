@@ -7,7 +7,9 @@ import { inputBaseClasses } from "@mui/material/InputBase";
 import TextField from "@mui/material/TextField";
 import InputAdornment from "@mui/material/InputAdornment";
 import Checkbox from "@mui/material/Checkbox";
-
+import { useFormik } from "formik";
+import * as Yup from "yup";
+import Swal from "sweetalert2";
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
 const Orderafreebrochure = () => {
@@ -15,38 +17,65 @@ const Orderafreebrochure = () => {
   const [captcha, setCaptcha] = useState("");
   const [captchaInput, setCaptchaInput] = useState("");
 
+  const generateCaptcha = () => {
+    const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    let newCaptcha = "";
+    for (let i = 0; i < 6; i++) {
+      newCaptcha += chars.charAt(Math.floor(Math.random() * chars.length));
+    }
+    setCaptcha(newCaptcha);
+  };
+
   useEffect(() => {
     generateCaptcha();
   }, []);
 
-  const generateCaptcha = () => {
-    const characters =
-      "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-    let captchaText = "";
-    for (let i = 0; i < 6; i++) {
-      captchaText += characters.charAt(
-        Math.floor(Math.random() * characters.length)
-      );
+  useEffect(() => {
+    if (canvasRef.current) {
+      const ctx = canvasRef.current.getContext("2d");
+      ctx.clearRect(0, 0, canvasRef.current.width, canvasRef.current.height);
+      ctx.font = "30px Arial";
+      ctx.fillText(captcha, 40, 35);
     }
-    setCaptcha(captchaText);
-    drawCaptcha(captchaText);
-  };
+  }, [captcha]);
 
-  const drawCaptcha = (text) => {
-    const canvas = canvasRef.current;
-    const ctx = canvas.getContext("2d");
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = "#f3f3f3";
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.font = "25px Arial";
-    ctx.fillStyle = "#000";
-    ctx.fillText(text, 50, 40);
-  };
-
-  const handleCaptchaChange = (e) => {
-    setCaptchaInput(e.target.value);
-  };
-
+  const formik = useFormik({
+    initialValues: {
+      name: "",
+      email: "",
+      mobile: "",
+      address: "",
+      interests: [],
+      designVisit: false,
+      captchaInput: "",
+    },
+    validationSchema: Yup.object({
+      name: Yup.string()
+        .matches(/^[A-Za-z ]+$/, "Only characters are allowed")
+        .required("Name is required"),
+      email: Yup.string().email("Invalid email").required("Email is required"),
+      mobile: Yup.string()
+        .matches(/^[0-9]{10}$/, "Enter a valid 10-digit mobile number")
+        .required("Mobile number is required"),
+      address: Yup.string().required("Address is required"),
+      captchaInput: Yup.string()
+        .required("Captcha is required")
+        .test(
+          "captcha-match",
+          "Captcha does not match",
+          (value) => value === captcha
+        ),
+    }),
+    onSubmit: (values, { resetForm }) => {
+      Swal.fire({
+        icon: "success",
+        title: "Success!",
+        text: "Form submitted successfully!",
+      });
+      resetForm();
+      generateCaptcha();
+    },
+  });
   return (
     <>
       <div className="page-wraper">
@@ -78,158 +107,271 @@ const Orderafreebrochure = () => {
             </div>
           </div>
 
-          
           <div className="section-full p-t30">
-  <div className="container">
-    <div className="section-content">
-      <div className="row">
-        {/* Left Side: Form */}
-        <div className="col-12 col-md-6 p-md-5 p-3">
-          <form className="cons-contact-form">
-            <div className="section-head text-left mb-4">
-              <h2>Order a Free Brochure</h2>
-            </div>
-
-            <div className="row">
-              <div className="col-12 mb-3">
-                <TextField label="Your Name" variant="standard" fullWidth />
-              </div>
-              <div className="col-12 mb-3">
-                <TextField label="Email" variant="standard" fullWidth />
-              </div>
-              <div className="col-12 mb-3">
-                <TextField label="Mobile Number*" variant="standard" fullWidth />
-              </div>
-              <div className="col-12 mb-3">
-                <TextField label="Address" multiline maxRows={4} variant="standard" fullWidth />
-              </div>
-
-              <div className="col-12 mb-3">
-                <p>I’m looking to create a beautiful...</p>
-                <div className="d-flex flex-wrap">
-                  {["Fitted Wardrobe", "Living Space", "Kitchen", "Office", "Other"].map((item, index) => (
-                    <label key={index} className="d-flex align-items-center me-3">
-                      <Checkbox /> {item}
-                    </label>
-                  ))}
-                </div>
-              </div>
-
-              <div className="col-12 mb-3">
-                <p>I’m also interested in having a design visit</p>
-                <label className="d-flex align-items-center">
-                  <Checkbox /> Please phone me to arrange a time
-                </label>
-              </div>
-
-              {/* CAPTCHA Section */}
-              <div className="col-12 mb-3">
-                <div className="d-flex align-items-center">
-                  <h4 className="me-2">Code :</h4>
-                  <canvas id="captcha" width="200" height="50" ref={canvasRef} className="me-3"></canvas>
-                  <button type="button" className="btn btn-secondary" onClick={generateCaptcha}>
-                    <i className="fa fa-refresh"></i>
-                  </button>
-                </div>
-                <TextField label="Enter Captcha" variant="standard" fullWidth value={captchaInput} onChange={handleCaptchaChange} required />
-              </div>
-
-              {/* Submit Button */}
-              <div className="col-12 mt-3">
-                <button className="btn btn-dark text-uppercase w-100">Order Now</button>
-              </div>
-            </div>
-          </form>
-        </div>
-
-        {/* Right Side: Contact Info */}
-        <div
-                      className="col-12 col-md-6 p-md-5 p-3 contact-info text-center m-t80 bg-gray  m-b50 col-6"
-                      style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        flexDirection: "column",
-                        alignItems:'center'
-                      }}
+            <div className="container">
+              <div className="section-content">
+                <div className="row">
+                  {/* Left Side: Form start*/}
+                  <div className="col-12 col-md-6 p-md-5 p-3">
+                    <form
+                      className="cons-contact-form"
+                      onSubmit={formik.handleSubmit}
                     >
-                    
-                        <h4 style={{ marginBottom: "30px" }}>CraftMySpace</h4>
-                       <div style={{textAlign:'justify'}}>
-                       <div>
-                          <div className="icon-content">
-                            <p>
-                              <i
-                                className="sl-icon-phone"
-                                style={{
-                                  border: "1px solid #000",
-                                  borderRadius: "100%",
-                                  background: "#000",
-                                  color: "#fff",
-                                  padding: "5px",
-                                  marginRight: "10px",
-                                }}
-                              ></i>
-                              +01753530216
-                            </p>
+                      <div className="section-head text-left mb-4">
+                        <h2>Order a Free Brochure</h2>
+                      </div>
+
+                      <div className="row">
+                        <div className="col-12 mb-3">
+                          <TextField
+                            label="Your Name"
+                            variant="standard"
+                            fullWidth
+                            {...formik.getFieldProps("name")}
+                            error={
+                              formik.touched.name && Boolean(formik.errors.name)
+                            }
+                            helperText={
+                              formik.touched.name && formik.errors.name
+                            }
+                            inputProps={{
+                              maxLength: 50,
+                              onKeyDown: (e) =>
+                                /[0-9]/.test(e.key) && e.preventDefault(),
+                            }}
+                          />
+                        </div>
+                        <div className="col-12 mb-3">
+                          <TextField
+                            label="Email"
+                            variant="standard"
+                            fullWidth
+                            {...formik.getFieldProps("email")}
+                            error={
+                              formik.touched.email &&
+                              Boolean(formik.errors.email)
+                            }
+                            helperText={
+                              formik.touched.email && formik.errors.email
+                            }
+                          />
+                        </div>
+                        <div className="col-12 mb-3">
+                          <TextField
+                            label="Mobile Number*"
+                            variant="standard"
+                            fullWidth
+                            {...formik.getFieldProps("mobile")}
+                            error={
+                              formik.touched.mobile &&
+                              Boolean(formik.errors.mobile)
+                            }
+                            helperText={
+                              formik.touched.mobile && formik.errors.mobile
+                            }
+                            inputProps={{
+                              maxLength: 10,
+                              onKeyDown: (e) =>
+                                /[^0-9]/.test(e.key) && e.preventDefault(),
+                            }}
+                          />
+                        </div>
+                        <div className="col-12 mb-3">
+                          <TextField
+                            label="Address"
+                            multiline
+                            maxRows={4}
+                            variant="standard"
+                            fullWidth
+                            {...formik.getFieldProps("address")}
+                            error={
+                              formik.touched.address &&
+                              Boolean(formik.errors.address)
+                            }
+                            helperText={
+                              formik.touched.address && formik.errors.address
+                            }
+                          />
+                        </div>
+
+                        <div className="col-12 mb-3">
+                          <p>I’m looking to create a beautiful...</p>
+                          <div className="d-flex flex-wrap">
+                            {[
+                              "Fitted Wardrobe",
+                              "Living Space",
+                              "Kitchen",
+                              "Office",
+                              "Other",
+                            ].map((item, index) => (
+                              <label
+                                key={index}
+                                className="d-flex align-items-center me-3"
+                              >
+                                <Checkbox
+                                  checked={formik.values.interests.includes(
+                                    item
+                                  )}
+                                  onChange={() => {
+                                    const newInterests =
+                                      formik.values.interests.includes(item)
+                                        ? formik.values.interests.filter(
+                                            (i) => i !== item
+                                          )
+                                        : [...formik.values.interests, item];
+                                    formik.setFieldValue(
+                                      "interests",
+                                      newInterests
+                                    );
+                                  }}
+                                />
+                                {item}
+                              </label>
+                            ))}
                           </div>
                         </div>
-                        <div>
-                          <div className="icon-content">
-                            <p>
-                              {" "}
-                              <i
-                                className="sl-icon-envolope"
-                                style={{
-                                  border: "1px solid #000",
-                                  borderRadius: "100%",
-                                  background: "#000",
-                                  color: "#fff",
-                                  padding: "5px",
-                                  marginRight: "10px",
-                                }}
-                              ></i>
-                           info@craftmyspace.uk
-                            </p>
-                          </div>
+
+                        <div className="col-12 mb-3">
+                          <p>I’m also interested in having a design visit</p>
+                          <label className="d-flex align-items-center">
+                            <Checkbox
+                              checked={formik.values.designVisit}
+                              onChange={() =>
+                                formik.setFieldValue(
+                                  "designVisit",
+                                  !formik.values.designVisit
+                                )
+                              }
+                            />
+                            Please phone me to arrange a time
+                          </label>
                         </div>
-                        <div>
-                          <div className="icon-content">
-                            <p>
-                              {" "}
-                              <i
-                                className="sl-icon-envolope"
-                                style={{
-                                  border: "1px solid #000",
-                                  borderRadius: "100%",
-                                  background: "#000",
-                                  color: "#fff",
-                                  padding: "5px",
-                                  marginRight: "10px",
-                                }}
-                              ></i>
-                                salil@craftmyspace.uk
-                            </p>
+
+                        <div className="col-12 mb-3">
+                          <div className="d-flex align-items-center">
+                            <h4 className="me-2">Code :</h4>
+                            <canvas
+                              id="captcha"
+                              width="200"
+                              height="50"
+                              ref={canvasRef}
+                              className="me-3"
+                            ></canvas>
+                            <button
+                              type="button"
+                              className="btn btn-secondary"
+                              onClick={generateCaptcha}
+                            >
+                              <i className="fa fa-refresh"></i>
+                            </button>
                           </div>
+                          <TextField
+                            label="Enter Captcha"
+                            variant="standard"
+                            fullWidth
+                            {...formik.getFieldProps("captchaInput")}
+                            error={
+                              formik.touched.captchaInput &&
+                              Boolean(formik.errors.captchaInput)
+                            }
+                            helperText={
+                              formik.touched.captchaInput &&
+                              formik.errors.captchaInput
+                            }
+                          />
                         </div>
-                       </div>
-                     
+
+                        <div className="col-12 mt-3">
+                          <button
+                            type="submit"
+                            className="btn btn-dark text-uppercase w-100"
+                          >
+                            Order Now
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  {/* Left Side: Form end */}
+                  {/* Right Side: Contact Info */}
+                  <div
+                    className="col-12 col-md-6 p-md-5 p-3 contact-info text-center m-t80 bg-gray  m-b50 col-6"
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      flexDirection: "column",
+                      alignItems: "center",
+                    }}
+                  >
+                    <h4 style={{ marginBottom: "30px" }}>CraftMySpace</h4>
+                    <div style={{ textAlign: "justify" }}>
+                      <div>
+                        <div className="icon-content">
+                          <p>
+                            <i
+                              className="sl-icon-phone"
+                              style={{
+                                border: "1px solid #000",
+                                borderRadius: "100%",
+                                background: "#000",
+                                color: "#fff",
+                                padding: "5px",
+                                marginRight: "10px",
+                              }}
+                            ></i>
+                            +01753530216
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <div className="icon-content">
+                          <p>
+                            {" "}
+                            <i
+                              className="sl-icon-envolope"
+                              style={{
+                                border: "1px solid #000",
+                                borderRadius: "100%",
+                                background: "#000",
+                                color: "#fff",
+                                padding: "5px",
+                                marginRight: "10px",
+                              }}
+                            ></i>
+                            info@craftmyspace.uk
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <div className="icon-content">
+                          <p>
+                            {" "}
+                            <i
+                              className="sl-icon-envolope"
+                              style={{
+                                border: "1px solid #000",
+                                borderRadius: "100%",
+                                background: "#000",
+                                color: "#fff",
+                                padding: "5px",
+                                marginRight: "10px",
+                              }}
+                            ></i>
+                            salil@craftmyspace.uk
+                          </p>
+                        </div>
+                      </div>
                     </div>
-                
-
-
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <Footers />
         <button className="scroltop">
-        <span className="fa fa-angle-up  relative" id="btn-vibrate"></span>
-      </button>
+          <span className="fa fa-angle-up  relative" id="btn-vibrate"></span>
+        </button>
       </div>
     </>
   );

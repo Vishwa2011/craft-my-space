@@ -712,7 +712,7 @@ h6 {font-weight:normal;  font-size: 14px;  line-height:20px;  color:#000;  margi
 3. TEXT & PARAGRAPH 
 ======================================*/
 
-p {  line-height:24px;  margin-bottom:24px; letter-spacing:1px; font-weight:400;}
+p {  line-height:24px;  margin-bottom:24px; letter-spacing:1px; font-weight:400;text-align: justify;}
 strong { 	font-weight:600;}
 
 /*-------------------------------------
@@ -3008,6 +3008,7 @@ margin: 10px 0px 10px 20px;
 	10. Image effects 
 -------------------------------------*/
 .wt-img-effect {position: relative;	overflow: hidden;	display: block;}
+.wt-img-effect p{text-align: center;}
 .wt-img-effect img {display: block;	
 	margin: 0;	
 	width: 100%;	
@@ -3690,7 +3691,7 @@ blockquote span{	font-size: 12px;	color: #262423;	line-height: 30px;	margin-bott
 13. BLOG  
 ======================================*/ 
 
-.blog-post {	position:relative;	margin-bottom:30px;}
+.blog-post {	position:relative;	height: 100%;}
 .wt-post-title{margin-bottom:15px;}
 .wt-post-title .post-title{	margin:0;}
 
@@ -6202,7 +6203,7 @@ ol.commentlist li::after {
   font-weight:900;
 }
 
-.contact-info .icon-content p{	word-break:normal;}
+.contact-info .icon-content p{	word-break:normal; text-align: center;}
 
 
 .contact-form{
@@ -7959,7 +7960,9 @@ padding: 20px;;}
 	background-color: #000;
 }
 
-
+.term_li ul li{
+	text-align: justify;
+}
 
 
 .project-img-effect-1 a {
