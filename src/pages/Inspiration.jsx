@@ -60,11 +60,32 @@ const Inspiration = () => {
                               "0px 4px 10px rgba(0, 0, 0, 0.1)")
                           }
                         >
-                          <div className="wt-post-media wt-img-effect zoom-slow">
-                            <a href="">
-                              <img src="/assets/pic/INSPIRATION1.webp" alt="" />
-                            </a>
-                          </div>
+                          
+
+
+
+
+
+                          <div className="wt-post-media wt-img-effect zoom-slow relative">
+  <a  className="block relative">
+  <img src="/assets/pic/INSPIRATION1.webp" alt="" />
+    {/* "SEE MORE" Box on Image */}
+    <a  href="/Blogdetail">
+    <div className="absolute top-2 right-2  text-black text-xs tracking-widest font-bold py-2 px-3 shadow-md  border-gray-300 uppercase rotate-90" style={{right:'-25px',top:'41px',transform:'rotate(270deg)',color:'white',border:'2px solid #fff'}}>
+      SEE MORE
+    </div>
+    </a>
+  </a>
+</div>
+
+
+
+
+
+
+
+
+
                           <div className=" p-a30">
                             <div className="wt-post-meta">
                               <ul>
@@ -110,9 +131,7 @@ const Inspiration = () => {
                                 with CraftMySpace expert solutions
                               </p>
                             </div>
-                            <a href="/Blogdetail" className="site-button-link">
-                              Read More
-                            </a>
+                       
                           </div>
                         </div>
                       </div>
@@ -134,11 +153,21 @@ const Inspiration = () => {
                               "0px 4px 10px rgba(0, 0, 0, 0.1)")
                           }
                         >
-                          <div className="wt-post-media wt-img-effect zoom-slow">
-                            <a href="">
-                              <img src="/assets/pic/bloggg2.jpg" alt="" />
-                            </a>
-                          </div>
+                        
+
+
+                          
+                          <div className="wt-post-media wt-img-effect zoom-slow relative">
+  <a  className="block relative">
+  <img src="/assets/pic/bloggg2.jpg" alt="" />
+    {/* "SEE MORE" Box on Image */}
+    <a  href="/Blogdetail">
+    <div className="absolute top-2 right-2  text-black text-xs tracking-widest font-bold py-2 px-3 shadow-md  border-gray-300 uppercase rotate-90" style={{right:'-25px',top:'41px',transform:'rotate(270deg)',color:'white',border:'2px solid #fff'}}>
+      SEE MORE
+    </div>
+    </a>
+  </a>
+</div>
                           <div className=" p-a30">
                             <div className="wt-post-meta">
                               <ul>
@@ -183,9 +212,7 @@ const Inspiration = () => {
                                 and wear, ensuring minimal maintenance.{" "}
                               </p>
                             </div>
-                            <a href="/Blogdetail" className="site-button-link">
-                              Read More
-                            </a>
+                            
                           </div>
                         </div>
                       </div>
@@ -207,11 +234,20 @@ const Inspiration = () => {
                               "0px 4px 10px rgba(0, 0, 0, 0.1)")
                           }
                         >
-                          <div className="wt-post-media wt-img-effect zoom-slow">
-                            <a href="">
-                              <img src="/assets/pic/blogg3.jpg" alt="" />
-                            </a>
-                          </div>
+                     
+
+
+                          <div className="wt-post-media wt-img-effect zoom-slow relative">
+  <a  className="block relative">
+  <img src="/assets/pic/blogg3.jpg" alt="" />
+    {/* "SEE MORE" Box on Image */}
+    <a  href="/Blogdetail">
+    <div className="absolute top-2 right-2  text-black text-xs tracking-widest font-bold py-2 px-3 shadow-md  border-gray-300 uppercase rotate-90" style={{right:'-25px',top:'41px',transform:'rotate(270deg)',color:'white',border:'2px solid #fff'}}>
+      SEE MORE
+    </div>
+    </a>
+  </a>
+</div>
                           <div className=" p-a30">
                             <div className="wt-post-meta">
                               <ul>
@@ -254,9 +290,7 @@ const Inspiration = () => {
                                 each piece meticulously.
                               </p>
                             </div>
-                            <a href="/Blogdetail" className="site-button-link">
-                              Read More
-                            </a>
+                 
                           </div>
                         </div>
                       </div>
@@ -277,11 +311,21 @@ const Inspiration = () => {
                               "0px 4px 10px rgba(0, 0, 0, 0.1)")
                           }
                         >
-                          <div className="wt-post-media wt-img-effect zoom-slow">
-                            <a href="">
-                              <img src="/assets/pic/blogg4.jpg" alt="" />
-                            </a>
-                          </div>
+                        
+
+
+
+                          <div className="wt-post-media wt-img-effect zoom-slow relative">
+  <a  className="block relative">
+  <img src="/assets/pic/blogg4.jpg" alt="" />
+    {/* "SEE MORE" Box on Image */}
+    <a  href="/Blogdetail">
+    <div className="absolute top-2 right-2  text-black text-xs tracking-widest font-bold py-2 px-3 shadow-md  border-gray-300 uppercase rotate-90" style={{right:'-25px',top:'41px',transform:'rotate(270deg)',color:'white',border:'2px solid #fff'}}>
+      SEE MORE
+    </div>
+    </a>
+  </a>
+</div>
                           <div className="p-a30">
                             <div className="wt-post-meta">
                               <ul>
@@ -323,9 +367,7 @@ const Inspiration = () => {
                                 preferred choice for high-end interiors.
                               </p>
                             </div>
-                            <a href="/Blogdetail" className="site-button-link">
-                              Read More
-                            </a>
+                           
                           </div>
                         </div>
                       </div>
@@ -347,11 +389,21 @@ const Inspiration = () => {
                               "0px 4px 10px rgba(0, 0, 0, 0.1)")
                           }
                         >
-                          <div className="wt-post-media wt-img-effect zoom-slow">
-                            <a href="">
-                              <img src="/assets/pic/blogg5.jpg" alt="" />
-                            </a>
-                          </div>
+                      
+
+
+
+                          <div className="wt-post-media wt-img-effect zoom-slow relative">
+  <a  className="block relative">
+  <img src="/assets/pic/blogg5.jpg" alt="" />
+    {/* "SEE MORE" Box on Image */}
+    <a  href="/Blogdetail">
+    <div className="absolute top-2 right-2  text-black text-xs tracking-widest font-bold py-2 px-3 shadow-md  border-gray-300 uppercase rotate-90" style={{right:'-25px',top:'41px',transform:'rotate(270deg)',color:'white',border:'2px solid #fff'}}>
+      SEE MORE
+    </div>
+    </a>
+  </a>
+</div>
                           <div className=" p-a30">
                             <div className="wt-post-meta">
                               <ul>
@@ -393,9 +445,7 @@ const Inspiration = () => {
                                 customized to complement any interior style.{" "}
                               </p>
                             </div>
-                            <a href="/Blogdetail" className="site-button-link">
-                              Read More
-                            </a>
+                            
                           </div>
                         </div>
                       </div>
@@ -417,11 +467,20 @@ const Inspiration = () => {
                               "0px 4px 10px rgba(0, 0, 0, 0.1)")
                           }
                         >
-                          <div className="wt-post-media wt-img-effect zoom-slow">
-                            <a href="">
-                              <img src="/assets/pic/blogg6.jpg" alt="" />
-                            </a>
-                          </div>
+                  
+
+
+                          <div className="wt-post-media wt-img-effect zoom-slow relative">
+  <a  className="block relative">
+  <img src="/assets/pic/blogg6.jpg" alt="" />
+    {/* "SEE MORE" Box on Image */}
+    <a  href="/Blogdetail">
+    <div className="absolute top-2 right-2  text-black text-xs tracking-widest font-bold py-2 px-3 shadow-md  border-gray-300 uppercase rotate-90" style={{right:'-25px',top:'41px',transform:'rotate(270deg)',color:'white',border:'2px solid #fff'}}>
+      SEE MORE
+    </div>
+    </a>
+  </a>
+</div>
                           <div className=" p-a30">
                             <div className="wt-post-meta">
                               <ul>
@@ -463,9 +522,7 @@ const Inspiration = () => {
                                 and woodgrain effects to suit any interior.{" "}
                               </p>
                             </div>
-                            <a href="/Blogdetail" className="site-button-link">
-                              Read More
-                            </a>
+                          
                           </div>
                         </div>
                       </div>

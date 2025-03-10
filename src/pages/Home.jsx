@@ -1,12 +1,18 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footers from "./Footer";
+import {  Typography } from "@mui/material";
+import Info from "./Info";
+import { Star } from "@mui/icons-material";
 import MeetDesignerForm from "./MeetDesignerForm";
+import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
+import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
 
 export default function Home() {
   return (
     <>
       <div className="page-wraper">
+        {/* <Info /> */}
         <Navbar />
 
         {/* <!-- slider start --> */}
@@ -1077,7 +1083,7 @@ export default function Home() {
                     <small className="wt-small-title">
                       [ Latest Projects ]
                     </small>
-                    <h2 className="m-b5">Our Projectsssssssssssssss</h2>
+                    <h2 className="m-b5">Our Projects</h2>
                   </div>
                 </div>
 
@@ -1139,11 +1145,18 @@ export default function Home() {
               </div>
               <div className="col-xl-4 col-lg-6 col-md-12">
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
-                  <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="/FittedWardrobes">
-                      <img src="/assets/pic/stratford.webp" alt="" />
-                    </a>
-                  </div>
+                <div className="wt-post-media wt-img-effect zoom-slow relative">
+  <a  className="block relative">
+    <img src="/assets/pic/stratford.webp" alt="" className="w-full" />
+    {/* "SEE MORE" Box on Image */}
+    <a href="/FittedWardrobes">
+    <div className="absolute top-2 right-2  text-black text-xs tracking-widest font-bold py-2 px-3 shadow-md  border-gray-300 uppercase rotate-90" style={{right:'-25px',top:'41px',transform:'rotate(270deg)',color:'white',border:'2px solid #fff'}}>
+      SEE MORE
+    </div>
+    </a>
+  </a>
+</div>
+
                   <div
                     className="wt-post-info p-a30"
                     style={{ paddingLeft: "0px" }}
@@ -1162,19 +1175,26 @@ export default function Home() {
                         design.
                       </p>
                     </div>
-                    <a href="/FittedWardrobes" className="site-button-link">
-                      Read More
-                    </a>
+                  
                   </div>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6 col-md-12">
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
-                  <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="/Kitchens">
-                      <img src="/assets/pic/ImageNewAdd5.avif" alt="" />
-                    </a>
-                  </div>
+                  
+
+                  <div className="wt-post-media wt-img-effect zoom-slow relative">
+  <a  className="block relative">
+  <img src="/assets/pic/ImageNewAdd5.avif" alt="" />
+    {/* "SEE MORE" Box on Image */}
+    <a  href="/Kitchens">
+    <div className="absolute top-2 right-2  text-black text-xs tracking-widest font-bold py-2 px-3 shadow-md  border-gray-300 uppercase rotate-90" style={{right:'-25px',top:'41px',transform:'rotate(270deg)',color:'white',border:'2px solid #fff'}}>
+      SEE MORE
+    </div>
+    </a>
+  </a>
+</div>
+
                   <div
                     className="wt-post-info p-a30"
                     style={{ paddingLeft: "0px" }}
@@ -1192,20 +1212,34 @@ export default function Home() {
                         functional with modern design and maximum storage.
                       </p>
                     </div>
-                    <a href="/Kitchens" className="site-button-link">
-                      Read More
-                    </a>
+                    
                   </div>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6 col-md-12"></div>
               <div className="col-xl-4 col-lg-6 col-md-12">
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
-                  <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="/Bathroom">
-                      <img src="/assets/pic/Best-Bespoke-Furniture (1).webp" alt="" />
-                    </a>
-                  </div>
+                
+
+
+
+
+
+
+
+                  <div className="wt-post-media wt-img-effect zoom-slow relative">
+  <a  className="block relative">
+  <img src="/assets/pic/Best-Bespoke-Furniture (1).webp" alt="" />
+    {/* "SEE MORE" Box on Image */}
+    <a href="/Bathroom"></a> <a  href="/Kitchens">
+    <div className="absolute top-2 right-2  text-black text-xs tracking-widest font-bold py-2 px-3 shadow-md  border-gray-300 uppercase rotate-90" style={{right:'-25px',top:'41px',transform:'rotate(270deg)',color:'white',border:'2px solid #fff'}}>
+      SEE MORE
+    </div>
+    </a>
+  </a>
+</div>
+
+
                   <div
                     className="wt-post-info p-a30"
                     style={{ paddingLeft: "0px" }}
@@ -1224,19 +1258,27 @@ export default function Home() {
                         personalized elegance.
                       </p>
                     </div>
-                    <a href="/Bathroom" className="site-button-link">
-                      Read More
-                    </a>
+                 
                   </div>
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6 col-md-12">
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
-                  <div className="wt-post-media wt-img-effect zoom-slow">
-                    <a href="/AwkwardSpaces">
-                      <img src="/assets/pic/display.jpg" alt="" />
-                    </a>
-                  </div>
+                 
+
+
+
+                  <div className="wt-post-media wt-img-effect zoom-slow relative">
+  <a  className="block relative">
+  <img src="/assets/pic/display.jpg" alt="" />
+    {/* "SEE MORE" Box on Image */}
+    <a href="/AwkwardSpaces">
+    <div className="absolute top-2 right-2  text-black text-xs tracking-widest font-bold py-2 px-3 shadow-md  border-gray-300 uppercase rotate-90" style={{right:'-25px',top:'41px',transform:'rotate(270deg)',color:'white',border:'2px solid #fff'}}>
+      SEE MORE
+    </div>
+    </a>
+  </a>
+</div>
                   <div
                     className="wt-post-info p-a30"
                     style={{ paddingLeft: "0px" }}
@@ -1254,9 +1296,7 @@ export default function Home() {
                         Wardrobes
                       </p>
                     </div>
-                    <a href="/AwkwardSpaces" className="site-button-link">
-                      Read More
-                    </a>
+              
                   </div>
                 </div>
               </div>
@@ -1336,6 +1376,52 @@ export default function Home() {
           </div>
         </div>
         {/* STEP INSPIRED SOLUTION end  */}
+
+        {/* content start */}
+<div>
+        <div className="container">
+           <div className="col-12">
+            <div className="row">
+              <div className="col-lg-6 col-md-12 col-sm-12">
+              <div display="flex" gap={0.5} style={{marginBottom:'20px'}}>
+      {[...Array(5)].map((_, index) => (
+        <Star key={index} sx={{ color: "#E4A545", fontSize: 32 }} />
+      ))}
+    </div>
+                <h2>Enjoy a Luxury
+                Experience</h2>
+                  <p>
+                  At Elite Living, we set the benchmark for refined luxury, crafting spaces that epitomize sophistication and exclusivity. Our bespoke services go beyond the ordinary, transforming every detail into an extraordinary expression of elegance. From the moment you step into our world, you are embraced by a realm of tailored indulgence. With a dedicated team of expert designers and artisans, we meticulously bring your vision to life, ensuring each element reflects your distinct taste and lifestyle. At Elite Living, every creation is a testament to timeless beauty, superior craftsmanship, and unparalleled luxury.
+                  </p>
+                  <div 
+                  flexDirection="column" gap={2} color="#C29565">
+      {/* First Contact */}
+      <div style={{display:'flex',color:'#d5dd02',margin:'41px 0px 25px 0px'}} alignItems="center" gap={1}>
+     < PhoneInTalkIcon   style={{fontSize:'40px',marginRight:'17px'}}/>
+        <Typography style={{fontSize:'22px'}} fontWeight={500}>
+          +01753530216
+        </Typography>
+      </div>
+
+      {/* Second Contact */}
+      {/* <div  style={{display:'flex',color:'#d5dd02'}} alignItems="center" gap={1}>
+    
+     <ContactPhoneIcon  style={{fontSize:'40px',marginRight:'17px'}}/>
+        <Typography style={{fontSize:'22px'}}  fontWeight={500}>
+          +44 2033759375
+        </Typography>
+      </div> */}
+    </div>
+              </div>
+              <div className="col-lg-6 col-md-12 col-sm-12">
+                <img src="/assets/pic/bed.webp" style={{height:'450px',width:'100%'}}/>
+              </div>
+            </div>
+           </div>
+        </div>
+        </div>
+        {/* content end */}
+
         {/* Testimonial start  */}
         <div
           className="section-full p-tb80 testimonial-slider-outer bg-white bg-cover bg-left-center"
