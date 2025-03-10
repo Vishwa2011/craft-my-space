@@ -1076,7 +1076,7 @@ export default function Home() {
                     <small className="wt-small-title">
                       [ Latest Projects ]
                     </small>
-                    <h2 className="m-b5">Our Projects</h2>
+                    <h2 className="m-b5">Our Projectsssssssssssssss</h2>
                   </div>
                 </div>
 
