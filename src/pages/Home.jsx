@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footers from "./Footer";
+import MeetDesignerForm from "./MeetDesignerForm";
 
 export default function Home() {
   return (
@@ -1842,6 +1843,7 @@ export default function Home() {
           <span className="fa fa-angle-up  relative" id="btn-vibrate"></span>
         </button>
       </div>
+      <MeetDesignerForm />
       {/* <!-- LOADING AREA START ===== --> */}
       {/* <div className="loading-area">
                 <div className="loading-box"></div>

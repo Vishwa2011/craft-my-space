@@ -37,12 +37,22 @@ import Blogdetail from "./pages/Blogdetail";
 import Mission from "./pages/Mission";
 import Vision from "./pages/Vision";
 // import Navbar from "./pages/Navbar";
-
+import { BiPhoneCall } from "react-icons/bi";
+import MeetDesignerForm from "./pages/MeetDesignerForm";
+import Thankyou from "./pages/Thankyou";
 function App() {
   return (
     <>
       {/* <Navbar />  */}
-      
+       <div class="phone-widget">
+              <a href="tel:+01753530216">
+                <div class="phone-number">
+                  +01753530216
+                </div>
+                <div class="phone-icon">
+                  <BiPhoneCall className="icon" />
+                </div></a>
+              </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/fitted-bedroom" element={<FittedBedroom />} />
@@ -81,6 +91,8 @@ function App() {
         <Route path="/Blogdetail" element={<Blogdetail />} />
         <Route path="/Mission" element={<Mission />} />
         <Route path="/Vision" element={<Vision />} />
+        <Route path="/MeetDesignerForm" element={<MeetDesignerForm />} />
+        <Route path="/Thankyou" element={<Thankyou />} />
 
 
 
