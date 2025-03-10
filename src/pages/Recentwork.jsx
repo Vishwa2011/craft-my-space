@@ -85,11 +85,11 @@ const Recentwork = () => {
     // },
     // {
     //   src: "assets/images/gallery/pic3.jpg",
-    //   title: "Luxurious Sliding Doors for Edgware – craft my space Style!",
+    //   title: "Luxurious Sliding Doors for Edgware – CraftMySpace Style!",
     // },
     // {
     //   src: "assets/images/gallery/pic3.jpg",
-    //   title: "White Glass Corner Wardrobe – craft my space Style",
+    //   title: "White Glass Corner Wardrobe – CraftMySpace Style",
     // },
     // {
     //   src: "assets/images/gallery/pic3.jpg",
@@ -109,11 +109,11 @@ const Recentwork = () => {
     // },
     // {
     //   src: "assets/images/gallery/pic3.jpg",
-    //   title: "Stunning Sliding Doors for Ealing – craft my space Style!",
+    //   title: "Stunning Sliding Doors for Ealing – CraftMySpace Style!",
     // },
     // {
     //   src: "assets/images/gallery/pic3.jpg",
-    //   title: "Sliding doors for Walthamstow – craft my space style!",
+    //   title: "Sliding doors for Walthamstow – CraftMySpace style!",
     // },
     // {
     //   src: "assets/images/gallery/pic3.jpg",

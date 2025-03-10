@@ -17,7 +17,7 @@ const Footers = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (!email) {
-      setError("Email is required");
+      setError("Enter Valid Email");
       return;
     }
     if (!/\S+@\S+\.\S+/.test(email)) {

@@ -242,7 +242,7 @@ const Getaquote = () => {
                     <div style={{ textAlign: "justify" }}>
                       <div>
                         <div className="icon-content">
-                          <p>
+                          <p style={{display:'flex'}}>
                             <i
                               className="sl-icon-phone"
                               style={{
@@ -260,7 +260,7 @@ const Getaquote = () => {
                       </div>
                       <div>
                         <div className="icon-content">
-                          <p>
+                          <p style={{display:'flex'}}>
                             {" "}
                             <i
                               className="sl-icon-envolope"
@@ -279,7 +279,7 @@ const Getaquote = () => {
                       </div>
                       <div>
                         <div className="icon-content">
-                          <p>
+                          <p style={{display:'flex'}}>
                             {" "}
                             <i
                               className="sl-icon-envolope"

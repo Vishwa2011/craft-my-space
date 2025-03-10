@@ -8167,7 +8167,12 @@ padding: 20px;;}
 .home-2-about-slider{
 	margin:0px;
 }
-
+	
+@media only screen and (max-width:375px){
+.projects-two-info{
+	margin-right:40px;
+}
+}
 @media only screen and (max-width:991px){
 	.home-2-about-left{
 		margin-bottom:40px;
