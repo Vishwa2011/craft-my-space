@@ -1144,7 +1144,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6 col-md-12">
-                <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
+                <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b30">
                 <div className="wt-post-media wt-img-effect zoom-slow relative">
   <a  className="block relative">
     <img src="/assets/pic/stratford.webp" alt="" className="w-full" />
@@ -1305,7 +1305,7 @@ export default function Home() {
         </div>
         {/* [ our services ] end  */}
         {/* STEP INSPIRED SOLUTION start  */}
-        <div className="section-full p-t80 p-b50 bg-white">
+        <div className="section-full p-t10 p-b50 bg-white">
           <div className="container">
             <div>
               <h2 style={{ display: "flex", justifyContent: "center" }}>
@@ -1378,7 +1378,7 @@ export default function Home() {
         {/* STEP INSPIRED SOLUTION end  */}
 
         {/* content start */}
-<div>
+<div style={{padding:'70px 0px'}}>
         <div className="container">
            <div className="col-12">
             <div className="row">

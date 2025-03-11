@@ -22,20 +22,21 @@ const Header = () => {
       borderColor="grey.300"
       bgcolor="white"
       textAlign={isMobile ? "center" : "left"}
+      sx={{backgroundColor:'#141b1f',color:'#fff'}}
     >
       {/* Social Media Icons with Login Links */}
       <Box display="flex" gap={1} justifyContent={isMobile ? "center" : "flex-start"}>
         <IconButton size="small" onClick={() => openLoginPage("https://www.facebook.com/login")}>
-          <Facebook fontSize="small" />
+          <Facebook fontSize="small"  style={{color:'#fff'}}/>
         </IconButton>
         <IconButton size="small" onClick={() => openLoginPage("https://www.pinterest.com/login")}>
-          <Pinterest fontSize="small" />
+          <Pinterest fontSize="small"  style={{color:'#fff'}}/>
         </IconButton>
         <IconButton size="small" onClick={() => openLoginPage("https://www.instagram.com/accounts/login/")}>
-          <Instagram fontSize="small" />
+          <Instagram fontSize="small"  style={{color:'#fff'}}/>
         </IconButton>
         <IconButton size="small" onClick={() => openLoginPage("https://accounts.google.com/signin/v2/identifier?service=youtube")}>
-          <YouTube fontSize="small" />
+          <YouTube fontSize="small"  style={{color:'#fff'}}/>
         </IconButton>
       </Box>
 
@@ -49,11 +50,11 @@ const Header = () => {
       >
         <Box display="flex" alignItems="center" gap={1}>
           <LocalPhone fontSize="small" />
-          <Typography variant="body2">020 8965 5680</Typography>
+          <Typography variant="body2"> 01753530216</Typography>
         </Box>
         <Box display="flex" alignItems="center" gap={1}>
           <Email fontSize="small" />
-          <Typography variant="body2">info@bravolondon.co.uk</Typography>
+          <Typography variant="body2">    info@craftmyspace.uk</Typography>
         </Box>
       </Box>
 
