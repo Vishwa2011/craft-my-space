@@ -4139,6 +4139,9 @@ font-weight: 400;
 	.infonone{
 display: none;
 	}
+	.site-header {
+		top: 0;
+	  }
 }
 @media only screen and (max-width:1200px) {
 .site-header .container { 	width:auto;}
