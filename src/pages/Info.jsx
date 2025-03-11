@@ -51,14 +51,14 @@ const Header = () => {
         <Box display="flex" alignItems="center" gap={1}>
           <LocalPhone fontSize="small" />
          <a href="tel:+01753530216" style={{color:'#fff'}}>
-          <Typography variant="body2"> 01753530216</Typography>
+          <Typography variant="body2" > 01753530216</Typography>
           </a> 
         </Box>
         <Box display="flex" alignItems="center" gap={1}>
   <Email fontSize="small" />
   <Typography 
     variant="body2" 
-    component="a" 
+   
     href="mailto:info@craftmyspace.uk"
     sx={{ textDecoration: "none", color: "inherit", cursor: "pointer" }}
   >
@@ -71,12 +71,12 @@ const Header = () => {
       {/* Finance Info */}
       <Box display="flex" alignItems="center" gap={1} mt={isMobile ? 1 : 0} justifyContent={isMobile ? "center" : "flex-end"}>
         <AttachMoney fontSize="small" />
-        <a href="/GetaQuote" style={{color:'#fff'}}>
+      
 
-        <Typography variant="body2" sx={{ fontSize: isMobile ? "12px" : "14px" }}>
+        <Typography variant="body2" sx={{ fontSize: isMobile ? "12px" : "14px" }} href="/GetaQuote">
           Finance Available From 0% APR on Fitted Bedroom Furniture
         </Typography>
-        </a>
+        
       </Box>
     </Box>
   );
