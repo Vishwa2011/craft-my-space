@@ -7,7 +7,7 @@ import AwkwardSpaces from "./pages/AwkwardSpaces";
 import Joinery from "./pages/Joinery";
 import Inspiration from "./pages/Inspiration";
 import Recentwork from "./pages/Recentwork";
-import Contact from "./pages/Contact";
+
 import Orderafreebrochure from "./pages/Orderafreebrochure";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Footer from "./pages/Footer";
@@ -40,6 +40,8 @@ import Vision from "./pages/Vision";
 import { BiPhoneCall } from "react-icons/bi";
 import MeetDesignerForm from "./pages/MeetDesignerForm";
 import Thankyou from "./pages/Thankyou";
+import GetaQuote from "./pages/GetaQuote";
+// import Getaquote from "./pages/GetQuote";
 function App() {
   return (
     <>
@@ -62,7 +64,8 @@ function App() {
         <Route path="/Joinery" element={<Joinery />} />
         <Route path="/Inspiration" element={<Inspiration />} />
         <Route path="/Recentwork" element={<Recentwork />} />
-        <Route path="/Contact" element={<Contact />} />
+        {/* <Route path="/GetQuote" element={<Getaquote />} /> */}
+        <Route path="/GetaQuote" element={<GetaQuote/>}/>
         <Route path="/Orderafreebrochure" element={<Orderafreebrochure/>} />
         <Route path="/PrivacyPolicy" element={<PrivacyPolicy/>} />
         <Route path="/Footer" element={<Footer/>} />

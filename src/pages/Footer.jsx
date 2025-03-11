@@ -251,7 +251,7 @@ const Footers = () => {
                   <h4 className="widget-title mb-0">Booking & Brochure</h4>
                 </div>
                 <div>
-                <a href="/Contact">
+                <a href="/GetaQuote">
                   <div
                     style={{
                       border: "1px solid #fff",

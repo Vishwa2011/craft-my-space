@@ -304,10 +304,10 @@ const Navbar = () => {
                     </ul>
                   </li>
                   <li>
-                    <a href="">Contact</a>
+                    <a href="">Get Quote</a>
                     <ul className="sub-menu">
                       <li>
-                        <a href="/Contact">Contact Us</a>
+                        <a href="/GetaQuote">Get A Quote</a>
                       </li>
                       <li>
                         <a href="/Orderafreebrochure">Order A Free Brochure</a>

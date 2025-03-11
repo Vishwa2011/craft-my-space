@@ -241,6 +241,37 @@ const WhyCraftMySpace = () => {
         </div>
         {/* customer end  */}
 
+        {/* slider start */}
+<div style={{padding:'100px 0px'}}>
+        <div className="wt-post-media">
+                        
+                            <div className="owl-carousel owl-fade-slider-one owl-btn-vertical-center owl-dots-bottom-right m-b30">
+                            
+                                <div className="item">
+                                    <div className="wt-thum-bx">
+                                        <img src="/assets/pic/slider1.webp" alt="" />
+                                    </div>
+                                </div>
+                                
+                                <div className="item">
+                                    <div className="wt-thum-bx">
+                                        <img src="/assets/pic/slider2.jpg" alt="" />
+                                    </div>
+                                </div>
+                                
+                                <div className="item">
+                                    <div className="wt-thum-bx">
+                                        <img src="/assets/pic/slider3.webp" alt="" />
+                                    </div>
+                                </div>                                    
+                            
+                            </div>
+                           
+                        </div>
+                        </div>
+        {/* slider end */}
+
+
         {/* text start  */}
         <div className="container mt-5">
           <div className="project-detail-outer">

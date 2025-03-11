@@ -249,7 +249,7 @@ const FittedWardrobes = () => {
                   </p>
                 </div>
                 <div style={{display:'flex',justifyContent:'center'}}>
-                  <a href="/Contact"    style={{
+                  <a href="/GetaQuote"    style={{
                       background: "#141b1f",
                       color: "white",
                       padding: "20px",
