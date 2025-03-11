@@ -183,9 +183,9 @@ const Navbar = () => {
       {/* <header className="site-header header-style-1 header-fixed nav-wide" > */}
       <header className={` site-header ${isScrolled ? "scrolled" : "" }`}>
         <div className="main-bar-wraper">
-          <div className="main-bar p-t5">
-            <div className="container">
-              <div className="logo-header">
+          <div className="main-bar p-t5" >
+            <div className="">
+              <div className="logo-header" style={{marginLeft:'10px'}}>
                 <div className="logo-header-inner logo-header-one">
                   <a href="/">
                     <img src="/assets/pic/CMS LOGO 1.png" alt="" />
@@ -196,7 +196,7 @@ const Navbar = () => {
               <button
                 className="mobile-menu-toggle"
                 onClick={() => setMenuOpen(!menuOpen)}
-                style={{ color: "white", justifyContent: "flex-end" }}
+                style={{ color: "#141b1f", justifyContent: "flex-end" }}
               >
                 ☰
               </button>
@@ -207,7 +207,7 @@ const Navbar = () => {
                     <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="/WhyCraftMySpace">Why CMS?</a>
+                    <a href="/WhyCraftMySpace">Why CraftMySpace?</a>
                     <ul className="sub-menu">
                       <li><a  href="/Mission">Our Mission</a></li>
                       <li><a  href="/Vision">Our Vision</a></li>
@@ -371,7 +371,7 @@ const Navbar = () => {
                       <IconButton
                         onClick={() => setOpen(!open)}
                         className="icon_focus"
-                        style={{ color: "white", padding: "0px" }}
+                        style={{ color: "#141b1f", padding: "0px" }}
                       >
                         <AppsIcon />
                       </IconButton>
@@ -401,8 +401,8 @@ const Navbar = () => {
             cursor: pointer;
             color: white;
             position: absolute;
-            right: 15px;
-            top: 15px;
+            right: 20px;
+            top: 22px;
           }
           .header-nav {
             display: none;
