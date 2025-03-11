@@ -56,14 +56,18 @@ const Header = () => {
         </Box>
         <Box display="flex" alignItems="center" gap={1}>
   <Email fontSize="small" />
+  <a  href="mailto:info@craftmyspace.uk" style={{color:'#fff'}}>
   <Typography 
     variant="body2" 
    
-    href="mailto:info@craftmyspace.uk"
+   
     sx={{ textDecoration: "none", color: "inherit", cursor: "pointer" }}
   >
+  
+
     info@craftmyspace.uk
   </Typography>
+    </a>
 </Box>
 
       </Box>
@@ -72,10 +76,12 @@ const Header = () => {
       <Box display="flex" alignItems="center" gap={1} mt={isMobile ? 1 : 0} justifyContent={isMobile ? "center" : "flex-end"}>
         <AttachMoney fontSize="small" />
       
+<a href='/GetaQuote' style={{color:'#fff'}}>
 
         <Typography variant="body2" sx={{ fontSize: isMobile ? "12px" : "14px" }} href="/GetaQuote">
           Finance Available From 0% APR on Fitted Bedroom Furniture
         </Typography>
+</a>
         
       </Box>
     </Box>
