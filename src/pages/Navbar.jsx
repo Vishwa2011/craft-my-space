@@ -53,11 +53,13 @@ const Navbar = () => {
   };
 
   const list = (
-    <Box
+
+
+     <Box
     sx={{ 
       width: { xs: 320, sm: 375, md: 400 }, 
       padding: 2, 
-      backgroundColor: "#1c1c1c", 
+      // backgroundColor: "#1c1c1c", 
       color: "#fff" 
     }}
     >
@@ -190,6 +192,7 @@ const Navbar = () => {
         </IconButton> */}
       </Box>
     </Box>
+  
   );
 
   return (
@@ -412,6 +415,9 @@ const Navbar = () => {
       </header>
 
       <style>{`
+      .css-y7ab46-MuiPaper-root-MuiDrawer-paper{
+      background: #1c1c1c;
+      }
         @media (max-width: 768px) {
           .mobile-menu-toggle {
             display: block;
