@@ -5,7 +5,7 @@ const ChildrensBedroomSlidingDoorWardrobes = () => {
   return (
     <div className="page-wraper">
       <Navbar />
-      <div className="page-content">
+      <div className="page-content" style={{marginTop:'30px'}}>
         {/* <!-- CONTENT START --> */}
         <div className="page-content">
           {/* <!-- INNER PAGE BANNER --> */}
