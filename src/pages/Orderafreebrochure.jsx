@@ -319,7 +319,10 @@ const Orderafreebrochure = () => {
                                 marginRight: "10px",
                               }}
                             ></i>
-                            +01753530216
+                              <a href="tel:+01753530216">
+
++01753530216
+</a>
                           </p>
                         </div>
                       </div>
@@ -338,7 +341,10 @@ const Orderafreebrochure = () => {
                                 marginRight: "10px",
                               }}
                             ></i>
-                            info@craftmyspace.uk
+                            <a href="mailto:info@craftmyspace.uk">
+
+info@craftmyspace.uk
+  </a>
                           </p>
                         </div>
                       </div>
@@ -357,7 +363,10 @@ const Orderafreebrochure = () => {
                                 marginRight: "10px",
                               }}
                             ></i>
-                            salil@craftmyspace.uk
+                         <a href="mailto:salil@craftmyspace.uk">
+
+salil@craftmyspace.uk
+ </a>
                           </p>
                         </div>
                       </div>

@@ -342,7 +342,10 @@ const GetaQuote = () => {
                                 marginRight: "10px",
                               }}
                             ></i>
+                            <a href="tel:+01753530216">
+
                             +01753530216
+                            </a>
                           </p>
                         </div>
                       </div>
@@ -361,7 +364,10 @@ const GetaQuote = () => {
                                 marginRight: "10px",
                               }}
                             ></i>
+                            <a href="mailto:info@craftmyspace.uk">
+
                           info@craftmyspace.uk
+                            </a>
                           </p>
                         </div>
                       </div>
@@ -380,7 +386,10 @@ const GetaQuote = () => {
                                 marginRight: "10px",
                               }}
                             ></i>
+                            <a href="mailto:salil@craftmyspace.uk">
+
                            salil@craftmyspace.uk
+                            </a>
                           </p>
                         </div>
                       </div>
