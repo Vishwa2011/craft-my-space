@@ -354,9 +354,14 @@ const WhyCraftMySpace = () => {
                         <i className="sl-icon-phone"></i>
                       </div>
                       <div className="icon-content">
-                        <h5 className="m-t0 font-weight-500">Phone number</h5>
-                        <p>01753530216</p>
-                      </div>
+  <h5 className="m-t0 font-weight-500">Phone number</h5>
+  <p>
+    <a href="tel:+01753530216" style={{ textDecoration: 'none', color: 'inherit' }}>
+      +01753530216
+    </a>
+  </p>
+</div>
+
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-4">
@@ -365,9 +370,17 @@ const WhyCraftMySpace = () => {
                         <i className="sl-icon-envolope"></i>
                       </div>
                       <div className="icon-content">
-                        <h5 className="m-t0 font-weight-500">Email address</h5>
-                        <p>info@craftmyspace.uk</p>
-                      </div>
+  <h5 className="m-t0 font-weight-500">Email address</h5>
+  <p>
+    <a 
+      href="mailto:info@craftmyspace.uk" 
+      style={{ textDecoration: 'none', color: 'inherit' }}
+    >
+      info@craftmyspace.uk
+    </a>
+  </p>
+</div>
+
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-4">
@@ -412,12 +425,18 @@ const WhyCraftMySpace = () => {
                             Enter your details and we will contact you shortly
                             to discuss booking your design visit.
                           </p>
-              <div className="contact-details">
-                <p>
-                  <BiPhoneCall />+01753530216
-                </p>
-                
-              </div>
+                          <div className="contact-details">
+  <p>
+    <BiPhoneCall />
+    <a 
+      href="tel:+01753530216" 
+      style={{ textDecoration: 'none', color: 'inherit', marginLeft: '5px' }}
+    >
+      +01753530216
+    </a>
+  </p>
+</div>
+
             </div>
 
             {/* Right Side Form */}

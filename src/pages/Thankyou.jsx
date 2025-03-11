@@ -78,11 +78,17 @@ export default function Thankyou() {
                     lifestyle.
                   </p>
                   <div className="contact-details">
-                    <p>
-                      <BiPhoneCall />
-                      +01753530216
-                    </p>
-                  </div>
+  <p>
+    <BiPhoneCall />
+    <a 
+      href="tel:+01753530216" 
+      style={{ textDecoration: 'none', color: 'inherit', marginLeft: '5px' }}
+    >
+      +01753530216
+    </a>
+  </p>
+</div>
+
                 </div>
 
                 {/* Right Side Form */}

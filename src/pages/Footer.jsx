@@ -172,17 +172,24 @@ const Footers = () => {
                       </div>
                     </li>
                     <li>
-                      <EmailIcon style={{ marginRight: "7px" }} />
-                      info@craftmyspace.uk
-                    </li>
-                    <li>
-                      <EmailIcon style={{ marginRight: "7px" }} />
-                      salil@craftmyspace.uk
-                    </li>
-                    <li>
-                      <CallIcon style={{ marginRight: "7px" }} />
-                      01753530216
-                    </li>
+  <EmailIcon style={{ marginRight: "7px" }} />
+  <a href="mailto:info@craftmyspace.uk" style={{ color: "inherit", textDecoration: "none" }}>
+    info@craftmyspace.uk
+  </a>
+</li>
+<li>
+  <EmailIcon style={{ marginRight: "7px" }} />
+  <a href="mailto:salil@craftmyspace.uk" style={{ color: "inherit", textDecoration: "none" }}>
+    salil@craftmyspace.uk
+  </a>
+</li>
+<li>
+  <CallIcon style={{ marginRight: "7px" }} />
+  <a href="tel:01753530216" style={{ color: "inherit", textDecoration: "none" }}>
+    01753530216
+  </a>
+</li>
+
                   </ul>
                 </div>
               </div>
