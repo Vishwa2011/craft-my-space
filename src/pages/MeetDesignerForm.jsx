@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+
 const MeetDesignerForm = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isFadingIn, setIsFadingIn] = useState(false);
   const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -23,7 +25,10 @@ const MeetDesignerForm = () => {
     return () => clearTimeout(timer); // Cleanup on unmount
   }, []);
 
-  const handleClose = () => setIsFadingIn(false);
+  const handleClose = () => {
+    setIsFadingIn(false);
+    setTimeout(() => setIsVisible(false), 500); // Delay for fade-out effect
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -42,19 +47,15 @@ const MeetDesignerForm = () => {
 
     const newErrors = {};
 
-    // Contact Number Validation (Must be exactly 10 digits)
     if (formData.contactNumber.length !== 10) {
       newErrors.contactNumber = "Contact Number must be exactly 10 digits";
     }
 
-    // Show errors if validation fails
     if (Object.keys(newErrors).length > 0) {
-      setErrors(newErrors); // Display error message
+      setErrors(newErrors);
     } else {
-      // Navigate to Thank You page
       navigate("/Thankyou");
 
-      // Clear form fields
       setFormData({
         fullName: "",
         email: "",
@@ -67,7 +68,7 @@ const MeetDesignerForm = () => {
 
   return (
     <>
-      {isVisible && (
+      {isVisible && isFadingIn && (
         <div
           style={{
             position: "fixed",
@@ -220,7 +221,6 @@ const MeetDesignerForm = () => {
               ></textarea>
 
               <button
-              
                 type="submit"
                 style={{
                   backgroundColor: "#000",
