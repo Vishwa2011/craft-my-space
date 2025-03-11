@@ -4123,11 +4123,12 @@ font-weight: 400;
 /*======================================
 14. HEADER (top part of page)
 ======================================*/
+
 .site-header {
 	position: fixed;
 	top: 40px;
 	width: 100%;
-	background-color: #1c1c1c;
+	background-color: white;
 	z-index: 999;
 	transition: top 0.3s ease; /* Smooth transition */
   }
@@ -4477,7 +4478,7 @@ display: none;
 .header-nav .nav {float:right;display: flex; justify-content: flex-end; flex-direction: inherit;}
 .header-nav .nav i {font-size:9px; 	margin-left:3px;	margin-top:-3px;	vertical-align:middle;	opacity:0.7;}
 .header-nav .nav > li { font-weight:500; position:relative; text-transform:uppercase;padding:25px 0;}
-.header-nav .nav > li > a { border-radius: 0; -webkit-border-radius:0; -moz-border-radius:0; color: #fff; font-size: 12px; padding:35px 12px; cursor:pointer; letter-spacing:2px; margin:-10px 0;}
+.header-nav .nav > li > a { border-radius: 0; -webkit-border-radius:0; -moz-border-radius:0; color: #141b1f; font-size: 12px; padding:35px 12px; cursor:pointer; letter-spacing:2px; margin:-10px 0;font-weight: 700;}
 .header-nav .nav > li > a:hover {background-color: transparent;	color: #212427;}
 
 .header-nav .nav > li > a:active,
