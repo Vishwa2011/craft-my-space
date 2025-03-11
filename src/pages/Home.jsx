@@ -1388,20 +1388,21 @@ export default function Home() {
         <Star key={index} sx={{ color: "#E4A545", fontSize: 32 }} />
       ))}
     </div>
-                <h2>Enjoy a Luxury
-                Experience</h2>
+                <h2>Enjoy a Luxury Experience</h2>
                   <p>
                   At Elite Living, we set the benchmark for refined luxury, crafting spaces that epitomize sophistication and exclusivity. Our bespoke services go beyond the ordinary, transforming every detail into an extraordinary expression of elegance. From the moment you step into our world, you are embraced by a realm of tailored indulgence. With a dedicated team of expert designers and artisans, we meticulously bring your vision to life, ensuring each element reflects your distinct taste and lifestyle. At Elite Living, every creation is a testament to timeless beauty, superior craftsmanship, and unparalleled luxury.
                   </p>
                   <div 
                   flexDirection="column" gap={2} color="#C29565">
       {/* First Contact */}
-      <div style={{display:'flex',color:'#d5dd02',margin:'41px 0px 25px 0px'}} alignItems="center" gap={1}>
-     < PhoneInTalkIcon   style={{fontSize:'40px',marginRight:'17px'}}/>
-        <Typography style={{fontSize:'22px'}} fontWeight={500}>
-          +01753530216
-        </Typography>
-      </div>
+      <a href="tel:+01753530216" style={{ textDecoration: 'none' }}>
+  <div style={{ display: 'flex', color: '#d5dd02', margin: '41px 0px 25px 0px', alignItems: 'center', gap: '10px' }}>
+    <PhoneInTalkIcon style={{ fontSize: '40px', marginRight: '17px' }} />
+    <Typography style={{ fontSize: '22px' }} fontWeight={500}>
+      +01753530216
+    </Typography>
+  </div>
+</a>
 
       {/* Second Contact */}
       {/* <div  style={{display:'flex',color:'#d5dd02'}} alignItems="center" gap={1}>

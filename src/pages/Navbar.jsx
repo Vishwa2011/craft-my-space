@@ -136,17 +136,37 @@ const Navbar = () => {
           <ListItemText primary="Unit 9 Slough Interchange,Whittenham Close,Slough SL2 5EP" />
         </ListItem>
         <ListItem>
-          <ListItemIcon>
-            <EmailIcon sx={{ color: "#fff" }} />
-          </ListItemIcon>
-          <ListItemText primary="info@craftmyspace.uk" />
-        </ListItem>
-        <ListItem>
-          <ListItemIcon>
-            <PhoneIcon sx={{ color: "#fff" }} />
-          </ListItemIcon>
-          <ListItemText primary="01753530216" />
-        </ListItem>
+  <ListItemIcon>
+    <EmailIcon sx={{ color: "#fff" }} />
+  </ListItemIcon>
+  <ListItemText
+    primary={
+      <a
+        href="mailto:info@craftmyspace.uk"
+        style={{ textDecoration: 'none', color: 'inherit' }}
+      >
+        info@craftmyspace.uk
+      </a>
+    }
+  />
+</ListItem>
+
+<ListItem>
+  <ListItemIcon>
+    <PhoneIcon sx={{ color: "#fff" }} />
+  </ListItemIcon>
+  <ListItemText
+    primary={
+      <a
+        href="tel:+01753530216"
+        style={{ textDecoration: 'none', color: 'inherit' }}
+      >
+        +01753530216
+      </a>
+    }
+  />
+</ListItem>
+
       </List>
       <Box
         sx={{ display: "flex", justifyContent: "center", gap: 1, marginTop: 2 }}
