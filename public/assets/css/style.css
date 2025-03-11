@@ -4123,7 +4123,23 @@ font-weight: 400;
 /*======================================
 14. HEADER (top part of page)
 ======================================*/
-.site-header {position:relative; 	z-index:999; }
+.site-header {
+	position: fixed;
+	top: 40px;
+	width: 100%;
+	background-color: #1c1c1c;
+	z-index: 999;
+	transition: top 0.3s ease; /* Smooth transition */
+  }
+  
+  .site-header.scrolled {
+	top: 0;
+  }
+  @media only screen and (max-width:1024px){
+	.infonone{
+display: none;
+	}
+}
 @media only screen and (max-width:1200px) {
 .site-header .container { 	width:auto;}
 }

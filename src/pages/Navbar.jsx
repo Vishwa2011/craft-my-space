@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
@@ -18,11 +18,29 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import HomeIcon from "@mui/icons-material/Home";
 import CloseIcon from "@mui/icons-material/Close";
+import Info from "./Info";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const [open, setOpen] = React.useState(false);
-  
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 40 || window.innerWidth <= 1024) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", handleScroll); // For resizing effect
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleScroll);
+    };
+  }, []);
 
   const toggleDrawer = (open) => (event) => {
     if (
@@ -156,7 +174,14 @@ const Navbar = () => {
 
   return (
     <div className="page-wraper">
-      <header className="site-header header-style-1 header-fixed nav-wide">
+   
+
+    <div className="infonone">
+    <Info />
+    </div>
+
+      {/* <header className="site-header header-style-1 header-fixed nav-wide" > */}
+      <header className={` site-header ${isScrolled ? "scrolled" : "" }`}>
         <div className="main-bar-wraper">
           <div className="main-bar p-t5">
             <div className="container">
@@ -182,7 +207,7 @@ const Navbar = () => {
                     <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="/WhyCraftMySpace">Why CraftMySpace?</a>
+                    <a href="/WhyCraftMySpace">Why CMS?</a>
                     <ul className="sub-menu">
                       <li><a  href="/Mission">Our Mission</a></li>
                       <li><a  href="/Vision">Our Vision</a></li>
