@@ -9,7 +9,7 @@ export default function Thankyou() {
   return (
     <div className="page-wraper">
       <Navbar />
-      <div className="page-content">
+      <div className="page-content" style={{marginTop:'20px'}}>
         {/* <!-- CONTENT START --> */}
 
         {/* <!-- INNER PAGE BANNER --> */}
