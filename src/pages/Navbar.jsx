@@ -188,7 +188,7 @@ const Navbar = () => {
               <div className="logo-header" style={{marginLeft:'10px'}}>
                 <div className="logo-header-inner logo-header-one">
                   <a href="/">
-                    <img src="/assets/pic/CMS LOGO 1.png" alt="" />
+                    <img src="/assets/pic/CMSLOGO.png" alt="" />
                   </a>
                 </div>
               </div>
