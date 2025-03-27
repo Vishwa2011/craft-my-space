@@ -1123,31 +1123,36 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        
         {/* [ our services ] start  */}
         <div className="section-full p-t80 p-b50 bg-white">
           <div className="container">
-            <div className="row equal-wraper">
-              <div className="col-xl-4 col-lg-6 col-md-12">
+            <div>
+           
                 <div className="section-head clearfix">
-                  <div className="wt-tilte-main ">
-                    <small className="wt-small-title">[ our services ]</small>
-                    <h2 className="m-b5">Our Latest Services</h2>
+                  <div className="wt-tilte-main " style={{display:'contents'}}>
+                    <small className="wt-small-title" style={{justifyContent:'center', display:'flex'}}>[ our services ]</small>
+                    <h2 className="m-b5" style={{justifyContent:'center', display:'flex'}}>Our Latest Services</h2>
                   </div>
                   <div>
-                    <p>
+                    {/* <p>
                       Our latest services include customized solutions designed
                       to meet your unique needs, offering innovative and
                       high-quality options tailored to enhance functionality and
                       aesthetics.
-                    </p>
-                  </div>
+                    </p> */}
+                 
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-6 col-md-12">
+            </div>
+            <div className="row equal-wraper" style={{justifyContent:'center'}}>
+              
+              <div className="col-xl-5 col-lg-6 col-md-12">
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b30">
                 <div className="wt-post-media wt-img-effect zoom-slow relative">
   <a  className="block relative">
-    <img src="/assets/pic/stratford.webp" alt="" className="w-full" />
+    <img src="/assets/pic/stratford11.webp" alt="" className="w-full" />
     {/* "SEE MORE" Box on Image */}
     <a href="/FittedWardrobes">
     <div className="absolute top-2 right-2  text-black text-xs tracking-widest font-bold py-2 px-3 shadow-md  border-gray-300 uppercase rotate-90" style={{right:'-25px',top:'41px',transform:'rotate(270deg)',color:'white',border:'2px solid #fff'}}>
@@ -1179,7 +1184,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-6 col-md-12">
+              <div className="col-xl-5 col-lg-6 col-md-12">
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
                   
 
@@ -1216,8 +1221,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-6 col-md-12"></div>
-              <div className="col-xl-4 col-lg-6 col-md-12">
+       
+              <div className="col-xl-5 col-lg-6 col-md-12">
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
                 
 
@@ -1262,7 +1267,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-6 col-md-12">
+              <div className="col-xl-5 col-lg-6 col-md-12">
                 <div className="blog-post blog-md blog-no-gap date-style-1 clearfix  m-b60">
                  
 
@@ -1930,7 +1935,7 @@ export default function Home() {
           <span className="fa fa-angle-up  relative" id="btn-vibrate"></span>
         </button>
       </div>
-      <MeetDesignerForm />
+      {/* <MeetDesignerForm /> */}
       {/* <!-- LOADING AREA START ===== --> */}
       {/* <div className="loading-area">
                 <div className="loading-box"></div>
