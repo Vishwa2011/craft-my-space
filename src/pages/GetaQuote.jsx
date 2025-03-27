@@ -342,9 +342,9 @@ const GetaQuote = () => {
                                 marginRight: "10px",
                               }}
                             ></i>
-                            <a href="tel:+01753530216">
+                            <a href="tel:(0044)07365 566 666">
 
-                            +01753530216
+                            (0044)07365 566 666
                             </a>
                           </p>
                         </div>
@@ -364,14 +364,14 @@ const GetaQuote = () => {
                                 marginRight: "10px",
                               }}
                             ></i>
-                            <a href="mailto:info@craftmyspace.uk">
+                            <a href="mailto:Info@craftmyspace.co.uk">
 
-                          info@craftmyspace.uk
+                            Info@craftmyspace.co.uk
                             </a>
                           </p>
                         </div>
                       </div>
-                      <div>
+                      {/* <div>
                         <div className="icon-content">
                           <p style={{display:'flex'}}>
                             {" "}
@@ -392,7 +392,7 @@ const GetaQuote = () => {
                             </a>
                           </p>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div> 

@@ -166,27 +166,26 @@ const Footers = () => {
                           <LocationOnIcon style={{ marginRight: "6px" }} />
                         </div>
                         <div>
-                          Unit 9 Slough Interchange,Whittenham Close,Slough SL2
-                          5EP
+                        Unit 1, Grange Farm, Grange Way. Iver. Buckinghamshire - SL0 9NT
                         </div>
                       </div>
                     </li>
                     <li>
   <EmailIcon style={{ marginRight: "7px" }} />
-  <a href="mailto:info@craftmyspace.uk" style={{ color: "inherit", textDecoration: "none" }}>
-    info@craftmyspace.uk
+  <a href="mailto:– Info@craftmyspace.co.uk" style={{ color: "inherit", textDecoration: "none" }}>
+  Info@craftmyspace.co.uk
   </a>
 </li>
-<li>
+{/* <li>
   <EmailIcon style={{ marginRight: "7px" }} />
   <a href="mailto:salil@craftmyspace.uk" style={{ color: "inherit", textDecoration: "none" }}>
     salil@craftmyspace.uk
   </a>
-</li>
+</li> */}
 <li>
   <CallIcon style={{ marginRight: "7px" }} />
-  <a href="tel:01753530216" style={{ color: "inherit", textDecoration: "none" }}>
-    01753530216
+  <a href="tel:–(0044)07365 566 666" style={{ color: "inherit", textDecoration: "none" }}>
+ (0044)07365 566 666
   </a>
 </li>
 

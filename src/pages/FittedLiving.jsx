@@ -6,9 +6,9 @@ const categories = [
   { id: "all", name: "All" },
   { id: "cat-1", name: "Kitchens" },
   { id: "cat-2", name: "Home Office" },
-  { id: "cat-3", name: "Dining Room" },
+  // { id: "cat-3", name: "Dining Room" },
   { id: "cat-4", name: "Media Room" },
-  { id: "cat-5", name: "Bathroom" },
+  // { id: "cat-5", name: "Bathroom" },
 ];
 const items = [
   {
@@ -25,13 +25,13 @@ const items = [
     p: "Design a productive and stylish home office with ergonomic furniture that enhances comfort and efficiency.",
     image: "/assets/pic/home1.png",
   },
-  {
-    id: 3,
-    category: "cat-3",
-    title: "DineScape",
-    p: "Enhance your dining experience with elegant, comfortable, and stylish furniture that brings warmth to every meal.",
-    image: "/assets/pic/Capture-17 1.png",
-  },
+  // {
+  //   id: 3,
+  //   category: "cat-3",
+  //   title: "DineScape",
+  //   p: "Enhance your dining experience with elegant, comfortable, and stylish furniture that brings warmth to every meal.",
+  //   image: "/assets/pic/Capture-17 1.png",
+  // },
   {
     id: 4,
     category: "cat-4",
@@ -39,13 +39,13 @@ const items = [
     p: "Create a cinematic experience at home with cozy, stylish, and functional furniture designed for ultimate comfort and entertainment. ",
     image: "/assets/pic/media1.png",
   },
-  {
-    id: 5,
-    category: "cat-5",
-    title: "SpaNest",
-    p: "Transform your bathroom into a relaxing retreat with elegant, space-saving furniture designed for comfort and style.",
-    image: "/assets/pic/ambrosia.png",
-  },
+  // {
+  //   id: 5,
+  //   category: "cat-5",
+  //   title: "SpaNest",
+  //   p: "Transform your bathroom into a relaxing retreat with elegant, space-saving furniture designed for comfort and style.",
+  //   image: "/assets/pic/ambrosia.png",
+  // },
   {
     id: 6,
     category: "cat-1",
@@ -53,13 +53,13 @@ const items = [
     p: "Experience a seamless cooking space with durable, elegant, and well-crafted kitchen furniture designed for everyday use.",
     image: "/assets/pic/sky.png",
   },
-  {
-    id: 7,
-    category: "cat-3",
-    title: "FeastNest",
-    p: "Create a cozy and inviting dining space with modern furniture designed for comfort, durability, and timeless appeal.",
-    image: "/assets/pic/modern1.png",
-  },
+  // {
+  //   id: 7,
+  //   category: "cat-3",
+  //   title: "FeastNest",
+  //   p: "Create a cozy and inviting dining space with modern furniture designed for comfort, durability, and timeless appeal.",
+  //   image: "/assets/pic/modern1.png",
+  // },
   {
     id: 8,
     category: "cat-4",
@@ -81,13 +81,13 @@ const items = [
     p: "Transform your kitchen with contemporary furniture that blends practicality with a sophisticated and timeless appeal.",
     image: "/assets/pic/modern-light.png",
   },
-  {
-    id: 11,
-    category: "cat-5",
-    title: "LuxeBath",
-    p: "Upgrade your bathroom with modern, functional, and sleek furniture that enhances both aesthetics and organization.",
-    image: "/assets/pic/unley.png",
-  },
+  // {
+  //   id: 11,
+  //   category: "cat-5",
+  //   title: "LuxeBath",
+  //   p: "Upgrade your bathroom with modern, functional, and sleek furniture that enhances both aesthetics and organization.",
+  //   image: "/assets/pic/unley.png",
+  // },
   {
     id: 12,
     category: "cat-2",
@@ -95,13 +95,13 @@ const items = [
     p: "Upgrade your home office with sleek, functional furniture designed for long hours of comfortable and efficient work.",
     image: "/assets/pic/home3.png",
   },
-  {
-    id: 13,
-    category: "cat-3",
-    title: "GatherGlow",
-    p: "Transform your dining room with sophisticated furniture that blends functionality, elegance, and a welcoming ambiance.",
-    image: "/assets/pic/captur3.png",
-  },
+  // {
+  //   id: 13,
+  //   category: "cat-3",
+  //   title: "GatherGlow",
+  //   p: "Transform your dining room with sophisticated furniture that blends functionality, elegance, and a welcoming ambiance.",
+  //   image: "/assets/pic/captur3.png",
+  // },
   {
     id: 14,
     category: "cat-4",
@@ -109,13 +109,13 @@ const items = [
     p: "Transform your entertainment space with premium furniture that blends luxury, functionality, and immersive comfort.",
     image: "/assets/pic/media3.png",
   },
-  {
-    id: 15,
-    category: "cat-5",
-    title: "AquaHaven",
-    p: "Create a serene and stylish bathroom space with furniture that combines practicality, durability, and elegance.",
-    image: "/assets/pic/unley2.png",
-  },
+  // {
+  //   id: 15,
+  //   category: "cat-5",
+  //   title: "AquaHaven",
+  //   p: "Create a serene and stylish bathroom space with furniture that combines practicality, durability, and elegance.",
+  //   image: "/assets/pic/unley2.png",
+  // },
 ];
 const FittedLiving = () => {
   const [activeCategory, setActiveCategory] = useState("all");

@@ -56,19 +56,7 @@ const Mission = () => {
                             lineHeight: "30px",
                           }}
                         >
-                          We have been making bespoke kitchens and bedrooms from
-                          more than 10 years, and in that time we have designed
-                          and crafted more than 100's made to measure kitchens
-                          and Bedrooms.During the design process to create your
-                          perfect kitchen, we'll listen to your requirements and
-                          take on board your ideas, offer advice and guide you
-                          through the exciting process of crafting your dream,
-                          luxury bespoke kitchen. Our philosophy is to offer
-                          understated, premium-quality, combined with the best
-                          in thoughtful design and service, whilst always
-                          offering exceptional value for money. All of our
-                          kitchens/bedrooms are designed and made to order,
-                          unique to the needs of their owners.
+                         At [CraftMySpace], our mission is to create exceptional kitchens that blend style, functionality, and innovation. We specialize in Shaker Style Kitchens, Handleless Profile Kitchens, and Handleless J-Pull Kitchens, offering designs that redefine modern living. Additionally, our expertise extends to Bespoke Bedrooms, ensuring that every space is tailored to perfection. Our commitment lies in delivering high-quality, customized solutions with expert craftsmanship and premium materials to enhance your home’s beauty and efficiency.
                         </p>
                       </div>
                     </div>

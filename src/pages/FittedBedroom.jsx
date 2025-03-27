@@ -140,7 +140,7 @@ const FittedBedroom = () => {
               <div className="project-img-effect-1">
                 <img
                   // src="assets/images/gallery/pic2.jpg"
-                  src="/assets/pic/bedroom2.avif"
+                  src="/assets/pic/bedroom2.1.jpg"
                   alt=""
                 />
                 <div className="wt-info">

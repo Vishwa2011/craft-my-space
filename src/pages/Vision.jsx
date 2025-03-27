@@ -56,19 +56,8 @@ const Vision = () => {
                             lineHeight: "30px",
                           }}
                         >
-                          We have been making bespoke kitchens and bedrooms from
-                          more than 10 years, and in that time we have designed
-                          and crafted more than 100's made to measure kitchens
-                          and Bedrooms.During the design process to create your
-                          perfect kitchen, we'll listen to your requirements and
-                          take on board your ideas, offer advice and guide you
-                          through the exciting process of crafting your dream,
-                          luxury bespoke kitchen. Our philosophy is to offer
-                          understated, premium-quality, combined with the best
-                          in thoughtful design and service, whilst always
-                          offering exceptional value for money. All of our
-                          kitchens/bedrooms are designed and made to order,
-                          unique to the needs of their owners.
+                          Our vision is to be a leading name in kitchen and interior design, known for our innovation, quality, and customer-centric approach. We strive to transform kitchens into the heart of every home with customized designs, advanced technology, and superior craftsmanship. Beyond kitchens, we also aim to elevate living spaces with beautifully designed bespoke bedrooms, ensuring a seamless blend of aesthetics and functionality. By staying ahead of trends and embracing new innovations, we aspire to make every home more stylish, practical, and inspiring.
+
                         </p>
                       </div>
                     </div>

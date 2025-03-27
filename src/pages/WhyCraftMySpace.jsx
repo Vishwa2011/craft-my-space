@@ -115,7 +115,7 @@ const WhyCraftMySpace = () => {
                 <div className="project-detail-pic ">
                   <div className="wt-media">
                     {/* <img src="assets/images/gallery/pic3.jpg" alt="" /> */}
-                    <img src="/assets/pic/cms1.webp" alt="" />
+                    <img src="/assets/pic/cms1.1.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -124,7 +124,7 @@ const WhyCraftMySpace = () => {
                 <div className="project-detail-pic">
                   <div className="wt-media">
                     {/* <img src="assets/images/gallery/pic3.jpg" alt="" /> */}
-                    <img src="/assets/pic/cms2.webp" alt="" />
+                    <img src="/assets/pic/cms2.1.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -356,8 +356,8 @@ const WhyCraftMySpace = () => {
                       <div className="icon-content">
   <h5 className="m-t0 font-weight-500">Phone number</h5>
   <p>
-    <a href="tel:+01753530216" style={{ textDecoration: 'none', color: 'inherit' }}>
-      +01753530216
+    <a href="tel:(0044)07365 566 666" style={{ textDecoration: 'none', color: 'inherit' }}>
+    (0044)07365 566 666
     </a>
   </p>
 </div>
@@ -373,10 +373,10 @@ const WhyCraftMySpace = () => {
   <h5 className="m-t0 font-weight-500">Email address</h5>
   <p>
     <a 
-      href="mailto:info@craftmyspace.uk" 
+      href="mailto:Info@craftmyspace.co.uk" 
       style={{ textDecoration: 'none', color: 'inherit' }}
     >
-      info@craftmyspace.uk
+     Info@craftmyspace.co.uk
     </a>
   </p>
 </div>
@@ -391,8 +391,7 @@ const WhyCraftMySpace = () => {
                       <div className="icon-content">
                         <h5 className="m-t0 font-weight-500">Address info</h5>
                         <p>
-                          Unit 9 Slough Interchange,Whittenham Close,Slough SL2
-                          5EP
+                       Unit 1, Grange Farm, Grange Way. Iver. Buckinghamshire - SL0 9NT
                         </p>
                       </div>
                     </div>
@@ -429,10 +428,10 @@ const WhyCraftMySpace = () => {
   <p>
     <BiPhoneCall />
     <a 
-      href="tel:+01753530216" 
+      href="tel:(0044)07365 566 666" 
       style={{ textDecoration: 'none', color: 'inherit', marginLeft: '5px' }}
     >
-      +01753530216
+     (0044)07365 566 666
     </a>
   </p>
 </div>
