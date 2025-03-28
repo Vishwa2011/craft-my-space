@@ -12,7 +12,7 @@ const Slidingwardrobed = () => {
           className="wt-bnr-inr overlay-wraper bg-parallax bg-top-center"
           data-stellar-background-ratio="0.5"
           style={{
-            backgroundImage: "url(assets/pic/dlife.jpg)",
+            backgroundImage: "url(assets/pic/dlife1.webp)",
           }}
         >
           <div className="overlay-main bg-black opacity-07"></div>

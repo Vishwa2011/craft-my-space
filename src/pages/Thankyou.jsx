@@ -81,10 +81,10 @@ export default function Thankyou() {
   <p>
     <BiPhoneCall />
     <a 
-      href="tel:+01753530216" 
+      href="tel:(0044)07365 566 666" 
       style={{ textDecoration: 'none', color: 'inherit', marginLeft: '5px' }}
     >
-      +01753530216
+     (0044)07365 566 666
     </a>
   </p>
 </div>

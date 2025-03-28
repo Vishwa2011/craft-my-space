@@ -1400,11 +1400,11 @@ export default function Home() {
                   <div 
                   flexDirection="column" gap={2} color="#C29565">
       {/* First Contact */}
-      <a href="tel:+01753530216" style={{ textDecoration: 'none' }}>
-  <div style={{ display: 'flex', color: '#d5dd02', margin: '41px 0px 25px 0px', alignItems: 'center', gap: '10px' }}>
+      <a href="tel:(0044)07365 566 666" style={{ textDecoration: 'none' }}>
+  <div style={{ display: 'flex', color: 'gold', margin: '41px 0px 25px 0px', alignItems: 'center', gap: '10px' }}>
     <PhoneInTalkIcon style={{ fontSize: '40px', marginRight: '17px' }} />
     <Typography style={{ fontSize: '22px' }} fontWeight={500}>
-      +01753530216
+    (0044)07365 566 666
     </Typography>
   </div>
 </a>
@@ -1430,10 +1430,10 @@ export default function Home() {
 
         {/* Testimonial start  */}
         <div
-          className="section-full p-tb80 testimonial-slider-outer bg-white bg-cover bg-left-center"
-          style={{ backgroundImage: "url(images/background/bg-1.jpg)" }}
+          className="section-full p-tb80 testimonial-slider-outer  bg-cover bg-left-center"
+          style={{ backgroundImage: "url(images/background/bg-1.jpg)",background:'red'}}
         >
-          <div className="container">
+          <div className="container" style={{color:'white'}}>
             <div className="section-head clearfix">
               <div className="wt-tilte-main bdr-r-3 bdr-primary bdr-solid">
                 <small className="wt-small-title">[ Client Testimonial ]</small>
